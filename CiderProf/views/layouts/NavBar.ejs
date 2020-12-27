@@ -1,3 +1,41 @@
 <nav>
-    
+    <ul>
+        <li>
+            <label for="gradebook"></label>
+            <ul>My Gradebook
+                <li>By Style
+                    <ul name="style" id="style">
+                        <% for(var k in Object.keys(ciderStyles)) { %>
+                            <% if(ciderStyles[Object.keys(ciderStyles)[k]] != null) { %>
+                                <li><%=Object.keys(ciderStyles)[k]%></li>
+                                <ul>
+                                    <% for(var s in ciderStyles[Object.keys(ciderStyles)[k]]) { %>
+                                        <li><%= ciderStyles[Object.keys(ciderStyles)[k]][s] %></li>
+                                    <%}%>
+                                </ul>
+                            <%} else { %>
+                                <li><%=Object.keys(ciderStyles)[k]%></li>
+                            <%}%>
+                        <%}%>
+                    </ul>
+                </li>  <!---flyout-->
+                <li>By Cidery
+                    <ul name="house" id="house">
+                        <% ciderHouses.forEach(house => { %>
+                            <li><%= house %></li>
+                        <% }) %>
+                    </ul>
+                </li>
+                <li>By Mood</li>  <!---flyout-->
+                <li>By Geography</li> <!---a tag-->
+                <li >By Cider House
+                </li>  <!---flyout-->
+                <li>By Name</li> <!---a tag-->
+                <li>By Date</li> <!---a tag-->
+            </ul>
+        </li>
+        <li>
+
+        </li>
+    </ul>
 </nav>

@@ -1,8 +1,8 @@
 <nav>
     <ul>
-        <li>
+        <li>My Gradebook
             <label for="gradebook"></label>
-            <ul>My Gradebook
+            <ul name="gradebook" id="gradbook">
                 <li>By Style
                     <ul name="style" id="style">
                         <% for(var k in Object.keys(ciderStyles)) { %>
@@ -14,28 +14,53 @@
                                     <%}%>
                                 </ul>
                             <%} else { %>
-                                <li><%=Object.keys(ciderStyles)[k]%></li>
+                                <li><a href="/styles/<%=Object.keys(ciderStyles)[k]%>"><%=Object.keys(ciderStyles)[k]%></a></li>
                             <%}%>
-                        <%}%>
+                        <%};%>
                     </ul>
                 </li>  <!---flyout-->
-                <li>By Cidery
-                    <ul name="house" id="house">
-                        <% ciderHouses.forEach(house => { %>
-                            <li><%= house %></li>
-                        <% }) %>
+                <li>By Grade</li> <!---a tag-->
+                <li>By Mood
+                    <ul name="mood" id="mood">
+                        <% ciderMoods.forEach(mood => { %>
+                            <li><%= mood %></li>
+                            <% }); %>
+                        </ul>
+                    </li>  <!---flyout-->
+                <li>By Geography
+                    <ul name="geography" id="geography">
+                        <li>By Country</li><!---a tag-->
+                        <li>By State</li><!---a tag-->
+                        <li>By Map</li><!---a tag-->
                     </ul>
-                </li>
-                <li>By Mood</li>  <!---flyout-->
-                <li>By Geography</li> <!---a tag-->
-                <li >By Cider House
-                </li>  <!---flyout-->
+                </li> <!---flyout-->
+                <li >By Cider House</li>  <!---a tag-->
                 <li>By Name</li> <!---a tag-->
                 <li>By Date</li> <!---a tag-->
             </ul>
         </li>
-        <li>
-
+        <li>Grading Philosophy</li>
+        <li>Comparitive Lit Reviews
+            <ul>
+                <li>By Style</li>
+                <li>By Theme
+                    <ul>
+                        <li></li>
+                    </ul>
+                </li>
+                <li>By Date</li>
+            </ul>
+        </li>
+        <li>Ciderhouse Reviews
+            <ul>
+                <li>By Name</li>
+                <li>By Geography
+                    <ul>
+                        <li>By State</li>
+                        <li>By Map</li>
+                    </ul>
+                 </li>
+            </ul>
         </li>
     </ul>
 </nav>

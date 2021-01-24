@@ -1,12 +1,12 @@
-<ul>
-    <%ciderList.forEach(cider => {%>
-    <ul>
-        <li><img src="<%=cider.LogoURL%>"> </li>
-        <li> <%=cider.Name%> </li>
-        <li> <%=cider.Location%> </li>
-        <li> <%=cider.Cidery%> </li>
-        <li> <%=cider.Grade%> </li>
-        <li> <%=cider.ABV%> </li>
-    </ul>
-    <%})%>
-</ul>
+<section>
+        <%ciderList.forEach(cider => {%>
+        <ul><a href="/ciderdetail/<%=cider.ID%> ">
+            <li><img src="<%=cider.LogoURL%>"> </li>
+            <li> <%=cider.Name%> </li>
+            <li> <%=cider.Location%> </li>
+            <li> <%=cider.Cidery%> </li>
+            <li> <%=cider.Grade%> </li>
+            <li> <%=cider.ABV%> </li>
+        </a></ul>
+        <%})%>
+</section>

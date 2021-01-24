@@ -1,0 +1,10 @@
+<section>
+    <h1>BY MOOD</h1>
+</section>
+<section>
+    <ul>
+        <% for(var k in ciderMoods) { %>            
+                <li><a href="/moods/<%=ciderMoods[k]%>"><%=ciderMoods[k]%></a></li>
+        <%};%>
+    </ul>
+</section>

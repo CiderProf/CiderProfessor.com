@@ -29,8 +29,13 @@ app.get('/about', (req, res) => {
 })
 
 app.get('/ciders', (req, res) => {
-
     return res.send(allarr);//all ciders
+})
+
+app.get('/ciderdetail/:info', (req, res) => {
+    const id = parseInt(req.params.info);
+    const cider = getCider(id, ciderInfo);
+    res.render('pages/CiderDetail', {cider: cider})
 })
 
 app.get('/styles', (req, res) => {
@@ -38,43 +43,66 @@ app.get('/styles', (req, res) => {
 })
 
 app.get('/styles/:info', (req, res) => {
-    let style = req.params.info;
-    // console.log("this the style ", style);
-    //if substyle is null, get all ciders by style and send to list
-    //else get all substyles and send to list of substyles
-    let x = getCidersByStyle(style, ciderInfo);
-    console.log(x);
-    res.render('pages/ListOfCider', {ciderList: x});
+    const style = Object.values(req.query);
+    const info = req.params.info;
+    if(info == style[0]){
+        let cs = getCidersByStyle(info, ciderInfo);
+        return res.render('pages/ListOfCider', {ciderList: cs});
+    } else {
+        let css = getCidersBySubStyle(info, style[0], ciderInfo)
+        return res.render('pages/ListOfCider', {ciderList: css});
+    }
 })
 
-app.post('/list/:info', (req, res) => {
-    console.log(req.body);
-    // let name = req.params.Name;
-
-    // handleInfoParse(name);
-    res.render('pages/List');
+app.get('/grade', (req, res) => {
+    res.render('pages/Grades', {ciderGrades: allGrades})
 })
+
+app.get('/grade/:info', (req, res) => {
+    const grade = req.params.info;
+    let g = getCidersByGrade(grade, ciderInfo);
+    res.render('pages/ListOfCider', {ciderList: g});
+})
+
+app.get('/moods', (req, res) => {
+    res.render('pages/Moods', {ciderMoods: allMoods});
+})
+
+app.get('/moods/:info', (req, res) => {
+    const mood = req.params.info;
+    let cm = getCidersByMood(mood, ciderInfo);
+    res.render('pages/ListOfCider', {ciderList: cm});
+})
+
+app.get('/philosophy', (req, res) => {
+    res.render('pages/Philosophy');
+})
+
+
+
+// app.post('/list/:info', (req, res) => {
+//     console.log(req.body);
+//     // let name = req.params.Name;
+
+//     // handleInfoParse(name);
+//     res.render('pages/List');
+// })
 
 app.get('/test', (req, res) => {
-    // let body = req.body;
     let cider = new Cider({Name: 'Tangerine Tumeric', Cidery: 'Seattle Cider Company'}, ciderInfo);
-    // console.log("test", cider.SubStyles)
     res.render('pages/CiderDetail', {cider: cider})
 })
 
 
 //-----------------HELPER FUNCTIONS-------------//
 
-function Cider(data, list){
-    let dName = data.Name;
-    let dCiderH = data.Cidery
-    let cider = {};
-    for(var cid of list){
-        if(cid.Name == dName && cid.Cidery == dCiderH){
-            cider = cid;
+function getCider(id, list){
+    for(var cider in list){
+        let i = ciderInfo[cider].ID;
+        if(i == id){
+            return ciderInfo[cider]
         }
     }  
-    return cider
 }
 
 function getAllHouses(list){
@@ -175,9 +203,89 @@ function getCidersByStyle(style, list){
             tempObj.Location = c.State_Country;
             tempObj.ABV = c.ABV;
             tempObj.LogoURL= c.LogoURL
+            tempObj.ID = c.ID
             tempArr.push(tempObj);
         }
     }
     return tempArr;
 }
 
+function getCidersBySubStyle(subStyle, style, list){
+    let tempArr = [];
+    for(var cider in list){
+        let tempObj = {};
+        let cs = ciderInfo[cider].Style;
+        //if ciderInfo[cider].Style is object
+        if(Object.keys(cs).includes(style)){
+            if(Object.values(cs).includes(subStyle)){
+                const c = ciderInfo[cider];
+                tempObj.Name = c.Name;
+                tempObj.Cidery = c.Cidery;
+                tempObj.Grade = c.Grade;
+                tempObj.Location = c.State_Country;
+                tempObj.ABV = c.ABV;
+                tempObj.LogoURL= c.LogoURL
+                tempObj.ID = c.ID
+                tempArr.push(tempObj);
+            }
+        }
+    }
+    return tempArr;
+}
+
+function getCidersByMood(mood, list){
+    let tempArr = [];
+    for(var cider in list){
+        let tempObj = {};
+        let cm = ciderInfo[cider].Mood;
+        if(typeof(cm) == 'object' && cm != null){
+            for(let i = 0; i < cm.length; i ++){
+                if(cm[i] == mood){
+                    const c = ciderInfo[cider];
+                    tempObj.Name = c.Name;
+                    tempObj.Cidery = c.Cidery;
+                    tempObj.Grade = c.Grade;
+                    tempObj.Location = c.State_Country;
+                    tempObj.ABV = c.ABV;
+                    tempObj.LogoURL= c.LogoURL
+                    tempObj.ID = c.ID
+                    tempArr.push(tempObj);
+                    tempObj = {};
+                    }
+            }
+        } else{
+            if(cm == mood){
+                const c = ciderInfo[cider];
+                tempObj.Name = c.Name;
+                tempObj.Cidery = c.Cidery;
+                tempObj.Grade = c.Grade;
+                tempObj.Location = c.State_Country;
+                tempObj.ABV = c.ABV;
+                tempObj.LogoURL= c.LogoURL
+                tempObj.ID = c.ID
+                tempArr.push(tempObj);
+                tempObj = {};
+            }
+        }
+    }
+    return tempArr;
+}
+
+function getCidersByGrade(grade, list){
+    let tempArr = [];
+    for(var cider in list){
+        let tempObj = {};
+        if(ciderInfo[cider].Grade == grade){
+            const c = ciderInfo[cider];
+            tempObj.Name = c.Name;
+            tempObj.Cidery = c.Cidery;
+            tempObj.Grade = c.Grade;
+            tempObj.Location = c.State_Country;
+            tempObj.ABV = c.ABV;
+            tempObj.LogoURL= c.LogoURL
+            tempObj.ID = c.ID
+            tempArr.push(tempObj);
+        }
+    }
+    return tempArr;
+}

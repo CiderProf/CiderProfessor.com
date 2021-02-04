@@ -1,5 +1,16 @@
-<section>
-    <img src="<%=cider.PicURL%>"> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="../app.js"></script>
+    <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+    <section>
+        <img src="<%=cider.PicURL%>" class="glassimage"> 
     <ul>
         <li><h2> <%=cider.Name%> </h2></li>
         <li> <%=cider.Cidery%> </li>
@@ -8,30 +19,34 @@
     <ul>
         <% Object.keys(cider.Style).forEach(s => { %>
             <li>Style: <%=s%>
-            <% if(cider.Style[s] != null){ %>
-                - <%=cider.Style[s]%>
-            <% }; %>
-            </li>
-        <% }); %>
-        <li>Mood: <%=cider.Mood%> </li>
-        <li>Location: <%=cider.State_Country%> </li>
-        <li>Date Tried:  </li>
-        <li>ABV: <%=cider.ABV%>%</li>
-    </ul>
-</section>
-<section>
-    <h3>My Feedback: </h3>
-    <p><%=cider.Feedback%></p>
-</section>
-<section>
-    <div> 
-        <h2>Product Description:</h2>
-        <p><%=cider.Prodct_Description%> </p>
-    </div>
-    <img src="<%=cider.LogoURL%>">
-</section>
-<section> <!---If no comparative lit, hide-->
-<!---Link to comp lit rev with title of Rev-->
-</section>
-
-
+                <% if(cider.Style[s] != null){ %>
+                    - <%=cider.Style[s]%>
+                    <% }; %>
+                </li>
+                <% }); %>
+                <li>Mood: <%=cider.Mood%> </li>
+                <li>Location: <%=cider.State_Country%> </li>
+                <li>Date Tried:  </li>
+                <li>ABV: <%=cider.ABV%>%</li>
+            </ul>
+        </section>
+        <section>
+            <h3>My Feedback: </h3>
+            <p><%=cider.Feedback%></p>
+        </section>
+        <section>
+            <div> 
+                <h2>Product Description:</h2>
+                <p><%=cider.Prodct_Description%> </p>
+            </div>
+            <img src="<%=cider.LogoURL%>">
+        </section>
+        <section class="hide"> <!---If no comparative lit, hide-->
+            <!---Link to comp lit rev with title of Rev-->
+        </section>
+        
+    </body>
+    </html>
+        
+        
+        

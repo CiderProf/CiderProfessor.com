@@ -1,16 +1,15 @@
 <nav>
-    <ul>
-        <li>My Gradebook
-            <label for="gradebook"></label>
-            <ul name="gradebook" id="gradbook">
+    <ul class="nav-list">
+        <li class="nav-item" id="gradebook"><p>My Gradebook</p>
+            <ul name="gradebook" class="gradebook hide">
                 <li>By Style
-                    <ul name="style" id="style">
+                    <ul name="style" id="style" class="hide">
                         <% for(var k in Object.keys(ciderStyles)) { %>
                             <% if(ciderStyles[Object.keys(ciderStyles)[k]] != null) { %>
-                                <li><%=Object.keys(ciderStyles)[k]%></li>
+                                <li  class="style"><%=Object.keys(ciderStyles)[k]%></li>
                                 <ul>
                                     <% for(var s in ciderStyles[Object.keys(ciderStyles)[k]]) { %>
-                                        <li><a href="/styles/<%=ciderStyles[Object.keys(ciderStyles)[k]][s]%>?style=<%=Object.keys(ciderStyles)[k]%>"><%= ciderStyles[Object.keys(ciderStyles)[k]][s] %></a></li>
+                                        <li  class="sub-style hide"><a href="/styles/<%=ciderStyles[Object.keys(ciderStyles)[k]][s]%>?style=<%=Object.keys(ciderStyles)[k]%>"><%= ciderStyles[Object.keys(ciderStyles)[k]][s] %></a></li>
                                     <%}%>
                                 </ul>
                             <%} else { %>
@@ -21,14 +20,14 @@
                 </li>  <!---flyout-->
                 <li><a href="/grade">By Grade</a></li> <!---a tag-->
                 <li>By Mood
-                    <ul name="mood" id="mood">
+                    <ul name="mood" id="mood" class="mood hide">
                         <% ciderMoods.forEach(mood => { %>
                             <li><a href="/moods/<%=mood%>"><%= mood %></a></li>
                             <% }); %>
                         </ul>
                     </li>  <!---flyout-->
                 <li>By Geography
-                    <ul name="geography" id="geography">
+                    <ul name="geography" id="geography" class="geography hide">
                         <li>By Country</li><!---a tag-->
                         <li>By State</li><!---a tag-->
                         <li>By Map</li><!---a tag-->
@@ -39,9 +38,9 @@
                 <li>By Date</li> <!---a tag-->
             </ul>
         </li>
-        <li><a href="/philosophy">Grading Philosophy</a></li>
-        <li>Comparitive Lit Reviews
-            <ul>
+        <li class="nav-item" id="gradphil"><p><a href="/philosophy">Grading Philosophy</a></p></li>
+        <li class="nav-item" id="complit"><p>Comparitive Lit Reviews</p>
+            <ul name="complit" class="complit hide">
                 <li>By Style</li>
                 <li>By Theme
                     <ul>
@@ -51,11 +50,11 @@
                 <li>By Date</li>
             </ul>
         </li>
-        <li>Ciderhouse Reviews
-            <ul>
+        <li class="nav-item" id="cidreviews"><p>Ciderhouse Reviews</p>
+            <ul class="cidreviews hide">
                 <li>By Name</li>
-                <li>By Geography
-                    <ul>
+                <li id="crgeography">By Geography
+                    <ul class="crgeography hide">
                         <li>By State</li>
                         <li>By Map</li>
                     </ul>
@@ -64,3 +63,5 @@
         </li>
     </ul>
 </nav>
+
+

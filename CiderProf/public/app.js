@@ -1,5 +1,8 @@
 $(function(){
 
+$(".menu-icon").click( function() {
+  $(".nav-list").toggleClass("hide");
+});
 
 $("#gradebook").click( function() {
   $(".gradebook").toggleClass("hide");
@@ -30,6 +33,12 @@ $("#crgeography").click( function() {
   $(".crgeography").toggleClass("hide");
   $(this).parent().toggleClass("hide");
 });
+
+$(".listofciders").click(function () {
+  var id = $( this ).attr("title");
+  window.location.href = `/ciderdetail/${id}`;
+  console.log(id);
+})
 
 
 });

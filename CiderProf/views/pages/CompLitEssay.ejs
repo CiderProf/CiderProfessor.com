@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparative Lit Essay</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="../app.js"></script>
+    <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+    <header>
+        <%- include('../layouts/Navbar.ejs') %> 
+    </header>
+    <section>
+        <h1><%= complit.Title %> </h1>
+        <ul>
+            <% for(sa in complit.CidObjs) { %>
+                <% if(complit.CidObjs[sa][1] == complit.Winner) { %>
+                    <li class="winner"><%= complit.CidObjs[sa][0] %> </li>
+                <% } else { %>
+                    <li><%= complit.CidObjs[sa][0] %> </li>
+                <% } %>
+            <% } %>
+        </ul>
+    </section>
+    <section>
+        <img src="<%= complit.img_url %>">
+        <h3>COMPARATIVE LIT ESSAY:</h3>
+        <p><%= complit.Body %> </p>
+    </section>
+    <section>
+        <ul>
+            <li class="hide">Style: <%= complit.Style %> </li>
+            <li>Theme: <%= complit.Theme %> </li>
+            <%console.log("date thing", complit);%>
+            <li>Date Tried: <%= complit.Date %> </li>
+        </ul>
+        <h3>INDIVIDUAL REVIEWS:</h3>
+        <ul>
+            <% for(sa in complit.CidObjs) { %>
+                <li><a href="/ciderdetail/<%=complit.CidObjs[sa][1]%>"> <%= complit.CidObjs[sa][0] %> </a></li>
+            <% } %>
+        </ul>
+    </section>
+    <%- include('../layouts/Footer') %>
+</body>
+</html>

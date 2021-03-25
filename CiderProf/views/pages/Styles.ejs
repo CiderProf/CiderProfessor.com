@@ -1,10 +1,36 @@
-<section>
-    <h1>BY STYLE</h1>
-</section>
-<section>
-    <ul>
-        <% for(var k in Object.keys(ciderStyles)) { %>            
-                <li><%=Object.keys(ciderStyles)[k]%></li>
-        <%};%>
-    </ul>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cider Professor</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="../app.js"></script>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+    <%- include('../layouts/NavBar') %> 
+    <section>
+        <h1>BY STYLE</h1>
+    </section>
+    <section>
+        <ul>
+            <% for(var k in Object.keys(ciderStyles)) { %>
+                <% if(ciderStyles[Object.keys(ciderStyles)[k]] != null) { %>
+                    <li><%=Object.keys(ciderStyles)[k]%></li>
+                    <ul>
+                        <% for(var s in ciderStyles[Object.keys(ciderStyles)[k]]) { %>
+                            <li><a href="/styles/<%=ciderStyles[Object.keys(ciderStyles)[k]][s]%>?style=<%=Object.keys(ciderStyles)[k]%>"><%= ciderStyles[Object.keys(ciderStyles)[k]][s] %></a></li>
+                        <%}%>
+                    </ul>
+                <%} else { %>
+                    <li><a href="/styles/<%=Object.keys(ciderStyles)[k]%>?style=<%=Object.keys(ciderStyles)[k]%>"><%=Object.keys(ciderStyles)[k]%></a></li>
+                <%}%>
+            <%};%>
+        </ul>
+    </section>
+    <%- include('../layouts/Footer') %>
+</body>
+</html>

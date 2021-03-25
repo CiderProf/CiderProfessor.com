@@ -1,12 +1,38 @@
-<section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cider Professor Ciders</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="../app.js"></script>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../style.css" />
+
+</head>
+<body>
+    <%- include('../layouts/NavBar') %> 
+    <section id="ciderlistsection">
+        <ul class="listheader">
+            <li></li>
+            <li>Name</li>
+            <li>Ciderhouse</li>
+            <li>Location</li>
+            <li>Grade</li>
+            <li>% ABV</li>
+        </ul>
         <%ciderList.forEach(cider => {%>
-        <ul><a href="/ciderdetail/<%=cider.ID%> ">
-            <li><img src="<%=cider.LogoURL%>"> </li>
-            <li> <%=cider.Name%> </li>
-            <li> <%=cider.Location%> </li>
-            <li> <%=cider.Cidery%> </li>
-            <li> <%=cider.Grade%> </li>
-            <li> <%=cider.ABV%> </li>
-        </a></ul>
-        <%})%>
-</section>
+            <ul class="listofciders" title="<%=cider.ID%>">
+                <li class="itemimg"><img class="listimg" src="<%=cider.LogoURL%>"></li>
+                <li class="itemname"> <%=cider.Name%> </li>
+                <li class="itemciderhouse"> <%=cider.Cidery%> </li>
+                <li class="itemlocation"> <%=cider.Location%> </li>
+                <li class="itemgrade"> <%=cider.Grade%> </li>
+                <li class="itemabv"> <%=cider.ABV%> </li>
+            </ul>
+            <%})%>
+    </section>
+    <%- include('../layouts/Footer') %>
+</body>
+</html>

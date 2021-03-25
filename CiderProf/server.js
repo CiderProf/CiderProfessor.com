@@ -13,23 +13,35 @@ app.use(express.urlencoded({extended:true}));
 app.listen(PORT, () => console.log(`server up on ${PORT}`));
 
 let ciderInfo = require('./data/ciderinfo.json');
+let complits = require('./data/compLits.json');
 let allHouses = getAllHouses(ciderInfo);
 let allStyles = getStyles(ciderInfo);
 let allMoods = getAllMoods(ciderInfo);
 let allGrades = getAllGrades(ciderInfo);
-// let cider = new Cider({Name: 'Pear', Cidery: 'Stem Ciders'}, ciderInfo);
+let headerInfo = {ciderHouses: allHouses, 
+                  ciderStyles: allStyles,
+                  ciderMoods: allMoods};
 
 //---------------- ROUTES-----------------------//
 app.get('/', (req, res) => {
-        res.render('index', { ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods});
+        res.render('pages/index', {ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods});
 })
 
 app.get('/about', (req, res) => {
-    res.render('pages/About');
+    res.render('pages/About', {ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods});
 })
 
 app.get('/ciders', (req, res) => {
     return res.send(allarr);//all ciders
+})
+
+app.get('/sortby/:info', (req, res) => {
+    const info = req.params.info;
+    let sorted;
+    info == "Name" ?
+        sorted = ciderInfo.sort((a, b) => (a[info] > b[info]) ? 1 : -1) :
+        sorted = ciderInfo.sort((a, b) => (a[info] < b[info]) ? 1 : -1);
+    res.render('pages/ListOfCider', {ciderList: sorted, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods});
 })
 
 app.get('/ciderdetail/:info', (req, res) => {
@@ -39,46 +51,91 @@ app.get('/ciderdetail/:info', (req, res) => {
 })
 
 app.get('/styles', (req, res) => {
-    res.render('pages/Styles', {ciderStyles: allStyles});
+    // console.log('ciderstyles ', allStyles)
+    res.render('pages/Styles', {ciderStyles: allStyles, ciderHouses: allHouses, ciderMoods: allMoods});
 })
 
 app.get('/styles/:info', (req, res) => {
     const style = Object.values(req.query);
     const info = req.params.info;
+    console.log(info)
     if(info == style[0]){
         let cs = getCidersByStyle(info, ciderInfo);
-        return res.render('pages/ListOfCider', {ciderList: cs});
+        return res.render('pages/ListOfCider', {ciderList: cs, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods});
     } else {
         let css = getCidersBySubStyle(info, style[0], ciderInfo)
-        return res.render('pages/ListOfCider', {ciderList: css});
+        return res.render('pages/ListOfCider', {ciderList: css, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods});
     }
 })
 
 app.get('/grade', (req, res) => {
-    res.render('pages/Grades', {ciderGrades: allGrades})
+    res.render('pages/Grades', {ciderGrades: allGrades, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods})
 })
 
 app.get('/grade/:info', (req, res) => {
     const grade = req.params.info;
     let g = getCidersByGrade(grade, ciderInfo);
-    res.render('pages/ListOfCider', {ciderList: g});
+    res.render('pages/ListOfCider', {ciderList: g, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods});
 })
 
 app.get('/moods', (req, res) => {
-    res.render('pages/Moods', {ciderMoods: allMoods});
+    res.render('pages/Moods', {ciderMoods: allMoods, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods});
 })
 
 app.get('/moods/:info', (req, res) => {
     const mood = req.params.info;
     let cm = getCidersByMood(mood, ciderInfo);
-    res.render('pages/ListOfCider', {ciderList: cm});
+    res.render('pages/ListOfCider', {ciderList: cm, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods});
 })
 
 app.get('/philosophy', (req, res) => {
-    res.render('pages/Philosophy');
+    res.render('pages/Philosophy', {ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods});
 })
 
+app.get('/ciderhouses', (req, res) => {
+    let sortedhouses = allHouses.sort();
+    res.render('pages/AllHouses', {allHouses: sortedhouses, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods})
+})
 
+app.get('/ciderhouses/:info', (req, res) => {
+    let house = req.params.info;
+    let ch = getCidersByHouse(house, ciderInfo);
+    res.render('pages/ListOfCider', {ciderList: ch, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods})
+})
+
+app.get('/names', (req, res) => {
+    let names = getAllNames(ciderInfo);
+    let sortednames = names.sort();
+    //TODO deal with >1 ciders with same name
+    res.render('pages/AllNames', {allnames: sortednames})
+})
+
+// app.get('/dates', (req, res) => {
+//     let dates = getAllDates(ciderInfo);
+//     let alldates = handleDates(dates)
+//     res.render('pages/AllDates', {allDates: alldates})
+// })
+
+// app.get('/dates/:info', (req, res) => {
+//     const date = req.params.info;
+//     let cd = getCidersByDate(date, ciderInfo);
+//     res.render('pages/ListOfCider', {ciderList: cd});
+// })
+
+app.get('/complits', (req, res) => {
+    res.render('pages/CompLits', {complits: complits, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods})
+})
+
+app.get('/complits/:info', (req, res) => {
+    let cid = req.params.info;
+    let cle = getEssay(cid, complits);
+    res.render('pages/CompLitEssay', {complit: cle, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods})
+})
+
+app.get('/litsbydate', (req, res) => {
+    let lits = getLitsByDate();
+    res.render('pages/ListOfLits', {litslist: lits})
+})
 
 // app.post('/list/:info', (req, res) => {
 //     console.log(req.body);
@@ -98,11 +155,34 @@ app.get('/test', (req, res) => {
 
 function getCider(id, list){
     for(var cider in list){
-        let i = ciderInfo[cider].ID;
-        if(i == id){
-            return ciderInfo[cider]
+        let i = ciderInfo[cider];
+        if(i.ID == id){
+            return i;
         }
     }  
+}
+
+function getEssay(id, list){
+    for(var essay in list){
+        let e = complits[essay];
+        if(e.ID == id){
+            let tempobj = {};
+            tempobj = e;
+            tempobj.CidObjs = [];
+            tempobj.Ciders.forEach(id => {
+                let tempcid = [];
+                let cid = getCider(id, ciderInfo)
+                tempcid.push(cid.Name);
+                tempcid.push(cid.ID);
+                tempobj.CidObjs.push(tempcid);
+                tempobj.CidObjs.sort();
+            });
+            // tempobj.Date = handleDates([e.Date]);
+            //TODO handle Style array?
+            return tempobj;
+        }
+        break;
+    }
 }
 
 function getAllHouses(list){
@@ -112,6 +192,25 @@ function getAllHouses(list){
         if(!houses.includes(h)) houses.push(h);
     }
     return houses;
+}
+
+function getCidersByHouse(house, list){
+    let tempArr = [];
+    for(var cider in list){
+        let tempObj = {};
+        if(ciderInfo[cider].Cidery == house){
+            const c = ciderInfo[cider];
+            tempObj.Name = c.Name;
+            tempObj.Cidery = c.Cidery;
+            tempObj.Grade = c.Grade;
+            tempObj.Location = c.State_Country;
+            tempObj.ABV = c.ABV;
+            tempObj.LogoURL= c.LogoURL
+            tempObj.ID = c.ID
+            tempArr.push(tempObj);
+        }
+    }
+    return tempArr;
 }
 
 function getStyles(list){
@@ -289,3 +388,66 @@ function getCidersByGrade(grade, list){
     }
     return tempArr;
 }
+
+
+
+function getAllNames(list){
+    let names = [];
+    for (var cider in list){
+        let n = list[cider].Name
+        if(!names.includes(n)) names.push(n);
+    }
+    return names;
+}
+
+function getAllDates(list){
+    let dates = [];
+    for (var cider in list){
+        let d = list[cider].Date_Tried
+        if(!dates.includes(d)) dates.push(d)
+    }
+    return dates;
+}
+
+function handleDates(dates){
+    let alldates = [];
+    let sorteddates = dates.reverse();
+    for (var d in sorteddates){
+        let n = sorteddates[d].toString();
+        let yr = '';
+        let mo = '';
+        for(let i=0; i<n.length; i++){
+            if (i < 4) yr = yr.concat(n[i]);
+            if (i > 3) mo = mo.concat(n[i])
+        }
+        let x = new Date(yr, mo);
+        let s = x.toDateString().split(' ');
+        let t = s.splice(2,1);
+        let w = s.splice(1).join(' ');
+        let temp = [];
+        temp.push(sorteddates[d]);
+        temp.push(w);
+        alldates.push(temp)
+    }
+    return alldates;
+}
+
+function getCidersByDate(date, list){
+    let tempArr = [];
+    for(var cider in list){
+        let tempObj = {};
+        if(ciderInfo[cider].Date_Tried == date){
+            const c = ciderInfo[cider];
+            tempObj.Name = c.Name;
+            tempObj.Cidery = c.Cidery;
+            tempObj.Grade = c.Grade;
+            tempObj.Location = c.State_Country;
+            tempObj.ABV = c.ABV;
+            tempObj.LogoURL= c.LogoURL
+            tempObj.ID = c.ID
+            tempArr.push(tempObj);
+        }
+    }
+    return tempArr;
+}
+

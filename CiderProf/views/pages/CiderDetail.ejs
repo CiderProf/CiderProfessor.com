@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cider Prof <%=cider.Name%></title>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="../app.js"></script>
+    <link rel="stylesheet" href="../reset.css" />
     <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
@@ -44,7 +45,7 @@
         <section class="hide"> <!---If no comparative lit, hide-->
             <!---Link to comp lit rev with title of Rev-->
         </section>
-        
+        <%- include('../layouts/Footer') %>
     </body>
     </html>
         

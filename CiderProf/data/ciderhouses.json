@@ -1,0 +1,15 @@
+[
+    {
+        "Name": "Some Name Cidermasters",
+        "ID": 1,
+        "Date": 201606,
+        "City": "City",
+        "ContactAddress": "1234 E Somestreet, City, ST 55555",
+        "ContactWebsite": "www.somewebaddress.com",
+        "CidersID": [1, 2, 3, 10],
+        "CompLitID": [7],
+        "Body": "CopyPasta notes here",
+        "MainImg_url": "https://www.someurl",
+        "OtherImgUrl": ["https://www.anotherurl", "https://www.evenmoreurl"]
+    }
+]

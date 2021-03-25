@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cider Professor</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="../../app.js"></script>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+    <header>
+        <div class="hero-overlay">
+            <h1>The Cider Professor</h1>
+            <h2>For the educated cider drinker</h2>
+        </div>
+        <img src="./assets/imgs/theprof_hero.jpg" class="hero-img" >
+    </header>
+    <%- include('../layouts/NavBar') %>   
+    <%- include('../layouts/Gradebook')  %> 
+    <%- include('../layouts/Footer') %>
+</body>
+</html>

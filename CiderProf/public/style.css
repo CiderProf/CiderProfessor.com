@@ -200,6 +200,9 @@ nav {
 
 
 /* LISTOFCIDER.ejs */
+#ciderlistsection {
+    padding-top: 55px;
+}
 
 .listheader, .listofciders {
     width: 100%;
@@ -212,10 +215,12 @@ nav {
     padding: 4px 0;
     font-family: 'AgencyFB-Regular';
     background-color: #F1F1F1;
-    border-bottom: solid 1px #D6D2C4;
+    border-bottom: solid 1px #EDAB00;
 }
 .listheader {
-    display: none;    
+    background-color: #CCE2EE;
+    font-family: 'AgencyFB-BoldCondensed';
+
 }
 /* *********ALTERNATING COLOR PER CIDER************ */
 
@@ -237,7 +242,7 @@ nav {
 }
 .itemname{
     width: 5em;
-    border-left: 1px solid #D6D2C4;
+    border-left: 1px solid #EDAB00;
 }
 .itemciderhouse{
     width: 6em;
@@ -247,11 +252,12 @@ nav {
     width: 7em;
     white-space: nowrap;
     overflow: hidden;
+    text-align: right;
     text-overflow: ellipsis;
 }
 .itemgrade{
     width: 2em;
-    border-left: 1px solid #D6D2C4;
+    border-left: 1px solid #EDAB00;
 }
 .itemabv{
     width: 2em;
@@ -480,6 +486,31 @@ nav {
         width: 98vw;
         max-width: 350px;
     } */ 
+    #ciderlistsection {
+        margin-top: calc(78px + 1.5em);
+        padding-top: 0;
+    }
+
+
+    .listheader {
+        position: fixed;
+        top: 60px;
+        height: 1.5em;
+        font-size: 1.3em;
+        line-height: 1.5em;
+        border-bottom: solid 1px #EDAB00;
+    }
+    .listheader li {
+        border: none;
+        
+    }
+    /* #ciderlistsection:nth-child(2) {
+        padding-top: 1.5em;
+    } */
+    .itemname{
+        text-align: left;
+        padding-left: 5px;
+    }
 
 }
 

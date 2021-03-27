@@ -4,6 +4,8 @@ $(".menu-icon").click( function() {
   $(".nav-list").toggleClass("hide");
 });
 
+if($(window).width() > 780) $(".nav-list").removeClass("hide")  ;
+
 $("#gradebook").click( function() {
   $(".gradebook").toggleClass("hide");
 });

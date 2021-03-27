@@ -50,6 +50,12 @@ app.get('/ciderdetail/:info', (req, res) => {
     res.render('pages/CiderDetail', {cider: cider})
 })
 
+app.get('/splash/:info', (req, res) => {
+    const selection = req.params.info;
+
+    res.render('pages/Splash', {ciderStyles: allStyles, ciderHouses: allHouses, ciderMoods: allMoods})
+})
+
 app.get('/styles', (req, res) => {
     // console.log('ciderstyles ', allStyles)
     res.render('pages/Styles', {ciderStyles: allStyles, ciderHouses: allHouses, ciderMoods: allMoods});
@@ -58,7 +64,6 @@ app.get('/styles', (req, res) => {
 app.get('/styles/:info', (req, res) => {
     const style = Object.values(req.query);
     const info = req.params.info;
-    console.log(info)
     if(info == style[0]){
         let cs = getCidersByStyle(info, ciderInfo);
         return res.render('pages/ListOfCider', {ciderList: cs, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods});

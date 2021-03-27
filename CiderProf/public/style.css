@@ -21,7 +21,7 @@
 
 
 * {
-    /* border: pink solid 1px; */
+    border: pink solid 1px;
 }
 
 .hide {
@@ -122,12 +122,21 @@ nav {
 .nav-list {
     width: 75%;
     height: fit-content;
+    max-height: calc(100vh - 40px);
     background-color: #D6D2C4;
     color: #002b49;
-    font-family: 'AgencyFB-Light';
+    font-family: 'AgencyFB-BoldCondensed';
     font-size: 1.5em;
     overflow: scroll;
+}
 
+.nav-item :any-link {
+    color: #002b49;
+}
+
+.nav-item ul {
+    margin-left: 10vw;
+    overflow: scroll;
 }
 
 /* MAIN PAGE */
@@ -257,6 +266,46 @@ nav {
     width: 15em;
 }
 
+/* STYLE.ejs*/
+.by-style-header {
+    padding-top: 55px;
+    width: 100%;
+    height: 15vh;
+    background-image: url('./assets/imgs/My\ Bag_edited_4x3.jpg');
+    background-color: #002b49;
+    background-size: cover;
+    background-position: center;
+}
+
+.by-style-header h1{
+    font-size: 2em;
+    line-height: 15vh;
+    text-align: right;
+    font-family: 'RomanAntique';
+    color: #F1C400;
+    padding-right: 5vw;
+}
+
+.by-style-list {
+    background-color: #D6D2C4;
+    font-family: 'AgencyFB-BoldCondensed';
+    font-size: 1.5em;
+    padding: 10px 0 10px 8vw;
+}
+.by-style-list :any-link{
+    color: #002b49;
+}
+.by-style-list li {
+    padding-top: 5px;
+}
+
+.by-style-blurb {
+    background-color: #002b49;
+    color: #F1C400;
+    font-family: 'AgencyFB-BoldCondensed';
+    font-size: 1.5em;
+    padding: 15px 5vw;
+}
 /* FOOTER */
 
 #footer {
@@ -380,6 +429,9 @@ nav {
         padding: 0;
         margin: 0;
     }
+    .nav-item :any-link {
+        color: #F1C400;
+    }
 
     .nav-item {
         text-align: center;
@@ -402,6 +454,15 @@ nav {
     .app-icon {
         width: 80px;
         height: 80px;
+    }
+
+    /* NAV-DROPDOWNS */
+    ul.gradebook {
+        width: 40vw;
+        height: fit-content;
+        border: magenta 1px solid;
+        background-color: magenta;
+        margin: 0px;
     }
 
     /* .gradebookboxes {

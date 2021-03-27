@@ -12,24 +12,21 @@
 </head>
 <body>
     <%- include('../layouts/NavBar') %> 
-    <section>
+    <section class="by-style-header">
         <h1>BY STYLE</h1>
     </section>
-    <section>
+    <section class="by-style-list">
         <ul>
             <% for(var k in Object.keys(ciderStyles)) { %>
-                <% if(ciderStyles[Object.keys(ciderStyles)[k]] != null) { %>
-                    <li><%=Object.keys(ciderStyles)[k]%></li>
-                    <ul>
-                        <% for(var s in ciderStyles[Object.keys(ciderStyles)[k]]) { %>
-                            <li><a href="/styles/<%=ciderStyles[Object.keys(ciderStyles)[k]][s]%>?style=<%=Object.keys(ciderStyles)[k]%>"><%= ciderStyles[Object.keys(ciderStyles)[k]][s] %></a></li>
-                        <%}%>
-                    </ul>
-                <%} else { %>
-                    <li><a href="/styles/<%=Object.keys(ciderStyles)[k]%>?style=<%=Object.keys(ciderStyles)[k]%>"><%=Object.keys(ciderStyles)[k]%></a></li>
-                <%}%>
+                <ul>
+                    <!-- a tag that sends object.keys[k] to /splash -->
+                    <li><a href="/splash/<%=Object.keys(ciderStyles)[k]%>"><%=Object.keys(ciderStyles)[k]%></a></li>
+                </ul>
             <%};%>
-        </ul>
+    </section>
+    <section class="by-style-blurb">
+        <p>Fermented apple beverages, or cider, have been made for at least 2000 years and over that time many variations of the drink have been created through various fermentation and bottling techniques, the use of different apple varietals and the infusion of numerous flavorings. New cider drinkers are often surprised at how different various ciders can taste. Therefore, I have come up with my own classification system to help categorize and make sense of the vast number of cider styles and varieties out there. (When possible, I ascribe to the <a href="https://ciderassociation.org/cider-lexicon-project/" target="_blank">American Cider Association’s standardized lexicon</a>)  
+        </p>
     </section>
     <%- include('../layouts/Footer') %>
 </body>

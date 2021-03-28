@@ -5,18 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cider Professor</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="../app.js"></script>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
-    <section>
+    <%- include('../layouts/NavBar') %> 
+    <section class="ciderhouse-header">
         <h1>BY CIDERHOUSE</h1>
     </section> 
-    <section>
+    <section class="ciderhouse-list">
         <ul>
             <% allHouses.forEach(house => { %>
-                <li><a href="/ciderhouses/<%=house%>"> <%= house %>  </a></li>
+            <li><a href="/ciderhouses/<%=house%>"> <%= house %>  </a></li>
             <% }); %> 
         </ul>
     </section>
-    
+    <section class="ciderhouse-blurb">
+        <p>I’ve had the good fortune to travel to several ciderhouses in the US (and hopefully in the future to ciderhouses around the world) where I have been able to sit down and chat with other like-minded cider lovers, talk with makers about their craft and try the fruits of their labor. Not graded, but these are my impressions of some of my favorite places which I hope will encourage you to check them out if you find yourself nearby. 
+        </p>
+    </section>
+    <%- include('../layouts/Footer') %>
 </body>
 </html>
+    

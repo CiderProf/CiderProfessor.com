@@ -358,6 +358,40 @@ nav {
     padding: 15px 5vw;
 }
 
+/* PHILOSOPHY */
+.philosophy-blurb {
+    padding: 70px 5vw;
+    width: 100%;
+    background-color: #002b49;
+    color: #F1C400;
+    font-family: 'AgencyFB-BoldCondensed';
+    font-size: 1.5em;
+}
+.grading-scale {
+    background-color: #D6D2C4;
+    color: #EDAB00;
+    font-family: 'AgencyFB-BoldCondensed';
+    font-size: 1.8em;
+}
+.grading-scale h4 {
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 1.8em;    
+}
+.grading-scale-list {
+    color: #002b49;
+    padding-left: 20px;
+
+
+}
+.grading-scale-list li:nth-last-child(2)::before {
+    content: "\2022";
+  color: #EDAB00; 
+  font-weight: bold; 
+  display: inline-block;
+}
+
 
 /* FOOTER */
 

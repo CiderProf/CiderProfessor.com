@@ -12,15 +12,19 @@
 </head>
 <body>
     <%- include('../layouts/NavBar') %>
-    <section>
+    <section class="gradebook-page-header">
         <h1>BY GRADE</h1>
     </section>
     <section>
-        <ul>
+        <ul class="gradebook-page-list">
             <% for(var k in ciderGrades) { %>            
                     <li><a href="/grade/<%=ciderGrades[k]%>"><%=ciderGrades[k]%></a></li>
             <%};%>
         </ul>
+    </section>
+    <section class="gradebook-page-blurb">
+        <a href="/sortby/Score"><p>Just wanna know who’s at the head of the class? Click here for a list of all the individual ciders I’ve graded from highest to lowest. 
+        </p></a>
     </section>
     <%- include('../layouts/Footer') %>
 </body>

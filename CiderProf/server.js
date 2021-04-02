@@ -47,7 +47,7 @@ app.get('/sortby/:info', (req, res) => {
 app.get('/ciderdetail/:info', (req, res) => {
     const id = parseInt(req.params.info);
     const cider = getCider(id, ciderInfo);
-    res.render('pages/CiderDetail', {cider: cider})
+    res.render('pages/CiderDetail', {cider: cider, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods})
 })
 
 app.get('/splash/:info', (req, res) => {
@@ -57,7 +57,6 @@ app.get('/splash/:info', (req, res) => {
 })
 
 app.get('/styles', (req, res) => {
-    // console.log('ciderstyles ', allStyles)
     res.render('pages/Styles', {ciderStyles: allStyles, ciderHouses: allHouses, ciderMoods: allMoods});
 })
 
@@ -139,20 +138,7 @@ app.get('/complits/:info', (req, res) => {
 
 app.get('/litsbydate', (req, res) => {
     let lits = getLitsByDate();
-    res.render('pages/ListOfLits', {litslist: lits})
-})
-
-// app.post('/list/:info', (req, res) => {
-//     console.log(req.body);
-//     // let name = req.params.Name;
-
-//     // handleInfoParse(name);
-//     res.render('pages/List');
-// })
-
-app.get('/test', (req, res) => {
-    let cider = new Cider({Name: 'Tangerine Tumeric', Cidery: 'Seattle Cider Company'}, ciderInfo);
-    res.render('pages/CiderDetail', {cider: cider})
+    res.render('pages/ListOfLits', {litslist: lits, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods})
 })
 
 
@@ -186,7 +172,6 @@ function getEssay(id, list){
             //TODO handle Style array?
             return tempobj;
         }
-        break;
     }
 }
 
@@ -275,7 +260,6 @@ function getAllMoods(list){
         if(m != null){
             if(typeof m == 'object'){
                 for (var sub in m){
-                    // console.log("sub ", m[sub]);
                     if(!moods.includes(m[sub])) moods.push(m[sub])
                 }
             } else{

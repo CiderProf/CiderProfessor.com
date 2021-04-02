@@ -7,38 +7,36 @@
     <title>Comparative Lit Essay</title>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="../app.js"></script>
+    <link rel="stylesheet" href="../reset.css" />
     <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
-    <header>
-        <%- include('../layouts/Navbar.ejs') %> 
-    </header>
-    <section>
+    <%- include('../layouts/NavBar') %> 
+    <section class="complit-header">
         <h1><%= complit.Title %> </h1>
-        <ul>
+        <ul class="complit-ciders-list">
             <% for(sa in complit.CidObjs) { %>
                 <% if(complit.CidObjs[sa][1] == complit.Winner) { %>
-                    <li class="winner"><%= complit.CidObjs[sa][0] %> </li>
+                    <li class="winner">🍺 <%= complit.CidObjs[sa][0] %> 🍺</li>
                 <% } else { %>
-                    <li><%= complit.CidObjs[sa][0] %> </li>
+                    <li><%= complit.CidObjs[sa][0] %></li>
                 <% } %>
             <% } %>
         </ul>
     </section>
-    <section>
-        <img src="<%= complit.img_url %>">
+    <section class="complit-essay">
+        <img class="complit-image" src="<%= complit.img_url %>">
         <h3>COMPARATIVE LIT ESSAY:</h3>
         <p><%= complit.Body %> </p>
     </section>
-    <section>
-        <ul>
+    <section class="complit-info-section">
+        <ul class="complit-info-list">
             <li class="hide">Style: <%= complit.Style %> </li>
-            <li>Theme: <%= complit.Theme %> </li>
-            <%console.log("date thing", complit);%>
+            <li>Theme: <%= complit.Theme ? complit.Theme : 'N/A' %> </li>
             <li>Date Tried: <%= complit.Date %> </li>
         </ul>
         <h3>INDIVIDUAL REVIEWS:</h3>
-        <ul>
+        <ul class="complit-info-links">
             <% for(sa in complit.CidObjs) { %>
                 <li><a href="/ciderdetail/<%=complit.CidObjs[sa][1]%>"> <%= complit.CidObjs[sa][0] %> </a></li>
             <% } %>

@@ -269,12 +269,80 @@ nav {
 }
 
 /* CIDERDETAIL.ejs */
-.glassimage {
-    float: left;
-    margin-right: 40px;
-    height: 20em;
-    width: 15em;
+
+.cider-detail-topsection {
+    padding-top: 55px;
+    background-color: #002b49;
 }
+
+.cider-detail-topinfo {
+    padding: 10px 0;
+    font-family: 'AgencyFB-BoldCondensed';
+    color: #F1C400;
+}
+.glassimage {
+    width: 100%;
+    height: auto;
+}
+.cider-detail-topinfo h2 {
+    font-size: 2em;
+    padding-left: 15px;
+}
+.cider-detail-topinfo p {
+    font-size: 1.3em;
+    padding-left: 15px;
+}
+.cider-detail-midinfo {
+    background-color: #CCE2EE;
+    color: #002b49;
+    font-family: 'AgencyFB-BoldCondensed';
+    font-size: 1.3em;
+    padding-left: 10px;
+}
+.cider-detail-midinfo li{
+    padding: 10px 0;
+}
+.cider-detail-feedback {
+    padding: 10px 0;
+    background-color: #002b49;
+    /* padding-left: 15px; */
+    font-family: 'AgencyFB-BoldCondensed';
+    color: #F1C400;
+}
+.cider-detail-feedback h3 {
+    padding: 5px 0;
+    text-align: center;
+    font-size: 2em;
+
+}
+.cider-detail-feedback p {
+    font-size: 1.3em;
+    padding: 10px 15px;
+    font-family: 'RomanAntique';
+}
+.cider-detail-description {
+    padding: 15px 0;
+    background-color: #D6D2C4;
+    color: #002b49;
+    font-family: 'AgencyFB-BoldCondensed';
+    width: 100%;
+    text-align: center;
+}
+.cider-detail-description h3 {
+    font-size: 2em;
+}
+.cider-detail-description p {
+    padding: 5px 0;
+    font-size: 1.3em;
+}
+.cider-detail-description img{
+    width: 55%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+/* GRADEBOOK PAGES */
 
 .gradebook-page-header {
     padding-top: 55px;
@@ -292,6 +360,7 @@ nav {
     font-family: 'RomanAntique';
     color: #F1C400;
     padding-right: 5vw;
+    background-color: rgba(0, 43, 73, .4);
 }
 
 .gradebook-page-list {
@@ -327,47 +396,19 @@ nav {
 .by-mood {
     background-image: url('./assets/imgs/Trinity_Lonsdale-edit_4x3.jpg');
 }
-
 /* ALLHOUSES.ejs */
-
-.ciderhouse-header {
-    padding-top: 55px;
-    width: 100%;
-    height: 15vh;
+.by-ciderhouse {
     background-image: url('./assets/imgs/Pitt\ B_edited_4x3.jpg');
-    background-color: #002b49;
-    background-size: cover;
-    background-position: center;
 }
-.ciderhouse-header h1{
-    font-size: 2em;
-    line-height: 15vh;
-    text-align: right;
-    font-family: 'RomanAntique';
-    color: #F1C400;
-    padding-right: 5vw;
+/* COMPLITS.ejs */
+.complits {
+    background-image: url('./assets/imgs/Vinetum Britannicum Cam_edited_4x3.jpg');
+}
+.complits h1 {
+    font-size: 1.7em;
+    line-height: 1.7em;
 }
 
-.ciderhouse-list {
-    background-color: #D6D2C4;
-    font-family: 'AgencyFB-BoldCondensed';
-    font-size: 1.5em;
-    padding: 10px 0 10px 8vw;
-}
-.ciderhouse-list :any-link{
-    color: #002b49;
-}
-.ciderhouse-list li {
-    padding-top: 5px;
-}
-
-.ciderhouse-blurb {
-    background-color: #002b49;
-    color: #F1C400;
-    font-family: 'AgencyFB-BoldCondensed';
-    font-size: 1.5em;
-    padding: 15px 5vw;
-}
 
 /* PHILOSOPHY */
 .philosophy-blurb {
@@ -401,6 +442,94 @@ nav {
   color: #EDAB00; 
   font-weight: bold; 
   display: inline-block;
+}
+
+/* COMPLITESSAY.ejs */
+.complit-header {
+    padding-top: 55px;
+    padding-bottom: 2vh;
+    width: 100%;
+    height: fit-content;
+    background-color: #002b49;
+    font-family: 'AgencyFB-BoldCondensed';
+}
+.complit-header h1 {
+    width: 100%;
+    font-size: 2em;
+    line-height: 2em;
+    text-align: center;
+    color: #F1C400;
+}
+.complit-ciders-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5em;
+    height: fit-content;
+    color: #CCE2EE;
+}
+.complit-ciders-list li {
+    height: fit-content;
+    text-align: center;
+}
+.winner {
+    color: #F1C400;
+}
+.complit-essay {
+    background-color: #002b49;
+    color: #F1C400;
+    padding-bottom: 10px;
+}
+.complit-image {
+    width: 100vw;
+    height: 40vh;
+}
+.complit-essay h3, .complit-info-section h3{
+    width: 100%;
+    padding: 5px 0;
+    font-family: 'AgencyFB-BoldCondensed';
+    font-size: 2em;
+    text-align: center;
+}
+.complit-essay p {
+    font-family: 'RomanAntique';
+    padding: 5px 10px;
+}
+.complit-info-section {
+    padding-top: 10px;
+    background-color: #D6D2C4;
+    color: #002b49;
+    font-family: 'AgencyFB-BoldCondensed';
+
+}
+.complit-info-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.complit-info-list li {
+    width: 30%;
+    padding: 5px 0;
+}
+.complit-info-section h3{ 
+    color: #F1C400;
+    margin-top: 20px;
+}
+.complit-info-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+.complit-info-links li {
+    width: 30%;
+    font-family: 'RomanAntique';
+}
+.complit-info-links :any-link {
+    color: #002b49;
 }
 
 
@@ -489,6 +618,11 @@ footer {
         width: 98vw;
         max-width: 350px;
     }
+    
+    .complits h1 {
+        font-size: 2em;
+        line-height: 15vh;
+        }
 }
 
 @media screen and (min-width: 780px) and (min-height: 500px) {
@@ -630,6 +764,7 @@ footer {
         padding-left: 5px;
     }
 
+
 }
 
 
@@ -663,12 +798,13 @@ footer {
         flex-wrap: wrap;
         justify-content:space-evenly;
         flex: 20%;
+        background-color: #002b49;
     }
 
     .gradebookboxes li {
         min-width: none;
         min-height: auto;
-        /* flex: 20%; */
+        flex: 1 1 22%;
         /* width: 20%; */
         /* margin: 10px 2%; */
     }
@@ -679,6 +815,7 @@ footer {
         margin-bottom: 10px;
     }
     .gradebookwrapper img {
+        background-color: #002b49;
         width: 100%;
     }
 }

@@ -39,7 +39,6 @@ $("#crgeography").click( function() {
 $(".listofciders").click(function () {
   var id = $( this ).attr("title");
   window.location.href = `/ciderdetail/${id}`;
-  console.log(id);
 })
 
 

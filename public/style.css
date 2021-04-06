@@ -207,6 +207,9 @@ nav {
 #ciderlistsection {
     padding-top: 55px;
 }
+#ciderlistsection:nth-child(2){
+    margin-top: 49px;
+}
 
 .listheader, .listofciders {
     width: 100%;
@@ -222,6 +225,8 @@ nav {
     border-bottom: solid 1px #EDAB00;
 }
 .listheader {
+    position: fixed;
+    top: 55px;
     background-color: #F1F1F1;
     font-family: 'AgencyFB-BoldCondensed';
 
@@ -409,6 +414,11 @@ nav {
     line-height: 1.7em;
 }
 
+/* ABOUT.ejs */
+.about-prof {
+    background-image: url('./assets/imgs/Close_up_book_edited.jpg');
+}
+
 
 /* PHILOSOPHY */
 .philosophy-blurb {
@@ -532,6 +542,46 @@ nav {
     color: #002b49;
 }
 
+/* ABOUT.ejs */
+.about-prof-blurb :any-link{
+    color: #CCE2EE;
+}
+.about-prof-blurb p {
+    padding: 10px 0;
+}
+.about-links {
+    padding: 15px 0;
+    background-color: #CCE2EE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}   
+.aca-logo img{
+    width: 150px;
+    height: auto;
+}
+.ccp-logo img{
+    width: 50px;
+    height: auto;
+}
+.website-credit {
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    background-color: #CCE2EE;
+    color: #F1C400;
+    font-family: 'AgencyFB-Light';
+}
+.website-credit:visited {
+    text-decoration: none;
+    color: #F1C400;
+}
+.gdlogo {
+    padding-left: 10px;
+    width: 20px;
+    height: 20px;
+}
 
 /* FOOTER */
 
@@ -573,23 +623,7 @@ footer {
     font-size: 30px;
 }
 
-.website-credit {
-    display: flex;
-    justify-content: left;
-    width: 120px;
-    padding-right: 10px;
-    color: black;
-    padding-right: 5px;
-}
-.website-credit:visited {
-    text-decoration: none;
-    color: black;
-}
-.gdlogo {
-    padding-left: 10px;
-    width: 20px;
-    height: 20px;
-}
+
 
 @media screen and (min-width: 500px) and (min-height: 500px) {
     .gradebooksection {

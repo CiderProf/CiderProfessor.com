@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About the Cider Professor</title>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/imgs/favicon.png"/>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="../app.js"></script>
+    <link rel="stylesheet" href="../reset.css" />
     <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
-    <header>
-        <%- include('../layouts/NavBar') %> 
-    </header>
-    <h2>About the Cider Professor</h2>
-    <p>I am a Cambridge-trained historian who teaches African and Middle Eastern history at an American liberal arts college during the week, but on weekends I like to sit down with a good book and try new ciders. I am a Certified Cider Professional through the American Cider Association and I hope to help educate others about this exceptional drink as I continue to learn more about the richness of its history and the many cider makers out there hustling to offer us new, better, and more interesting options all the time.</p>
-    <p>Beyond satisfying my own curiosity and the personal enjoyment I get from trying different ciders, the purpose of this website is to help others make educated decisions in choosing the right cider. Especially in the US, the growth of cider making is exploding —there are now over 700 commercial cider makers found in all 50 states and DC according to <em><a href="https://www.ciderguide.com/" target="_blank">Eric West</a></em>— and cider drinkers worldwide have more choice now than ever. In the past, American cider drinkers were lucky to have a choice between two ciders when they went to their local bottle shop or out to eat, but the growth of adult-beverage superstores like Total Wine and Beverage found in nearly every major city and the advent of online ordering through VinoShipper and individual ciderhouses, and the new cider-focused website <em><a href="https://shopciders.com/" target="_blank" >shopciders.com</a></em> sponsored by The American Cider Association and Cidercraft Magazine, have vastly expanded the selection available to the average cider drinker. This site is dedicated to helping you learn about new ciders and navigate the many options you now have.</p>
-    <p>Finally, another important reason I started this website was because most review sites of alcoholic beverages are focused on beer or wine and cider is a sideshow at best, often with beer drinkers skewing reviews. I don’t drink beer, don’t like it, and so here you will only find cider (and perry) in its many varieties, consistently evaluated and graded by a single cider drinker.</p>
-    <p>Enjoy, and remember that the educated cider drinker imbibes responsibly! </p>
-    <ul>
-        <li><a href="https://ciderassociation.org/certification/" target="_blank"><img src="#" alt="ccp logo"></a></li>
-        <li></li>
-    </ul>
-    <%- include('../layouts/Footer') %>
+    <%- include('../layouts/NavBar') %> 
 
+    <section class="gradebook-page-header about-prof">
+        <h1>About the Cider Professor</h1>
+    </section>
+    <section class="gradebook-page-blurb about-prof-blurb">
+        <p>I am a Cambridge-trained historian who teaches African and Middle Eastern history at an American liberal arts college during the week, but on weekends I like to sit down with a good book and try new ciders. I am a Certified Cider Professional through the American Cider Association and I hope to help educate others about this exceptional drink as I continue to learn more about the richness of its history and the many cider makers out there hustling to offer us new, better, and more interesting options all the time.</p>
+        <p>Beyond satisfying my own curiosity and the personal enjoyment I get from trying different ciders, the purpose of this website is to help others make educated decisions in choosing the right cider. Especially in the US, the growth of cider making is exploding —there are now over 700 commercial cider makers found in all 50 states and DC according to <em><a href="https://www.ciderguide.com/" target="_blank">Eric West</a></em>— and cider drinkers worldwide have more choice now than ever. In the past, American cider drinkers were lucky to have a choice between two ciders when they went to their local bottle shop or out to eat, but the growth of adult-beverage superstores like Total Wine and Beverage found in nearly every major city and the advent of online ordering through VinoShipper and individual ciderhouses, and the new cider-focused website <em><a href="https://shopciders.com/" target="_blank" >shopciders.com</a></em> sponsored by The American Cider Association and Cidercraft Magazine, have vastly expanded the selection available to the average cider drinker. This site is dedicated to helping you learn about new ciders and navigate the many options you now have.</p>
+        <p>Finally, another important reason I started this website was because most review sites of alcoholic beverages are focused on beer or wine and cider is a sideshow at best, often with beer drinkers skewing reviews. I don’t drink beer, don’t like it, and so here you will only find cider (and perry) in its many varieties, consistently evaluated and graded by a single cider drinker.</p>
+        <p>Enjoy, and remember that the educated cider drinker imbibes responsibly! </p>
+    </section>
+    <ul class="about-links">
+        <li class="aca-logo"><a href="https://ciderassociation.org" target="_blank"><img src="../assets/imgs/ACA_logo.png" alt="American Cider Association logo"></a></li>
+        <li class="ccp-logo"><a href="https://ciderassociation.org/certification/" target="_blank"><img src="../assets/imgs/CCP_logo.png" alt="Certified Cider Professional logo"></a></li>
+    </ul>
+        <p class="website-credit">website by <a href="http://www.gregorydukes.com" target="_blank"><img class="gdlogo" src="../assets/imgs/dukesco.png" alt="gd logo"></a></p>
+        
+    <%- include('../layouts/Footer') %>
+    
 </body>
 </html>

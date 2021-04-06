@@ -700,6 +700,10 @@ footer {
         text-align: left;
     }
 
+    #gradebook:hover {
+        cursor: pointer;
+    }
+
     #app-icon-placeholder {
         width: 80px;
     }

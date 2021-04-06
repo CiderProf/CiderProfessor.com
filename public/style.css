@@ -704,7 +704,7 @@ footer {
     }
 
     nav {
-        height: 2em;
+        height: 3em;
     }
 
 
@@ -729,9 +729,11 @@ footer {
         text-align: center;
         width: 22%;
     }
-
+    
     .nav-item li {
         text-align: left;
+        background-color: #D6D2C4;
+        color: #002b49;
     }
 
     #gradebook:hover {
@@ -753,12 +755,19 @@ footer {
     }
 
     /* NAV-DROPDOWNS */
-    ul.gradebook {
-        width: 40vw;
-        height: fit-content;
-        border: magenta 1px solid;
-        background-color: magenta;
+    .gradebook {
+        position: fixed;
+        top: 2em;
+        width: fit-content;
+        height: 50vh;
+        overflow: scroll;
         margin: 0px;
+
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .gradebook::-webkit-scrollbar {
+        display: none;
     }
 
     /* .gradebookboxes {

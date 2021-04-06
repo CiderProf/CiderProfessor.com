@@ -8,6 +8,8 @@ if($(window).width() > 780) $(".nav-list").removeClass("hide")  ;
 
 $("#gradebook").click( function() {
   $(".gradebook").toggleClass("hide");
+  $(".gradebook").css("visibility", "hidden");
+  $(".gradebook").slideDown(300) 
 });
 
 $("#gradebook ul").click( function(e){

@@ -706,9 +706,6 @@ footer {
     .menu-icon-wrapper{
         display: none;
     }
-    .app-icon-wrapper{
-
-    }
 
     ul {
         list-style: none;
@@ -915,8 +912,6 @@ footer {
         font-size: 2em;
         line-height: 2.5em;
     } */
-    .hero-img {
-    }
 
     #app-icon-placeholder {
         /* width: 80px; */

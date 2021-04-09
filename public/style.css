@@ -716,7 +716,8 @@ footer {
         color: #F1C400;
         font-size: 1.5em;
         line-height: 2em;
-        height: 2em;
+        /* height: 2em; */
+        height: fit-content;
         overflow: hidden;
         padding: 0;
         margin: 0;
@@ -732,7 +733,7 @@ footer {
     
     .nav-item li {
         text-align: left;
-        background-color: #D6D2C4;
+        background-color: #d6d2c4;
         color: #002b49;
     }
 
@@ -759,15 +760,83 @@ footer {
         position: fixed;
         top: 2em;
         width: fit-content;
-        height: 50vh;
+        height: fit-content;
+        max-height: 60vh;
         overflow: scroll;
         margin: 0px;
+        border-radius: 0 15px 15px 5px;
+        filter: drop-shadow(7px 7px 3px #52504a);
 
         -ms-overflow-style: none;
         scrollbar-width: none;
     }
     .gradebook::-webkit-scrollbar {
         display: none;
+    }
+    .gradebook a:any-link {
+        color: #002b49;
+    }
+    .gradebook li {
+        padding: 0 10px;
+    }
+    #style {
+        height: fit-content;
+        overflow: hidden;
+    }
+    #style ul {
+        overflow: hidden;
+        width: fit-content;
+    }
+    #mood {
+        height: fit-content;
+        overflow: hidden;
+    }
+    #mood ul {
+        height: fit-content;
+        overflow: hidden;
+    }
+    #geography {
+        height: fit-content;
+        overflow: hidden;
+    }
+    #geography ul {
+        height: fit-content;
+        overflow: hidden;
+    }
+
+    #complit:hover {
+        cursor: pointer;
+    }
+    .complit {
+        position: fixed;
+        top: 2em;
+        width: fit-content;
+        height: fit-content;
+        max-height: 60vh;
+        overflow: scroll;
+        margin: 0px;
+        border-radius: 0 15px 15px 5px;
+        filter: drop-shadow(7px 7px 3px #52504a);
+
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .complit::-webkit-scrollbar {
+        display: none;
+    }
+    .complit a:any-link {
+        color: #002b49;
+    }
+    .complit li {
+        padding: 0 10px;
+    }
+    #litstyle {
+        height: fit-content;
+        overflow: hidden;
+    }
+    #theme {
+        height: fit-content;
+        overflow: hidden;
     }
 
     /* .gradebookboxes {

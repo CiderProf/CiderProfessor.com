@@ -4,14 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>List of Comperative Lits</title>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/imgs/favicon.png"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="../app.js"></script>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
     <section>
         <h2>COMPARATIVE LITURATURE ESSAYS</h2>
     </section>
-    <section>
-        
+    <section id="">
+        <ul class="">
+            <li class=""></li>
+            <li class="">Title</li>
+            <li class="">Ciders</li>
+            <li class="">Style</li>
+            <li>Theme</li>
+        </ul>
+        <%LitsList.forEach(lit => {%>
+            <ul class="" title="<%=lit.ID%>">
+                <li class=""><img class="listimg" src="<%=lit.img_url%>"></li>
+                <li class=""> <%=lit.Title%> </li>
+                <li class=""> <%=lit.Ciders%> </li>
+                <li class=""> <%=lit.Style%> </li>
+                <li class=""> <%=lit.Theme%> </li>
+            </ul>
+            <%})%>
     </section>
 </body>
 </html>

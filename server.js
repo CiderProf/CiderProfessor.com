@@ -18,17 +18,19 @@ let allHouses = getAllHouses(ciderInfo);
 let allStyles = getStyles(ciderInfo);
 let allMoods = getAllMoods(ciderInfo);
 let allGrades = getAllGrades(ciderInfo);
+let allLitStyle = getLitStyles(complits);
+let allthemes = getAllThemes(complits);
 let headerInfo = {ciderHouses: allHouses, 
                   ciderStyles: allStyles,
                   ciderMoods: allMoods};
 
 //---------------- ROUTES-----------------------//
 app.get('/', (req, res) => {
-        res.render('pages/index', {ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods});
+        res.render('pages/index', {ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods, complitstyle: allLitStyle, complittheme: allthemes});
 })
 
 app.get('/about', (req, res) => {
-    res.render('pages/About', {ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods});
+    res.render('pages/About', {ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods, complitstyle: allLitStyle, complittheme: allthemes});
 })
 
 app.get('/ciders', (req, res) => {
@@ -41,23 +43,23 @@ app.get('/sortby/:info', (req, res) => {
     info == "Name" ?
         sorted = ciderInfo.sort((a, b) => (a[info] > b[info]) ? 1 : -1) :
         sorted = ciderInfo.sort((a, b) => (a[info] < b[info]) ? 1 : -1);
-    res.render('pages/ListOfCider', {ciderList: sorted, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods});
+    res.render('pages/ListOfCider', {ciderList: sorted, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods, complitstyle: allLitStyle, complittheme: allthemes});
 })
 
 app.get('/ciderdetail/:info', (req, res) => {
     const id = parseInt(req.params.info);
     const cider = getCider(id, ciderInfo);
-    res.render('pages/CiderDetail', {cider: cider, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods})
+    res.render('pages/CiderDetail', {cider: cider, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods, complitstyle: allLitStyle, complittheme: allthemes})
 })
 
 app.get('/splash/:info', (req, res) => {
     const selection = req.params.info;
 
-    res.render('pages/Splash', {ciderStyles: allStyles, ciderHouses: allHouses, ciderMoods: allMoods})
+    res.render('pages/Splash', {ciderStyles: allStyles, ciderHouses: allHouses, ciderMoods: allMoods, complitstyle: allLitStyle, complittheme: allthemes})
 })
 
 app.get('/styles', (req, res) => {
-    res.render('pages/Styles', {ciderStyles: allStyles, ciderHouses: allHouses, ciderMoods: allMoods});
+    res.render('pages/Styles', {ciderStyles: allStyles, ciderHouses: allHouses, ciderMoods: allMoods, complitstyle: allLitStyle, complittheme: allthemes});
 })
 
 app.get('/styles/:info', (req, res) => {
@@ -65,46 +67,46 @@ app.get('/styles/:info', (req, res) => {
     const info = req.params.info;
     if(info == style[0]){
         let cs = getCidersByStyle(info, ciderInfo);
-        return res.render('pages/ListOfCider', {ciderList: cs, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods});
+        return res.render('pages/ListOfCider', {ciderList: cs, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods, complitstyle: allLitStyle, complittheme: allthemes});
     } else {
         let css = getCidersBySubStyle(info, style[0], ciderInfo)
-        return res.render('pages/ListOfCider', {ciderList: css, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods});
+        return res.render('pages/ListOfCider', {ciderList: css, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods, complitstyle: allLitStyle, complittheme: allthemes});
     }
 })
 
 app.get('/grade', (req, res) => {
-    res.render('pages/Grades', {ciderGrades: allGrades, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods})
+    res.render('pages/Grades', {ciderGrades: allGrades, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods, complitstyle: allLitStyle, complittheme: allthemes})
 })
 
 app.get('/grade/:info', (req, res) => {
     const grade = req.params.info;
     let g = getCidersByGrade(grade, ciderInfo);
-    res.render('pages/ListOfCider', {ciderList: g, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods});
+    res.render('pages/ListOfCider', {ciderList: g, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods, complitstyle: allLitStyle, complittheme: allthemes});
 })
 
 app.get('/moods', (req, res) => {
-    res.render('pages/Moods', {ciderMoods: allMoods, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods});
+    res.render('pages/Moods', {ciderMoods: allMoods, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods, complitstyle: allLitStyle, complittheme: allthemes});
 })
 
 app.get('/moods/:info', (req, res) => {
     const mood = req.params.info;
     let cm = getCidersByMood(mood, ciderInfo);
-    res.render('pages/ListOfCider', {ciderList: cm, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods});
+    res.render('pages/ListOfCider', {ciderList: cm, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods, complitstyle: allLitStyle, complittheme: allthemes});
 })
 
 app.get('/philosophy', (req, res) => {
-    res.render('pages/Philosophy', {ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods});
+    res.render('pages/Philosophy', {ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods, complitstyle: allLitStyle, complittheme: allthemes});
 })
 
 app.get('/ciderhouses', (req, res) => {
     let sortedhouses = allHouses.sort();
-    res.render('pages/AllHouses', {allHouses: sortedhouses, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods})
+    res.render('pages/AllHouses', {allHouses: sortedhouses, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods, complitstyle: allLitStyle, complittheme: allthemes})
 })
 
 app.get('/ciderhouses/:info', (req, res) => {
     let house = req.params.info;
     let ch = getCidersByHouse(house, ciderInfo);
-    res.render('pages/ListOfCider', {ciderList: ch, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods})
+    res.render('pages/ListOfCider', {ciderList: ch, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods, complitstyle: allLitStyle, complittheme: allthemes})
 })
 
 app.get('/names', (req, res) => {
@@ -127,18 +129,18 @@ app.get('/names', (req, res) => {
 // })
 
 app.get('/complits', (req, res) => {
-    res.render('pages/CompLits', {complits: complits, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods})
+    res.render('pages/CompLits', {complits: complits, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods, complitstyle: allLitStyle, complittheme: allthemes})
 })
 
 app.get('/complits/:info', (req, res) => {
     let cid = req.params.info;
     let cle = getEssay(cid, complits);
-    res.render('pages/CompLitEssay', {complit: cle, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods})
+    res.render('pages/CompLitEssay', {complit: cle, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods, complitstyle: allLitStyle, complittheme: allthemes})
 })
 
 app.get('/litsbydate', (req, res) => {
-    let lits = getLitsByDate();
-    res.render('pages/ListOfLits', {litslist: lits, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods})
+    let sorted = complits.sort((a, b) => (a.Date < b.Date) ? 1 : -1);
+    res.render('pages/ListOfLits', {LitsList: sorted, ciderHouses: allHouses, ciderStyles: allStyles, ciderMoods: allMoods, complitstyle: allLitStyle, complittheme: allthemes});
 })
 
 
@@ -438,5 +440,69 @@ function getCidersByDate(date, list){
         }
     }
     return tempArr;
+}
+
+function getAllThemes(list){
+    let tempArr = [];
+    for(var lit in list){
+        let t = complits[lit].Theme;
+        if(!tempArr.includes(t)) tempArr.push(t);
+    }
+    return tempArr;
+}
+
+function getLitStyles(list){
+    let stylesArray = loadlitStyles(list);
+    // let styles = loadLitSubstyles(list, stylesArray);
+return stylesArray;
+}
+
+function loadlitStyles(list){
+    let litstyles = [];
+    for(var lit in list){
+        let s = list[lit].Style;
+        if(s !== null && typeof s !== 'object' && !litstyles.includes(s)) litstyles.push(s);
+        if(s !== null && typeof s == 'object' && !litstyles.includes(Object.keys(s)[0])) litstyles.push(Object.keys(s)[0]);
+    }
+    return litstyles;
+}
+
+function loadLitSubstyles(list, stylesArray){
+let allstyles = [];
+for(var lit in list){
+    let ls = list[lit].Style;
+        if(ls !== null && typeof ls !== 'object' && !allstyles.includes(ls)){
+            //push to allstyles
+            allstyles.push(ls);
+        }
+        if(ls !== null && typeof ls == 'object'){
+            let key = Object.keys(ls);
+            let val = Object.values(ls);
+            allstyles.some( objkey => {
+                if(typeof objkey == 'object' && Object.keys(objkey) == key[0]){
+                    objkey = [...val]
+                }
+            });
+            // if allstyles has an object with key=ls key, 
+            if(check){
+                // add ls.value to ls.value array
+                console.log('found it', obj);
+            } else {
+                // else push new object with value in array to allstyles
+                let newobj = {[key]: val};
+                allstyles.push(newobj);
+            }
+        }
+    }
+    console.log(allstyles);
+}
+
+function getLitsByDate(list){
+    let dates = [];
+    for (var lit in list){
+        let d = list[lit].Date
+        if(!dates.includes(d)) dates.push(d)
+    }
+    return dates;
 }
 

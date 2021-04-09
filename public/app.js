@@ -4,12 +4,10 @@ $(".menu-icon").click( function() {
   $(".nav-list").toggleClass("hide");
 });
 
-if($(window).width() > 780) $(".nav-list").removeClass("hide")  ;
+if($(window).width() > 780) $(".nav-list").removeClass("hide");
 
 $("#gradebook").click( function() {
   $(".gradebook").toggleClass("hide");
-  $(".gradebook").css("visibility", "hidden");
-  $(".gradebook").slideDown(300) 
 });
 
 $("#gradebook ul").click( function(e){
@@ -27,6 +25,14 @@ $(".style").click( function() {
 
 $("#complit").click( function() {
   $(".complit").toggleClass("hide");
+});
+
+$("#complit ul").click( function(e){
+  let $this = e.target.children;
+  if($this && $this.length > 0){
+    $(e.target.children).toggleClass("hide");    
+  }
+  $(this).toggleClass("hide");
 });
 
 $("#cidreviews").click( function() {

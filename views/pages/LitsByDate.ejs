@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lits by Date</title>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/imgs/favicon.png"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="../app.js"></script>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
-    
+    <%- include('../layouts/NavBar') %> 
+    <section class="gradebook-page-header by-mood">
+        <h1>By Date</h1>
+    </section>
+    <section>
+        <ul class="gradebook-page-list">
+            <% for(var k in ciderMoods) { %>            
+                    <li><a href="/moods/<%=ciderMoods[k]%>"><%=ciderMoods[k]%></a></li>
+            <%};%>
+        </ul>
+    </section>
+    <%- include('../layouts/Footer') %>
 </body>
 </html>

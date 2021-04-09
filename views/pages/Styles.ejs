@@ -16,6 +16,10 @@
     <section class="gradebook-page-header by-style">
         <h1>BY STYLE</h1>
     </section>
+    <section class="gradebook-page-blurb">
+        <p>Fermented apple beverages, or cider, have been made for at least 2000 years and over that time many variations of the drink have been created through various fermentation and bottling techniques, the use of different apple varietals and the infusion of numerous flavorings. New cider drinkers are often surprised at how different various ciders can taste. Therefore, I have come up with my own classification system to help categorize and make sense of the vast number of cider styles and varieties out there. (When possible, I ascribe to the <a href="https://ciderassociation.org/cider-lexicon-project/" target="_blank">American Cider Association’s standardized lexicon</a>)  
+        </p>
+    </section>
     <section class="gradebook-page-list">
         <ul>
             <% for(var k in Object.keys(ciderStyles)) { %>
@@ -24,10 +28,6 @@
                     <li><a href="/splash/<%=Object.keys(ciderStyles)[k]%>"><%=Object.keys(ciderStyles)[k]%></a></li>
                 </ul>
             <%};%>
-    </section>
-    <section class="gradebook-page-blurb">
-        <p>Fermented apple beverages, or cider, have been made for at least 2000 years and over that time many variations of the drink have been created through various fermentation and bottling techniques, the use of different apple varietals and the infusion of numerous flavorings. New cider drinkers are often surprised at how different various ciders can taste. Therefore, I have come up with my own classification system to help categorize and make sense of the vast number of cider styles and varieties out there. (When possible, I ascribe to the <a href="https://ciderassociation.org/cider-lexicon-project/" target="_blank">American Cider Association’s standardized lexicon</a>)  
-        </p>
     </section>
     <%- include('../layouts/Footer') %>
 </body>

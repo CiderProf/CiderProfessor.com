@@ -360,6 +360,7 @@ nav {
 
 .gradebook-page-header h1{
     font-size: 2em;
+    height: 15vh;
     line-height: 15vh;
     text-align: right;
     font-family: 'RomanAntique';
@@ -379,6 +380,7 @@ nav {
 }
 .gradebook-page-list li {
     padding-top: 5px;
+    padding-left: 13px;
 }
 
 .gradebook-page-blurb {
@@ -846,6 +848,37 @@ footer {
         height: fit-content;
         overflow: hidden;
     }
+    #cidreviews:hover {
+        cursor: pointer;
+    }
+    .cidreviews {
+        position: fixed;
+        top: 2em;
+        right: 4%;
+        width: fit-content;
+        height: fit-content;
+        max-height: 60vh;
+        overflow: scroll;
+        margin-left: 0;
+        border-radius: 0 15px 15px 5px;
+        filter: drop-shadow(7px 7px 3px #52504a);
+
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .cidreviews::-webkit-scrollbar {
+        display: none;
+    }
+    .cidreviews a:any-link {
+        color: #002b49;
+    }
+    .cidreviews li {
+        padding: 0 10px;
+    }
+    #crgeography ul{
+        height: fit-content;
+        overflow: hidden;
+    }
 
     /* .gradebookboxes {
         width: 100%;
@@ -864,6 +897,8 @@ footer {
     } */ 
     #ciderlistsection {
         margin-top: calc(78px + 1.5em);
+        /* 77px is from the footer */
+        min-height: calc(100vh - 80px - 61px);  
         padding-top: 0;
     }
 
@@ -887,6 +922,55 @@ footer {
         text-align: left;
         padding-left: 5px;
     }
+/* CIDERDETAIL.js     */
+
+    .cider-detail-topsection {
+        height: 50vw;
+        padding-bottom: 5px;
+    }
+    .glassimage {
+        width: 33vw;
+        height: 46vw;
+        float: left;
+    }
+    .cider-detail-topinfo {
+        height: 22vw;
+        text-align: left;
+    }
+    .cider-detail-topinfo li{
+        padding-top: 30px;
+        padding-left: 35vw;
+    }
+    .cider-detail-topinfo h2 {
+        font-size: 2.5em;
+    }
+    .cider-detail-midinfo{
+        height: 22vw;
+        text-align: left;
+    }
+    .cider-detail-midinfo li {
+        padding-left: 35vw;
+    }
+    .cider-detail-description {
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        text-align: left;
+    }
+    .cider-detail-description img {
+        margin: 0;
+        padding-right: 15px;
+        width: 20vw;
+    }
+    .cider-detail-description div {
+        padding-right: 100px;
+        max-width: 60vw;
+    }
+    .cider-detail-description h3 {
+        font-size: 2.5em;
+    }
+
 
 
 }

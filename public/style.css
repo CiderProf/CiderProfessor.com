@@ -265,8 +265,9 @@ nav {
     text-overflow: ellipsis;
 }
 .itemgrade{
-    width: 2em;
+    width: 2.5em;
     border-left: 1px solid #EDAB00;
+    text-align: left;
 }
 .itemabv{
     width: 2em;

@@ -13,11 +13,18 @@
 </head>
 <body>
     <%- include('../layouts/NavBar') %> 
-    <section id="blurb">
-        <!-- cool ejs magic here -->
+    <section class="gradebook-page-header">
+        <h1><%= style %></h1>
     </section>
-    <section class="splash-list">
-        <!-- ejs foreach loop ul  -->
+    <section class="gradebook-page-blurb">
+        <p><%= blurb %></p>
+    </section>
+    <section class="gradebook-page-list">
+        <ul>
+            <%list.forEach(style => {%>
+                <li><%=style%></li>
+                <%})%>
+        </ul>
     </section>
 
     <%- include('../layouts/Footer') %>

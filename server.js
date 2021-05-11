@@ -56,8 +56,13 @@ app.get('/ciderdetail/:info', (req, res) => {
 
 app.get('/splash/:info', (req, res) => {
     const selection = req.params.info;
-
-    res.render('pages/Splash', {headerInfo});
+    const blurb = getPageBlurb(selection);
+    const list = getSubstyles(selection, ciderInfo);
+    res.render('pages/Splash', {blurb: blurb, list: list, style: selection, headerInfo});
+})
+app.get('/splash/:info1/:info2', (req, res) => { //this handles an edge case where the info contains a '/'
+    let s = req.params.info1;
+    res.redirect(`/splash/${s}`);
 })
 
 app.get('/styles', (req, res) => {
@@ -75,6 +80,7 @@ app.get('/styles/:info', (req, res) => {
         return res.render('pages/ListOfCider', {ciderList: css, headerInfo});
     }
 })
+
 
 app.get('/grade', (req, res) => {
     res.render('pages/Grades', {ciderGrades: allGrades, headerInfo})
@@ -198,6 +204,7 @@ function getCidersByHouse(house, list){
             tempObj.Name = c.Name;
             tempObj.Cidery = c.Cidery;
             tempObj.Grade = c.Grade;
+            tempObj.Score = c.Score;
             tempObj.Location = c.State_Country;
             tempObj.ABV = c.ABV;
             tempObj.LogoURL= c.LogoURL
@@ -256,6 +263,27 @@ function loadSubStyles(list, styleObject){
         
     }
     return subStyles;
+}
+
+function getSubstyles(selection, list){
+    let subStyles = [];
+    for (var cider in list){
+        const style = list[cider].Style;
+        const key = Object.keys(style)
+        if(style && key == selection){
+            const subStyle = style[key];
+            // check if aray
+            if(subStyle && typeof subStyle == 'object'){
+                subStyle.forEach(subValue => {
+                    // add to list
+                    if(!subStyles.includes(subValue)) subStyles.push(subValue);
+                });
+                // add to list
+            } else if(subStyle && !subStyles.includes(subStyle)) subStyles.push(subStyle);
+        }
+    }
+    // console.log(subStyles)
+    return subStyles.length > 0 ? subStyles : null;
 }
 
 function getAllMoods(list){
@@ -463,6 +491,11 @@ function getCidersByDate(date, list){
         }
     }
     return tempArr;
+}
+
+function getPageBlurb(subStyle){
+    const pageinfo = require('./data/splashpageinfo.json');
+    return pageinfo[subStyle];
 }
 
 function getAllThemes(list){

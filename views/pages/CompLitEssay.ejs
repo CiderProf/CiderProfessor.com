@@ -18,9 +18,15 @@
         <ul class="complit-ciders-list">
             <% for(sa in complit.CidObjs) { %>
                 <% if(complit.CidObjs[sa][1] == complit.Winner) { %>
-                    <li class="winner">🍺 <%= complit.CidObjs[sa][0] %> 🍺</li>
+                    <li class="winner">
+                    <p>🍺 <%= complit.CidObjs[sa][0] %> 🍺</p>
+                    <p>(<%= complit.CidObjs[sa][2] %>)</p>
+                    </li>
                 <% } else { %>
-                    <li><%= complit.CidObjs[sa][0] %></li>
+                    <li>
+                        <p><%= complit.CidObjs[sa][0] %></p>
+                        <p>(<%= complit.CidObjs[sa][2] %>)</p>
+                    </li>
                 <% } %>
             <% } %>
         </ul>
@@ -32,14 +38,14 @@
     </section>
     <section class="complit-info-section">
         <ul class="complit-info-list">
-            <li class="hide">Style: <%= complit.Style %> </li>
+            <li>Style: <%= complit.Style ? complit.Style : 'N/A' %> </li>
             <li>Theme: <%= complit.Theme ? complit.Theme : 'N/A' %> </li>
-            <li>Date Tried: <%= complit.Date %> </li>
+            <li>Date Tried: <%= complit.Date[0] %>,  <%= complit.Date[1] %></li>
         </ul>
         <h3>INDIVIDUAL REVIEWS:</h3>
         <ul class="complit-info-links">
             <% for(sa in complit.CidObjs) { %>
-                <li><a href="/ciderdetail/<%=complit.CidObjs[sa][1]%>"> <%= complit.CidObjs[sa][0] %> </a></li>
+                <li><a href="/ciderdetail/<%=complit.CidObjs[sa][1]%>"> "<%= complit.CidObjs[sa][0] %>"  <%= complit.CidObjs[sa][2] %></a></li>
             <% } %>
         </ul>
     </section>

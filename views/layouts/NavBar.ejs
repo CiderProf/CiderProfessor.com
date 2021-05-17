@@ -50,16 +50,34 @@
         <li class="nav-item" id="complit"><p>Comparitive Lit Reviews</p>
             <ul name="complit" class="complit hide">
                 <li>By Style  ->
+
+                    <!-- if syle is array 
+                    ul with style
+                    foreach substyle
+                    li with sub-style-->
+
+
                     <ul name="litstyle" id="litstyle" class="litstyle hide">
                         <% headerInfo.complitstyle.forEach(style => { %>
-                            <li><%= style %></li>
+                            <% if(typeof style == 'object'){ %>
+                                <li class="style"> <%= style[0] ->%>
+                                    <ul>
+                                        <li></li>
+                                    </ul>
+                                </li>
+                            <%} else {%>
+                                <a href="/litsbystyle/<%=style%>"><li><%= style %></li></a>
+                            <%}%>
+
+
+
                         <% }); %>
                     </ul>
                 </li>
                 <li>By Theme  ->
                     <ul name="theme" id="theme" class="theme hide">
                         <% headerInfo.complittheme.forEach(theme => { %>
-                            <li><%= theme %></li>
+                            <a href="/litsbytheme/<%= theme %>"><li><%= theme %></li></a>
                         <% }); %>
                     </ul>
                 </li>

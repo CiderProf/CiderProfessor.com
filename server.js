@@ -148,7 +148,19 @@ app.get('/complits/:info', (req, res) => {
 
 app.get('/litsbydate', (req, res) => {
     let sorted = complits.sort((a, b) => (a.Date < b.Date) ? 1 : -1);
-    res.render('pages/ListOfLits', {LitsList: sorted, headerInfo});
+    res.render('pages/Complits', {complits: sorted, headerInfo});
+})
+
+app.get('/litsbystyle/:info', (req, res) => {
+    let style = req.params.info;
+    getLitsByStyle(style, complits);
+    // res.render('pages/LitsByStyle', {litstyles: allLitStyle, headerInfo});
+})
+
+app.get('/litsbytheme/:info', (req, res) => {
+    let theme = req.params.info;
+    let litsList = getLitsByTheme(theme, complits);
+    res.render('pages/Complits', {complits: litsList, headerInfo})
 })
 
 
@@ -176,6 +188,7 @@ function getEssay(id, list){
                 let cid = getCider(id, ciderInfo)
                 tempcid.push(cid.Name);
                 tempcid.push(cid.ID);
+                tempcid.push(cid.Cidery)
                 tempobj.CidObjs.push(tempcid);
                 tempobj.CidObjs.sort();
             });
@@ -508,17 +521,18 @@ function getAllThemes(list){
 }
 
 function getLitStyles(list){
-    let stylesArray = loadlitStyles(list);
-    // let styles = loadLitSubstyles(list, stylesArray);
-return stylesArray;
-}
-
-function loadlitStyles(list){
     let litstyles = [];
+    let substyles = []
     for(var lit in list){
         let s = list[lit].Style;
         if(s !== null && typeof s !== 'object' && !litstyles.includes(s)) litstyles.push(s);
-        if(s !== null && typeof s == 'object' && !litstyles.includes(Object.keys(s)[0])) litstyles.push(Object.keys(s)[0]);
+        if(s !== null && typeof s == 'object'){
+            const sty = Object.keys(s)[0];
+            const sub = Object.values(s)[0];
+            //this assumes that no style shares a same named sub-style
+            //make an object with keys of styles and values of array of matching subs
+            console.log(sty, sub)
+        } 
     }
     return litstyles;
 }
@@ -562,3 +576,27 @@ function getLitsByDate(list){
     return dates;
 }
 
+function getLitsByStyle(style, list) {
+    let lits = [];
+    console.log('style', style)
+    for(var lit in list){
+        const ls = list[lit].Style;
+        console.log('ls', ls)
+        if(ls == style){
+            console.log('hit')
+            let tempObj = list[lit];
+        }
+    }
+}
+
+function getLitsByTheme(theme, list){
+    let lits = [];
+    for(var lit in list){
+        const lt = list[lit].Theme;
+        if(lt == theme){
+            let tempObj = list[lit];
+            lits.push(tempObj);
+        }
+    }
+    return lits;
+}

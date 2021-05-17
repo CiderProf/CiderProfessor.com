@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Comparative Liturature Styles</title>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/imgs/favicon.png"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="../app.js"></script>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
-    
+    <%- include('../layouts/NavBar') %>
+    <section class="gradebook-page-header complits">
+        <h1>COMPARATIVE LITURATURE ESSAYS</h1>
+    </section> 
+    <section>
+        <ul class="gradebook-page-list">
+            <% litstyles.forEach(lit => { %>
+                
+                <li><%= lit %></li>
+            
+            <% }); %> 
+        </ul>
+    </section>
+    <%- include('../layouts/Footer') %>
 </body>
 </html>

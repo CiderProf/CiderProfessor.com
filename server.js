@@ -521,22 +521,23 @@ function getAllThemes(list){
 }
 
 function getLitStyles(list){
-    let litstyles = [];
-    let substyles = []
+    let litstyles = {};
     for(var lit in list){
         let s = list[lit].Style;
-        if(s !== null && typeof s !== 'object' && !litstyles.includes(s)) litstyles.push(s);
+        if(s !== null && typeof s !== 'object' && !Object.keys(litstyles).includes(s)) litstyles[s] = null;
         if(s !== null && typeof s == 'object'){
             const sty = Object.keys(s)[0];
             const sub = Object.values(s)[0];
-            //this assumes that no style shares a same named sub-style
-            //make an object with keys of styles and values of array of matching subs
-            console.log(sty, sub)
+            const litstyleSet = Object.keys(litstyles);
+            const litstyleSubSet = litstyles[sty];
+            if(!litstyleSet.includes(sty)) litstyles[sty] = [sub];
+            if(litstyleSet.includes(sty)) litstyles[sty] = !litstyleSubSet.includes(sub) ? [...litstyleSubSet, sub] : litstyles[sty]
         } 
     }
     return litstyles;
 }
 
+//might not need this
 function loadLitSubstyles(list, stylesArray){
 let allstyles = [];
 for(var lit in list){

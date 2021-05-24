@@ -56,7 +56,7 @@
                                 <li class="style"> <%= style %> ->
                                     <ul>
                                         <% for(var sub of headerInfo.complitstyle[style]) { %>
-                                            <li class="sub-style "><%= sub %></li>
+                                            <a href="/litsbystyle/<%=style%>&<%=sub%>"><li class="sub-style "><%= sub %></li></a>
                                         <% } %>
                                     </ul>
                                 </li>

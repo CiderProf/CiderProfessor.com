@@ -18,11 +18,9 @@
     </section> 
     <section>
         <ul class="gradebook-page-list">
-            <% litstyles.forEach(lit => { %>
-                
-                <li><%= lit %></li>
-            
-            <% }); %> 
+            <% for(var lit of Object.keys(litstyles)) { %>
+                <a href="/complits/<%=litstyles[lit].ID%>"><li><%= litstyles[lit].Title %></li></a>
+            <% }; %>
         </ul>
     </section>
     <%- include('../layouts/Footer') %>

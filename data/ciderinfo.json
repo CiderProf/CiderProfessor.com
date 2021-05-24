@@ -3536,7 +3536,7 @@
 		"Grade": "B+",
 		"State_Country": "Washington",
 		"Style": {
-			"Dessert": "Fortified Cider/Pommeau"
+			"Dessert Ciders": "Fortified Cider/Pommeau"
 		},
 		"Mood": "A Sophisticated Night In",
 		"Feedback": "A brilliant sunset burnt peach rosé color. It has an uber rich and smooth nose that smells likes a blend of wine and apples. This is impressive, but cider drinkers beware as this is a liqueur which is closer to an apple Grand Marnier or port wine than it is to a draft cider, and it is certainly not for easy drinking. It is very thick and could be drunk straight for a sophisticated night in by oneself, but it is also ready to be mixed into a cocktail for entertaining. Obviously, it has the high alcohol content, but it is very balanced and smooth for a drink of this type. This is taking your cider drinking to a more mature level.",
@@ -4447,7 +4447,7 @@
 		"Grade": "B+",
 		"State_Country": "Colorado",
 		"Style": {
-			"Stanadrd": "Semi-Sweet"
+			"Standard": "Semi-Sweet"
 		},
 		"Mood": [
 			"Tart n' Tasty",
@@ -5464,7 +5464,7 @@
 		"Grade": "C+",
 		"State_Country": "California",
 		"Style": {
-			"Rosé ": null
+			"Rosé": null
 		},
 		"Mood": null,
 		"Feedback": "Yep, the color is like seeing regular cider through rose-colored glasses. This rosé has a really bright nose with strawberries up front and some acidity from the blackberries and raspberries. There is also clear sugar notes. Wow, it’s pretty sweet, like getting close to strawberry soda levels. It does have a smooth mouthfeel with some sharpness on the tongue, but mostly sweet berries followed by a tart apple taste. I know it is weird for <i>me<i/> to say, but it’s just a bit too sweet and juicy for me. It also has that artificial sugary taste too. While I like bold flavors, this seemed to take everything just one step too far, and for you dry cider drinkers out there, probably two steps too far, so stay away.",
@@ -6715,7 +6715,7 @@
 		"Grade": "B+",
 		"State_Country": "Vermont",
 		"Style": {
-			"Dessert": "Ice Cider"
+			"Dessert Ciders": "Ice Cider"
 		},
 		"Mood": [
 			"A Sophisticated Night In",

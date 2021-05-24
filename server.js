@@ -20,6 +20,7 @@ const allMoods = getAllMoods(ciderInfo);
 const allGrades = getAllGrades(ciderInfo);
 const allLitStyle = getLitStyles(complits);
 const allthemes = getAllThemes(complits);
+const allBlurbs = require('./data/splashpageinfo.json');
 const headerInfo = {ciderHouses: allHouses, 
                   ciderStyles: allStyles,
                   ciderMoods: allMoods,
@@ -56,9 +57,11 @@ app.get('/ciderdetail/:info', (req, res) => {
 
 app.get('/splash/:info', (req, res) => {
     const selection = req.params.info;
-    const blurb = getPageBlurb(selection);
+    //const blurb = getPageBlurb(selection);
     const list = getSubstyles(selection, ciderInfo);
-    res.render('pages/Splash', {blurb: blurb, list: list, style: selection, headerInfo});
+    console.log(selection)
+    console.log(list)
+    //res.render('pages/Splash', {blurb: blurb, list: list, style: selection, headerInfo});
 })
 app.get('/splash/:info1/:info2', (req, res) => { //this handles an edge case where the info contains a '/'
     let s = req.params.info1;
@@ -66,7 +69,8 @@ app.get('/splash/:info1/:info2', (req, res) => { //this handles an edge case whe
 })
 
 app.get('/styles', (req, res) => {
-    res.render('pages/Styles', {ciderStyles: allStyles, headerInfo});
+    let blurbs = allBlurbs;
+    res.render('pages/Styles', {ciderStyles: allStyles, styleBlurbs: blurbs, headerInfo});
 })
 
 app.get('/styles/:info', (req, res) => {
@@ -153,8 +157,21 @@ app.get('/litsbydate', (req, res) => {
 
 app.get('/litsbystyle/:info', (req, res) => {
     let style = req.params.info;
-    getLitsByStyle(style, complits);
-    // res.render('pages/LitsByStyle', {litstyles: allLitStyle, headerInfo});
+    console.log(style)
+    let litsbystyle;
+    if(style.includes('&')){
+        let subStyle = style.slice(style.indexOf("&")+1, style.length);
+        litsbystyle = getLitsBySubstyle(subStyle, complits);
+    }else{
+        litsbystyle = getLitsByStyle(style, complits);
+    };
+    res.render('pages/LitsByStyle', {litstyles: litsbystyle, headerInfo});
+})
+
+app.get('/litsbystyle/:info1/:info2', (req, res) => { //this handles an edge case where the info contains a '/'
+    //let s = req.params.info1;
+    let ss = req.params.info2;
+    res.redirect(`/litsbystyle/${ss}`);
 })
 
 app.get('/litsbytheme/:info', (req, res) => {
@@ -193,7 +210,12 @@ function getEssay(id, list){
                 tempobj.CidObjs.sort();
             });
             tempobj.Date = dateConvert(e.Date);
-            //TODO handle Style array?
+            console.log(e.Style)
+            if(typeof e.Style == 'object' && e.Style !== null ){
+                tempobj.Style = Object.keys(e.Style) + "-" + Object.values(e.Style);
+            } else {
+                tempobj.Style = e.Style;
+            }
             return tempobj;
         }
     }
@@ -239,9 +261,10 @@ function loadStyles(list){
     for(var cider in list){
         let s = list[cider].Style
         for(var x in s){
-            if(!Object.keys(styles).includes(x.keys)) styles[x] = null;
+            if(!Object.keys(styles).includes(x)) styles[x] = null;
         }
     }
+    //console.log(styles)
     return styles;
 }
 
@@ -295,7 +318,6 @@ function getSubstyles(selection, list){
             } else if(subStyle && !subStyles.includes(subStyle)) subStyles.push(subStyle);
         }
     }
-    // console.log(subStyles)
     return subStyles.length > 0 ? subStyles : null;
 }
 
@@ -455,13 +477,11 @@ function getAllDates(list){
 }
 
 function handleDates(dates){
-    console.log(dates)
     let alldates = [];
     const sorteddates = dates.sort((a,b) => (a < b) ? 1 : -1 );
     for (var d in sorteddates){
         alldates.push(dateConvert(sorteddates[d]))
     }
-    // console.log(alldates)
     return alldates;
 }
 
@@ -537,57 +557,34 @@ function getLitStyles(list){
     return litstyles;
 }
 
-//might not need this
-function loadLitSubstyles(list, stylesArray){
-let allstyles = [];
-for(var lit in list){
-    let ls = list[lit].Style;
-        if(ls !== null && typeof ls !== 'object' && !allstyles.includes(ls)){
-            //push to allstyles
-            allstyles.push(ls);
-        }
-        if(ls !== null && typeof ls == 'object'){
-            let key = Object.keys(ls);
-            let val = Object.values(ls);
-            allstyles.some( objkey => {
-                if(typeof objkey == 'object' && Object.keys(objkey) == key[0]){
-                    objkey = [...val]
-                }
-            });
-            // if allstyles has an object with key=ls key, 
-            if(check){
-                // add ls.value to ls.value array
-                console.log('found it', obj);
-            } else {
-                // else push new object with value in array to allstyles
-                let newobj = {[key]: val};
-                allstyles.push(newobj);
-            }
-        }
-    }
-    console.log(allstyles);
-}
-
-function getLitsByDate(list){
-    let dates = [];
-    for (var lit in list){
-        let d = list[lit].Date
-        if(!dates.includes(d)) dates.push(d)
-    }
-    return dates;
-}
-
 function getLitsByStyle(style, list) {
     let lits = [];
-    console.log('style', style)
     for(var lit in list){
         const ls = list[lit].Style;
-        console.log('ls', ls)
         if(ls == style){
-            console.log('hit')
-            let tempObj = list[lit];
+            let tempObj = {};
+            tempObj.Title = list[lit].Title;
+            tempObj.Date = dateConvert(list[lit].Date);
+            tempObj.ID = list[lit].ID;
+            lits.push(tempObj);
         }
     }
+    return lits;
+}
+
+function getLitsBySubstyle(subStyle, list){
+    let lits =[];
+    for(var lit in list){
+        const ls = list[lit].Style;
+        if(typeof ls == 'object' && ls !== null && Object.values(ls) == subStyle){
+            let tempObj = {};
+            tempObj.Title = list[lit].Title;
+            tempObj.Date = dateConvert(list[lit].Date);
+            tempObj.ID = list[lit].ID;
+            lits.push(tempObj);
+        }
+    }
+    return lits;
 }
 
 function getLitsByTheme(theme, list){

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=review.Name%> Review</title>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/imgs/favicon.png"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="../app.js"></script>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+    <%- include('../layouts/NavBar') %>
+    <section class="cider-detail-topsection">
+        <img src="<%=review.MainImg_url%>" class="glassimage">
+        <ul class="cider-detail-topinfo">
+            <li>
+                <h2><%=review.Name%></h2>
+            </li>
+            <li>
+                <p><%=review.City%></p>
+            </li>
+        </ul>
+    </section>
+    <section class="cider-detail-feedback">
+        <p><%=review.Body%></p>
+    </section>
+    <section>
+        <ul class="cider-detail-midinfo">
+                <li>Visited: <%=review.Date[0]%>, <%=review.Date[1]%></li>
+                <li><%=review.ContactAddress%></li>
+                <li><%=review.ContactWebsite%></li>
+        </ul>
+    </section>
+    <section>
+        
+    </section>
+    <%- include('../layouts/Footer') %>
+</body>
+</html>

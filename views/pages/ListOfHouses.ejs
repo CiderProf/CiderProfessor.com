@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cider Houses Reviewed</title>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/imgs/favicon.png"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="../app.js"></script>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+    <%- include('../layouts/NavBar') %>
+    <section class="gradebook-page-header complits">
+        <h1>CIDER HOUSES REVIEWED</h1>
+    </section> 
+    <section>
+        <ul class="gradebook-page-list">
+            <% houses.forEach(house => { %>
+                <li><a href="/ciderhousereviews/<%=house%>"><%=house%></a></li>
+            <%})%>
+        </ul>
+    </section>
+    <%- include('../layouts/Footer') %>
+</body>
+</html>

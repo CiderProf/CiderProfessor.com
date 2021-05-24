@@ -14,6 +14,7 @@ app.listen(PORT, () => console.log(`server up on ${PORT}`));
 
 const ciderInfo = require('./data/ciderinfo.json');
 const complits = require('./data/compLits.json');
+const houseReviews = require('./data/ciderhouses.json');
 const allHouses = getAllHouses(ciderInfo);
 const allStyles = getStyles(ciderInfo);
 const allMoods = getAllMoods(ciderInfo);
@@ -55,18 +56,18 @@ app.get('/ciderdetail/:info', (req, res) => {
     res.render('pages/CiderDetail', {cider: cider, headerInfo});
 })
 
-app.get('/splash/:info', (req, res) => {
-    const selection = req.params.info;
-    //const blurb = getPageBlurb(selection);
-    const list = getSubstyles(selection, ciderInfo);
-    console.log(selection)
-    console.log(list)
-    //res.render('pages/Splash', {blurb: blurb, list: list, style: selection, headerInfo});
-})
-app.get('/splash/:info1/:info2', (req, res) => { //this handles an edge case where the info contains a '/'
-    let s = req.params.info1;
-    res.redirect(`/splash/${s}`);
-})
+// app.get('/splash/:info', (req, res) => {
+//     const selection = req.params.info;
+//     //const blurb = getPageBlurb(selection);
+//     const list = getSubstyles(selection, ciderInfo);
+//     console.log(selection)
+//     console.log(list)
+//     //res.render('pages/Splash', {blurb: blurb, list: list, style: selection, headerInfo});
+// })
+// app.get('/splash/:info1/:info2', (req, res) => { //this handles an edge case where the info contains a '/'
+//     let s = req.params.info1;
+//     res.redirect(`/splash/${s}`);
+// })
 
 app.get('/styles', (req, res) => {
     let blurbs = allBlurbs;
@@ -119,6 +120,17 @@ app.get('/ciderhouses/:info', (req, res) => {
     let house = req.params.info;
     let ch = getCidersByHouse(house, ciderInfo);
     res.render('pages/ListOfCider', {ciderList: ch, headerInfo});
+})
+
+app.get('/ciderhousereviews', (req, res) => {
+    let houses = getCiderHouses(houseReviews)
+    res.render('pages/ListOfHouses', {houses: houses, headerInfo});
+})
+
+app.get('/ciderhousereviews/:info', (req, res) => {
+    let house = req.params.info;
+    let review = getHouseReviewByName(house, houseReviews);
+    res.render('pages/HouseReview', {review: review, headerInfo});
 })
 
 app.get('/names', (req, res) => {
@@ -597,4 +609,18 @@ function getLitsByTheme(theme, list){
         }
     }
     return lits;
+}
+
+function getCiderHouses(list){
+    const houses = list.map(h => h.Name);
+    return houses;
+}
+
+function getHouseReviewByName(house, list){
+    let temp = list.filter( h => h.Name == house);
+    let rev = temp[0];
+    rev.Date = dateConvert(rev.Date);
+    //rev.CidersID get names and IDs for links
+    //rev.CompLitID get names and IDs for links
+    return rev;
 }

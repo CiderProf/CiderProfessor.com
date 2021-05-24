@@ -24,8 +24,6 @@
         <ul>
             <% for(var k in Object.keys(ciderStyles)) { %>
                 <ul>
-                    <!-- a tag that sends object.keys[k] to /splash -->
-                    <!-- <li><a href="/splash/<%=Object.keys(ciderStyles)[k]%>"><%=Object.keys(ciderStyles)[k]%></a></li> -->
                     <a href="/styles/<%=Object.keys(ciderStyles)[k]%>?style=<%=Object.keys(ciderStyles)[k]%>"><li>
                         <h4><%=Object.keys(ciderStyles)[k]%></h4>
                         <p><%=styleBlurbs[Object.keys(ciderStyles)[k]]%></p>

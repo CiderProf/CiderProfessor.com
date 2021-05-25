@@ -56,19 +56,6 @@ app.get('/ciderdetail/:info', (req, res) => {
     res.render('pages/CiderDetail', {cider: cider, headerInfo});
 })
 
-// app.get('/splash/:info', (req, res) => {
-//     const selection = req.params.info;
-//     //const blurb = getPageBlurb(selection);
-//     const list = getSubstyles(selection, ciderInfo);
-//     console.log(selection)
-//     console.log(list)
-//     //res.render('pages/Splash', {blurb: blurb, list: list, style: selection, headerInfo});
-// })
-// app.get('/splash/:info1/:info2', (req, res) => { //this handles an edge case where the info contains a '/'
-//     let s = req.params.info1;
-//     res.redirect(`/splash/${s}`);
-// })
-
 app.get('/styles', (req, res) => {
     let blurbs = allBlurbs;
     res.render('pages/Styles', {ciderStyles: allStyles, styleBlurbs: blurbs, headerInfo});
@@ -85,7 +72,6 @@ app.get('/styles/:info', (req, res) => {
         return res.render('pages/ListOfCider', {ciderList: css, headerInfo});
     }
 })
-
 
 app.get('/grade', (req, res) => {
     res.render('pages/Grades', {ciderGrades: allGrades, headerInfo})
@@ -169,7 +155,6 @@ app.get('/litsbydate', (req, res) => {
 
 app.get('/litsbystyle/:info', (req, res) => {
     let style = req.params.info;
-    console.log(style)
     let litsbystyle;
     if(style.includes('&')){
         let subStyle = style.slice(style.indexOf("&")+1, style.length);
@@ -222,7 +207,6 @@ function getEssay(id, list){
                 tempobj.CidObjs.sort();
             });
             tempobj.Date = dateConvert(e.Date);
-            console.log(e.Style)
             if(typeof e.Style == 'object' && e.Style !== null ){
                 tempobj.Style = Object.keys(e.Style) + "-" + Object.values(e.Style);
             } else {
@@ -276,7 +260,6 @@ function loadStyles(list){
             if(!Object.keys(styles).includes(x)) styles[x] = null;
         }
     }
-    //console.log(styles)
     return styles;
 }
 

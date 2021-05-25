@@ -394,23 +394,23 @@ nav {
 
 /* STYLE.ejs*/
 .by-style {
-    background-image: url('./assets/imgs/My\ Bag_edited_4x3.jpg');
+    background-image: url('https://bn1303files.storage.live.com/y4m-pWZ9nO8_TBhKw3cSsJ1T9siyklHNyVx1zwcjl8IDcKR-8FddZA6FNp7_LbHH6a2GyhoUNdIzj-x_VmGvYUH5YCN0_zfiseZsDCLFCHLEegw2uWb3GJ0v9erbJRYem_Hg8NA8PSq8ui9kD3GDQNZokmB4SB5gC5ygh7fu2mZsEpr4DzzHKoqF178Arm0ib0N?width=5973&height=4480&cropmode=none');
 }
 /* GRADES.ejs */
 .by-grade {
-    background-image: url('./assets/imgs/100_4384_edited_4x3.jpg');
+    background-image: url('https://bn1303files.storage.live.com/y4mVNYTXmny_oxgMm4NuKkjZTX-7ej4SN86_HP2wpG4Jtj1bx1d5hBv5wjXaHRd34aHxtdJksIkV-JYPc9YW4pgCEIw44ID_Gy2-4aKV19omWiA9_umShmfrhykQxR8TYgLyqLMz4tSfX9UCROJ-DhCrh_ubHMLLyvKUA0LRNQuNi1Cw90maSs5pSAKqugY2V59?width=2799&height=2099&cropmode=none');
 }
 /* MOODS.ejs */
 .by-mood {
-    background-image: url('./assets/imgs/Trinity_Lonsdale-edit_4x3.jpg');
+    background-image: url('https://bn1303files.storage.live.com/y4mfiBLHGCzYyFwYT6hhydqy3nJjUglezJwOd_qlXZDtfHJ0PG4CV5KHcNnRCBzex4Y-dRNIlplfHenemfvJsLXGRxRmxWtz_A_xchfeEYBDgcl6vspQv89HOmBsdsIAxDBizTRRGvUPE8iHsALzOytCuu608nyu6PhohgTo_Dtzzgb2n21b0hKXUg7yrw-jCIg?width=3456&height=2592&cropmode=none');
 }
 /* ALLHOUSES.ejs */
 .by-ciderhouse {
-    background-image: url('./assets/imgs/Pitt\ B_edited_4x3.jpg');
+    background-image: url('https://bn1303files.storage.live.com/y4mIktea6QSaiVSgnvOGDzIzHyqLEPTNqjSxTlMdXQ0t7rGY9IH0bSRtkaoqLiifpNLf5N82P876JWZ9PbG4eg54Q1r-xqPt0El1CU0o3swsD9rvsYQKMI9et4HDj6Zi9qROGBJzfDXAyVbw397JGgc3g2ZVsut5qbqMVjFerX_ccTXcw-udDDdu98kQVF0mvmY?width=2128&height=1598&cropmode=none');
 }
 /* COMPLITS.ejs */
 .complits {
-    background-image: url('./assets/imgs/Vinetum Britannicum Cam_edited_4x3.jpg');
+    background-image: url('https://bn1303files.storage.live.com/y4mKzaYoj5Uy0XKc58YxERHbCXzszJjkpT65aoODVo0rBhL6QlfDL1A78b3FvcMOBThShpkKZcQdnDGAO_oeyHVPBioXZbJyq4eceYff_9HYM0UQ8gpyvCJsrKjrRB1FQN-HXXCuroRa4IDXggE4sk9Itj6vjaFs3o2Ce4kliQRC4SeVSEul3kePgoIt0kyZuOl?width=3447&height=2586&cropmode=none');
 }
 .complits h1 {
     font-size: 1.7em;
@@ -419,11 +419,11 @@ nav {
 
 /* ABOUT.ejs */
 .about-prof {
-    background-image: url('./assets/imgs/Close_up_book_edited.jpg');
+    background-image: url('https://bn1303files.storage.live.com/y4mRvtGigtmT8QFycuKUlRHa5S1CZd-ggBeaLrvcJNWshtWcje1HCRTA-yXRBTArvbTehJMSxdgr0tg9ZFLz0bJlRJodPd7Xifa7gdLJ1PLefuwetB_3iGQNQEFlrtVVSoZDXpokCctvrjWTU6sbPPBLIlbu_TcBR6B1db_SXAYEtUFaIncV2IxyhHilubRn9f3?width=3448&height=2396&cropmode=none');
 }
 /* Philosophy.ejs */
 .my-philosophy {
-    background-image: url('./assets/imgs/books.jpg');
+    background-image: url('https://bn1303files.storage.live.com/y4meUsBikMtWCw1DE_xSSsUv2VJJ6Lm_EYzyCy6vAUq2GL_nZ0fVN9AE9cz4I1xEs0sVVJNqNN-IvV3SEWYVSIJynsfIsMu9TTJ9fuzeRwtx71EPVNESoWu1XxE44gd5TrBruBZMJ5ddSJT0vA3prSBxZrOaHrElPv3D5n7KW1UkPPBN8uNt7xMnecMKyeQ7q9b?width=1055&height=694&cropmode=none');
     background-position: top;
 }
 

@@ -119,12 +119,12 @@ app.get('/ciderhousereviews/:info', (req, res) => {
     res.render('pages/HouseReview', {review: review, headerInfo});
 })
 
-app.get('/names', (req, res) => {
-    let names = getAllNames(ciderInfo);
-    let sortednames = names.sort();
-    //TODO deal with >1 ciders with same name
-    res.render('pages/AllNames', {allnames: sortednames, headerInfo});
-})
+// app.get('/names', (req, res) => {
+//     let names = getAllNames(ciderInfo);
+//     let sortednames = names.sort();
+//     //TODO deal with >1 ciders with same name
+//     res.render('pages/AllNames', {allnames: sortednames, headerInfo});
+// })
 
 app.get('/dates', (req, res) => {
     let dates = getAllDates(ciderInfo);
@@ -334,12 +334,8 @@ function getAllMoods(list){
 }
 
 function getAllGrades(list){
-    let temp = [];
-    for(var cider in list){
-        let g = ciderInfo[cider].Grade;
-        if(!temp.includes(g)) temp.push(g);        
-    }
-    return temp.sort();
+    const temp = list.map( cider => cider.Grade).sort();
+    return [... new Set(temp)]
 }
 
 function getCidersByStyle(style, list){
@@ -453,22 +449,20 @@ function getCidersByGrade(grade, list){
     return tempArr;
 }
 
-function getAllNames(list){
-    let names = [];
-    for (var cider in list){
-        let n = list[cider].Name
-        if(!names.includes(n)) names.push(n);
-    }
-    return names;
-}
+// function getAllNames(list){
+//     let names = [];
+//     // for (var cider in list){
+//     //     let n = list[cider].Name
+//     //     if(!names.includes(n)) names.push(n);
+//     // }
+//     names = list.map( cider => cider.Name)
+//     console.log(names)
+//     return names;
+// }
 
 function getAllDates(list){
-    let dates = [];
-    for (var cider in list){
-        let d = list[cider].Date_Tried
-        if(!dates.includes(d)) dates.push(d)
-    }
-    return dates;
+    let dates = list.map( cider => cider.Date_Tried);
+    return [...new Set(dates)];
 }
 
 function handleDates(dates){
@@ -527,12 +521,7 @@ function getPageBlurb(subStyle){
 }
 
 function getAllThemes(list){
-    let tempArr = [];
-    for(var lit in list){
-        let t = complits[lit].Theme;
-        if(!tempArr.includes(t)) tempArr.push(t);
-    }
-    return tempArr;
+    return list.map(lit => lit.Theme)
 }
 
 function getLitStyles(list){
@@ -583,20 +572,11 @@ function getLitsBySubstyle(subStyle, list){
 }
 
 function getLitsByTheme(theme, list){
-    let lits = [];
-    for(var lit in list){
-        const lt = list[lit].Theme;
-        if(lt == theme){
-            let tempObj = list[lit];
-            lits.push(tempObj);
-        }
-    }
-    return lits;
+    return list.filter( lit => lit.Theme == theme);
 }
 
 function getCiderHouses(list){
-    const houses = list.map(h => h.Name);
-    return houses;
+    return list.map(h => h.Name);
 }
 
 function getHouseReviewByName(house, list){

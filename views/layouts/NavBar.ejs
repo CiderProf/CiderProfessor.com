@@ -50,18 +50,18 @@
         <li class="nav-item" id="complit"><p>Comparitive Lit Reviews</p>
             <ul name="complit" class="complit hide">
                 <li>By Style  ->
-                    <ul name="litstyle" id="litstyle" class="litstyle hide">
+                    <ul name="litstyle" id="litstyle" class="hide">
                         <% for(var style of Object.keys(headerInfo.complitstyle)) { %>
                             <% if(headerInfo.complitstyle[style] !== null){ %>
-                                <li class="style"> <%= style %> ->
+                                <li class="litstyle"> <%= style %> ->
                                     <ul>
                                         <% for(var sub of headerInfo.complitstyle[style]) { %>
-                                            <a href="/litsbystyle/<%=style%>&<%=sub%>"><li class="sub-style "><%= sub %></li></a>
+                                            <li class="sub-style hide"><a href="/litsbystyle/<%=style%>&<%=sub%>"><%= sub %></a></li>
                                         <% } %>
                                     </ul>
                                 </li>
                             <% } else { %>
-                                <a href="/litsbystyle/<%=style%>"><li><%= style %></li></a>
+                                <li><a href="/litsbystyle/<%=style%>"><%= style %></a></li>
                             <% } %>
                         <% }; %> 
                     </ul>

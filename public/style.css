@@ -375,6 +375,7 @@ nav {
     font-family: 'AgencyFB-BoldCondensed';
     font-size: 1.5em;
     padding: 10px 0 10px 8vw;
+    min-height: calc(75vh - 70px);
 }
 .gradebook-page-list :any-link{
     color: #002b49;
@@ -390,6 +391,10 @@ nav {
     font-family: 'AgencyFB-BoldCondensed';
     font-size: 1.5em;
     padding: 15px 5vw;
+}
+
+.blurb-link a:link, .blurb-link a:visited {
+    color: #F1C400;
 }
 
 /* STYLE.ejs*/
@@ -610,7 +615,7 @@ footer {
     font-family: 'RomanAntique';
     padding-bottom: 5px;
 }
-#footer li:any-link {
+#footer li a:link, #footer li a:visited {
     color: #F1C400;
 }
 
@@ -844,6 +849,10 @@ footer {
         height: fit-content;
         overflow: hidden;
     }
+    #litstyle ul {
+        overflow: hidden;
+        width: fit-content;
+    }
     #theme {
         height: fit-content;
         overflow: hidden;
@@ -898,7 +907,7 @@ footer {
     #ciderlistsection {
         margin-top: calc(78px + 1.5em);
         /* 77px is from the footer */
-        min-height: calc(100vh - 80px - 61px);  
+        min-height: calc(100vh - 137px);  
         padding-top: 0;
     }
 

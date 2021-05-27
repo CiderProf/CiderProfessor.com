@@ -36,6 +36,11 @@ $("#complit ul").click( function(e){
   $(this).toggleClass("hide");
 });
 
+$(".litstyle").click( function() {
+  $(this).find(".sub-style").toggleClass("hide");
+  $(this).parent().toggleClass("hide");
+})
+
 $("#cidreviews").click( function() {
   $(".cidreviews").toggleClass("hide");
 });

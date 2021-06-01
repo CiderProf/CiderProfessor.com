@@ -18,7 +18,7 @@ const houseReviews = require('./data/ciderhouses.json');
 const allHouses = getAllHouses(ciderInfo);
 const allStyles = getStyles(ciderInfo);
 const allMoods = getAllMoods(ciderInfo);
-const allGrades = getAllGrades(ciderInfo);
+// const allGrades = getAllGrades(ciderInfo);
 const allLitStyle = getLitStyles(complits);
 const allthemes = getAllThemes(complits);
 const allBlurbs = require('./data/splashpageinfo.json');
@@ -53,6 +53,8 @@ app.get('/sortby/:info', (req, res) => {
 app.get('/ciderdetail/:info', (req, res) => {
     const id = parseInt(req.params.info);
     const cider = getCider(id, ciderInfo);
+    //check for complit
+    //send complit [title and id]
     res.render('pages/CiderDetail', {cider: cider, headerInfo});
 })
 
@@ -73,18 +75,19 @@ app.get('/styles/:info', (req, res) => {
     }
 })
 
-app.get('/grade', (req, res) => {
-    res.render('pages/Grades', {ciderGrades: allGrades, headerInfo})
-})
+// app.get('/grade', (req, res) => {
+//     res.render('pages/Grades', {ciderGrades: allGrades, headerInfo})
+// })
 
-app.get('/grade/:info', (req, res) => {
-    const grade = req.params.info;
-    let g = getCidersByGrade(grade, ciderInfo);
-    res.render('pages/ListOfCider', {ciderList: g, headerInfo});
-})
+// app.get('/grade/:info', (req, res) => {
+//     const grade = req.params.info;
+//     let g = getCidersByGrade(grade, ciderInfo);
+//     res.render('pages/ListOfCider', {ciderList: g, headerInfo});
+// })
 
 app.get('/moods', (req, res) => {
-    res.render('pages/Moods', {ciderMoods: allMoods, headerInfo});
+    const sortedMoods = allMoods.sort()
+    res.render('pages/Moods', {ciderMoods: sortedMoods, headerInfo});
 })
 
 app.get('/moods/:info', (req, res) => {
@@ -126,17 +129,17 @@ app.get('/ciderhousereviews/:info', (req, res) => {
 //     res.render('pages/AllNames', {allnames: sortednames, headerInfo});
 // })
 
-app.get('/dates', (req, res) => {
-    let dates = getAllDates(ciderInfo);
-    let alldates = handleDates(dates)
-    res.render('pages/AllDates', {allDates: alldates, headerInfo});
-})
+// app.get('/dates', (req, res) => {
+//     let dates = getAllDates(ciderInfo);
+//     let alldates = handleDates(dates)
+//     res.render('pages/AllDates', {allDates: alldates, headerInfo});
+// })
 
-app.get('/dates/:info', (req, res) => {
-    const date = req.params.info;
-    let cd = getCidersByDate(date, ciderInfo);
-    res.render('pages/ListOfCider', {ciderList: cd, headerInfo});
-})
+// app.get('/dates/:info', (req, res) => {
+//     const date = req.params.info;
+//     let cd = getCidersByDate(date, ciderInfo);
+//     res.render('pages/ListOfCider', {ciderList: cd, headerInfo});
+// })
 
 app.get('/complits', (req, res) => {
     res.render('pages/CompLits', {complits: complits, headerInfo});
@@ -184,6 +187,7 @@ function getCider(id, list){
     for(var cider in list){
         let i = ciderInfo[cider];
         if(i.ID == id){
+            console.log("date tried", i.Date_Tried);
             i.Date_Tried = dateConvert(i.Date_Tried);
             return i;
         }
@@ -460,25 +464,25 @@ function getCidersByGrade(grade, list){
 //     return names;
 // }
 
-function getAllDates(list){
-    let dates = list.map( cider => cider.Date_Tried);
-    return [...new Set(dates)];
-}
+// function getAllDates(list){
+//     let dates = list.map( cider => cider.Date_Tried);
+//     return [...new Set(dates)];
+// }
 
-function handleDates(dates){
-    let alldates = [];
-    const sorteddates = dates.sort((a,b) => (a < b) ? 1 : -1 );
-    for (var d in sorteddates){
-        alldates.push(dateConvert(sorteddates[d]))
-    }
-    return alldates;
-}
+// function handleDates(dates){
+//     let alldates = [];
+//     const sorteddates = dates.sort((a,b) => (a < b) ? 1 : -1 );
+//     for (var d in sorteddates){
+//         alldates.push(dateConvert(sorteddates[d]))
+//     }
+//     return alldates;
+// }
 
 function dateConvert(date){
     //201805 => ['Jun', '2018', 201805]
-    let tempArr = [];
     const d = date.toString();
     if(d.length < 6) return null;
+    if(typeof date == 'object') return date;
     let yr = '';
     let mo = '';
     for(let i=0; i<d.length; i++){
@@ -521,7 +525,8 @@ function getPageBlurb(subStyle){
 }
 
 function getAllThemes(list){
-    return list.map(lit => lit.Theme)
+    let themes = list.map(lit => lit.Theme);
+    return [...new Set(themes)];
 }
 
 function getLitStyles(list){

@@ -25,7 +25,7 @@
                         <%};%>
                     </ul>
                 </li>  <!---flyout-->
-                <li><a href="/grade">By Grade</a></li> <!---a tag-->
+                <li><a href="/sortby/Score">By Grade</a></li> <!---a tag-->
                 <li>By Mood  ->
                     <ul name="mood" id="mood" class="mood hide">
                         <% headerInfo.ciderMoods.forEach(mood => { %>
@@ -42,7 +42,7 @@
                 </li> <!---flyout-->
                 <li><a href="/ciderhouses">By Cider House</a></li>  <!---a tag-->
                 <li><a href="/sortby/Name">By Name</a></li> <!---a tag-->
-                <li><a href="/dates">By Date</a></li> <!---a tag-->
+                <li><a href="/sortby/Date_Tried">By Date</a></li> <!---a tag-->
             </ul>
         </li>
         <li class="nav-item" id="gradphil"><p><a href="/philosophy">Grading Philosophy</a></p></li>
@@ -73,7 +73,7 @@
                         <% }); %>
                     </ul>
                 </li>
-                <li><a href="/litsbydate"> Date </a></li>
+                <li><a href="/litsbydate">By Date </a></li>
             </ul>
         </li>
         <li class="nav-item" id="cidreviews"><p>Ciderhouse Reviews</p>

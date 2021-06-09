@@ -30,6 +30,7 @@
 
 body {
     width: 100%;
+    /* height: 100vh; */
 }
 
 a {
@@ -46,9 +47,9 @@ a:visited {
 /* HEADER */
 header {
     width: 100%;
-    height: calc(66.75vw + 37px);
+    height: 33vh;
     position: relative;
-    margin-top: 55px;
+    margin-top: 8.5vh;
 }
 .hero-overlay {
     position: absolute;
@@ -64,25 +65,26 @@ header {
     background: linear-gradient( rgba(0, 43, 73, 1), rgba(0, 43, 73, .8), rgba(0, 43, 73, 0));
     color: #F1C400;
     font-size: 1em;
-    line-height: 2.5em;
+    line-height: 5.5vh;
 }
 .hero-overlay h2 {
     width: 100%;
+    height: 5.5vh;
     position: absolute;
     bottom: 0;
     background-color: #002b49;
     color: #F1C400;
     font-size: .8em;
-    line-height: 2.5em;
+    line-height: 5.5vh;
 }
 
 .hero-img {
     display: block;
     position: fixed;
-    top: 55px;
+    top: 7vh;
     margin:  auto;
     z-index: -1;
-    width: 100%;
+    width: 100vw;
     height: auto;
 }
 
@@ -91,36 +93,36 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 55px;
+    height: 8.5vh;
     background-color: #002b49;
     z-index: 3;
 }
 
 .menu-icon-wrapper {
     width: 55px;
-    height: 55px;
+    height: 8.5vh;
     /* background-image: url('./assets/imgs/menu.svg');
     background-repeat: no-repeat;
     background-size: cover; */
 }
 
 .menu-icon {
-    width: 40px;
-    height: 40px;
+    width: 7vh;
+    height: 7vh;
     margin: 7px 15px 0 15px;
     /* margin-left: 15px; */
 }
 
 .app-icon-wrapper {
-    width: 55px;
-    height: 55px;
+    width: 8.5vh;
+    height: 8.5vh;
     position: fixed;
     top: 0px;
-    left: calc(50% - 27.5px);
+    left: calc(50% - 4vh);
 }
 .app-icon {
-    width: 55px;
-    height: 55px;
+    width: 8.5vh;
+    height: 8.5vh;
 }
 
 .nav-list {
@@ -132,6 +134,16 @@ nav {
     font-family: 'AgencyFB-BoldCondensed';
     font-size: 1.5em;
     overflow: scroll;
+    border-radius: 0 10px 10px 0;
+}
+
+.nav-item, .nav-item li {
+    font-size: 38px;
+    line-height: 50px;
+    border: #CCE2EE 3px solid;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
 }
 
 .nav-item :any-link {
@@ -139,9 +151,13 @@ nav {
 }
 
 .nav-item ul {
-    margin-left: 10vw;
+    margin-left: 3vw;
     overflow: scroll;
 }
+/* 
+.nav-item li {
+    border: 3px #CCE2EE solid;
+} */
 
 /* MAIN PAGE */
 
@@ -161,7 +177,8 @@ nav {
 }
 
 .gradebookboxes {
-    width: 100%;
+    width: 100vw;
+    padding: 1vh 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -170,10 +187,11 @@ nav {
 }
 
 .gradebookboxes li {
-    min-width: 300px;
-    min-height: 200px;
-    margin: 10px 0;
+    min-width: 85vw;
+    min-height: 75vw;
+    margin: 10px;
     background-color: #002b49;
+    border-radius: 10px;
 }
 
 .gradebookboxes li:last-child {
@@ -189,9 +207,10 @@ nav {
     
 }
 .gradebookwrapper img{
-    width: 96vw;
-    height: 100%;
+    width: 85vw;
+    height: 65vw;
     opacity: 50%;
+    border-radius: 10px;
 }
 .gradebookwrapper p {
     position: absolute;
@@ -351,7 +370,7 @@ nav {
 /* GRADEBOOK PAGES */
 
 .gradebook-page-header {
-    padding-top: 55px;
+    margin-top: 4vh;
     width: 100%;
     height: 15vh;
     background-color: #002b49;
@@ -375,7 +394,7 @@ nav {
     font-family: 'AgencyFB-BoldCondensed';
     font-size: 1.5em;
     padding: 10px 0 10px 8vw;
-    min-height: calc(75vh - 70px);
+    min-height: calc(71vh - 11vh);
 }
 .gradebook-page-list :any-link{
     color: #002b49;
@@ -417,9 +436,9 @@ nav {
 .complits {
     background-image: url('https://bn1303files.storage.live.com/y4mKzaYoj5Uy0XKc58YxERHbCXzszJjkpT65aoODVo0rBhL6QlfDL1A78b3FvcMOBThShpkKZcQdnDGAO_oeyHVPBioXZbJyq4eceYff_9HYM0UQ8gpyvCJsrKjrRB1FQN-HXXCuroRa4IDXggE4sk9Itj6vjaFs3o2Ce4kliQRC4SeVSEul3kePgoIt0kyZuOl?width=3447&height=2586&cropmode=none');
 }
-.complits h1 {
+.complits h1, .by-ciderhouse h1 {
     font-size: 1.7em;
-    line-height: 1.7em;
+    line-height: 3.5em;
 }
 
 /* ABOUT.ejs */
@@ -606,6 +625,7 @@ footer {
     background-color: #002b49;
     padding: 0;
     padding-top: 15px;
+    height: 10vh;
 }
 
 #footer li {
@@ -639,6 +659,7 @@ footer {
     .gradebooksection {
         /* background-color: white; */
         background-color: #F1F1F1;
+        width: 100vw;
     }
     .gradebooksection h2{
         background-color: #F1F1F1;
@@ -648,12 +669,14 @@ footer {
     }
     .gradebookboxes {
         background-color: #F1F1F1;
-        width: 100%;
+        width: 100vw;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-
+    }
+    .gradebookboxes li {
+        max-width: 21vw;
     }
     .gradebookboxes li:nth-last-child(2) {
         margin-bottom: 20px;
@@ -742,6 +765,7 @@ footer {
     }
 
     .nav-item {
+        border: none;
         text-align: center;
         width: 22%;
     }
@@ -889,28 +913,32 @@ footer {
         overflow: hidden;
     }
 
-    /* .gradebookboxes {
-        width: 100%;
+    .gradebooksection {
+        max-width: 100vw;
+    }
+    .gradebookboxes {
+        width: 100vw;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
     }
 
+    .gradebookboxes li {
+        max-width: 21vw;
+    }
     .gradebookboxes li:nth-last-child(2) {
         margin-bottom: 20px;
     }
-    /* .gradebookwrapper img{
-        width: 98vw;
-        max-width: 350px;
-    } */ 
+
+
+
     #ciderlistsection {
         margin-top: calc(78px + 1.5em);
         /* 77px is from the footer */
-        min-height: calc(100vh - 137px);  
+        min-height: calc(100vh - 11vh);  
         padding-top: 0;
     }
-
 
     .listheader {
         position: fixed;

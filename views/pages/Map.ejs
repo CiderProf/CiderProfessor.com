@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cider Professor Map</title>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/imgs/favicon.png"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="../app.js"></script>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../map.css" />
+</head>
+<body>
+    <%- include('../layouts/NavBar') %>
+    <section class="gradebook-page-header by-geography">
+        <h1>BY MOOD</h1>
+    </section>
+    <section class="gradebook-page-blurb">
+        <p>Cider enthusiasts often brag that there is a cider for every occasion. Taking this seriously, I have developed a classification system that will hopefully help guide you to the right cider depending on your mood. After all, drinking is largely experiential and one’s emotional and physical context should absolutely influence what they ought to drink. My list includes all the possible moods and moments one might want to drink a cider. Yes, it is a bit arbitrary, and yes, you could probably add a few of your own, but hopefully this gives you a better sense of when one might want to drink a particular cider and maybe even be a helpful category for finding ciders you love. 
+        </p>
+    </section>
+    <section>
+        <ul class="gradebook-page-list">
+            <!-- <% for(var k in ciderMoods) { %>            
+                    <li><a href="#"><%=ciderMoods[k]%></a></li>
+            <%};%> -->
+        </ul>
+    </section>
+    <%- include('../layouts/Footer') %>
+</body>
+</html>

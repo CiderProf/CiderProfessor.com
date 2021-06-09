@@ -5,6 +5,7 @@ const app = express();
 require('dotenv').config();
 
 const PORT = process.env.PORT || 3000;
+const url = process.env.MAPURL;
 
 app.set('view engine', 'ejs');
 app.use(express.static('./public'));
@@ -112,8 +113,14 @@ app.get('/ciderhouses/:info', (req, res) => {
 })
 
 app.get('/ciderhousereviews', (req, res) => {
-    let houses = getCiderHouses(houseReviews)
+    let houses = getCiderHouses(houseReviews);
     res.render('pages/ListOfHouses', {houses: houses, headerInfo});
+})
+
+app.get('/housereviewsbystate', (req, res) => {
+    // let houses = getCiderHouses(houseReviews);
+    let sorted = sortHousesbySate(houseReviews);
+    res.render('pages/HouseByState', {houses: sorted, headerInfo});
 })
 
 app.get('/ciderhousereviews/:info', (req, res) => {
@@ -180,6 +187,9 @@ app.get('/litsbytheme/:info', (req, res) => {
     res.render('pages/Complits', {complits: litsList, headerInfo})
 })
 
+app.get('/map', (req, res) => {
+    res.render('pages/Map', {headerInfo, url: url});
+})
 
 //-----------------HELPER FUNCTIONS-------------//
 
@@ -519,10 +529,10 @@ function getCidersByDate(date, list){
     return tempArr;
 }
 
-function getPageBlurb(subStyle){
-    const pageinfo = require('./data/splashpageinfo.json');
-    return pageinfo[subStyle];
-}
+// function getPageBlurb(subStyle){
+//     const pageinfo = require('./data/splashpageinfo.json');
+//     return pageinfo[subStyle];
+// }
 
 function getAllThemes(list){
     let themes = list.map(lit => lit.Theme);
@@ -582,6 +592,22 @@ function getLitsByTheme(theme, list){
 
 function getCiderHouses(list){
     return list.map(h => h.Name);
+}
+
+function sortHousesbySate(list){
+    let temp = {};
+    for( var house in list){
+        const state = list[house].City[1];
+        const name = list[house].Name;
+        if(Object.keys(temp).includes(state)){
+            !temp[state].includes(name) ? temp[state].push(name) : [...temp[state]];
+        }
+        if(!Object.keys(temp).includes(state)){
+
+            temp[state] = [name];
+        }
+    }
+    return temp;
 }
 
 function getHouseReviewByName(house, list){

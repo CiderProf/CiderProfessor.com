@@ -25,7 +25,6 @@ const allStyles = getStyles(ciderInfo);
 const allMoods = getAllMoods(ciderInfo);
 const allCountries = getAllCiderCountries(ciderInfo);
 const allStates = getAllCiderStates(ciderInfo);
-// const allGrades = getAllGrades(ciderInfo);
 const allLitStyle = getLitStyles(complits);
 const allthemes = getAllThemes(complits);
 const allBlurbs = require('./data/splashpageinfo.json');
@@ -84,16 +83,6 @@ app.get('/styles/:info', (req, res) => {
     }
 })
 
-// app.get('/grade', (req, res) => {
-//     res.render('pages/Grades', {ciderGrades: allGrades, headerInfo})
-// })
-
-// app.get('/grade/:info', (req, res) => {
-//     const grade = req.params.info;
-//     let g = getCidersByGrade(grade, ciderInfo);
-//     res.render('pages/ListOfCider', {ciderList: g, headerInfo});
-// })
-
 app.get('/moods', (req, res) => {
     const sortedMoods = allMoods.sort()
     res.render('pages/Moods', {ciderMoods: sortedMoods, headerInfo});
@@ -131,11 +120,6 @@ app.get('/ciderlocations/:info', (req, res) => {
     let sorted = ciders.sort((a, b) => (a.Score < b.Score) ? 1 : -1);
     res.render('pages/ListOfCider', {ciderList: sorted, headerInfo});
 })
-
-// app.get('/ciderstates/:info', (req, res) => {
-//     let state = req.params.info;
-//     let ciders = get
-// })
 
 app.get('/housereviewsbystate', (req, res) => {
     let sorted = sortHousesReviewedbySate(houseReviews);
@@ -244,15 +228,8 @@ function getCidersByHouse(house, list){
     for(var cider in list){
         let tempObj = {};
         if(ciderInfo[cider].Cidery == house){
-            const c = ciderInfo[cider];
-            tempObj.Name = c.Name;
-            tempObj.Cidery = c.Cidery;
-            tempObj.Grade = c.Grade;
-            tempObj.Score = c.Score;
-            tempObj.Location = c.State_Country;
-            tempObj.ABV = c.ABV;
-            tempObj.LogoURL= c.LogoURL
-            tempObj.ID = c.ID
+            tempObj = ciderInfo[cider];
+            tempObj.Date_Tried = dateConvert(tempObj.Date_Tried);
             tempArr.push(tempObj);
         }
     }
@@ -304,29 +281,8 @@ function loadSubStyles(list, styleObject){
                 }
             }
         }
-        
     }
     return subStyles;
-}
-
-function getSubstyles(selection, list){
-    let subStyles = [];
-    for (var cider in list){
-        const style = list[cider].Style;
-        const key = Object.keys(style)
-        if(style && key == selection){
-            const subStyle = style[key];
-            // check if aray
-            if(subStyle && typeof subStyle == 'object'){
-                subStyle.forEach(subValue => {
-                    // add to list
-                    if(!subStyles.includes(subValue)) subStyles.push(subValue);
-                });
-                // add to list
-            } else if(subStyle && !subStyles.includes(subStyle)) subStyles.push(subStyle);
-        }
-    }
-    return subStyles.length > 0 ? subStyles : null;
 }
 
 function getAllMoods(list){
@@ -346,25 +302,12 @@ function getAllMoods(list){
     return moods;
 }
 
-function getAllGrades(list){
-    const temp = list.map( cider => cider.Grade).sort();
-    return [... new Set(temp)]
-}
-
 function getCidersByStyle(style, list){
     let tempArr = [];
     for(var cider in list){
         let tempObj = {};
         if(Object.keys(ciderInfo[cider].Style).includes(style)){
-            const c = ciderInfo[cider];
-            tempObj.Name = c.Name;
-            tempObj.Cidery = c.Cidery;
-            tempObj.Grade = c.Grade;
-            tempObj.Score = c.Score;
-            tempObj.Location = c.State_Country;
-            tempObj.ABV = c.ABV;
-            tempObj.LogoURL= c.LogoURL
-            tempObj.ID = c.ID
+            tempObj = ciderInfo[cider];
             tempObj.Date_Tried = dateConvert(c.Date_Tried);
             tempArr.push(tempObj);
         }
@@ -377,18 +320,9 @@ function getCidersBySubStyle(subStyle, style, list){
     for(var cider in list){
         let tempObj = {};
         let cs = ciderInfo[cider].Style;
-        //if ciderInfo[cider].Style is object
         if(Object.keys(cs).includes(style)){
             if(Object.values(cs).includes(subStyle)){
-                const c = ciderInfo[cider];
-                tempObj.Name = c.Name;
-                tempObj.Cidery = c.Cidery;
-                tempObj.Grade = c.Grade;
-                tempObj.Score = c.Score;
-                tempObj.Location = c.State_Country;
-                tempObj.ABV = c.ABV;
-                tempObj.LogoURL= c.LogoURL
-                tempObj.ID = c.ID
+                tempObj = ciderInfo[cider];
                 tempObj.Date_Tried = dateConvert(c.Date_Tried);
                 tempArr.push(tempObj);
             }
@@ -405,87 +339,21 @@ function getCidersByMood(mood, list){
         if(typeof(cm) == 'object' && cm != null){
             for(let i = 0; i < cm.length; i ++){
                 if(cm[i] == mood){
-                    const c = ciderInfo[cider];
-                    tempObj.Name = c.Name;
-                    tempObj.Cidery = c.Cidery;
-                    tempObj.Grade = c.Grade;
-                    tempObj.Score = c.Score;
-                    tempObj.Location = c.State_Country;
-                    tempObj.ABV = c.ABV;
-                    tempObj.LogoURL= c.LogoURL
-                    tempObj.ID = c.ID
+                    tempObj = ciderInfo[cider];
                     tempObj.Date_Tried = dateConvert(c.Date_Tried);
                     tempArr.push(tempObj);
-                    tempObj = {};
-                    }
+                }
             }
         } else{
             if(cm == mood){
-                const c = ciderInfo[cider];
-                tempObj.Name = c.Name;
-                tempObj.Cidery = c.Cidery;
-                tempObj.Grade = c.Grade;
-                tempObj.Score = c.Score;
-                tempObj.Location = c.State_Country;
-                tempObj.ABV = c.ABV;
-                tempObj.LogoURL= c.LogoURL
-                tempObj.ID = c.ID
+                tempObj = ciderInfo[cider];
                 tempObj.Date_Tried = dateConvert(c.Date_Tried);
                 tempArr.push(tempObj);
-                tempObj = {};
             }
         }
     }
     return tempArr;
 }
-
-// function getCidersByGrade(grade, list){
-//     let tempArr = [];
-//     for(var cider in list){
-//         let tempObj = {};
-//         if(ciderInfo[cider].Grade == grade){
-//             const c = ciderInfo[cider];
-//             tempObj.Name = c.Name;
-//             tempObj.Cidery = c.Cidery;
-//             tempObj.Grade = c.Grade;
-//             tempObj.Score = c.Score;
-//             tempObj.Location = c.State_Country;
-//             tempObj.ABV = c.ABV;
-//             tempObj.LogoURL= c.LogoURL
-//             tempObj.ID = c.ID
-//             tempObj.Date_Tried = dateConvert(c.Date_Tried);
-//             tempArr.push(tempObj);
-//         }
-//     }
-//     //sort by score then name
-//     tempArr.sort((a,b) => (a.Score < b.Score) ? 1 : (a.Score === b.Score) ? ((a.Name > b.Name) ? 1 : -1) : -1 );
-//     return tempArr;
-// }
-
-// function getAllNames(list){
-//     let names = [];
-//     // for (var cider in list){
-//     //     let n = list[cider].Name
-//     //     if(!names.includes(n)) names.push(n);
-//     // }
-//     names = list.map( cider => cider.Name)
-//     console.log(names)
-//     return names;
-// }
-
-// function getAllDates(list){
-//     let dates = list.map( cider => cider.Date_Tried);
-//     return [...new Set(dates)];
-// }
-
-// function handleDates(dates){
-//     let alldates = [];
-//     const sorteddates = dates.sort((a,b) => (a < b) ? 1 : -1 );
-//     for (var d in sorteddates){
-//         alldates.push(dateConvert(sorteddates[d]))
-//     }
-//     return alldates;
-// }
 
 function dateConvert(date){
     //201805 => ['Jun', '2018', 201805]
@@ -505,28 +373,6 @@ function dateConvert(date){
     sDate.push(date);
     return sDate;
 }
-
-// function getCidersByDate(date, list){
-//     let tempArr = [];
-//     for(var cider in list){
-//         let tempObj = {};
-//         const iDate = parseInt(ciderInfo[cider].Date_Tried);
-//         if(iDate == date){
-//             const c = ciderInfo[cider];
-//             tempObj.Name = c.Name;
-//             tempObj.Cidery = c.Cidery;
-//             tempObj.Grade = c.Grade;
-//             tempObj.Score = c.Score;
-//             tempObj.Location = c.State_Country;
-//             tempObj.ABV = c.ABV;
-//             tempObj.LogoURL= c.LogoURL
-//             tempObj.ID = c.ID
-//             tempObj.Date_Tried = dateConvert(c.Date_Tried);
-//             tempArr.push(tempObj);
-//         }
-//     }
-//     return tempArr;
-// }
 
 function getCidersByCountry(country, list){
     let tempArr = [];
@@ -559,11 +405,6 @@ function getAllCiderStates(list){
     }
     return states.sort();
 }
-
-// function getPageBlurb(subStyle){
-//     const pageinfo = require('./data/splashpageinfo.json');
-//     return pageinfo[subStyle];
-// }
 
 function getAllThemes(list){
     let themes = list.map(lit => lit.Theme);

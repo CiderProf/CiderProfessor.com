@@ -35,9 +35,21 @@
                     </li>  <!---flyout-->
                 <li>By Geography  ->
                     <ul name="geography" id="geography" class="geography hide">
-                        <li>By Country</li><!---a tag-->
-                        <li>By State</li><!---a tag-->
-                        <li>By Map</li><!---a tag-->
+                        <li class="state">By State ->
+                            <ul>
+                                <% for(var state of Object.keys(headerInfo.ciderStates)) { %>
+                                    <li class="state-item hide"><a href="/ciderlocations/<%=headerInfo.ciderStates[state]%>"><%= headerInfo.ciderStates[state] %></a></li>
+                                <%};%>
+                            </ul>
+                        </li><!---a tag-->
+                        <li class="state">By Country ->
+                            <ul>
+                                <% for(var country of Object.keys(headerInfo.ciderCountries)) { %>
+                                    <li class="state-item hide"><a href="/ciderlocations/<%=headerInfo.ciderCountries[country]%>"><%= headerInfo.ciderCountries[country] %></a></li>
+                                <%};%>
+                            </ul>
+                        </li><!---a tag-->
+                   <!-- <li>By Map</li> -a tag-->
                     </ul>
                 </li> <!---flyout-->
                 <li><a href="/ciderhouses">By Cider House</a></li>  <!---a tag-->
@@ -79,7 +91,7 @@
         <li class="nav-item" id="cidreviews"><p>Ciderhouse Reviews</p>
             <ul class="cidreviews hide">
                 <li><a href="/ciderhousereviews">By Name</a></li>
-                <li id="crgeography">By Geography
+                <li id="crgeography">By Geography ->
                     <ul class="crgeography hide">
                         <li><a href="/housereviewsbystate">By State</a></li>
                         <li>By Map</li>

@@ -50,6 +50,11 @@ $("#crgeography").click( function() {
   $(this).parent().toggleClass("hide");
 });
 
+$(".state").click( function() {
+  $(this).find(".state-item").toggleClass("hide");
+  $(this).parent().toggleClass("hide");
+})
+
 $(".listofciders").click(function () {
   var id = $( this ).attr("title");
   window.location.href = `/ciderdetail/${id}`;

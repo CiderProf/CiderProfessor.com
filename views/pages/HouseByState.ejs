@@ -20,9 +20,9 @@
         <ul class="gradebook-page-list">
             <% Object.keys(houses).forEach(house => { %>
                 <li>
-                    <ul><%=house%>
+                    <ul class="title"><%=house%>
                         <%houses[house].forEach(name => { %>
-                            <li><%=name%></li>
+                            <li class="listItem"><a href="ciderhousereviews/<%=name%>"><%=name%></a></li>
                         <%});%>
                     </ul>
                 </li>

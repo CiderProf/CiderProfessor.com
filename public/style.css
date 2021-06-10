@@ -44,6 +44,8 @@ a:visited {
     color: #F1C400;
 }
 
+
+
 /* HEADER */
 header {
     width: 100%;
@@ -414,6 +416,19 @@ nav {
 
 .blurb-link a:link, .blurb-link a:visited {
     color: #F1C400;
+}
+
+.title {
+    color: black;
+    font-size: 1.3em;
+    padding: 5px 2px;
+}
+
+.listItem {
+    color: black;
+    margin-left: 15px;
+    padding: 5px 0;
+    font-size: 24px;
 }
 
 /* STYLE.ejs*/

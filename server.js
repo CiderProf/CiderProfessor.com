@@ -5,17 +5,16 @@ const app = express();
 require('dotenv').config();
 
 const PORT = process.env.PORT || 3000;
-const url = process.env.MAPURL;
+//const url = process.env.MAPURL;
 
 app.set('view engine', 'ejs');
 app.use(express.static('./public'));
 app.use(express.urlencoded({extended:true}));
 
-const stateArray = require('./data/usStates.js');
-
 app.listen(PORT, () => console.log(`server up on ${PORT}`));
 
 
+const stateArray = require('./data/usStates.js');
 const unitedstates = stateArray.unitedstates;
 const ciderInfo = require('./data/ciderinfo.json');
 const complits = require('./data/compLits.json');
@@ -122,7 +121,7 @@ app.get('/ciderlocations/:info', (req, res) => {
 })
 
 app.get('/housereviewsbystate', (req, res) => {
-    let sorted = sortHousesReviewedbySate(houseReviews);
+    let sorted = sortHousesReviewedbyState(houseReviews);
     res.render('pages/HouseByState', {houses: sorted, headerInfo});
 })
 
@@ -172,8 +171,24 @@ app.get('/litsbytheme/:info', (req, res) => {
 })
 
 app.get('/map', (req, res) => {
-    res.render('pages/Map', {headerInfo, url: url});
+    res.render('pages/Map', {headerInfo});
 })
+
+
+//ajax routes for app.js
+app.get('/getCiderStates', (req, res) => {
+    res.send(allStates);
+})
+
+app.get('/cidersbystate/:info', (req, res) => {
+    let state = req.params.info;
+    let ciders = getCidersByState(state, ciderInfo);
+    console.log('api hit', state);
+    // res.redirect(302, 'pages/ListOfCider', {ciderList: ciders, headerInfo});
+    res.redirect(302, 'pages/ListOfCider');
+})
+
+
 
 //-----------------HELPER FUNCTIONS-------------//
 
@@ -234,6 +249,15 @@ function getCidersByHouse(house, list){
         }
     }
     return tempArr;
+}
+
+function getCidersByState(state, list){
+    let temp = [];
+    for(var cider in list){
+        let s = list[cider].State_Country;
+        if(s == state) temp.push(list[cider]);
+    }
+    return temp;
 }
 
 function getStyles(list){
@@ -466,7 +490,7 @@ function getCiderHouses(list){
     return list.map(h => h.Name);
 }
 
-function sortHousesReviewedbySate(list){
+function sortHousesReviewedbyState(list){
     let temp = {};
     let states = [];
     for( var house in list){
@@ -474,7 +498,7 @@ function sortHousesReviewedbySate(list){
         if(!states.includes(state)) states.push(state);
     }
     states.sort();
-    //set the sorted states as keys in temp with null values to be set later
+    //set the sorted states as keys in order in temp with null values to be set later
     states.forEach(state => {
         temp[state] = null;
     });

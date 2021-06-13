@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cider Professor Map</title>
     <link rel="shortcut icon" type="image/jpg" href="./assets/imgs/favicon.png"/>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../jquery.vmap.js"></script>
+    <script type="text/javascript" src="../maps/jquery.vmap.usa.js" charset="utf-8"></script>
     <script src="../app.js"></script>
     <link rel="stylesheet" href="../reset.css" />
     <link rel="stylesheet" href="../style.css" />
-    <link rel="stylesheet" href="../map.css" />
+    <link rel="stylesheet" href="../jqvmap.css" />
 </head>
 <body>
     <%- include('../layouts/NavBar') %>
@@ -17,15 +19,10 @@
         <h1>BY MOOD</h1>
     </section>
     <section class="gradebook-page-blurb">
-        <p>Cider enthusiasts often brag that there is a cider for every occasion. Taking this seriously, I have developed a classification system that will hopefully help guide you to the right cider depending on your mood. After all, drinking is largely experiential and one’s emotional and physical context should absolutely influence what they ought to drink. My list includes all the possible moods and moments one might want to drink a cider. Yes, it is a bit arbitrary, and yes, you could probably add a few of your own, but hopefully this gives you a better sense of when one might want to drink a particular cider and maybe even be a helpful category for finding ciders you love. 
-        </p>
+        <p>Select a state to see ciders</p>
     </section>
     <section>
-        <ul class="gradebook-page-list">
-            <!-- <% for(var k in ciderMoods) { %>            
-                    <li><a href="#"><%=ciderMoods[k]%></a></li>
-            <%};%> -->
-        </ul>
+        <div id="vmap" style="width: 90vw; height: 68vh; margin: 0 auto;"></div>
     </section>
     <%- include('../layouts/Footer') %>
 </body>

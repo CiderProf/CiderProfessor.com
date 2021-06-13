@@ -243,7 +243,7 @@
 		"Style": {
 			"Perry and Pear Cider": null
 		},
-		"Mood": "Helpmate For the Hot African Sun",
+		"Mood": "Helpmate for the Hot African Sun",
 		"Feedback": "It is light, hits mid-palette with a tart kiss. Reminds me of a Carmel Apple Pop that's pretty sugary. I was shocked to come across this Lithuanian import in a grocery store in East Africa but it hit the spot after a day in the hot sun. I'm not typically a pearman, but yum!",
 		"Prodct_Description": "Kiss ciders are happy and friendly by nature. Enjoy it when the weather is nice, the mood is good and the company merry.",
 		"Date_Tried": 201806,
@@ -488,7 +488,7 @@
 		"ABV": 6.5,
 		"Comp_Review": null,
 		"PicURL": "https://bn1303files.storage.live.com/y4mPHMcbdLtm9dB3SQKfTTsvg4QyHgq1ZLVZbZmPxK_-FAAa6hPauEqNZOio3NyBmQg7GIpDqdwbIg_w_2xauJiCuTEkslxyxYKNowTJiHYQ4Bh-sEj4Et72V86btlOw-Yf7ifkdprwRVlrqPPEufLhIP0RdTOmfD42h6wPtYOvEZcWH8hmFHpmLZLcfJYVD6NW?width=2779&height=3707&cropmode=none",
-		"LogoURL": "https://bn1303files.storage.live.com/y4mR7orD_sRwm7ST7YsEvCv3pf15-vqUbkqOmoFcRPoQ5DY9Yrm7KGrKAzrC-V5NltytCBdhpDZ0dsvIPrxMvspUoRx2zODENtQuraRi_sz4Nt9a3ZgKbyAtjS0Xbw8oJxt_H7hf9bOUg5ErjgBNsq0vLdkRwO8NhEIYwD276xfs25dnNFrxC-WCDquFLj1SB4u?width=300&height=300&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4meqz2KZUB18XgM7jXaolL657D1WEC5QivjTwq3SIxUv9qsafzzAisW3RqpfAoZIigPxEIEL7LSWCK7nl6ari8Hu6mUPWeiX9MhFuYYM33YoWBGKEHNVMUebRjhQhngNs9P7wGHr_3529mhnTq2PIOcgpzSGeQBRJftKqorLLMgA0D0A9nDBjSH5uvec6Xzr2-?width=225&height=225&cropmode=none",
 		"ID": 25
 	},
 	{
@@ -3197,7 +3197,7 @@
 		"Style": {
 			"Botanical/Spiced": "Cinnamon"
 		},
-		"Mood": "Can't Wait Will Christmas",
+		"Mood": "Can't Wait till Christmas",
 		"Feedback": "What could be better than good ol’ fashioned American apple pie? With its golden hue and cinnamon apple aroma, the smell reminds me of the side of gooey cinnamon apples you get at Cracker Barrel. It starts off cool and refreshing but then you get an overpowering cinnamon spice in the back of the throat. It’s not even a nice cinnamon taste, its an artificial, weirdly savory, mild heat flavor, somewhat akin to pumpkin pie spice. It’s kind of like when you drop too much of a spice in a dish when friends are coming over, and you don’t realize till it is too late, but by then it’s all gone horribly wrong. If you let it sit for a while it mellows a bit, but I still can’t recommend it.",
 		"Prodct_Description": "Julian Hard Cider's APPLE PIE is the perfect refreshment while gathering with friends and family. Its cheery spice notes and lovely effervescence accompany a harmony of tart and sweet apple deliciousness. Whether giving thanks, sharing a toast, or rooting on your gridiron heroes, we hope you'll invite us to the party. We love a good party. Cheers!",
 		"Date_Tried": 201904,
@@ -3536,7 +3536,7 @@
 		"Grade": "B+",
 		"State_Country": "Washington",
 		"Style": {
-			"Dessert Ciders": "Fortified Cider/Pommeau"
+			"Dessert": "Fortified Cider/Pommeau"
 		},
 		"Mood": "A Sophisticated Night In",
 		"Feedback": "A brilliant sunset burnt peach rosé color. It has an uber rich and smooth nose that smells likes a blend of wine and apples. This is impressive, but cider drinkers beware as this is a liqueur which is closer to an apple Grand Marnier or port wine than it is to a draft cider, and it is certainly not for easy drinking. It is very thick and could be drunk straight for a sophisticated night in by oneself, but it is also ready to be mixed into a cocktail for entertaining. Obviously, it has the high alcohol content, but it is very balanced and smooth for a drink of this type. This is taking your cider drinking to a more mature level.",
@@ -3936,7 +3936,7 @@
 		"Style": {
 			"Botanical/Spiced": "Hopped"
 		},
-		"Mood": "Gran Me a Beer",
+		"Mood": "Grab Me a Beer",
 		"Feedback": "A Dixie disappointment. It is bright gold in color with an unpleasant sour odor which smells like old oranges and beer. This has a heavy and overbearing taste which has a unique burn to it at the end—I can't say I found this finish all that enjoyable. If I had one word to describe the flavor and experience, I'd call it musty. In the middle you do get a nice note of citrusy hops, but the smell, texture, taste and finish are all no good for me and I can't recommend it.",
 		"Prodct_Description": "A Dixie disappointment. It is bright gold in color with an unpleasant sour odor which smells like old oranges and beer. This has a heavy and overbearing taste which has a unique burn to it at the end—I can't say I found this finish all that enjoyable. If I had one word to describe the flavor and experience, I'd call it musty. In the middle you do get a nice note of citrusy hops, but the smell, texture, taste and finish are all no good for me and I can't recommend it.",
 		"Date_Tried": 201906,
@@ -4447,7 +4447,7 @@
 		"Grade": "B+",
 		"State_Country": "Colorado",
 		"Style": {
-			"Standard": "Semi-Sweet"
+			"Stanadrd": "Semi-Sweet"
 		},
 		"Mood": [
 			"Tart n' Tasty",
@@ -5464,7 +5464,7 @@
 		"Grade": "C+",
 		"State_Country": "California",
 		"Style": {
-			"Rosé": null
+			"Rosé ": null
 		},
 		"Mood": null,
 		"Feedback": "Yep, the color is like seeing regular cider through rose-colored glasses. This rosé has a really bright nose with strawberries up front and some acidity from the blackberries and raspberries. There is also clear sugar notes. Wow, it’s pretty sweet, like getting close to strawberry soda levels. It does have a smooth mouthfeel with some sharpness on the tongue, but mostly sweet berries followed by a tart apple taste. I know it is weird for <i>me<i/> to say, but it’s just a bit too sweet and juicy for me. It also has that artificial sugary taste too. While I like bold flavors, this seemed to take everything just one step too far, and for you dry cider drinkers out there, probably two steps too far, so stay away.",
@@ -5856,7 +5856,7 @@
 		"Style": {
 			"Fruit": "Blackberry"
 		},
-		"Mood": "Can't Wiat till Christmas",
+		"Mood": "Can't Wait till Christmas",
 		"Feedback": "This cider has a light claret color and to my nose it smells much more of blackberries than of blueberries—though they are clearly there. The taste is acidic with a bit of the vine/weedy flavor—not uncommon in berry ciders to find these earthy notes. The first phase has a little bite followed by a medium amount of blueberry. But then there is this fairly obvious cinnamon and clove spice to it with a bit of heat at the end. I really struggled to pick up any of the lavender, but over all it was a very good cider.",
 		"Prodct_Description": "Aromatic & velvety smooth, Blueberry Daze is ready to groove. Crafted from a harmonious ensemble of PNW grown apples, blueberries & muscat grapes, this funkalicious cider finishes on a lavender high note that will leave you in a daze!",
 		"Date_Tried": 202006,
@@ -6715,7 +6715,7 @@
 		"Grade": "B+",
 		"State_Country": "Vermont",
 		"Style": {
-			"Dessert Ciders": "Ice Cider"
+			"Dessert": "Ice Cider"
 		},
 		"Mood": [
 			"A Sophisticated Night In",

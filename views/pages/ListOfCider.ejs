@@ -14,7 +14,7 @@
 </head>
 <body>
     <%- include('../layouts/NavBar') %> 
-    <section id="ciderlistsection">
+    <!-- <section id="ciderlistsection">
         <ul class="listheader">
             <li class="itemimg"></li>
             <li class="itemname">Name</li>
@@ -33,6 +33,29 @@
                 <li class="itemabv"> <%=cider.ABV%> </li>
             </ul>
             <%})%>
+    </section> -->
+    <section id="ciderlistsection">
+        <table>
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Ciderhouse</th>
+                <th>Location</th>
+                <th>Grade</th>
+                <th>% ABV</th>
+            </tr>
+            <!--for each cider-->
+            <% ciderList.forEach(cider => { %>
+                <tr>
+                    <td><img class="listimg" src="<%=cider.LogoURL%>"></td>
+                    <td><%=cider.Name%></td>
+                    <td><%=cider.Cidery%></td>
+                    <td><%=cider.State_Country%></td>
+                    <td><%=cider.Score%> <%=cider.Grade%></td>
+                    <td><%=cider.ABV%></td>
+                </tr>
+            <%})%>
+        </table>
     </section>
     <%- include('../layouts/Footer') %>
 </body>

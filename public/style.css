@@ -28,6 +28,11 @@
     display: none;
 }
 
+.grow {
+    width: 25vw !important;
+    height: 25vh !important;
+}
+
 body {
     width: 100%;
     /* height: 100vh; */
@@ -189,8 +194,9 @@ nav {
 }
 
 .gradebookboxes li {
-    min-width: 85vw;
-    min-height: 75vw;
+    width: 80vw;
+    height: 36vh;
+    max-height: 230px;
     margin: 10px;
     background-color: #002b49;
     border-radius: 10px;
@@ -209,8 +215,8 @@ nav {
     
 }
 .gradebookwrapper img{
-    width: 85vw;
-    height: 65vw;
+    width: 100%;
+    height: 100%;
     opacity: 50%;
     border-radius: 10px;
 }
@@ -939,9 +945,9 @@ footer {
         justify-content: space-around;
     }
 
-    .gradebookboxes li {
+    /* .gradebookboxes li {
         max-width: 21vw;
-    }
+    } */
     .gradebookboxes li:nth-last-child(2) {
         margin-bottom: 20px;
     }
@@ -1089,25 +1095,22 @@ footer {
         line-height: 2.5em;
     } */
 
-    #app-icon-placeholder {
-        /* width: 80px; */
+    /* #app-icon-placeholder {
         display: none;
-    }
+    } */
 
     .app-icon-wrapper {
         top: 2px;
         left: 2px;
-        background-color: white;
         width: 80px;
-        height: 160px;
+        height: 80px;
         padding: 5px;
-        border-radius: 0 0 5px 5px;
         filter: drop-shadow(5px 5px 3px #52504a);
     }
 
     .app-icon {
         width: 80px;
-        height: 160px;
+        height: 80px;
     }
 
     .nav-list {
@@ -1128,7 +1131,9 @@ footer {
 
     .gradebookboxes li {
         min-width: none;
-        min-height: auto;
+        /* min-height: auto; */
+        max-height: none;
+        height: 21vh;
         flex: 1 1 22%;
         /* width: 20%; */
         /* margin: 10px 2%; */

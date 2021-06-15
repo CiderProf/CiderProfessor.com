@@ -7,7 +7,7 @@ $(".menu-icon").click( function() {
 });
 
 if($(window).width() > 780) $(".nav-list").removeClass("hide");
-if($(window).width() > 1080) $(".app-icon").toggleClass("hide");
+// if($(window).width() > 1080) $(".app-icon").toggleClass("hide");
 
 $("#gradebook").click( function() {
   $(".gradebook").toggleClass("hide");
@@ -61,6 +61,10 @@ $(".listofciders").click(function () {
   var id = $( this ).attr("title");
   window.location.href = `/ciderdetail/${id}`;
 })
+
+$(".gradebookboxes li").hover((element) => {
+  $(element).toggleClass("grow")
+});
 
 
 $('#vmap').vectorMap({ 

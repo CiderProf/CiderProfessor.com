@@ -22,14 +22,24 @@
     </section>
     <section class="gradebook-page-list">
         <ul>
-            <% for(var k in Object.keys(ciderStyles)) { %>
-                <ul>
-                    <a href="/styles/<%=Object.keys(ciderStyles)[k]%>?style=<%=Object.keys(ciderStyles)[k]%>"><li>
-                        <h4><%=Object.keys(ciderStyles)[k]%></h4>
-                        <p><%=styleBlurbs[Object.keys(ciderStyles)[k]]%></p>
-                    </li></a>
-                </ul>
-            <%};%>
+            <!--Hafta hardcode this to keep Ethan order and provide secondary splash pages-->
+            <li><a href="/splash/Standard">Standard</a></li>
+            <li><a href="/splash/Single Varietal">Single Varietal</a></li>
+            <li><a href="/splash/Fruit">Fruit</a></li>
+            <li><a href="/splash/...">Botanical/Spiced</a></li>
+            <li><a href="/splash/Seasonal">Seasonal</a></li>
+            <li>Farmhouse and Scrumpy</li>
+            <li>Sidra</li>
+            <li>Perry and Pear Cider</li>
+            <li>Rosé</li>
+            <li>Crabapple</li>
+            <li>Imperial</li>
+            <li>Light Cider</li>
+            <li>Beer-like</li>
+            <li>Whiskey-Like</li>
+            <li>Champagne-like</li>
+            <li>Wine-like</li>
+            <li><a href="/splash/Dessert">Dessert Ciders</a></li>
     </section>
     <%- include('../layouts/Footer') %>
 </body>

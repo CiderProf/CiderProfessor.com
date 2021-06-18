@@ -234,9 +234,9 @@ nav {
 #ciderlistsection {
     padding-top: 55px;
 }
-#ciderlistsection:nth-child(2){
+/* #ciderlistsection:nth-child(2){
     margin-top: 49px;
-}
+} */
 
 .listheader, .listofciders {
     width: 100%;
@@ -759,6 +759,11 @@ footer {
         display: none;
     }
 
+    /* .logo-placeholder {
+        width: 80px;
+        height: 80px;
+    } */
+
     ul {
         list-style: none;
     }
@@ -801,8 +806,9 @@ footer {
         cursor: pointer;
     }
 
-    #app-icon-placeholder {
+    .app-icon-placeholder {
         width: 80px;
+        height: 80px;
     }
 
     .app-icon-wrapper {
@@ -955,13 +961,18 @@ footer {
 
 
     #ciderlistsection {
-        margin-top: calc(78px + 1.5em);
+        margin-top: 72px;
         /* 77px is from the footer */
-        min-height: calc(100vh - 11vh);  
+        min-height: 89vh;  
         padding-top: 0;
     }
+    .ciderlisttable {
+        padding-top: 20px;
+        margin: 0 auto;
+        width: 96vw;
+    }
 
-    .listheader {
+    /* .listheader {
         position: fixed;
         top: 65px;
         height: 1.5em;
@@ -972,7 +983,7 @@ footer {
     .listheader li {
         border: none;
         
-    }
+    } */
     /* #ciderlistsection:nth-child(2) {
         padding-top: 1.5em;
     } */
@@ -983,31 +994,48 @@ footer {
 /* CIDERDETAIL.js     */
 
     .cider-detail-topsection {
-        height: 50vw;
-        padding-bottom: 5px;
+        height: 50vh;
     }
     .glassimage {
-        width: 33vw;
-        height: 46vw;
+        width: 35vh;
+        height: 50vh;
         float: left;
     }
     .cider-detail-topinfo {
-        height: 22vw;
+        height: 25vh;
         text-align: left;
+        font-size: 20px;
+        line-height: 22px;
     }
     .cider-detail-topinfo li{
         padding-top: 30px;
-        padding-left: 35vw;
+        padding-left: 45vw;
     }
     .cider-detail-topinfo h2 {
-        font-size: 2.5em;
+        color: #D6D2C4;
+        font-size: 48px;
+        line-height: 50px;
     }
+    /* .cider-detail-topinfo p {
+        font-size: 28px;
+    } */
     .cider-detail-midinfo{
-        height: 22vw;
+        height: 25vh;
         text-align: left;
     }
     .cider-detail-midinfo li {
-        padding-left: 35vw;
+        padding-bottom: 0;
+        padding-left: 45vw;
+        font-size: 28px;
+    }
+    .cider-detail-feedback {
+        padding: 10px 50px;
+    }
+    .cider-detail-feedback h3 {
+        font-size: 40px;
+    }
+    .cider-detail-feedback p {
+        font-size: 28px;
     }
     .cider-detail-description {
         height: fit-content;
@@ -1015,6 +1043,7 @@ footer {
         flex-direction: row;
         justify-content: flex-end;
         text-align: left;
+        font-size: 28px;
     }
     .cider-detail-description img {
         margin: 0;
@@ -1026,7 +1055,7 @@ footer {
         max-width: 60vw;
     }
     .cider-detail-description h3 {
-        font-size: 2.5em;
+        font-size: 40px;
     }
 
     /* COMPLITESSAY.ejs */
@@ -1150,7 +1179,7 @@ footer {
     }
 
     #ciderlistsection {
-        margin-top: 60px;
+        margin-top: 72px;
     }
 
     #ciderlistsection ul:nth-of-type(2) {
@@ -1162,5 +1191,14 @@ footer {
     }
     .listimg {
         padding-left: 20px;
+    }
+/* 
+    .cider-detail-topsection img {
+        padding-left: 50px;
+    } */
+
+    .cider-detail-description div {
+        width: 60vw;
+        max-width: 650px;
     }
 }

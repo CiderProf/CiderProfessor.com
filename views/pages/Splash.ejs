@@ -13,20 +13,19 @@
 </head>
 <body>
     <%- include('../layouts/NavBar') %> 
-    <section class="gradebook-page-header">
-        <h1><%= style %></h1>
+    <section class="gradebook-page-header by-style">
+        <h1><%= splash[0] %></h1>
     </section>
     <section class="gradebook-page-blurb">
-        <p><%= blurb %></p>
+        <p><%= splash[1] %></p>
     </section>
-    <section class="gradebook-page-list">
-        <ul>
-            <%list.forEach(style => {%>
-                <li><%=style%></li>
-                <%})%>
+    <section>
+        <ul class="gradebook-page-list">
+            <% splash[2].forEach(style => { %>
+            <li><a href="/styles/<%=style%>?style=<%=splash[0]%>"> <%= style %>  </a></li>
+            <% }); %> 
         </ul>
     </section>
-
     <%- include('../layouts/Footer') %>
 </body>
 </html>

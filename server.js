@@ -18,6 +18,7 @@ const stateArray = require('./data/usStates.js');
 const unitedstates = stateArray.unitedstates;
 const ciderInfo = require('./data/ciderinfo.json');
 const complits = require('./data/compLits.json');
+const blurbs = require('./data/splashpageinfo.json');
 const houseReviews = require('./data/ciderhouses.json');
 const allHouses = getAllHouses(ciderInfo);
 const allStyles = getStyles(ciderInfo);
@@ -37,6 +38,7 @@ const headerInfo = {ciderHouses: allHouses,
 
 //---------------- ROUTES-----------------------//
 app.get('/', (req, res) => {
+    
         res.render('pages/index', {headerInfo});
 })
 
@@ -75,11 +77,22 @@ app.get('/styles/:info', (req, res) => {
     const info = req.params.info;
     if(info == style[0]){
         let cs = getCidersByStyle(info, ciderInfo);
+        let list = orderCidersByScore(cs)
         return res.render('pages/ListOfCider', {ciderList: cs, headerInfo});
     } else {
         let css = getCidersBySubStyle(info, style[0], ciderInfo)
+        let list = orderCidersByScore(css)
         return res.render('pages/ListOfCider', {ciderList: css, headerInfo});
     }
+})
+
+app.get('/splash/:info', (req, res) => {
+    //TODO: handle Botanical/Spiced style 
+    const style = req.params.info;
+    const blurb = getSplashBlurb(style, blurbs)
+    const subStyles = getSubStylesByStyle( style, ciderInfo)
+    let splash = [style, blurb, subStyles];
+    res.render('pages/Splash', {splash: splash, headerInfo});
 })
 
 app.get('/moods', (req, res) => {
@@ -105,7 +118,8 @@ app.get('/ciderhouses', (req, res) => {
 app.get('/ciderhouses/:info', (req, res) => {
     let house = req.params.info;
     let ch = getCidersByHouse(house, ciderInfo);
-    res.render('pages/ListOfCider', {ciderList: ch, headerInfo});
+    let list = orderCidersByScore(ch)
+    res.render('pages/ListOfCider', {ciderList: list, headerInfo});
 })
 
 app.get('/ciderhousereviews', (req, res) => {
@@ -116,8 +130,8 @@ app.get('/ciderhousereviews', (req, res) => {
 app.get('/ciderlocations/:info', (req, res) => {
     let country = req.params.info;
     let ciders = getCidersByCountry(country, ciderInfo);
-    let sorted = ciders.sort((a, b) => (a.Score < b.Score) ? 1 : -1);
-    res.render('pages/ListOfCider', {ciderList: sorted, headerInfo});
+    let list = orderCidersByScore(ciders)
+    res.render('pages/ListOfCider', {ciderList: list, headerInfo});
 })
 
 app.get('/housereviewsbystate', (req, res) => {
@@ -132,7 +146,9 @@ app.get('/ciderhousereviews/:info', (req, res) => {
 })
 
 app.get('/complits', (req, res) => {
-    res.render('pages/CompLits', {complits: complits, headerInfo});
+    let list = complits;
+    let sorted = list.sort((a, b) => (a.Date < b.Date) ? 1 : -1);
+    res.render('pages/CompLits', {complits: sorted, headerInfo});
 })
 
 app.get('/complits/:info', (req, res) => {
@@ -185,12 +201,17 @@ app.get('/cidersbystate/:info', (req, res) => {
     let ciders = getCidersByState(state, ciderInfo);
     console.log('api hit', state);
     // res.redirect(302, 'pages/ListOfCider', {ciderList: ciders, headerInfo});
+    let list = orderCidersByScore(ciders);
     res.redirect(302, 'pages/ListOfCider');
 })
 
 
 
 //-----------------HELPER FUNCTIONS-------------//
+
+function orderCidersByScore(list){
+    return list.sort((a, b) => (a.Score < b.Score) ? 1 : -1);
+}
 
 function getCider(id, list){
     for(var cider in list){
@@ -309,6 +330,26 @@ function loadSubStyles(list, styleObject){
     return subStyles;
 }
 
+function getSplashBlurb(style, list){
+    let temp = [style];
+    temp.push(list[style]);
+    return temp;
+}
+
+function getSubStylesByStyle(style, list){
+    let temp = [];
+    for(var cider in list){
+        let styleType = Object.keys(list[cider].Style);
+
+        if(styleType.includes(style)){
+            const subStyle = list[cider].Style[style];
+            //TODO: If substyle is an array, look for unique values
+            !temp.includes(subStyle) && typeof(subStyle) === 'string' ? temp.push(subStyle) : [...temp];
+        }
+    }
+    return temp;
+}
+
 function getAllMoods(list){
     let moods = [];
     for (var cider in list){
@@ -347,7 +388,7 @@ function getCidersBySubStyle(subStyle, style, list){
         if(Object.keys(cs).includes(style)){
             if(Object.values(cs).includes(subStyle)){
                 tempObj = ciderInfo[cider];
-                tempObj.Date_Tried = dateConvert(c.Date_Tried);
+                tempObj.Date_Tried = dateConvert(tempObj.Date_Tried);
                 tempArr.push(tempObj);
             }
         }

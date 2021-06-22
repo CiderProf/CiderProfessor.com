@@ -6,7 +6,7 @@
             <th>Ciderhouse</th>
             <th>Location</th>
             <th>Grade</th>
-            <th>% ABV</th>
+            <th class="last-td hide">% ABV</th>
         </tr>
         <!--for each cider-->
         <% ciderList.forEach(cider => { %>
@@ -16,7 +16,7 @@
                 <td><%=cider.Cidery%></td>
                 <td><%=cider.State_Country%></td>
                 <td><%=cider.Score%> <%=cider.Grade%></td>
-                <td><%=cider.ABV%></td>
+                <td class="last-td hide"><%=cider.ABV%></td>
             </tr>
         <%})%>
     </table>

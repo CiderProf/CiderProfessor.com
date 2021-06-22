@@ -6,7 +6,10 @@ $(".menu-icon").click( function() {
   $(".nav-list").toggleClass("hide");
 });
 
-if($(window).width() > 780) $(".nav-list").removeClass("hide");
+if($(window).width() > 780) {
+  $(".nav-list").removeClass("hide");
+  $(".last-td").removeClass("hide");
+}
 if($(window).width() > 1080) $(".app-icon-placeholder").toggleClass("hide");
 
 $("#gradebook").click( function() {

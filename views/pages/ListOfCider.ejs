@@ -14,28 +14,7 @@
 </head>
 <body>
     <%- include('../layouts/NavBar') %> 
-    <!-- <section id="ciderlistsection">
-        <ul class="listheader">
-            <li class="itemimg"></li>
-            <li class="itemname">Name</li>
-            <li class="itemciderhouse">Ciderhouse</li>
-            <li class="itemlocation">Location</li>
-            <li>Grade</li>
-            <li>% ABV</li>
-        </ul>
-        <%ciderList.forEach(cider => {%>
-            <ul class="listofciders" title="<%=cider.ID%>">
-                <li class="itemimg"><img class="listimg" src="<%=cider.LogoURL%>"></li>
-                <li class="itemname"> <%=cider.Name%> </li>
-                <li class="itemciderhouse"> <%=cider.Cidery%> </li>
-                <li class="itemlocation"> <%=cider.Location%><%=cider.State_Country%> </li>
-                <li class="itemgrade"> <%=cider.Score%> <%=cider.Grade%> </li>
-                <li class="itemabv"> <%=cider.ABV%> </li>
-            </ul>
-            <%})%>
-    </section> -->
-
-    <%- include('../layouts/ListofCider') %>
+     <%- include('../layouts/ListofCider') %>
     <%- include('../layouts/Footer') %>
 </body>
 </html>

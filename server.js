@@ -103,7 +103,8 @@ app.get('/moods', (req, res) => {
 app.get('/moods/:info', (req, res) => {
     const mood = req.params.info;
     let cm = getCidersByMood(mood, ciderInfo);
-    res.render('pages/ListOfCider', {ciderList: cm, headerInfo});
+    let list = orderCidersByScore(cm)
+    res.render('pages/ListOfCider', {ciderList: list, headerInfo});
 })
 
 app.get('/philosophy', (req, res) => {
@@ -405,14 +406,14 @@ function getCidersByMood(mood, list){
             for(let i = 0; i < cm.length; i ++){
                 if(cm[i] == mood){
                     tempObj = ciderInfo[cider];
-                    tempObj.Date_Tried = dateConvert(c.Date_Tried);
+                    tempObj.Date_Tried = dateConvert(tempObj.Date_Tried);
                     tempArr.push(tempObj);
                 }
             }
         } else{
             if(cm == mood){
                 tempObj = ciderInfo[cider];
-                tempObj.Date_Tried = dateConvert(c.Date_Tried);
+                tempObj.Date_Tried = dateConvert(tempObj.Date_Tried);
                 tempArr.push(tempObj);
             }
         }

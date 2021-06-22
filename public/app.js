@@ -1,5 +1,3 @@
-
-
 $(function(){
 
 $(".menu-icon").click( function() {
@@ -60,7 +58,7 @@ $(".state").click( function() {
   $(this).parent().toggleClass("hide");
 })
 
-$(".listofciders").click(function () {
+$(".listRow").click(function () {
   var id = $( this ).attr("title");
   window.location.href = `/ciderdetail/${id}`;
 })
@@ -68,7 +66,6 @@ $(".listofciders").click(function () {
 $(".gradebookboxes li").hover((element) => {
   $(element).toggleClass("grow")
 });
-
 
 $('#vmap').vectorMap({ 
   map: 'usa_en', 

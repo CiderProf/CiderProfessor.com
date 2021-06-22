@@ -10,7 +10,7 @@
         </tr>
         <!--for each cider-->
         <% ciderList.forEach(cider => { %>
-            <tr>
+            <tr class="listRow" title="<%=cider.ID%>">
                 <td><img class="listimg" src="<%=cider.LogoURL%>"></td>
                 <td><%=cider.Name%></td>
                 <td><%=cider.Cidery%></td>

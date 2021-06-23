@@ -107,6 +107,10 @@ app.get('/moods/:info', (req, res) => {
     res.render('pages/ListOfCider', {ciderList: list, headerInfo});
 })
 
+app.get('/geography', (req, res) => {
+    res.render('pages/Geography', {states: allStates, headerInfo});
+})
+
 app.get('/philosophy', (req, res) => {
     res.render('pages/Philosophy', {headerInfo});
 })
@@ -455,7 +459,7 @@ function getCidersByCountry(country, list){
 }
 
 function getAllCiderCountries(list){
-    let countries = ["United States"]
+    let countries = []
     for(var cider in list){
         let cs = list[cider].State_Country;
         if(!unitedstates.includes(cs) && !countries.includes(cs)) countries.push(cs);

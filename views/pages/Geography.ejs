@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cider Professor</title>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/imgs/favicon.png"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="../app.js"></script>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+    <%- include('../layouts/NavBar') %> 
+    <section class="gradebook-page-header by-geography">
+        <h1>BY GEOGRAPHY</h1>
+    </section> 
+    <section class="gradebook-page-blurb">
+        <p>Traveling for work or pleasure and want to know what the local cider is like? Or maybe you just want to know what is being produced in other states or countries, or even what’s nearby. Use the list below to see the ciders I’ve reviewed from various US states and other countries around the world.</p>
+    </section>
+    <section>
+        <ul class="gradebook-page-list">
+            <li>
+                <h3>US States</h3>
+                <ul class="stateList">
+                    <% states.forEach(state => { %>
+                        <li><a href="/ciderlocations/<%=state%>"><%=state%></a></li>
+                    <% }) %>
+                </ul>
+            </li>
+            <li>
+                <h3>European Countries</h3>
+                <ul>
+                    <li><a href="/ciderlocations/Austria">Austria</a></li>
+                    <li><a href="/ciderlocations/Belgium">Belgium</a></li>
+                    <li><a href="/ciderlocations/England">England</a></li>
+                    <li><a href="/ciderlocations/France">France</a></li>
+                    <li><a href="/ciderlocations/Germany">Germany</a></li>
+                    <li><a href="/ciderlocations/Ireland">Ireland</a></li>
+                    <li><a href="/ciderlocations/Italy">Italy</a></li>
+                    <li><a href="/ciderlocations/Lithuania">Lithuania</a></li>
+                    <li><a href="/ciderlocations/Poland">Poland</a></li>
+                    <li><a href="/ciderlocations/Scotland">Scotland</a></li>
+                    <li><a href="/ciderlocations/Spain">Spain</a></li>
+                    <li><a href="/ciderlocations/Sweden">Sweden</a></li>
+                    <li><a href="/ciderlocations/Switzerland">Switzerland</a></li>
+                </ul>
+            </li>
+            <li>
+                <h3>Other Countries</h3>
+                <ul>
+                    <li><a href="/ciderlocations/Canada">Canada</a></li>
+                    <li><a href="/ciderlocations/Chile">Chile</a></li>
+                    <li><a href="/ciderlocations/Georgia (GE)">Georgia (GE)</a></li>
+                    <li><a href="/ciderlocations/New Zealand">New Zealand</a></li>
+                    <li><a href="/ciderlocations/South Africa">South Africa</a></li>
+                    <li><a href="/ciderlocations/Tanzania">Tanzania</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </section>
+    <%- include('../layouts/Footer') %>
+</body>
+</html>

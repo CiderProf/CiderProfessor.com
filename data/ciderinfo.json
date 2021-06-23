@@ -843,7 +843,7 @@
 		"Cidery": "Bold Rock Hard Cider",
 		"Score": 92.5,
 		"Grade": "A",
-		"State_Country": "Virgnia",
+		"State_Country": "Virginia",
 		"Style": {
 			"Standard": "Complex"
 		},
@@ -2518,7 +2518,7 @@
 		"Cidery": "Stem Ciders",
 		"Score": 87.5,
 		"Grade": "B+",
-		"State_Country": "Colorado ",
+		"State_Country": "Colorado",
 		"Style": {
 			"Fruit": "Raspberry"
 		},
@@ -2701,7 +2701,7 @@
 		"Cidery": "Oliver Winery",
 		"Score": 86,
 		"Grade": "B",
-		"State_Country": "<Indiana",
+		"State_Country": "Indiana",
 		"Style": {
 			"Standard": "Sweet"
 		},

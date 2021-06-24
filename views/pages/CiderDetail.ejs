@@ -54,10 +54,14 @@
             </div>
             <img src="<%=cider.LogoURL%>">
         </section>
-        <section class="hide">
-            <!---If no comparative lit, hide-->
-            <!---Link to comp lit rev with title of Rev-->
-        </section>
+        <% if(complits.length > 0){ %>
+            <section class="cider-detail-feedback">
+                <h3>Comparitive Lit Reviews:</h3>
+                <% complits.forEach( lit => { %>
+                    <a href="/complits/<%=lit.ID%>"><p><%=lit.Title%></p></a>
+                <% }); %>
+            </section>
+        <%}%>
         <%- include('../layouts/Footer') %>
 </body>
 

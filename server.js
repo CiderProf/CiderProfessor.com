@@ -63,8 +63,9 @@ app.get('/ciderdetail/:info', (req, res) => {
     const id = parseInt(req.params.info);
     const cider = getCider(id, ciderInfo);
     //check for complit
-    //send complit [title and id]
-    res.render('pages/CiderDetail', {cider: cider, headerInfo});
+    const releventComplits = getLitsByCider(id, complits);
+    //console.log(releventComplits);
+    res.render('pages/CiderDetail', {cider: cider, complits: releventComplits, headerInfo});
 })
 
 app.get('/styles', (req, res) => {
@@ -196,6 +197,7 @@ app.get('/map', (req, res) => {
 })
 
 
+
 //ajax routes for app.js
 app.get('/getCiderStates', (req, res) => {
     res.send(allStates);
@@ -265,25 +267,11 @@ function getAllHouses(list){
 }
 
 function getCidersByHouse(house, list){
-    let tempArr = [];
-    for(var cider in list){
-        let tempObj = {};
-        if(ciderInfo[cider].Cidery == house){
-            tempObj = ciderInfo[cider];
-            tempObj.Date_Tried = dateConvert(tempObj.Date_Tried);
-            tempArr.push(tempObj);
-        }
-    }
-    return tempArr;
+    return list.filter(cider => cider.Cidery == house)
 }
 
 function getCidersByState(state, list){
-    let temp = [];
-    for(var cider in list){
-        let s = list[cider].State_Country;
-        if(s == state) temp.push(list[cider]);
-    }
-    return temp;
+    return list.filter(cider => cider.State_Country == state);
 }
 
 function getStyles(list){
@@ -445,17 +433,18 @@ function dateConvert(date){
 }
 
 function getCidersByCountry(country, list){
-    let tempArr = [];
-    for(var cider in list){
-        let tempObj = {};
-        const place = list[cider].State_Country;
-        if(place == country){
-            tempObj = ciderInfo[cider];
-            tempObj.Date_Tried = dateConvert(tempObj.Date_Tried);
-            tempArr.push(tempObj)
-        }
-    }
-    return tempArr;
+    // let tempArr = [];
+    // for(var cider in list){
+    //     let tempObj = {};
+    //     const place = list[cider].State_Country;
+    //     if(place == country){
+    //         tempObj = ciderInfo[cider];
+    //         tempObj.Date_Tried = dateConvert(tempObj.Date_Tried);
+    //         tempArr.push(tempObj)
+    //     }
+    // }
+    // return tempArr;
+    return list.filter(cider => cider.State_Country == country);
 }
 
 function getAllCiderCountries(list){
@@ -530,6 +519,10 @@ function getLitsBySubstyle(subStyle, list){
 
 function getLitsByTheme(theme, list){
     return list.filter( lit => lit.Theme == theme);
+}
+
+function getLitsByCider(id, list){
+    return list.filter( lit => lit.Ciders.includes(id));
 }
 
 function getCiderHouses(list){

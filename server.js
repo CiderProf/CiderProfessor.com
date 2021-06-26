@@ -165,7 +165,7 @@ app.get('/complits/:info', (req, res) => {
 
 app.get('/litsbydate', (req, res) => {
     let sorted = complits.sort((a, b) => (a.Date < b.Date) ? 1 : -1);
-    res.render('pages/Complits', {complits: sorted, headerInfo});
+    res.render('pages/CompLits', {complits: sorted, headerInfo});
 })
 
 app.get('/litsbystyle/:info', (req, res) => {
@@ -189,7 +189,7 @@ app.get('/litsbystyle/:info1/:info2', (req, res) => { //this handles an edge cas
 app.get('/litsbytheme/:info', (req, res) => {
     let theme = req.params.info;
     let litsList = getLitsByTheme(theme, complits);
-    res.render('pages/Complits', {complits: litsList, headerInfo})
+    res.render('pages/CompLits', {complits: litsList, headerInfo})
 })
 
 app.get('/map', (req, res) => {
@@ -366,7 +366,7 @@ function getCidersByStyle(style, list){
         let tempObj = {};
         if(Object.keys(ciderInfo[cider].Style).includes(style)){
             tempObj = ciderInfo[cider];
-            tempObj.Date_Tried = dateConvert(c.Date_Tried);
+            tempObj.Date_Tried = dateConvert(tempObj.Date_Tried);
             tempArr.push(tempObj);
         }
     }

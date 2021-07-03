@@ -62,9 +62,7 @@ app.get('/sortby/:info', (req, res) => {
 app.get('/ciderdetail/:info', (req, res) => {
     const id = parseInt(req.params.info);
     const cider = getCider(id, ciderInfo);
-    //check for complit
     const releventComplits = getLitsByCider(id, complits);
-    //console.log(releventComplits);
     res.render('pages/CiderDetail', {cider: cider, complits: releventComplits, headerInfo});
 })
 
@@ -162,20 +160,16 @@ app.get('/ciderhousereviews/:info', (req, res) => {
 })
 
 app.get('/complits', (req, res) => {
-    let list = complits;
-    let sorted = list.sort((a, b) => (a.Date < b.Date) ? 1 : -1);
-    res.render('pages/CompLits', {complits: sorted, headerInfo});
+    //need to process complits to get ciders names
+    let ciderNames = getCiderNames();
+    let sorted = complits.sort((a, b) => (a.Date < b.Date) ? 1 : -1);
+    res.render('pages/ListOfCompLits', {complits: sorted, ciderNames: ciderNames, headerInfo});
 })
 
 app.get('/complits/:info', (req, res) => {
     let cid = req.params.info;
     let cle = getEssay(cid, complits);
     res.render('pages/CompLitEssay', {complit: cle, headerInfo});
-})
-
-app.get('/litsbydate', (req, res) => {
-    let sorted = complits.sort((a, b) => (a.Date < b.Date) ? 1 : -1);
-    res.render('pages/CompLits', {complits: sorted, headerInfo});
 })
 
 app.get('/litsbystyle/:info', (req, res) => {
@@ -265,6 +259,16 @@ function getEssay(id, list){
             return tempobj;
         }
     }
+}
+
+function getCiderNames(){
+    let ciderNames = {};
+    complits.forEach(complit => {
+        complit.Ciders.forEach(id => {
+            ciderNames[id] = (ciderInfo.filter(cider => cider.ID == id)[0].Name);
+        })
+    })
+    return ciderNames;
 }
 
 function getAllHouses(list){

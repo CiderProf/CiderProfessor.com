@@ -1,0 +1,27 @@
+<section id="ciderlistsection">
+    <table class="ciderlisttable">
+        <tr class="tableheader">
+            <th>Title</th>
+            <th></th>
+            <th>Ciders</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <!--for each Comp Lit-->
+        <% complits.forEach(complit => { %>
+            <tr class="compslistRow" title="<%=complit.ID%>">
+                <td><%= complit.Title%></td>
+                <% complit.Ciders.forEach( ciderID => { %>
+                    <% Object.keys(ciderNames).filter(id => { %>
+                        <% if(id == ciderID) { %>
+                            <td><%= ciderNames[id]%></td>
+                        <% } %>
+                    <% }) %>
+               <% }) %>
+               <% for  (var i = complit.Ciders.length; i<4; i++) { %>
+                    <td></td>
+               <% } %>
+            </tr>
+        <%})%>
+    </table>
+</section>

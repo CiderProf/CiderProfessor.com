@@ -62,6 +62,10 @@ $(".listRow").click(function () {
   var id = $( this ).attr("title");
   window.location.href = `/ciderdetail/${id}`;
 })
+$('.compslistRow').click(function () {
+  var id = $( this ).attr("title");
+  window.location.href = `/complits/${id}`;
+})
 
 $(".gradebookboxes li").hover((element) => {
   $(element).toggleClass("grow")

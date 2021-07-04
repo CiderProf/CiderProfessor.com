@@ -156,7 +156,9 @@ app.get('/housereviewsbystate', (req, res) => {
 app.get('/ciderhousereviews/:info', (req, res) => {
     let house = req.params.info;
     let review = getHouseReviewByName(house, houseReviews);
-    res.render('pages/HouseReview', {review: review, headerInfo});
+    let ciderNames = getCiderHouseCiders(review.CidersID);
+    let compReviews = getReviewslist(review.CompLitID);
+    res.render('pages/HouseReview', {review: review, ciderNames: ciderNames, compReviews: compReviews, headerInfo});
 })
 
 app.get('/complits', (req, res) => {
@@ -270,6 +272,24 @@ function getCiderNames(){
     })
     return ciderNames;
 }
+//TODO refactor this to be more useful to that
+function getCiderHouseCiders(list){
+    let ciderNames = {};
+    list.forEach(id => {
+        ciderNames[id] = (ciderInfo.filter(cider => cider.ID == id)[0].Name);
+    })
+    return ciderNames;
+}
+function getReviewslist(list){
+    if(!list) return null;
+    let reviewNames = {};
+    list.forEach(id => {
+        //reviewNames[id] = (complits.filter(comp => comp.ID == id)[0].Title);
+        let temp = complits.filter(comp => comp.ID == id);
+        if(temp[0]) reviewNames[id] = temp[0].Title;
+    })
+    return reviewNames;
+}
 
 function getAllHouses(list){
     let houses = [];
@@ -359,15 +379,15 @@ function replaceChar(style){
 }
 
 function getSplashBlurb(style, list){
-    let temp = [style];
+    let temp = [];
     temp.push(list[style]);
     return temp;
 }
 
 function getSubStylesByStyle(style, list){
+    let temp = [];
     for(var cider in list){
         let styleType = Object.keys(list[cider].Style);
-        
         if(styleType.includes(style)){
             const subStyle = list[cider].Style[style];
             //TODO: If substyle is an array, look for unique values

@@ -104,8 +104,8 @@ nav {
 
 .nav-list {
     width: 75%;
-    height: fit-content;
-    max-height: calc(100vh - 40px);
+    /* height: fit-content; */
+    /* max-height: calc(100vh - 40px); */
     background-color: #D6D2C4;
     color: #002b49;
     font-family: 'AgencyFB-BoldCondensed';
@@ -227,7 +227,7 @@ td {
     vertical-align: middle;
 }
 td:first-child {
-    text-align: right;
+    text-align: center;
     padding-left: 5px;
 }
 .listRow td:nth-last-child(2), th:nth-last-child(2) {
@@ -236,7 +236,6 @@ td:first-child {
 .listimg {
     max-width: 60px;
     max-height: 60px;
-    padding-right: 2px;
 }
 .compslistRow {
     font-size: 20px;
@@ -248,12 +247,12 @@ td:first-child {
 
 /* CIDERDETAIL.ejs */
 
-.cider-detail-topsection {
-    padding-top: 55px;
+.cider-detail-topsection{
+    padding-top: 3em;
     background-color: #002b49;
 }
 
-.cider-detail-topinfo {
+.cider-detail-topinfo, .house-detail-topinfo {
     padding: 10px 0;
     font-family: 'AgencyFB-BoldCondensed';
     color: #F1C400;
@@ -262,11 +261,11 @@ td:first-child {
     width: 100%;
     height: auto;
 }
-.cider-detail-topinfo h2 {
+.cider-detail-topinfo h2, .house-detail-topinfo h2 {
     font-size: 2em;
     padding-left: 15px;
 }
-.cider-detail-topinfo p {
+.cider-detail-topinfo p, .house-detail-topinfo p {
     font-size: 1.3em;
     padding-left: 15px;
 }
@@ -274,8 +273,12 @@ td:first-child {
     background-color: #CCE2EE;
     color: #002b49;
     font-family: 'AgencyFB-BoldCondensed';
-    font-size: 1.3em;
+    font-size: 1.7em;
     padding-left: 10px;
+}
+.cider-detail-midinfo a:any-link {
+    text-decoration: none;
+    color: #002b49;
 }
 .cider-detail-midinfo li{
     padding: 10px 0;
@@ -310,7 +313,7 @@ td:first-child {
     font-size: 2em;
 }
 .cider-detail-description p {
-    padding: 5px 0;
+    padding: 5px;
     font-size: 1.3em;
 }
 .cider-detail-description img{
@@ -319,10 +322,48 @@ td:first-child {
     margin: 0 auto;
 }
 
+.house-detail-topsection {
+    padding-top: 8.5vh;
+    background-color: #002b49;
+
+}
+.cideryImg, .otherImg {
+    width: 100%;
+    height: auto;
+}
+
+.all-ciders-reviewed {
+    background-color: #002b49;
+    padding: 15px;
+}
+.all-ciders-reviewed h3{
+    font-size: 2.2em;
+    font-family: 'AgencyFB-BoldCondensed';
+    color: #CCE2EE;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.all-ciders-reviewed a:any-link {
+    text-decoration: none;
+    color: #D6D2C4;
+}
+.heading {
+    font-size: 2em;
+    font-family: 'RomanAntique';
+    color: #F1C400;
+    padding-bottom: 10px;
+}
+.heading li {
+    font-size: .8em;
+    font-family: 'AgencyFB-BoldCondensed';
+    padding-bottom: 5px;
+}
+
+
 /* GRADEBOOK PAGES */
 
 .gradebook-page-header {
-    margin-top: 4vh;
+    padding-top: 8.5vh;
     width: 100%;
     height: 15vh;
     background-color: #002b49;
@@ -333,10 +374,11 @@ td:first-child {
 .gradebook-page-header h1{
     font-size: 2em;
     height: 15vh;
-    line-height: 15vh;
+    line-height: 2em;
     text-align: right;
     font-family: 'RomanAntique';
     color: #F1C400;
+    text-shadow: 2px 2px #52504a;
     padding-right: 5vw;
     background-color: rgba(0, 43, 73, .4);
 }
@@ -405,8 +447,12 @@ td:first-child {
 .complits {
     background-image: url('https://bn1303files.storage.live.com/y4mKzaYoj5Uy0XKc58YxERHbCXzszJjkpT65aoODVo0rBhL6QlfDL1A78b3FvcMOBThShpkKZcQdnDGAO_oeyHVPBioXZbJyq4eceYff_9HYM0UQ8gpyvCJsrKjrRB1FQN-HXXCuroRa4IDXggE4sk9Itj6vjaFs3o2Ce4kliQRC4SeVSEul3kePgoIt0kyZuOl?width=3447&height=2586&cropmode=none');
 }
-.complits h1, .by-ciderhouse h1 {
+.complits h1 {
     font-size: 1.7em;
+    line-height: 1.7em;
+}
+.by-ciderhouse h1 {
+    font-size: 1.6em;
     line-height: 3.5em;
 }
 
@@ -429,6 +475,9 @@ td:first-child {
     font-family: 'AgencyFB-BoldCondensed';
     font-size: 1.5em;
 }
+.philosophy-blurb p {
+    padding-bottom: 10px;
+}
 .grading-scale {
     background-color: #D6D2C4;
     color: #EDAB00;
@@ -440,6 +489,7 @@ td:first-child {
     padding: 5px 0;
     text-align: center;
     font-size: 1.8em;    
+    text-shadow: 2px 2px #52504a;
 }
 .grading-scale-list {
     color: #002b49;
@@ -450,6 +500,8 @@ td:first-child {
 }
 .grading-scale-list span {
     color: #EDAB00;
+    text-shadow: 1px 1px #52504a;
+    padding-right: 10px;
 }
 
 /* COMPLITESSAY.ejs */
@@ -903,8 +955,13 @@ footer {
         margin-bottom: 20px;
     }
 
-
-
+    .gradebook-page-header {
+        padding-top: 3em;
+    }
+    .gradebook-page-header h1 {
+        line-height: 4em;
+    }
+    
     #ciderlistsection {
         margin-top: 72px;
         min-height: 89vh;  
@@ -1025,7 +1082,51 @@ footer {
         padding: 10px 0;
     }
 
+    /* HOUSEREVIEW.ejs */
+    .house-detail-topinfo {
+        text-align: center;
+    }
+    .house-detail-topinfo h2{
+        font-size: 3em;
+    }
+    .house-detail-topinfo p{
+        font-size: 1.8em;
+    }
+    .house-detail-topsection {
+        padding-top: 8.5vh;
+        background-color: #002b49;
+
+    }
+    .cideryImg {
+        width: 60vw;
+        height: auto;
+        margin: 0 20vw;
+    }
+    .all-ciders-reviewed div{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .heading {
+        display: inline;
+        /* margin-left: 25vw; */
+    }
+
+    .otherImgSection {
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #002b49;
+    }
+    .otherImgSection div{
+        padding: 5px;
+    }
+    .otherImg {
+        width: 45vw;
+    }
 }
+
 
 
 @media screen and (min-width: 1080px) {

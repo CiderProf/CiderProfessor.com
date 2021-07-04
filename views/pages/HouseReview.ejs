@@ -12,9 +12,8 @@
 </head>
 <body>
     <%- include('../layouts/NavBar') %>
-    <section class="cider-detail-topsection">
-        <img src="<%=review.MainImg_url%>" class="glassimage">
-        <ul class="cider-detail-topinfo">
+    <section class="house-detail-topsection">
+        <ul class="house-detail-topinfo">
             <li>
                 <h2><%=review.Name%></h2>
             </li>
@@ -22,6 +21,7 @@
                 <p><%=review.City%></p>
             </li>
         </ul>
+        <img src="<%=review.MainImg_url%>" class="cideryImg">
     </section>
     <section class="cider-detail-feedback">
         <p><%=review.Body%></p>
@@ -30,12 +30,40 @@
         <ul class="cider-detail-midinfo">
                 <li>Visited: <%=review.Date[0]%>, <%=review.Date[1]%></li>
                 <li><%=review.ContactAddress%></li>
-                <li><%=review.ContactWebsite%></li>
+                <li><a href="https://<%=review.ContactWebsite%>" target="_blank"><%=review.ContactWebsite%></a></li>
         </ul>
     </section>
-    <section>
-        
+    <section class="all-ciders-reviewed">
+        <h3>Reviews featuring: <%=review.Name%></h3>
+        <div>
+            <ul class="heading">Ciders
+                <% Object.keys(ciderNames).forEach( id => { %>
+                    <li><a href="/ciderdetail/<%=id%>"><%=ciderNames[id]%></a></li>
+                <%})%>
+            </ul>
+            <% if(compReviews){ %>
+                <ul class="heading">Comparative Literature Reviews
+                    <% Object.keys(compReviews).forEach( id => { %>
+                        <li><a href="/complits/<%=id%>"><%=compReviews[id]%></a></li>
+                    <%})%>
+                </ul>
+            <%}%>
+        </div>
     </section>
+    <!-- if available display -->
+    <% if(review.OtherImgUrl) { %>
+        <section class="otherImgSection">
+            <% if(typeof(review.OtherImgUrl) == 'string') { %>
+                <img src="<%=review.OtherImgUrl%>" class="otherImg">
+            <%} else {%>
+                <% review.OtherImgUrl.forEach( url => { %>
+                    <div>
+                        <img src="<%=url%>" class="otherImg">
+                    </div>
+                <%})%>
+            <%}%>
+        </section>
+    <%}%>
     <%- include('../layouts/Footer') %>
 </body>
 </html>

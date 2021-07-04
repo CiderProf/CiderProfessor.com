@@ -578,7 +578,8 @@ function sortHousesReviewedbyState(list){
     let temp = {};
     let states = [];
     for( var house in list){
-        let state = list[house].City[1];
+        let arr = processCityToArray(list[house].City);
+        let state = arr[1];
         if(!states.includes(state)) states.push(state);
     }
     states.sort();
@@ -588,7 +589,8 @@ function sortHousesReviewedbyState(list){
     });
     //set the ciderhouses by state in sorted order
     for( var house in list){
-        const state = list[house].City[1];
+        let arr = processCityToArray(list[house].City);
+        const state = arr[1];
         const name = list[house].Name;
         if(temp[state] === null){
             temp[state] = [name];
@@ -597,6 +599,12 @@ function sortHousesReviewedbyState(list){
         temp[state].sort();
     }
     return temp;
+}
+function processCityToArray(input){
+    if(input != null && typeof(input) == 'object') return input;
+    if(input != null && typeof(input) == 'string'){
+        return input.split(", ");
+    }
 }
 
 function getHouseReviewByName(house, list){

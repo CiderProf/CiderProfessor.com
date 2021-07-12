@@ -69,11 +69,17 @@ header {
     height: auto;
 }
 
+.hero-overlay {
+    background-image: linear-gradient(rgba(83, 80, 74, 0), rgba(83, 80, 74, .6), rgba(83, 80, 74, 0));
+}
+
 .main-logo-container {
     width: 50vw;
     max-width: 569px;
-    margin-left: 15px;
-    padding-top: 5px;
+    /* margin-left: 15px; */
+    margin: 0 auto;
+    padding-top: 6vh;
+    padding-bottom: 3vh;
 }
 .main-logo-container img{
     position: relative;
@@ -738,25 +744,25 @@ footer {
     }
 
     .hero-overlay {
-        top: 0px;
+        background-image: none;
     }
     
     .hero-img {
         position: fixed;
         top: 60px;
     }
-    .hero-overlay h1 {
-        height: 2.5em;
-        font-size: 2em;
-        line-height: 2.5em;
-        /* padding-top: 20px; */
+    
+    .main-logo-container {
+        width: 50vw;
+        max-width: 569px;
+        margin-left: 15px;
+        padding-top: 20px;
+    }
+    .main-logo-container img{
+        position: relative;
+        width: 100%;
     }
 
-    .hero-overlay h2 {
-        height: 2em;
-        font-size: 1.8em;
-        line-height: 2em;
-    }
 
         /* NAV BAR */
     #cideries {

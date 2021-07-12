@@ -69,6 +69,17 @@ header {
     height: auto;
 }
 
+.main-logo-container {
+    width: 50vw;
+    max-width: 569px;
+    margin-left: 15px;
+    padding-top: 5px;
+}
+.main-logo-container img{
+    position: relative;
+    width: 100%;
+}
+
 /* NAV BAR */
 nav {
     position: fixed;

@@ -67,8 +67,7 @@ app.get('/ciderdetail/:info', (req, res) => {
 })
 
 app.get('/styles', (req, res) => {
-    let blurbs = allBlurbs;
-    res.render('pages/Styles', {ciderStyles: allStyles, styleBlurbs: blurbs, headerInfo});
+    res.render('pages/Styles', {ciderStyles: allStyles, headerInfo});
 })
 
 app.get('/styles/:info', (req, res) => {
@@ -162,7 +161,10 @@ app.get('/ciderhousereviews/:info', (req, res) => {
 })
 
 app.get('/complits', (req, res) => {
-    //need to process complits to get ciders names
+    res.render('pages/CompLits', {headerInfo});
+})
+
+app.get('/listcomplits', (req, res) => {
     let ciderNames = getCiderNames();
     let sorted = complits.sort((a, b) => (a.Date < b.Date) ? 1 : -1);
     res.render('pages/ListOfCompLits', {complits: sorted, ciderNames: ciderNames, headerInfo});
@@ -172,6 +174,20 @@ app.get('/complits/:info', (req, res) => {
     let cid = req.params.info;
     let cle = getEssay(cid, complits);
     res.render('pages/CompLitEssay', {complit: cle, headerInfo});
+})
+
+app.get('/litsplash/:info', (req, res) => {
+    let type = req.params.info;
+    let splash;
+    type == 'theme' ? splash = allthemes : splash = getQuickStyles();
+    res.render('pages/LitSplash', {splash: splash, type: type, headerInfo})
+})
+
+app.get('/litredirect/:info', (req, res) => {
+    let info = req.params.info;
+    const type = req.query.type;
+    type == 'theme' ? res.redirect(`/litsbytheme/${info}`)
+                    : res.redirect(`/litsbystyle/${info}`);
 })
 
 app.get('/litsbystyle/:info', (req, res) => {
@@ -195,7 +211,9 @@ app.get('/litsbystyle/:info1/:info2', (req, res) => { //this handles an edge cas
 app.get('/litsbytheme/:info', (req, res) => {
     let theme = req.params.info;
     let litsList = getLitsByTheme(theme, complits);
-    res.render('pages/CompLits', {complits: litsList, headerInfo})
+    //TODO: Order by date or alpha?
+    let ciderNames = getCiderNames();
+    res.render('pages/ListOfCompLits', {complits: litsList, ciderNames: ciderNames, headerInfo})
 })
 
 app.get('/map', (req, res) => {
@@ -532,6 +550,10 @@ function getLitStyles(list){
     return litstyles;
 }
 
+function getQuickStyles(){
+    return Object.keys(allLitStyle);
+}
+
 function getLitsByStyle(style, list) {
     let lits = [];
     for(var lit in list){
@@ -611,8 +633,6 @@ function getHouseReviewByName(house, list){
     let temp = list.filter( h => h.Name == house);
     let rev = temp[0];
     rev.Date = dateConvert(rev.Date);
-    //rev.CidersID get names and IDs for links
-    //rev.CompLitID get names and IDs for links
     return rev;
 }
 

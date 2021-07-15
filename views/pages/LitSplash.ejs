@@ -16,15 +16,15 @@
     <section class="gradebook-page-header complits">
         <h1>COMPARATIVE LITURATURE ESSAYS</h1>
     </section> 
-    <!-- TODO: list the items in {splash} -->
-    <ul>
-        <% splash.forEach( key => { %>
-            <li><a href="/litredirect/<%=key%>?type=<%=type%>"><%=key%></a></li>
-        <%})%>
-    </ul>
-
+    <section class="gradebook-page-blurb type-header">
+        <p><%=type%></p>
+    </section>
     <section>
-
+        <ul class="gradebook-page-list">
+            <% splash.forEach( key => { %>
+                <li><a href="/litredirect/<%=key%>?type=<%=type%>"><%=key%></a></li>
+            <%})%>
+        </ul>
     </section>
     <%- include('../layouts/Footer') %>
 </body>

@@ -440,6 +440,11 @@ td:first-child {
     font-size: 24px;
 }
 
+.type-header {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 2.5em;
+}
 /* STYLE.ejs*/
 .by-style {
     background-image: url('https://bn1303files.storage.live.com/y4m-pWZ9nO8_TBhKw3cSsJ1T9siyklHNyVx1zwcjl8IDcKR-8FddZA6FNp7_LbHH6a2GyhoUNdIzj-x_VmGvYUH5YCN0_zfiseZsDCLFCHLEegw2uWb3GJ0v9erbJRYem_Hg8NA8PSq8ui9kD3GDQNZokmB4SB5gC5ygh7fu2mZsEpr4DzzHKoqF178Arm0ib0N?width=5973&height=4480&cropmode=none');

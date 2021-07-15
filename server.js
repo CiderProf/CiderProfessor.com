@@ -38,7 +38,6 @@ const headerInfo = {ciderHouses: allHouses,
 
 //---------------- ROUTES-----------------------//
 app.get('/', (req, res) => {
-    
         res.render('pages/index', {headerInfo});
 })
 
@@ -46,16 +45,11 @@ app.get('/about', (req, res) => {
     res.render('pages/About', {headerInfo});
 })
 
-app.get('/ciders', (req, res) => {
-    return res.send(allarr);//all ciders
-})
-
 app.get('/sortby/:info', (req, res) => {
     const info = req.params.info;
     let sorted;
-    info == "Name" ?
-        sorted = ciderInfo.sort((a, b) => (a[info] > b[info]) ? 1 : -1) :
-        sorted = ciderInfo.sort((a, b) => (a[info] < b[info]) ? 1 : -1);
+    info == "Name" ? sorted = ciderInfo.sort((a, b) => (a[info] > b[info]) ? 1 : -1) 
+                   : sorted = ciderInfo.sort((a, b) => (a[info] < b[info]) ? 1 : -1);
     res.render('pages/ListOfCider', {ciderList: sorted, headerInfo});
 })
 
@@ -185,9 +179,15 @@ app.get('/litsplash/:info', (req, res) => {
 
 app.get('/litredirect/:info', (req, res) => {
     let info = req.params.info;
+    if(info.includes('~')) info = info.replace('~', '/');
     const type = req.query.type;
-    type == 'theme' ? res.redirect(`/litsbytheme/${info}`)
-                    : res.redirect(`/litsbystyle/${info}`);
+    if (type == 'theme') res.redirect(`/litsbytheme/${info}`)
+    if (type == 'style') {
+        console.log(allLitStyle[info])
+        if(allLitStyle[info] == null) res.redirect(`/litsbystyle/${info}`);
+        else res.render('pages/LitSplash', {splash: allLitStyle[info], type: info, headerInfo});
+    }
+    if(type != 'theme' && type != 'style') res.redirect(`/litsbystyle/${type}&${info}`);
 })
 
 app.get('/litsbystyle/:info', (req, res) => {
@@ -196,10 +196,13 @@ app.get('/litsbystyle/:info', (req, res) => {
     if(style.includes('&')){
         let subStyle = style.slice(style.indexOf("&")+1, style.length);
         litsbystyle = getLitsBySubstyle(subStyle, complits);
+        style = subStyle;
     }else{
         litsbystyle = getLitsByStyle(style, complits);
     };
-    res.render('pages/LitsByStyle', {litstyles: litsbystyle, headerInfo});
+    litsbystyle.sort((a, b) => (a.Title > b.Title) ? 1 : -1)
+    let ciderNames = getCiderNames();
+    res.render('pages/ListOfCompLits', {complits: litsbystyle, ciderNames: ciderNames, headerInfo});
 })
 
 app.get('/litsbystyle/:info1/:info2', (req, res) => { //this handles an edge case where the info contains a '/'
@@ -207,11 +210,16 @@ app.get('/litsbystyle/:info1/:info2', (req, res) => { //this handles an edge cas
     let ss = req.params.info2;
     res.redirect(`/litsbystyle/${ss}`);
 })
+app.get('/litredirect/:info1/:info2', (req, res) => { //this handles an edge case where the info contains a '/'
+    const ss = req.params.info1.concat('~',req.params.info2);
+    const type = req.query.type;
+    res.redirect(`/litredirect/${ss}?type=${type}`);
+})
 
 app.get('/litsbytheme/:info', (req, res) => {
     let theme = req.params.info;
     let litsList = getLitsByTheme(theme, complits);
-    //TODO: Order by date or alpha?
+    litsList.sort((a, b) => (a.Title > b.Title) ? 1 : -1)
     let ciderNames = getCiderNames();
     res.render('pages/ListOfCompLits', {complits: litsList, ciderNames: ciderNames, headerInfo})
 })
@@ -560,9 +568,8 @@ function getLitsByStyle(style, list) {
         const ls = list[lit].Style;
         if(ls == style){
             let tempObj = {};
-            tempObj.Title = list[lit].Title;
-            tempObj.Date = dateConvert(list[lit].Date);
-            tempObj.ID = list[lit].ID;
+            tempObj = complits[lit];
+            tempObj.Date = dateConvert(tempObj.Date);
             lits.push(tempObj);
         }
     }
@@ -575,9 +582,8 @@ function getLitsBySubstyle(subStyle, list){
         const ls = list[lit].Style;
         if(typeof ls == 'object' && ls !== null && Object.values(ls) == subStyle){
             let tempObj = {};
-            tempObj.Title = list[lit].Title;
-            tempObj.Date = dateConvert(list[lit].Date);
-            tempObj.ID = list[lit].ID;
+            tempObj = complits[lit];
+            tempObj.Date = dateConvert(tempObj.Date);
             lits.push(tempObj);
         }
     }

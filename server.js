@@ -183,7 +183,6 @@ app.get('/litredirect/:info', (req, res) => {
     const type = req.query.type;
     if (type == 'theme') res.redirect(`/litsbytheme/${info}`)
     if (type == 'style') {
-        console.log(allLitStyle[info])
         if(allLitStyle[info] == null) res.redirect(`/litsbystyle/${info}`);
         else res.render('pages/LitSplash', {splash: allLitStyle[info], type: info, headerInfo});
     }

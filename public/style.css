@@ -443,6 +443,7 @@ td:first-child {
 .type-header {
     text-transform: capitalize;
     text-align: center;
+    font-family: 'RomanAntique';
     font-size: 2.5em;
 }
 /* STYLE.ejs*/

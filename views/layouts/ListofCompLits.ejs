@@ -6,6 +6,7 @@
             <th>Ciders</th>
             <th></th>
             <th></th>
+            <th class="last-td hide">Date</th>
         </tr>
         <!--for each Comp Lit-->
         <% complits.forEach(complit => { %>
@@ -21,6 +22,7 @@
                <% for  (var i = complit.Ciders.length; i<4; i++) { %>
                     <td></td>
                <% } %>
+                <td><%=complit.Date[0]%>, <%=complit.Date[1]%></td>
             </tr>
         <%})%>
     </table>

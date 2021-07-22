@@ -162,14 +162,6 @@ app.get('/listcomplits', (req, res) => {
     let ciderNames = getCiderNames();
     let allLits = processObjectDates(complits);
     let sorted = allLits.sort((a, b) => (a.Date[2] < b.Date[2]) ? 1 : -1);
-        //hacky way to sort by date if dates have already been converted
-        // if(typeof a.Date === 'object') {
-        //     return (a.Date[2] < b.Date[2]) ? 1 : -1;
-        // } else {
-        //     return (a.Date < b.Date) ? 1 : -1;
-        // }
-    // })
-    // console.log(sorted)
     res.render('pages/ListOfCompLits', {complits: sorted, ciderNames: ciderNames, headerInfo});
 })
 

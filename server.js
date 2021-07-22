@@ -160,7 +160,16 @@ app.get('/complits', (req, res) => {
 
 app.get('/listcomplits', (req, res) => {
     let ciderNames = getCiderNames();
-    let sorted = complits.sort((a, b) => (a.Date < b.Date) ? 1 : -1);
+    let allLits = processObjectDates(complits);
+    let sorted = allLits.sort((a, b) => (a.Date[2] < b.Date[2]) ? 1 : -1);
+        //hacky way to sort by date if dates have already been converted
+        // if(typeof a.Date === 'object') {
+        //     return (a.Date[2] < b.Date[2]) ? 1 : -1;
+        // } else {
+        //     return (a.Date < b.Date) ? 1 : -1;
+        // }
+    // })
+    // console.log(sorted)
     res.render('pages/ListOfCompLits', {complits: sorted, ciderNames: ciderNames, headerInfo});
 })
 
@@ -496,9 +505,9 @@ function getCidersByMood(mood, list){
 
 function dateConvert(date){
     //201805 => ['Jun', '2018', 201805]
-    const d = date.toString();
-    if(d.length < 6) return null;
+    const d = (date - 1).toString();
     if(typeof date == 'object') return date;
+    if(d.length < 6) return null;
     let yr = '';
     let mo = '';
     for(let i=0; i<d.length; i++){
@@ -641,3 +650,10 @@ function getHouseReviewByName(house, list){
     return rev;
 }
 
+function processObjectDates(list){
+    let temp = list;
+    for (var item in list){
+        temp[item].Date = dateConvert(list[item].Date);
+    }
+    return temp;
+}

@@ -4,6 +4,10 @@ $(".menu-icon").click( function() {
   $(".nav-list").toggleClass("hide");
 });
 
+if($(window).width() < 780) {
+  $(".compslistRow td:nth-last-child(2)").toggleClass("padding-right")
+}
+
 if($(window).width() > 780) {
   $(".nav-list").removeClass("hide");
   $(".last-td").removeClass("hide");

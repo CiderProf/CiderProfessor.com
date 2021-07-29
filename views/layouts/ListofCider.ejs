@@ -1,4 +1,9 @@
-<section id="ciderlistsection" style="padding-top: 0px;">
+<section id="ciderlistsection">
+    <% if(blurb) { %>
+        <div class="gradebook-page-blurb">
+            <p><%= blurb[1] %>: <%= blurb[0] %></p>
+        </div>
+    <%}%>
     <table class="ciderlisttable">
         <tr class="tableheader">
             <th></th>

@@ -1,4 +1,4 @@
-<section id="ciderlistsection" style="padding-top: 0px;">
+<section id="ciderlistsection">
     <table class="ciderlisttable">
         <tr class="tableheader">
             <th>Title</th>
@@ -22,7 +22,7 @@
                <% for  (var i = complit.Ciders.length; i<4; i++) { %>
                     <td></td>
                <% } %>
-                <td><%=complit.Date[0]%>, <%=complit.Date[1]%></td>
+                <td class="last-td hide"><%=complit.Date[0]%>, <%=complit.Date[1]%></td>
             </tr>
         <%})%>
     </table>

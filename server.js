@@ -67,15 +67,16 @@ app.get('/styles', (req, res) => {
 app.get('/styles/:info', (req, res) => {
     const style = Object.values(req.query);
     let info = req.params.info;
+    let blurb = getSplashBlurb(style, blurbs);
     if(req.params.info.includes("&")) info = replaceChar(info)
     if(info == style[0]){
         let cs = getCidersByStyle(info, ciderInfo);
         let list = orderCidersByScore(cs)
-        return res.render('pages/ListOfCider', {ciderList: cs, headerInfo});
+        return res.render('pages/ListOfCider', {ciderList: cs, blurb: [blurb, style], headerInfo});
     } else {
         let css = getCidersBySubStyle(info, style[0], ciderInfo)
         let list = orderCidersByScore(css)
-        return res.render('pages/ListOfCider', {ciderList: css, headerInfo});
+        return res.render('pages/ListOfCider', {ciderList: css, blurb: [null, info], headerInfo});
     }
 })
 app.get('/styles/:info1/:info2', (req, res) => {

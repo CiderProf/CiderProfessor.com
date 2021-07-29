@@ -132,6 +132,8 @@ nav {
     font-size: 1.5em;
     overflow: scroll;
     border-radius: 0 10px 10px 0;
+    max-height: 85vh;
+    overflow: scroll;
 }
 
 .nav-item, .nav-item li {

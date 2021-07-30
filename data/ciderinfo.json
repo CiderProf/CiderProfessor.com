@@ -217,7 +217,7 @@
 		"Cidery": "Åbro Bryggeri",
 		"Score": 86,
 		"Grade": "B",
-		"State_Country": "Sweeden",
+		"State_Country": "Sweden",
 		"Style": {
 			"Fruit": "Passionfruit"
 		},
@@ -843,7 +843,7 @@
 		"Cidery": "Bold Rock Hard Cider",
 		"Score": 92.5,
 		"Grade": "A",
-		"State_Country": "Virginia",
+		"State_Country": "Virgnia",
 		"Style": {
 			"Standard": "Complex"
 		},
@@ -857,7 +857,7 @@
 		"ABV": 4.7,
 		"Comp_Review": null,
 		"PicURL": "https://bn1303files.storage.live.com/y4mQ-UyL6NTxznsd9weXm0bGYrFTFMA_rMr0_FrxJbaHdYVgo3dfpWc_eyvTQuWo9rRJ7ib9ZsuTxybX8gPvq8EITLMRkrAf-NmlMQsaqkimuVTlhMubbSI7DT0f-opdw_4YQ0sALKx7oS_Ks7Ns4xNYfrXva9OSNPn9CPkBhfXiKFmc_rAHJ-fwD7oAmxFjvrw?width=1404&height=1874&cropmode=none",
-		"LogoURL": "https://bn1303files.storage.live.com/y4m-ouHkhNteN-chJmhRErMqnNVSDQYuX8bjz57sI-FNlqNu3otkOVoRRTz6G50HB7_c3UTAxlUR-2JPNryygmnDDrr5uWI3teoxE218IE6_GjbiGPj5iSrcQFh1ahelqUETeVeTAlfPZIzuFTy62eFU9gURffRYE99YeERhVAZ43S0CF2wivo1Karq1KIWMKFe?width=485&height=153&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mnbd02ehqzvj77eWDS0JY1NpZyTcvXinDMb9U36AWeIbScmn0QImdW8Px_AvbAqXE6nz5KMbFduFVzCltNc9_oalNk8XEHD_EcfrVdmi0cAi-Vnla8bxRis4biRiBLwyQqrMhpNlpq_dRzZQhjTNmZVm4MTfHErzZ_pBZ46YRGlypE3N8P56zOznPfLJF3dT9?width=550&height=550&cropmode=none",
 		"ID": 43
 	},
 	{
@@ -912,7 +912,7 @@
 			"Summer Garden Party"
 		],
 		"Feedback": "These Swedish ciders are usually very fizzy and sweet and this one is no exception. It has a bright lime smell and if very fizzy (a bit too much so in my opinion). The flavor is very bright and reminds me of a strawberry Jolly Rancher candy—so, very sweet.",
-		"Prodct_Description": "Hard Cider blended with Strawberry-Lime imported Swedish cider from Vimmerby. Made from pure Swedish spring water. Serve well chilled.",
+		"Prodct_Description": "Hard Cider blended with Strawberry-Lime imported Swedish cider from Vimmerby. Made from pure Swedish spring water. Serve well valed.",
 		"Date_Tried": 201812,
 		"ABV": 4,
 		"Comp_Review": null,
@@ -1135,8 +1135,8 @@
 	{
 		"Name": "Chile Guava",
 		"Cidery": "Stem Ciders",
-		"Score": 94,
-		"Grade": "A",
+		"Score": 92,
+		"Grade": "A-",
 		"State_Country": "Colorado",
 		"Style": {
 			"Botanical/Spiced": "Heat"
@@ -2518,7 +2518,7 @@
 		"Cidery": "Stem Ciders",
 		"Score": 87.5,
 		"Grade": "B+",
-		"State_Country": "Colorado",
+		"State_Country": "Colorado ",
 		"Style": {
 			"Fruit": "Raspberry"
 		},
@@ -4447,7 +4447,7 @@
 		"Grade": "B+",
 		"State_Country": "Colorado",
 		"Style": {
-			"Standard": "Semi-Sweet"
+			"Stanadrd": "Semi-Sweet"
 		},
 		"Mood": [
 			"Tart n' Tasty",
@@ -5097,8 +5097,7 @@
 		"Grade": "A",
 		"State_Country": "Colorado",
 		"Style": {
-			"Standard": "Complex",
-			"Fruit": "Passionfruit"
+			"Fruit": "Mango"
 		},
 		"Mood": [
 			"A Sophisticated Night In",
@@ -5464,7 +5463,7 @@
 		"Grade": "C+",
 		"State_Country": "California",
 		"Style": {
-			"Rosé": null
+			"Rosé ": null
 		},
 		"Mood": null,
 		"Feedback": "Yep, the color is like seeing regular cider through rose-colored glasses. This rosé has a really bright nose with strawberries up front and some acidity from the blackberries and raspberries. There is also clear sugar notes. Wow, it’s pretty sweet, like getting close to strawberry soda levels. It does have a smooth mouthfeel with some sharpness on the tongue, but mostly sweet berries followed by a tart apple taste. I know it is weird for <i>me<i/> to say, but it’s just a bit too sweet and juicy for me. It also has that artificial sugary taste too. While I like bold flavors, this seemed to take everything just one step too far, and for you dry cider drinkers out there, probably two steps too far, so stay away.",

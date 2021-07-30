@@ -48,8 +48,11 @@ app.get('/about', (req, res) => {
 app.get('/sortby/:info', (req, res) => {
     const info = req.params.info;
     let sorted;
-    info == "Name" ? sorted = ciderInfo.sort((a, b) => (a[info] > b[info]) ? 1 : -1) 
-                   : sorted = ciderInfo.sort((a, b) => (a[info] < b[info]) ? 1 : -1);
+    if(info =='Name') {
+        sorted = ciderInfo.sort((a, b) => (a[info] > b[info]) ? 1 : -1)
+    } else {
+        sorted = ciderInfo.sort((a, b) => (a[info] < b[info]) ? 1 : -1)
+    }
     res.render('pages/ListOfCider', {ciderList: sorted, blurb: null, headerInfo});
 })
 
@@ -258,9 +261,11 @@ function getCider(id, list){
         let i = ciderInfo[cider];
         if(i.ID == id){
             i.Date_Tried = dateConvert(i.Date_Tried);
+            //handle string conversion
             return i;
         }
     }  
+    
 }
 
 function getEssay(id, list){

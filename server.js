@@ -50,7 +50,7 @@ app.get('/sortby/:info', (req, res) => {
     let sorted;
     info == "Name" ? sorted = ciderInfo.sort((a, b) => (a[info] > b[info]) ? 1 : -1) 
                    : sorted = ciderInfo.sort((a, b) => (a[info] < b[info]) ? 1 : -1);
-    res.render('pages/ListOfCider', {ciderList: sorted, headerInfo});
+    res.render('pages/ListOfCider', {ciderList: sorted, blurb: null, headerInfo});
 })
 
 app.get('/ciderdetail/:info', (req, res) => {
@@ -103,7 +103,7 @@ app.get('/moods/:info', (req, res) => {
     const mood = req.params.info;
     let cm = getCidersByMood(mood, ciderInfo);
     let list = orderCidersByScore(cm)
-    res.render('pages/ListOfCider', {ciderList: list, headerInfo});
+    res.render('pages/ListOfCider', {ciderList: list, blurb: null, headerInfo});
 })
 app.get('/moods/:info1/:info2', (req, res) => { //this handles an edge case where the info contains a '/'
     let s = req.params.info1;
@@ -127,19 +127,19 @@ app.get('/ciderhouses/:info', (req, res) => {
     let house = req.params.info;
     let ch = getCidersByHouse(house, ciderInfo);
     let list = orderCidersByScore(ch)
-    res.render('pages/ListOfCider', {ciderList: list, headerInfo});
+    res.render('pages/ListOfCider', {ciderList: list, blurb: null, headerInfo});
 })
 
 app.get('/ciderhousereviews', (req, res) => {
     let houses = getCiderHouses(houseReviews).sort();
-    res.render('pages/ListOfHouses', {houses: houses, headerInfo});
+    res.render('pages/ListOfHouses', {houses: houses, blurb: null, headerInfo});
 })
 
 app.get('/ciderlocations/:info', (req, res) => {
     let country = req.params.info;
     let ciders = getCidersByCountry(country, ciderInfo);
     let list = orderCidersByScore(ciders)
-    res.render('pages/ListOfCider', {ciderList: list, headerInfo});
+    res.render('pages/ListOfCider', {ciderList: list, blurb: null, headerInfo});
 })
 
 app.get('/housereviewsbystate', (req, res) => {

@@ -17,20 +17,20 @@
                                 <li  class="style"><%=Object.keys(headerInfo.ciderStyles)[k]%>  -></li>
                                 <ul>
                                     <% for(var s in headerInfo.ciderStyles[Object.keys(headerInfo.ciderStyles)[k]]) { %>
-                                        <li  class="sub-style hide"><a href="/styles/<%=headerInfo.ciderStyles[Object.keys(headerInfo.ciderStyles)[k]][s]%>?style=<%=Object.keys(headerInfo.ciderStyles)[k]%>"><%= headerInfo.ciderStyles[Object.keys(headerInfo.ciderStyles)[k]][s] %></a></li>
+                                        <span  class="sub-style hide"><a href="/styles/<%=headerInfo.ciderStyles[Object.keys(headerInfo.ciderStyles)[k]][s]%>?style=<%=Object.keys(headerInfo.ciderStyles)[k]%>"><li><%= headerInfo.ciderStyles[Object.keys(headerInfo.ciderStyles)[k]][s] %></li></a></span>
                                     <%}%>
                                 </ul>
                             <%} else { %>
-                                <li><a href="/styles/<%=Object.keys(headerInfo.ciderStyles)[k]%>?style=<%=Object.keys(headerInfo.ciderStyles)[k]%>"><%=Object.keys(headerInfo.ciderStyles)[k]%></a></li>
+                                <a href="/styles/<%=Object.keys(headerInfo.ciderStyles)[k]%>?style=<%=Object.keys(headerInfo.ciderStyles)[k]%>"><li><%=Object.keys(headerInfo.ciderStyles)[k]%></li></a>
                             <%}%>
                         <%};%>
                     </ul>
                 </li>  <!---flyout-->
-                <li><a href="/sortby/Score">By Grade</a></li> <!---a tag-->
+                <a href="/sortby/Score"><li>By Grade</li></a> <!---a tag-->
                 <li>By Mood  ->
                     <ul name="mood" id="mood" class="mood hide">
                         <% headerInfo.ciderMoods.forEach(mood => { %>
-                            <li><a href="/moods/<%=mood%>"><%= mood %></a></li>
+                            <a href="/moods/<%=mood%>"><li><%= mood %></li></a>
                             <% }); %>
                         </ul>
                     </li>  <!---flyout-->
@@ -39,23 +39,23 @@
                         <li class="state">By State ->
                             <ul>
                                 <% for(var state of Object.keys(headerInfo.ciderStates)) { %>
-                                    <li class="state-item hide"><a href="/ciderlocations/<%=headerInfo.ciderStates[state]%>"><%= headerInfo.ciderStates[state] %></a></li>
+                                    <a href="/ciderlocations/<%=headerInfo.ciderStates[state]%>"><li class="state-item hide"><%= headerInfo.ciderStates[state] %></li></a>
                                 <%};%>
                             </ul>
                         </li><!---a tag-->
                         <li class="state">By Country ->
                             <ul>
                                 <% for(var country of Object.keys(headerInfo.ciderCountries)) { %>
-                                    <li class="state-item hide"><a href="/ciderlocations/<%=headerInfo.ciderCountries[country]%>"><%= headerInfo.ciderCountries[country] %></a></li>
+                                    <a href="/ciderlocations/<%=headerInfo.ciderCountries[country]%>"><li class="state-item hide"><%= headerInfo.ciderCountries[country] %></li></a>
                                 <%};%>
                             </ul>
                         </li><!---a tag-->
                    <!-- <li>By Map</li> -a tag-->
                     </ul>
                 </li> <!---flyout-->
-                <li><a href="/ciderhouses">By Cider House</a></li>  <!---a tag-->
-                <li><a href="/sortby/Name">By Name</a></li> <!---a tag-->
-                <li><a href="/sortby/Date_Tried">By Date</a></li> <!---a tag-->
+                <a href="/ciderhouses"><li>By Cider House</li></a>  <!---a tag-->
+                <a href="/sortby/Name"><li>By Name</li></a> <!---a tag-->
+                <a href="/sortby/Date_Tried"><li>By Date</li></a> <!---a tag-->
             </ul>
         </li>
         <li class="nav-item" id="gradphil"><p><a href="/philosophy">Grading Philosophy</a></p></li>
@@ -69,12 +69,12 @@
                                 <li class="litstyle"> <%= style %> ->
                                     <ul>
                                         <% for(var sub of headerInfo.complitstyle[style]) { %>
-                                            <li class="sub-style hide"><a href="/litsbystyle/<%=style%>&<%=sub%>"><%= sub %></a></li>
+                                            <a href="/litsbystyle/<%=style%>&<%=sub%>"><li class="sub-style hide"><%= sub %></li></a>
                                         <% } %>
                                     </ul>
                                 </li>
                             <% } else { %>
-                                <li><a href="/litsbystyle/<%=style%>"><%= style %></a></li>
+                                <a href="/litsbystyle/<%=style%>"><li><%= style %></li></a>
                             <% } %>
                         <% }; %> 
                     </ul>
@@ -86,15 +86,15 @@
                         <% }); %>
                     </ul>
                 </li>
-                <li><a href="/listcomplits">By Date </a></li>
+                <a href="/listcomplits"><li>By Date</li></a>
             </ul>
         </li>
         <li class="nav-item" id="cidreviews"><p>Ciderhouse Reviews</p>
             <ul class="cidreviews hide">
-                <li><a href="/ciderhousereviews">By Name</a></li>
+                <a href="/ciderhousereviews"><li>By Name</li></a>
                 <li id="crgeography">By Geography ->
                     <ul class="crgeography hide">
-                        <li><a href="/housereviewsbystate">By State</a></li>
+                        <a href="/housereviewsbystate"><li>By State</li></a>
                         <!-- <li>By Map</li> -->
                     </ul>
                  </li>

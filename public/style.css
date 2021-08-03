@@ -7,16 +7,16 @@
     src: url('assets/fonts/AgencyFB/AgencyFB-Light.otf');
 }
 @font-face {
-    font-family: 'AgencyFB-Regular';
-    src: url('assets/fonts/AgencyFB/AgencyFB-Regular.otf');
-}
-@font-face {
     font-family: 'AgencyFB-Black';
     src: url('assets/fonts/AgencyFB/AgencyFB-Black.otf');
 }
 @font-face {
     font-family: 'RomanAntique';
     src: url('assets/fonts/roman_antique/RomanAntique.ttf');
+}
+@font-face {
+    font-family: 'RomanAntique-Italic';
+    src: url('assets/fonts/roman_antique/RomanAntique-Italic.ttf');
 }
 
 
@@ -48,6 +48,9 @@ a:visited {
     margin-right: 10px;
 }
 
+.feebackItalic {
+    font-family: RomanAntique-Italic;
+}
 
 /* HEADER */
 header {
@@ -222,7 +225,7 @@ tr {
     height: 75px;
     background-color: #cce2ee;
     border-bottom: solid 1px #EDAB00;
-    font-family: 'AgencyFB-Regular';
+    font-family: 'AgencyFB-BoldCondensed';
     font-size: 18px;
     width: 100vw;
 }
@@ -313,6 +316,9 @@ td:first-child {
     font-size: 1.3em;
     padding: 10px 15px;
     font-family: 'RomanAntique';
+}
+.cider-detail-feedback a:link .cider-detail-feedback a:visited {
+    color: #F1C400;
 }
 .cider-detail-description {
     padding: 15px 0;
@@ -1046,6 +1052,9 @@ footer {
     }
     .cider-detail-feedback p {
         font-size: 28px;
+    }
+    .cider-detail-feedback a:link, .cider-detail-feedback a:visited {
+        color: #F1C400;
     }
     .cider-detail-description {
         height: fit-content;

@@ -1,94 +1,95 @@
 $(function(){
 
-$(".menu-icon").click( function() {
-  $(".nav-list").toggleClass("hide");
-});
+  $(".menu-icon").click( function() {
+    $(".nav-list").toggleClass("hide");
+  });
 
-if($(window).width() < 780) {
-  $(".compslistRow td:nth-last-child(2)").toggleClass("padding-right")
-}
-
-if($(window).width() > 780) {
-  $(".nav-list").removeClass("hide");
-  $(".last-td").removeClass("hide");
-}
-if($(window).width() > 1080) $(".app-icon-placeholder").toggleClass("hide");
-
-$("#gradebook").click( function() {
-  $(".gradebook").toggleClass("hide");
-});
-
-$("#gradebook ul").click( function(e){
-  let $this = e.target.children;
-  if($this && $this.length > 0){
-    $(e.target.children).toggleClass("hide");    
+  if($(window).width() < 780) {
+    $(".compslistRow td:nth-last-child(2)").toggleClass("padding-right")
   }
-  $(this).toggleClass("hide");
-});
 
-$(".style").click( function() {
-  $(this).next().children().toggleClass("hide");
-  $(this).parent().toggleClass("hide");
-});
-
-$("#complit").click( function() {
-  $(".complit").toggleClass("hide");
-});
-
-$("#complit ul").click( function(e){
-  let $this = e.target.children;
-  if($this && $this.length > 0){
-    $(e.target.children).toggleClass("hide");    
+  if($(window).width() > 780) {
+    $(".nav-list").removeClass("hide");
+    $(".last-td").removeClass("hide");
   }
-  $(this).toggleClass("hide");
-});
+  if($(window).width() > 1080) $(".app-icon-placeholder").toggleClass("hide");
 
-$(".litstyle").click( function() {
-  $(this).find(".sub-style").toggleClass("hide");
-  $(this).parent().toggleClass("hide");
-})
+  $("#gradebook").click( function() {
+    $(".gradebook").toggleClass("hide");
+  });
 
-$("#cidreviews").click( function() {
-  $(".cidreviews").toggleClass("hide");
-});
-
-$("#crgeography").click( function() {
-  $(".crgeography").toggleClass("hide");
-  $(this).parent().toggleClass("hide");
-});
-
-$(".state").click( function() {
-  $(this).find(".state-item").toggleClass("hide");
-  $(this).parent().toggleClass("hide");
-})
-
-$(".listRow").click(function () {
-  var id = $( this ).attr("title");
-  window.location.href = `/ciderdetail/${id}`;
-})
-$('.compslistRow').click(function () {
-  var id = $( this ).attr("title");
-  window.location.href = `/complits/${id}`;
-})
-
-$(".gradebookboxes li").hover((element) => {
-  $(element).toggleClass("grow")
-});
-
-$('#vmap').vectorMap({ 
-  map: 'usa_en', 
-  backgroundcolor: '#D6D2C4',
-  color: '#002b49',
-  hoverColor:  '#CCE2EE',
-  selectedColor: '#CCE2EE',
-  onRegionClick: function(element, code)
-    {
-      let state = Object.keys(states_hash).find(key => states_hash[key] == code.toUpperCase());
-        window.location.href = `/ciderlocations/${state}`;
+  $("#gradebook ul").click( function(e){
+    let $this = e.target.children;
+    if($this && $this.length > 0){
+      $(e.target.children).toggleClass("hide");    
     }
-});
+    $(this).toggleClass("hide");
+  });
 
-getCiderStates();
+  $(".style").click( function() {
+    $(this).next().children().toggleClass("hide");
+    $(this).parent().toggleClass("hide");
+  });
+
+  $("#complit").click( function() {
+    $(".complit").toggleClass("hide");
+  });
+
+  $("#complit ul").click( function(e){
+    let $this = e.target.children;
+    if($this && $this.length > 0){
+      $(e.target.children).toggleClass("hide");    
+    }
+    $(this).toggleClass("hide");
+  });
+
+  $(".litstyle").click( function() {
+    $(this).find(".sub-style").toggleClass("hide");
+    $(this).parent().toggleClass("hide");
+  })
+
+  $("#cidreviews").click( function() {
+    $(".cidreviews").toggleClass("hide");
+  });
+
+  $("#crgeography").click( function() {
+    $(".crgeography").toggleClass("hide");
+    $(this).parent().toggleClass("hide");
+  });
+
+  $(".state").click( function() {
+    $(this).find(".state-item").toggleClass("hide");
+    $(this).parent().toggleClass("hide");
+  })
+
+  $(".listRow").click(function () {
+    var id = $( this ).attr("title");
+    window.location.href = `/ciderdetail/${id}`;
+  })
+  $('.compslistRow').click(function () {
+    var id = $( this ).attr("title");
+    window.location.href = `/complits/${id}`;
+  })
+
+  $(".gradebookboxes li").hover((element) => {
+    $(element).toggleClass("grow")
+  });
+
+  $('#vmap').vectorMap({ 
+    map: 'usa_en', 
+    backgroundcolor: '#D6D2C4',
+    color: '#002b49',
+    hoverColor:  '#CCE2EE',
+    selectedColor: '#CCE2EE',
+    onRegionClick: function(element, code)
+      {
+        let state = Object.keys(states_hash).find(key => states_hash[key] == code.toUpperCase());
+        if(rejects.includes(code.toUpperCase())) return;
+        else window.location.href = `/ciderlocations/${state}`;
+      }
+  });
+
+  getCiderStates();
 
 });
 
@@ -99,7 +100,7 @@ function getCiderStates() {
   $.get('/getCiderStates')
   .then( res => {
     let codes = res.map( state => {
-      if(Object.keys(states_hash).includes(state)) states_hash[state].toLowerCase();
+      if(Object.keys(states_hash).includes(state)) return states_hash[state].toLowerCase();
     });
     codes.forEach(state => {
       states[state] = '#F1C400';
@@ -123,7 +124,6 @@ states_hash =
     'Washington DC': 'DC',
     'Florida': 'FL',
     'Georgia': 'GA',
-    'Guam': 'GU',
     'Hawaii': 'HI',
     'Idaho': 'ID',
     'Illinois': 'IL',
@@ -152,7 +152,6 @@ states_hash =
     'Oklahoma': 'OK',
     'Oregon': 'OR',
     'Pennsylvania': 'PA',
-    'Puerto Rico': 'PR',
     'Rhode Island': 'RI',
     'South Carolina': 'SC',
     'South Dakota': 'SD',
@@ -160,10 +159,22 @@ states_hash =
     'Texas': 'TX',
     'Utah': 'UT',
     'Vermont': 'VT',
-    'Virgin Islands': 'VI',
     'Virginia': 'VA',
     'Washington': 'WA',
     'West Virginia': 'WV',
     'Wisconsin': 'WI',
     'Wyoming': 'WY'
   }
+
+  const rejects = [
+    'AL',
+    'AR',
+    'DE',
+    'HI',
+    'LA',
+    'MS',
+    'NV',
+    'NC',
+    'OK',
+    'RI'
+  ]

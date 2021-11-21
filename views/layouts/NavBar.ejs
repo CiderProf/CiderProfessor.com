@@ -4,7 +4,6 @@
     </div>
     <div class="app-icon-wrapper">
         <a href="/"><img class="app-icon" src="../assets/imgs/Cider_main-circle.png"></a>
-        <!--<a href="/"><img class="app-icon hide" src="../assets/imgs/Cider_main-bold.png"></a>-->
     </div>
     <ul class="nav-list hide">
         <li class="app-icon-placeholder hide"></li>
@@ -25,15 +24,15 @@
                             <%}%>
                         <%};%>
                     </ul>
-                </li>  <!---flyout-->
-                <a href="/sortby/Score"><li>By Grade</li></a> <!---a tag-->
+                </li>
+                <a href="/sortby/Score"><li>By Grade</li></a> 
                 <li>By Mood  ->
                     <ul name="mood" id="mood" class="mood hide">
                         <% headerInfo.ciderMoods.forEach(mood => { %>
                             <a href="/moods/<%=mood%>"><li><%= mood %></li></a>
                             <% }); %>
                         </ul>
-                    </li>  <!---flyout-->
+                    </li>
                 <li>By Geography  ->
                     <ul name="geography" id="geography" class="geography hide">
                         <li class="state">By State ->
@@ -42,20 +41,20 @@
                                     <a href="/ciderlocations/<%=headerInfo.ciderStates[state]%>"><li class="state-item hide"><%= headerInfo.ciderStates[state] %></li></a>
                                 <%};%>
                             </ul>
-                        </li><!---a tag-->
+                        </li>
                         <li class="state">By Country ->
                             <ul>
                                 <% for(var country of Object.keys(headerInfo.ciderCountries)) { %>
                                     <a href="/ciderlocations/<%=headerInfo.ciderCountries[country]%>"><li class="state-item hide"><%= headerInfo.ciderCountries[country] %></li></a>
                                 <%};%>
                             </ul>
-                        </li><!---a tag-->
+                        </li>
                         <li class="state"><a href="/map">Map</a></li>
                     </ul>
-                </li> <!---flyout-->
-                <a href="/ciderhouses"><li>By Cider House</li></a>  <!---a tag-->
-                <a href="/sortby/Name"><li>By Name</li></a> <!---a tag-->
-                <a href="/sortby/Date_Tried"><li>By Date</li></a> <!---a tag-->
+                </li> 
+                <a href="/ciderhouses"><li>By Cider House</li></a>  
+                <a href="/sortby/Name"><li>By Name</li></a> 
+                <a href="/sortby/Date_Tried"><li>By Date</li></a> 
             </ul>
         </li>
         <li class="nav-item" id="gradphil"><p><a href="/philosophy">Grading Philosophy</a></p></li>
@@ -99,6 +98,14 @@
                     </ul>
                  </li>
             </ul>
+        </li>
+        <li>
+            <input list="items">
+            <datalist id="items">
+                <% headerInfo.ciderHouses.forEach(item => { %>
+                    <option><%= item %></option>
+                <% }); %>
+            </datalist> 
         </li>
     </ul>
 </nav>

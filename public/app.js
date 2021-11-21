@@ -84,7 +84,7 @@ $('#vmap').vectorMap({
   onRegionClick: function(element, code)
     {
       let state = Object.keys(states_hash).find(key => states_hash[key] == code.toUpperCase());
-        $.get(`/cidersbystate/${state}`);
+        window.location.href = `/ciderlocations/${state}`;
     }
 });
 
@@ -99,7 +99,7 @@ function getCiderStates() {
   $.get('/getCiderStates')
   .then( res => {
     let codes = res.map( state => {
-      if(Object.keys(states_hash).includes(state)) return states_hash[state].toLowerCase();
+      if(Object.keys(states_hash).includes(state)) states_hash[state].toLowerCase();
     });
     codes.forEach(state => {
       states[state] = '#F1C400';

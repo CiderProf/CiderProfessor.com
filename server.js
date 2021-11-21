@@ -139,6 +139,7 @@ app.get('/ciderhousereviews', (req, res) => {
 })
 
 app.get('/ciderlocations/:info', (req, res) => {
+    console.log('cool cool api')
     let country = req.params.info;
     let ciders = getCidersByCountry(country, ciderInfo);
     let list = orderCidersByScore(ciders)
@@ -239,13 +240,13 @@ app.get('/getCiderStates', (req, res) => {
     res.send(allStates);
 })
 
-app.get('/cidersbystate/:info', (req, res) => {
+app.post('/cidersbystate/:info', (req, res) => {
     let state = req.params.info;
     let ciders = getCidersByState(state, ciderInfo);
     console.log('api hit', state);
     // res.redirect(302, 'pages/ListOfCider', {ciderList: ciders, headerInfo});
     let list = orderCidersByScore(ciders);
-    res.redirect(302, 'pages/ListOfCider');
+    res.redirect(302, `../ciderlocations/${state}`);
 })
 
 

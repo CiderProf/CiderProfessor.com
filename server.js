@@ -5,7 +5,6 @@ const app = express();
 require('dotenv').config();
 
 const PORT = process.env.PORT || 3000;
-//const url = process.env.MAPURL;
 
 app.set('view engine', 'ejs');
 app.use(express.static('./public'));
@@ -20,6 +19,8 @@ const ciderInfo = require('./data/ciderinfo.json');
 const complits = require('./data/compLits.json');
 const blurbs = require('./data/splashpageinfo.json');
 const houseReviews = require('./data/ciderhouses.json');
+const allBlurbs = require('./data/splashpageinfo.json');
+
 const allHouses = getAllHouses(ciderInfo);
 const allStyles = getStyles(ciderInfo);
 const allMoods = getAllMoods(ciderInfo);
@@ -27,7 +28,7 @@ const allCountries = getAllCiderCountries(ciderInfo);
 const allStates = getAllCiderStates(ciderInfo);
 const allLitStyle = getLitStyles(complits);
 const allthemes = getAllThemes(complits);
-const allBlurbs = require('./data/splashpageinfo.json');
+
 const headerInfo = {ciderHouses: allHouses, 
                   ciderStyles: allStyles,
                   ciderMoods: allMoods,
@@ -233,20 +234,10 @@ app.get('/map', (req, res) => {
 })
 
 
-
 //ajax routes for app.js
 app.get('/getCiderStates', (req, res) => {
     res.send(allStates);
 })
-
-app.post('/cidersbystate/:info', (req, res) => {
-    let state = req.params.info;
-    let ciders = getCidersByState(state, ciderInfo);
-    // res.redirect(302, 'pages/ListOfCider', {ciderList: ciders, headerInfo});
-    let list = orderCidersByScore(ciders);
-    res.redirect(302, `../ciderlocations/${state}`);
-})
-
 
 
 //-----------------HELPER FUNCTIONS-------------//

@@ -233,12 +233,26 @@ app.get('/map', (req, res) => {
     res.render('pages/Map', {headerInfo});
 })
 
+app.get('/searchresults', (req, res) => {
+    const results = newSearchresults;
+    newSearchresults = {};
+    res.render('pages/SearchResults', {searchResults: results, headerInfo})  //TODO: build the SearchResults page
+})
+
+app.post('/search', (req, res) => {
+    const input = req.body.input;
+    const results = getSearchResults(input);
+    newSearchresults = results;
+    res.redirect('/searchresults')
+})
+
 
 //ajax routes for app.js
 app.get('/getCiderStates', (req, res) => {
     res.send(allStates);
 })
 
+let newSearchresults = {};
 
 //-----------------HELPER FUNCTIONS-------------//
 
@@ -644,4 +658,15 @@ function processObjectDates(list){
         temp[item].Date = dateConvert(list[item].Date);
     }
     return temp;
+}
+
+function getSearchResults(input){
+    const allCiderNames = ciderInfo.map(c => c.Name);
+    const ciderNames = allCiderNames.filter(name => name.toLocaleLowerCase().includes(input.toLocaleLowerCase()));
+    const ciderHouses = allHouses.filter(house => house.toLocaleLowerCase().includes(input.toLocaleLowerCase()));
+    const results = {
+        Names: ciderNames.length > 0 ? ciderNames : [],
+        Houses: ciderHouses.length > 0 ? ciderHouses : []
+    };
+    return results;
 }

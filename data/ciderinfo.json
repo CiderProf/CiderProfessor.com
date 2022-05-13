@@ -337,9 +337,10 @@
 		"Date_Tried": 201809,
 		"ABV": 6,
 		"Comp_Review": [
-			5
+			5, 
+			126
 		],
-		"PicURL": "https://bn1303files.storage.live.com/y4mwurp7NPrMSqBgwEkFv8rGlCQ0RlzrvtRJaoH2DsMzppzAepWhIxeP1qkGu8DCo03nbwNVIemIGLooxnBNjZ2fqpmFjF5E5ylFnuvNSqwECIOXftvq3ditkeqBKc_Fi2_Gqh2GszHea7HVf5YSuKVTHskaBjk9Nu1lmZWUZzkwXnzUHJB8IxuhCQPgbntd75s?width=464&height=619&cropmode=none",
+		"PicURL": "https://bn1303files.storage.live.com/y4myPDPI66VDmKTWJ3F8E9PuUj-JdM5GJEKtfUOeAVuXvBEldSU9V3EGC-CDGdoQlSwEqT0Std84ZlR38KH-6ZqUSZ-IMxZHiVAXcN7gLTfDQ44_HdhvgIpo-QxGobKYkzx4CzdYtA6oeb9IQ8ldQICZVhYywAGx17-0IuNu33IgH8LoBKOg9Zz2BhyRIKn5pjY?width=2860&height=3818&cropmode=none",
 		"LogoURL": "https://bn1303files.storage.live.com/y4m1k2l_mB12GcxVBNF4DzzAGd_CUqA2nMS9S_I1qIC5uaBNMX1DAxDNbNixiGMyrVC38y86Tv2ANax8__oBr_WZpDoZU_gxRnDvbgOrPvwvH3M5g2ns5sy6QvKaOgZDOSMpV3emVzvrbu76-3pJhoZFNS4-l9e_Vp-cFppzb4D28EjDUNh1WL7N5fDD84Tcz48?width=1520&height=797&cropmode=none",
 		"ID": 18
 	},
@@ -1599,7 +1600,8 @@
 		"Date_Tried": 201901,
 		"ABV": 5.7,
 		"Comp_Review": [
-			82
+			82,
+			135
 		],
 		"PicURL": "https://bn1303files.storage.live.com/y4m7XypM8zAGRRqf7vtO1Ody6N321uSiKYpFBLZ1VFrT5fr4e1FAD0vbykJGaifbqMCPZKPgRk4T1kmxNnQaRoWC2nTkBX7dUOeuK7vZ25eYYbe8DN_FiIWeeWZYafH2dnRu5Z9C5s6MfJK8oMook9LKOeDX_4pts5J244ad9ePmx5tKwV1OnLd4O2v2jSnA0Pb?width=2684&height=3578&cropmode=none",
 		"LogoURL": "https://bn1303files.storage.live.com/y4mjwYPsxB9VDgWO4u1Na8nK4T_h-V3ld9KUz3iX1Da3aPzcie4FYKCUIZWCqtmm4D4RtkSREu5tBuajdCIQh9U57vKCmGTSN6iRy4fteBWGzITWZOVNiKCO4imgqzSVlRDFQ7lt4a47bFSInllzVYnfFjWuxnHUzePlYkyuFRASLissBq7qLgtJJbzBxiL9dKU?width=800&height=600&cropmode=none",
@@ -1805,7 +1807,9 @@
 		"Prodct_Description": "This style of cider is something unique to the region: it is still (with only mild residual carbonic acid) more bitter than most ciders and has an alcohol content that is typically between five and six percent by volume. The traditional production method starts with the apple harvest in the fall when apples of various native varieties are sorted, ground and pressed. The resulting juice is transferred into kupelas (large, oak barrels) and allowed to ferment until the spring, when it is bottled unfiltered or drank from the barrels in local, seasonal celebrations.",
 		"Date_Tried": 201902,
 		"ABV": 6,
-		"Comp_Review": null,
+		"Comp_Review": [
+			119
+		],
 		"PicURL": "https://bn1303files.storage.live.com/y4mDUlyuVfHgI2ESabqcV56RgPy0joWCiWcLWviRcPMhS-1aja87b0WeH8wLJM6moJ3U6vqn1KvF_-jB8Ti_mYlU0YmT7ZOHSHk0TrlcxKqpX-soPDF8R6n4afw018t-kXvMf2nU4XJb7Ohd8sjWg-FJizg4r-lryP_9VNIhjii0s2YXZvoWaBB_iSPWpoUfJjM?width=3024&height=4032&cropmode=none",
 		"LogoURL": "https://bn1303files.storage.live.com/y4myPWND920z_07lyxLEeOPRTJ5VYkIvnfh6rAFqF5kvkzqm4T2YHrhMe-l5HzoEmAj0V3d-aYLgiLRQbO9vNBjQu-U36MePWlGTyWlh_u8BrwereDd7moLHUdwUOxgvbX9FpLjemoCoZKZmap7XwyGOZk5WS-YqiQWRyNy1WUq465fdB2kYUCE1gJNQJnTqx3O?width=299&height=300&cropmode=none",
 		"ID": 91
@@ -2420,7 +2424,8 @@
 		"Date_Tried": 201903,
 		"ABV": 5,
 		"Comp_Review": [
-			13
+			13,
+			110
 		],
 		"PicURL": "https://bn1303files.storage.live.com/y4mzntQlOFSpS07pYQZilJEKPNZQfb0F4ZM6AorepS9DDEFMIjeIv4C7FEy3Y1eZA8r8MXnzsHlLasw39O6-WRw7-L-jLLR8seckpU5Uj4GnDMxUlvTl-6NjX1p9R54HfoCHGz7SZKceSAVuIkFkY_Bk_S_OvPI_TFCGM0sZLoqjNdV3pqg0Z9rWTZ3oXmb70Lj?width=2952&height=3937&cropmode=none",
 		"LogoURL": "https://bn1303files.storage.live.com/y4m8AGoST8s9HWJrHmb0CYeg0pllci4oF83i2K7C4Bh39errNf36fK6s7swN7riKBcOo_CdTMGNQXlnguyrqt9a8QkagN19ZFpXMcGh7i-MHyK0ogQDpwIB49KiDm1fPasvbsoZeHunWHRjs7BF8S3gCDG4K8bF1ECqhiaX8vkxUl_hTZ0D8xRwM4XjZ4EQLXPN?width=1024&height=729&cropmode=none",
@@ -3078,7 +3083,7 @@
 		"Comp_Review": [
 			27
 		],
-		"PicURL": "https://bn1303files.storage.live.com/y4mYgNhANsUQZRcA_otdjoh9mm821Rnwo0ugNmrN4kOj3sdxJfmVQWysR2H0poivFBKRWFr1utmYMyn9SgjR3gHs7SjgFadWCXZuoQBKNODRtIpiNHhoCmGX9H_iUMdbymQTs_V48C7TtugH1mqm1X5QMiP05VPh6ATLpzAUvzdh-nnXi3Is8v6iL4OLqYYEgyR?width=497&height=662&cropmode=none",
+		"PicURL": "https://bn1303files.storage.live.com/y4mryWvBJVCuB-MV9eSNJMee57rALAp2bR3URW0j57reiaqi0Q7OunU1cqfXeQFmgpN1EfF6cBmJlrgwMSG9jr5HP_LNpTUkH5L7sP1-VzrQn5bCQMx1BK8MBQQCHnBlrFbNS6l0yN5TM2E2hy5fzJVV7n8f1IubsBo1Cdfh6ZOMaFZvBi8kdMbg0R8KMpyUIgj?width=2592&height=3455&cropmode=none",
 		"LogoURL": "https://bn1303files.storage.live.com/y4mNwi5MLYZXZk5sMfVECtycJVjDKTAhEeDrmP7LvVYHyk4-_hQIgf-44klMoHBF-Ob4ByIe2cXGpQnnLENBh4b24_dLOD89KBAVvhsfZ7pjF-RCohdGakt2EhZ7T1Ilt1S0491TDn0cSSMYzRzrwDlv9eWWQqqWdng7r3xAKzZNj6QMihrKwDo2R-Gv8AUCSWA?width=450&height=450&cropmode=none",
 		"ID": 151
 	},
@@ -4865,7 +4870,7 @@
 			"Fruit": "Elderberry"
 		},
 		"Mood": "Tart n' Tasty",
-		"Feedback": "This ÆppelTreow cider is super dark, and if it wasn’t for the red at the narrow stem of my glass, it could easily be mistaken for a stout. It has a rich berry bouquet and the smell reminds me of a walk in English meadows with blackcurrants free for the picking, or like a jammy pie which is going to leave a purple mess all over if my kids eat it. The mouthfeel is not quite as full bodied as it looks, but it goes down super smooth. It has a quick bite of acidity from the apples which opens into a bold mix of tart and sweet sure to make you lick your lips. This has a full-berried flavor that some might find a bit medicinal, but this may only be because the only other time I have had elderberry has been in syrup for medicine and am just making a mental connection between the two. It has such a nice smooth berry flavor that just gets laid perfectly down in the middle of your palate. It will have you sucking your tongue to pull every last bit of the flavor out of it. Maybe not an everyday cider but it would work as a tart treat from time to time. <br> And who knows, maybe it could save your life? COVID-19 seems to be hitting its stride in the United States and all pro sports have suspended their seasons and schools and universities like mine have closed or gone to contactless classes. So I thought I’d do my part by reviewing a cider that has elderberries—the best natural supplement to boost an immune system.* So it is basically a coronavirus fighter. Who says you can’t have a drink and fight a virus too? I mean it is basically medicine, right? 😉 And it tastes great, so have some delivered! <br><br> *I am not <span class=\"feebackItalic\">that</span> kind of doctor, so this is not actual medical advice, take it for what it is and don’t forget to practice social distancing and wash your hands!",
+		"Feedback": "This ÆppelTreow cider is super dark, and if it wasn’t for the red at the narrow stem of my glass, it could easily be mistaken for a stout. It has a rich berry bouquet and the smell reminds me of a walk in English meadows with blackcurrants free for the picking, or like a jammy pie which is going to leave a purple mess all over if my kids eat it. The mouthfeel is not quite as full bodied as it looks, but it goes down super smooth. It has a quick bite of acidity from the apples which opens into a bold mix of tart and sweet sure to make you lick your lips. This has a full-berried flavor that some might find a bit medicinal, but this may only be because the only other time I have had elderberry has been in syrup for medicine and am just making a mental connection between the two. It has such a nice smooth berry flavor that just gets laid perfectly down in the middle of your palate. It will have you sucking your tongue to pull every last bit of the flavor out of it. Maybe not an everyday cider but it would work as a tart treat from time to time. <br><br> And who knows, maybe it could save your life? COVID-19 seems to be hitting its stride in the United States and all pro sports have suspended their seasons and schools and universities like mine have closed or gone to contactless classes. So I thought I’d do my part by reviewing a cider that has elderberries—the best natural supplement to boost an immune system.* So it is basically a coronavirus fighter. Who says you can’t have a drink and fight a virus too? I mean it is basically medicine, right? 😉 And it tastes great, so have some delivered! <br><br><br> *I am not <span class=\"feebackItalic\">that</span> kind of doctor, so this is not actual medical advice, take it for what it is and don’t forget to practice social distancing and wash your hands!",
 		"Prodct_Description": "Blackbird is our American-style berry-flavored cider, blended with the juices of black currants and elderberries. It's a little sweet and a bunch tart.",
 		"Date_Tried": 202003,
 		"ABV": 5.8,
@@ -5103,7 +5108,7 @@
 			"A Sophisticated Night In",
 			"Dreaming of Sand Between Your Toes"
 		],
-		"Feedback": "This is my 250th cider to review and wow I picked a good one! Gold Rush has a beautiful medium amber color with a nice foam head. The nose on this is extraordinary. You swirl it once and you get mango. Swirl it again and it’s passionfruit, again and it’s an alpine meadow—a real rich and fruity flavor. Wow! So many things happen all at once on your first sip. The mouthfeel is superb. It has a medium-to-full bodied creaminess that is delightful, reminding one of a nice honeyed mead. The tropical fruits are really felt on the backend where the fruity sweetness really comes forward, but the nuance of the other flavors keeps it from being overly sweet. For instance, when the spice of the tea mixes with the zing of the alcohol it creates something your tongue can savor. \r Though I was skeptical about the black tea (I hate tea and coffee) it really makes this interesting and completes the drink. Tea is not an obvious flavor for cider, and there are moments where when you get a brief whiff of tea in the nose that momentarily confuses your brain—am I drinking something fruity and tropical or something herbal and earthy? But the Old Mine has somehow balanced the two and pulled off something special.<br> When I hadn’t even finished my first can of this I was compelled to text my best mate the below picture (on Instagram) and tell him \"I may have a new favorite!\" If it is not the best cider I’ve ever tasted, it’s certainly one of the best, and it won’t be easily forgotten. Let’s all hope this small batch limited release becomes a staple because cider geeks and cold drink lovers alike will cherish it.",
+		"Feedback": "This is my 250th cider to review and wow I picked a good one! Gold Rush has a beautiful medium amber color with a nice foam head. The nose on this is extraordinary. You swirl it once and you get mango. Swirl it again and it’s passionfruit, again and it’s an alpine meadow—a real rich and fruity flavor. Wow! So many things happen all at once on your first sip. The mouthfeel is superb. It has a medium-to-full bodied creaminess that is delightful, reminding one of a nice honeyed mead. The tropical fruits are really felt on the backend where the fruity sweetness really comes forward, but the nuance of the other flavors keeps it from being overly sweet. For instance, when the spice of the tea mixes with the zing of the alcohol it creates something your tongue can savor. \r Though I was skeptical about the black tea (I hate tea and coffee) it really makes this interesting and completes the drink. Tea is not an obvious flavor for cider, and there are moments where when you get a brief whiff of tea in the nose that momentarily confuses your brain—am I drinking something fruity and tropical or something herbal and earthy? But the Old Mine has somehow balanced the two and pulled off something special.<br><br> When I hadn’t even finished my first can of this I was compelled to text my best mate the below picture (on Instagram) and tell him \"I may have a new favorite!\" If it is not the best cider I’ve ever tasted, it’s certainly one of the best, and it won’t be easily forgotten. Let’s all hope this small batch limited release becomes a staple because cider geeks and cold drink lovers alike will cherish it.",
 		"Prodct_Description": "Handlebar Hard Cider with Citra hops, passionafruit, mango, marigold, safflower, blue mallow flower and black tea added.",
 		"Date_Tried": 202004,
 		"ABV": 6.8,
@@ -5575,7 +5580,9 @@
 		"Prodct_Description": "Today, we introduce you to Excelsior, the highest ABV 6 pack cider in the Nation. We have created an out-of-this-world treat that is complex, tart, semi sweet, bubbly, and (dare we say) CRUSHABLE. It’s an Imperial apple cider that combines old world cider techniques with new world innovation. We start with WA-grown fresh-pressed apples, add heirloom cider fruit from France and the UK, then ferment with a hand-selected yeast strain.",
 		"Date_Tried": 202005,
 		"ABV": 8.5,
-		"Comp_Review": null,
+		"Comp_Review": [
+			112
+		],
 		"PicURL": "https://bn1303files.storage.live.com/y4mNI1mZTalg1zCEoSBAW5LEjlGCXZf03TeLpZ1sZGaiNhfCwUgevMXXPIOUJysVqa7BsxYEr4AL40FCKxRlwMOiU30Lr3OjeeQ4Gctzxl1MtyiHO1BPfqNl6K6ax8-CsXlwWwlvey9rFqAPMaZVQ17CnloDuYh0z-5oOstQI3VCVPFx3LPs60EQHE092hGH8uN?width=2779&height=3707&cropmode=none",
 		"LogoURL": "https://bn1303files.storage.live.com/y4muP_2U6DpkgwmDzVfORQRy5iHsrR90b7sMbn66_P7ZThDVKYiOPqwbW8eOjeZ6OAksSeaeIfz1ZBDNEzyW3F1NRtU3rXP7lfEqopZzlYLY0rLvxii9fJi-Vpu0TIt2nyCD7UyUj0pdUaWVz1Z724vNCFo-hqSKxV9o7K6PqdDXzqt4O5m2UucMgjilsdMRCyf?width=159&height=317&cropmode=none",
 		"ID": 269
@@ -6958,7 +6965,7 @@
 			"Standard": "Dry"
 		},
 		"Mood": null,
-		"Feedback": "Reveille’s King’s Cross dry cider is a standard yellow straw color with a bright crisp nose with summer fruits in it. Oh yeah, I like that. Light-bodied with a characterless mouthfeel, it is very dry. It is crisp and acidic on your lips as you pull in. There is a lot of dry astringency, followed by a great flavorful finish. It is tannic, a bit woodsy, with tart notes. It belongs in that category of American dry ciders that use sweet dessert apples, but then ferment until almost all sugars are gone and it becomes quite dry. This means that one gets some of those sweet characteristics trying to sneak through even though the mouthfeel is dry. The result is a good and drinkable cider that has a little something for both sweet and dry cider drinkers. <br> Having gone through King’s Cross Station a hundred times, I am not sure what the connection is, but a block down is the British Library, stomping ground of many a professor. Just around from there, tucked away on Flaxman Terrace, is a great little traditional pub, Mabel’s Tavern, complete with gold on black lettering and plenty of flower boxes. So, if I close my eyes, I can picture myself leaving the BL after a long day in the archives and walking across Euston Road to have one of these at Mabel’s. Ah, job well done!",
+		"Feedback": "Reveille’s King’s Cross dry cider is a standard yellow straw color with a bright crisp nose with summer fruits in it. Oh yeah, I like that. Light-bodied with a characterless mouthfeel, it is very dry. It is crisp and acidic on your lips as you pull in. There is a lot of dry astringency, followed by a great flavorful finish. It is tannic, a bit woodsy, with tart notes. It belongs in that category of American dry ciders that use sweet dessert apples, but then ferment until almost all sugars are gone and it becomes quite dry. This means that one gets some of those sweet characteristics trying to sneak through even though the mouthfeel is dry. The result is a good and drinkable cider that has a little something for both sweet and dry cider drinkers. <br><br> Having gone through King’s Cross Station a hundred times, I am not sure what the connection is, but a block down is the British Library, stomping ground of many a professor. Just around from there, tucked away on Flaxman Terrace, is a great little traditional pub, Mabel’s Tavern, complete with gold on black lettering and plenty of flower boxes. So, if I close my eyes, I can picture myself leaving the BL after a long day in the archives and walking across Euston Road to have one of these at Mabel’s. Ah, job well done!",
 		"Prodct_Description": "This batch of our signature English-style apple pub cider was crafted with a robust blend of Hood River Valley table apples, featuring a huge pop of Fuji and Gala apples. A truly crisp, big-bodied English delight, King's Cross is boldly fermented with sharp English ale yeast for a light country pub finish, reminiscent of a clean London metro ale.",
 		"Date_Tried": 202010,
 		"ABV": 6.8,
@@ -7608,7 +7615,7 @@
 		"Style": {
 			"Single Varietal": "Stark"
 		},
-		"Mood": ["A Slow Day in the Counrty", "Raw-Natural"],
+		"Mood": ["A Slow Day in the Country", "Raw-Natural"],
 		"Feedback": "Rocky Ground’s Stark Pét-Nat is a hazy golden straw color with a strong amount of acidity in the nose, but still fruity and inviting with an undertone of apple tree blossoms. The drink itself is acidic, but not overly strong and like a mellow farmhouse cider with a naturally raw apple flavor. It has a lovely light body and is pretty dry, maybe a hair tannic, which just a little bitterness at the end. It is fairly still without a big arrival on the tongue and a nice mellow character. In the middle of the drink there is a pleasant little sweet lift. In some ways it is a bit too lackadaisical. Maybe a bit like laconic Mainers, not too loud or flashy, but pleasant, maybe a bit shy, but down to earth. So Stark is a nice shy cider with some natural earthiness and an easy and slightly sweet disposition—and mildly bitter in the finish.",
 		"Prodct_Description": "A single varietal, sparkling cider made with naturally grown Stark apples from the ancient trees at White's Orchard Farm in Frankfort, ME.  Juice pressed from the fruit of a 100+ year old trees. Stark is an heirloom from the 1860s. We had so much of it, we thought we'd try it as a single varietal cider. We're glad we took the risk. Low acidity, pétillant naturel, soft bubbles, and a touch of residual sweetness but not enough to call it semi-dry.",
 		"Date_Tried": 202101,
@@ -7640,6 +7647,531 @@
 		"PicURL": "https://bn1303files.storage.live.com/y4m7IsLLapTYjoOC5k_iL3sdPaoYwwSYb3ivwd8r-D_FA-NuoSY9euqNRZg4r1dwnUp-8TTs1a22KGlH6UzBVsvYWnpskL1RGtM519Ds_Le1UfhQjm53owr-hY2FMXPPDq2Ad1LtWJ4M7h1Qcz6gS5Pvqh92yFPo9DlAcc72aOLCPky2VFH660URmAoYSqwzTUU?width=2696&height=3597&cropmode=none",
 		"LogoURL": "https://bn1303files.storage.live.com/y4mt69Tq1-nkI2cQuNfxujIN6DgQHnzbjgfztMCcpwYjYIypgUUeUpndQ1hSqxcqZPbMwh73TsmXo28lf06xYBwdaKFpfOz0OpP58dygvTyn7Y7ZStCpO4xjwpwibMQYX2UnFq_e_WWHQol_uCZYZuOp_VDXLqchhR62g6dXgjSaidU2TOthEivDzfGODn6LMTM?width=618&height=600&cropmode=none",
 		"ID": 364
+	},
+	{
+		"Name": "Spiced Blood Orange",
+		"Cidery": "Colorado+49",
+		"Score": 84,
+		"Grade": "B",
+		"State_Country": "Colorado",
+		"Style": {
+			"Fruit": "Orange"
+		},
+		"Mood": ["Easy Drinking", "Spring on the Back Patio"],
+		"Feedback": "Colorado+49s Spiced Blood Orange is a hazy dark salmon color with a light and sweet nose with only a faint orange aroma. This lighter-bodied cider is pretty still and lacks much of a punch. It is fairly bright and easy to drink with a nice amount of sweetness. You get some clear citric acidity in the second phase and some grapefruit characteristics. This does not have the body of some of the cider mimosas on the market, as it is crisper and does not have that orange juice flavor and texture. I would say it also lacks a clear spice flavor—not sure what spice they put in—and I do wish it was bolder. But overall, a solid orange cider that is light, mildly sweet, and goes down easy.",
+		"Prodct_Description": "Cider with Blood Orange",
+		"Date_Tried": 202101,
+		"ABV": 6,
+		"Comp_Review": [
+			null
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4m9zCrYVKNPOHt_D63x-VXSMpaMTlU2uWywM9Evr-f1UInJ8lFjNI3fERX80AhZ9zPC-xyG90mOUgY4FrrLK3qc_9azBFPCxHJzEhhx1eU0gDZQ6nzanSFfG0Kv8Bi_frSzm-3TKke9ry55vNOEfa5sa-rWnO3nL_kV1ai87IpMvkBC0apwd4Bgjj8kbskQKpA?width=2700&height=3601&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4m97kgOkruttyl2YlymbvQPQAWe0bL600GWNZah_FWU_KEUVfmzWNN9musDLWv2IP-X-AYmuuNHL-vaxIFtW4JlzS6eKS28IdYJJH1JNxsSccznIs1Qwt-rGvJfx0MRzncyVeTuiPgmYgrVRJCQKHAyuX-CFmvqLNtOi6-6wrol83Gq-btYn41W0_Wi5Jc2RPg?width=225&height=225&cropmode=none",
+		"ID": 365
+	},
+	{
+		"Name": "Black Cherry",
+		"Cidery": "Colorado+49",
+		"Score": 78,
+		"Grade": "C+",
+		"State_Country": "Colorado",
+		"Style": {
+			"Fruit": "Cherry"
+		},
+		"Mood": [null],
+		"Feedback": "This dark salmon-colored cider has interesting earthy notes that are mildly acidic with hints of cucumber. There are some fresh sweet cherry notes around the edges as well. Curious, that one. The most prominent flavor I get is still cucumber. The draw is normal. Like many other ciders it has a nice, fairly sharp, bite with a medium amount of carbonation. But in the middle phase the only acidity I get comes from that vegetable cucumber flavor. There is a bit of sweetness from the cherries dancing around the edges of the palate. But it is a very light and whimsical cherry flavor, and not the deep rich succulent flavor I think of when I think of black cherries. It’s not bad but it did not meet expectations as this seemed to promise dark and rich and I got light and garden-like. Curious that.",
+		"Prodct_Description": "Cider with cherry",
+		"Date_Tried": 202101,
+		"ABV": 6.1,
+		"Comp_Review": [
+			109
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4murB4J9c4OrzAw94guwB1-rjmVGNkDkSxd-CdN-pNp0LMJGtwFVw2c5UAYCm5xKcyOvO8bgy4yPJPqB_3JCOeLEYpJLdEP7UpVI-VVPF8qs_Cx_NtpW8nWArqRb-ve1Y_UlVcNnOAdgQvzdqDhcvLNIoZxKKIwpJ0A37p35umISK0OFj09U_DVvsydiNr0fkz?width=2822&height=3765&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4m97kgOkruttyl2YlymbvQPQAWe0bL600GWNZah_FWU_KEUVfmzWNN9musDLWv2IP-X-AYmuuNHL-vaxIFtW4JlzS6eKS28IdYJJH1JNxsSccznIs1Qwt-rGvJfx0MRzncyVeTuiPgmYgrVRJCQKHAyuX-CFmvqLNtOi6-6wrol83Gq-btYn41W0_Wi5Jc2RPg?width=225&height=225&cropmode=none",
+		"ID": 366
+	},
+	{
+		"Name": "Dark Tart Cherry",
+		"Cidery": "C Squared Ciders",
+		"Score": 87,
+		"Grade": "B",
+		"State_Country": "Colorado",
+		"Style": {
+			"Fruit": "Cherry"
+		},
+		"Mood": ["I Like Wine", "Tart n' Tasty"],
+		"Feedback": "CSquared’s Dark Tart Cherry is not very carbonated and what bubbles there are rise incredibly uniformly. It has a dark rich cherry aroma that also smells like slightly bitter cocoa powder or a chocolate and caramel baked good. Hmmm that’s an intriguing cider. Not only does this look like wine but it has a heavy, largely still mouthfeel that has a sour alcohol feel as it moves from the second phase to the finish. That flat cocoa aroma is matched by a similar taste which is slightly bitter and dulls the flavor and mouthfeel, masks the acidity, but it lifts at the end letting some nice tart and sweet notes peek through. The body is fairly satiating and not too thick and very smooth. It is mostly dry with some residual sweetness. An easy drinking mysterious drink indeed.",
+		"Prodct_Description": "Made with dark sweet cherry juice, the dark cider has a hint of dark chocolate flavor.",
+		"Date_Tried": 202101,
+		"ABV": 6,
+		"Comp_Review": [
+			109
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4m7CeNbU9npFddtmBJKSJ9UxJzMPORpDol75DQ-Ur1dUMCWJgzoqkH4MzRaiGSMcsxtDfQ6B8bIcyVrLYUUTVIVLe2nznmzcWuF95-3khhtQImm3EsOemJr3UVSvByJtjKvKAg4RV94e9-_7Bps-1ddZqbgcJzvQSNXCtgPyOjwi80EWYJYnjnwPdx8mHxvS4Y?width=2520&height=3356&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mOkdb9g8swQsuXwkYzXpptLRxF4yClfMJimke1UB_D1LwJXLlDnlO1_ERLDkIeDtMYsN5t4f3QRwuYr_nsppt4za6uiS5_6dhW4iiVjCVs4IZ0qRo2yxSikBak7lxm91DoGcDi7rCUKrZcazKS-zU9rfoZxG12FoEgmnAAHgMpJFxOOYekanTG5T8LEiGZvmX?width=300&height=300&cropmode=none",
+		"ID": 367
+	},
+	{
+		"Name": "Sour Cherry",
+		"Cidery": "Snow Capped Cider",
+		"Score": 87.5,
+		"Grade": "B+",
+		"State_Country": "Colorado",
+		"Style": {
+			"Fruit": "Cherry"
+		},
+		"Mood": ["Spring on the Back Patio"],
+		"Feedback": "This cider has a clear nose of sour cherries, but it is not overly strong. That’s properly sour! So, it starts off with a good bit of pop: crisp on the tongue with a nice mix of bubbles and acidity. The flavor then drops out with a nice dry sensation and just a smidge of that cherry flavor. It then takes a sour turn with a finish that will have you sucking your tongue pretty hard. The body is medium-to-light, and the mouthfeel is quite nice. In the sour finish one picks up the slightest of alcohol burn, giving it a bit of an edge. But it’s a well-balanced cider to drink if you’re good with sour things. This one puts the sour in sour cherry. ",
+		"Prodct_Description": "Sour cherry shines through this apple – cherry blend, powerful flavor that hangs on the dry side of semi sweet.  Natural blush color, medium structure, tart finish.",
+		"Date_Tried": 202101,
+		"ABV": 6.9,
+		"Comp_Review": [
+			109
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4maBA874Zh1UAI8lwRTHdsme_gJdcj7HJ_ivZ1RENQy54bxu5Ud0WBtBesI7BqghBw_kn_8Q7VfdbyKcjknxzvVzTntVeu_VNt_QRgi1m6i5ogx7OT7aEEZdn6vDXUbeTYar-sFds6eml582_i6-0l-V__1MPehi7TLC698Ur3SBAH6yWeMR3rItRI-K2zvDWt?width=2532&height=3494&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mzyhLL9hPvmfZgvCacJ2YLSlEvXpIVT1r8Hm6CEOc1OU3DtWwV8234z6KEWYmzYxVwmxdS8cDZG-hqaisFn3Ee5PSIGT8IczRhrdNFlPMokS7sMikknFOLcFpf9so7q_xG-RaqkiowoKxAzSau3BUS8uSJEV-S5Hs-cdG3z5Jke-WOItku6ItaIDr6R5Pf1Nb?width=593&height=600&cropmode=none",
+		"ID": 368
+	},
+	{
+		"Name": "Molly’s Rockies Rosé",
+		"Cidery": "Snow Capped Cider",
+		"Score": 90,
+		"Grade": "A-",
+		"State_Country": "Colorado",
+		"Style": {
+			"Rosé": "null"
+		},
+		"Mood": ["A Sophisticated Night In", "I Like Wine"],
+		"Feedback": "Snow Capped’s special edition Molly’s Rockies Rosé has a deep aroma, rounded acidity with fruits at the edges with apples and berries. You get some winey whiffs as well, especially when you pour it. Oh man, that is smooth and wine drinkers are gonna love this. Just a tiny bit of crispness without much acidity or carbonation. One has to be careful because the wine skins of a heavy Malbec could easily overwhelm the more delicate and sweet taste of some apples. But Snow Capped has got the right blend of flavors, and the overall balance is lighter than one may expect. It’s still a little heavy and serious but leaves a nice coating on your mouth with a very mellow sweetness. There is a light and fruity grape-like alcoholic zing in the middle phase that adds character that is subtle and not in your face. There is tartness in the finish with some bitterness from apples and a coyly tannic feel. A serious and sophisticated rosé.",
+		"Prodct_Description": "Colorado Rosé Cider made from high elevation grown Pinova apples pressed and blended with elderberries aged 6 months on Colorado wine skins. Rockies Rose pours a gleaming deep rose hue with a slight effervescence, Medium body possesses a wine like feel with bright floral notes, fruity aroma and a unique soft round slightly tart finish.",
+		"Date_Tried": 202101,
+		"ABV": 6.5,
+		"Comp_Review": [
+			110
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mgT53f4VO-t6-NS1xVrR7DmFCPx8tPLHK9kjWPdmfH1bnC8PLZuAC_chfpy65klytGXZZc8GJP9qNO7TBPmQ06xm_98N4FCS5S9_UFLhzM2PIB6GdUhbMlMH2V5QmKWPIVcW7QxGX2eBjlRNXs74nJqp7ZrwyRqQ73rQ191-xj49VhrUJpHMrK51TBq7EhVZk?width=2527&height=3371&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mzyhLL9hPvmfZgvCacJ2YLSlEvXpIVT1r8Hm6CEOc1OU3DtWwV8234z6KEWYmzYxVwmxdS8cDZG-hqaisFn3Ee5PSIGT8IczRhrdNFlPMokS7sMikknFOLcFpf9so7q_xG-RaqkiowoKxAzSau3BUS8uSJEV-S5Hs-cdG3z5Jke-WOItku6ItaIDr6R5Pf1Nb?width=593&height=600&cropmode=none",
+		"ID": 369
+	},
+	{
+		"Name": "Rosé Vacay",
+		"Cidery": "Schilling Hard Cider",
+		"Score": 86.5,
+		"Grade": "B",
+		"State_Country": "Washington",
+		"Style": {
+			"Rosé": "null"
+		},
+		"Mood": ["Spring on the Back Patio"],
+		"Feedback": "Schilling’s rosé option is a coppery salmon color. To me, this smells like the Excelsior Giraffe character picked up flowers for his lady, as there is a similar strong bittersweet apple aroma but with enough rose and hibiscus to make it a bit daintier—though this is still pretty potent smelling. Even though it doesn’t look bubbly in the glass you get a pretty fizzy rush at the beginning that is also quite dry. The acidity and astringency grab your attention straight away. Let it linger and the tartness in the finish will also grab your attention. It is bright, crisp and bold which you’d expect from Schilling, but it comes across as much dryer than some of their offerings. There is not much of a floral flavor except a hint in the aftertaste. This is a a very good, crisp, dry cider that’s fun, casual and refreshing—perfect for a holiday.",
+		"Prodct_Description": "A vacation where the rosé keeps on flowing. Dear vacay-tioners, this rosé cider is dry, floral, and bubbly. Fresh-pressed apple juice is infused with rose petals to create a sophisticated taste, so pinkies up! Enjoy this cider wherever you fancy because it’s free of added sugar and artificial flavors. Anywhere Schilling Cider is available, a vacay is within reach. Every day can be a Rosé Vacay!",
+		"Date_Tried": 202101,
+		"ABV": 6.9,
+		"Comp_Review": [
+			110
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mBrjEdoi9E5KD84eMV0cz2WlL6JprB0hOwxbPbwZXnhSjoB2R35K7za5DQN3otN1NzvJXbY7woWTZJqq9z9XoDg8m80ENY7usa1aDftY6RW076mN9a_-UigDpnMDlVp8yMU1nHRTgJC5B_Cm8BHnd0W7FaeacR80EqjrtPcJr5PQbQSelJDZrTZbCla_ODvT_?width=2401&height=3203&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mbp14_U08NssfxeNLiVCNzy6BN36t6T1AS-pt02ZWtghh7tY0jf5QPGif0zihUdEfS9caLhC7ytA02nh90ExsMoq_2RPjajimF1O4n0swAQ_BxS_JVOIpf82MrpRHx7nXe9A7M5CLKZfLSl86elObz25jLQsjlWLF_idO5IwkCm6BpauJt2RijMf9RMAI0tOO?width=645&height=645&cropmode=none",
+		"ID": 370
+	},
+	{
+		"Name": "Bird and Bee",
+		"Cidery": ["Blue Bee Cider", "Wise Bird Cider Co."],
+		"Score": 89,
+		"Grade": "B+",
+		"State_Country": ["Virginia", "Kentucky"],
+		"Style": {
+			"Whiskey-Like": null
+		},
+		"Mood": ["A Sophisticated Night In", "I Need a Drink"],
+		"Feedback": "This collaboration cider has a gorgeous medium amber color that smells like a soft whiskey, but the whiskey is definitely masking any trace of apples. <span class=\"feebackItalic\">Takes first sip. Stops. Leans head on hand and stares at the glass</span> That’s a nicely made drink! Balanced yet quite strong as you have two potent flavors that match intensity. You have the Hewe’s Crabapple that has a bold, sweet and spicy apple taste with the distinct and harsher whiskey flavor (maybe the clearest whiskey flavor I’ve tasted in a cider). It’s not as heavy as a proper bourbon, as the mouthfeel is relatively light with just a bit of pop from the light carbonation. It is also medium bodied, so it is clearly drinkable, even though they gave it a zero on their sweetness scale, it is not actually that astringent and doesn’t feel dry, though you’d be hard pressed to find any sweetness in the flavor. This even has that distinct throat burn and alcoholic aftertaste of a whiskey, just not nearly as prominent as in the actual spirit. You feel like you are drinking whiskey (and specifically I’d say it is more like a Scotch because you can’t taste that corn mash that gives Bourbon its uniquely sweeter taste), or at least a whiskey where the ice has completely melted, but at a little under 9% ABV you won’t feel like you have been drinking whiskey the next morning. This will be a great option for some of you, but if you don’t like whiskey, stay away. Certainly, this is only for the right mood and occasion. I love the collaboration and drawing on the unique local characteristics of both locales. May the cider solidarity ever increase!",
+		"Prodct_Description": "Virginia’s prized heirloom cider apple meets Kentucky’s most acclaimed tradition in this collaboration with out friends from Wise Bird Cider in Lexington, Kentucky. We are Hewe’s Crab cider in Buffalo Trace bourbon barrels for six months.",
+		"Date_Tried": 202101,
+		"ABV": 8.4,
+		"Comp_Review": [
+			111
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mqH4_EiB2Drrh4-X8cv5zqAzli0qmF3FZp0fsUa6YgSQsyCCqWIcJKM_RP27vcLl4aXZtZYbLaBRZV3ky18VfXYMJpSzqSKb_fYQR5L3oyr5LGkkOEFmVtjUbG1WpFMbps2jD1-wxI4BaBFkjYcO2XT4fHYHIl9o5oRjBWYayW42uvF7FKFD32N1gZFiUZONL?width=2672&height=3562&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mpKVVbxgNhSX4-CDCrPxLjcAahiv31YUXp-3gkz7dbg_nhl5KYLi1VUuLQ7MLCkCK_EC98A2_mjJTr3nsiWXvevKEu-cUMcbf-XmQ0fOWBHSW2LKJUGrYKpxQNm1-zj-ngSVZF1eeLvi68UaddSgxWgBcPhu46AXSS4qYGC3NXHev8TFH-2uhg5IRmpa0wJuP?width=164&height=155&cropmode=none",
+		"ID": 371
+	},
+	{
+		"Name": "New England Dry",
+		"Cidery": "Yankee Cider Co.",
+		"Score": 79,
+		"Grade": "C+",
+		"State_Country": "Connecticut",
+		"Style": {
+			"Standard": "Semi-Dry"
+		},
+		"Mood": [null],
+		"Feedback": "This smells pretty fabulous! Light, but fruity with a sweet dessert apple aroma and just a bit of alcohol and earthiness. For such a great nose, this cider doesn’t pack much of a punch. It is not bad, no off flavors but the body is pretty thin and you don’t get much of a bite from acidity or carbonation. It doesn’t grab the tongue’s attention. The flavor doesn’t give any intrigue or complexity, with a non-descript tartness in the second phase that crawls into the finish. Otherwise, it’s a bit watery and lack luster. I am not sure using the three most popular dessert apples for a “dry” cider was the best option here as they fail to provide any depth to this drink. I’d drink it if it was the token cider on the menu or if I was out with friends as it does down well enough. And let’s face it, it is still better than beer! But it fell a bit short for me.",
+		"Prodct_Description": "A dry hard cider (0.5% Residual Sugar) made with McIntosh, Honeycrisp, and Delicious apples",
+		"Date_Tried": 202101,
+		"ABV": 5.5,
+		"Comp_Review": [
+			111
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mgkCQ1CxN4bJfANEPe9Ldu-MtymSHLVdwY4hkEqLFTAiXK73DEQOlDTILXQwVHmffkBS8p8jrCpgjUHIR1rfDFDC9H3zYO-B5oH1FNEBX_EYPNXV48WgVbKghwPTytw3AgSyUzwlh0sKRwBPCpM32lzDW8yEYXnYDBGQTD_RyRQKRkyaFvf0Mu1y7jS1_ryvy?width=2692&height=3589&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4m6M1RpU-_-cdzRrQVVQM4TzdzzbxENTB_PNlyGi5UoaRvEYKLIJKvdGqwAMXntZ2PrJyAHmPO_Xte2gbzM-z9WEPoww8RT0WgmQxrzop2NYtnelS0Z_SiZdhoFiyIxeFCeU9CjLU-xNTl1sz66DqLwasX0g0uoo7cIXEKfRjoOV8eCrHStrAy2fIqMBn8rDkr?width=225&height=225&cropmode=none",
+		"ID": 372
+	},
+	{
+		"Name": "Mulled Pomme Pomme Cider",
+		"Cidery": "Wise Bird Cider Co.",
+		"Score": 77,
+		"Grade": "C",
+		"State_Country": "Kentucky",
+		"Style": {
+			"Dessert": "Mulled Cider"
+		},
+		"Mood": [null],
+		"Feedback": "The mulled hot hard cider is a growing trend this winter that I haven’t tried before. This Wise Bird hot cider has a cloudy reddish amber color. The nose most prominently displays orange, cranberry and cinnamon and has an obvious warming effect. On first taste you get a jarring grapefruit flavor that is sour throughout the middle phase with a finish that has a strong taste of all spice and cloves. The aftertaste is sour and tangy with a bitter essence. Sugar helps the strong taste and mellows it out just a skosh, but this is not well balanced. It says “Christmas spices” but it does not have that awesome cinnamon apple crumble apple flavor I was hoping for—you know that crunchy goodness on top of the pie? It is dominated by that sour and biter citrus peel flavor. Maybe I screwed it up and mulled incorrectly, but it didn’t bring the cheer I wanted for sitting in the hot springs on a cold January day, and I don’t think I would recommend it. I won’t give up on the hot mulled hard cider just yet though.",
+		"Prodct_Description": "ou up better than the combination of clove, anise, allspice, ginger, nutmeg, cranberry and citrus peel steeped in our semi-sweet cider.",
+		"Date_Tried": 202101,
+		"ABV": null,
+		"Comp_Review": [
+			null
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mBZW-E8fyNOjNbTkvNjcoTxAktR2OLeCMGbQwyvo2aTTEWItFb-ahegqsHdmNvBaO1usDFVZyVPBGFYyL9Iv-g6yuLzYEb1Pq-Kd7KqBFvHZ6UkFDvimTDnEIzJ7IemFzb1eWPAE-CgcQHcmrBvNN3aq-IH7Wn9M9Al4-UtV3Lt5ErHmnoyYpW4V7KZOlV9rr?width=3024&height=4032&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mUgOsa0ly1wUOBRf-ykPLwkAujtw43gWzE2oECc3762xXa0YSADyjIoraz7fp9oB_9d3Mz1BshKtiH9m5XC9qD3zbHWLliBlUfvPTnyim7dxDAUU92NuMJM6n3kpwh2c-ChiC8_lEcWGuttxyrzcHWnPUBYj8N00rldwE3WCMPKyyWnZes6V92xHnzQlmZOaB?width=241&height=209&cropmode=none",
+		"ID": 373
+	},
+	{
+		"Name": "Radical Liberator Imperial Cider",
+		"Cidery": "C Squared Ciders",
+		"Score": 91,
+		"Grade": "A-",
+		"State_Country": "Colorado",
+		"Style": {
+			"Imperial": "null"
+		},
+		"Mood": ["A Sophisticated Night In"],
+		"Feedback": "First off, I have to say that I think these black and silver cans are poppin! Well done C Squared. In the glass the drink itself has just a couple of bubbles clinging to the side of the glass. It has a magnificent nose of bittersweet apples with hints of cherry and a subtle oakiness from the barrel ageing. The finish on this is legit! There is this lingering aftertaste that comes up softly from the back of the throat to create a creamy caramel reprise. The mouthfeel is very smooth, but it has a very heavy body. It draws in super easy, but the depth of flavors makes you slow down a bit. The middle phase will fill the space of your palate with a mild oakiness and just enough sweetness to kind of suck your tongue. It definitely reminds me of some good ciders I’ve tried from the Northwest France and the English West Counties and in some ways feels like a cross of those two traditions—soft and subtle yet strong and complex. The finish has such great kick of alcohol and a punch of apple flavor and yet still incredibly well balanced. If you like light and sweet its maybe not your drink, nor is it the best for pairing with food, but if you want a serious drink for a session, this is as good as an apple gets in liquid form for such occasions, unless you bump up to a distilled or fortified cider.",
+		"Prodct_Description": "Barrel aged imperial cider",
+		"Date_Tried": 202101,
+		"ABV": 8.4,
+		"Comp_Review": [
+			112
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4muh2tI8MKye5yXIX1b4juqwI_DpnNXlgSVi7svzJ3FIrztApVtd6YqiA7ZFj2O3rq_Mz0-DcJ88fQCIDxWrOj5g_h5L_V6g-GR4D1FUfhKsDRtWhyvioOmkL6y4OTLSZBJOdiau6m6GvDkmzSDsZBRuPemf9BzINw5GPYv--TRCfEVSpdnRgdASSbNTJBb3Ki?width=2673&height=3566&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mOkdb9g8swQsuXwkYzXpptLRxF4yClfMJimke1UB_D1LwJXLlDnlO1_ERLDkIeDtMYsN5t4f3QRwuYr_nsppt4za6uiS5_6dhW4iiVjCVs4IZ0qRo2yxSikBak7lxm91DoGcDi7rCUKrZcazKS-zU9rfoZxG12FoEgmnAAHgMpJFxOOYekanTG5T8LEiGZvmX?width=300&height=300&cropmode=none",
+		"ID": 374
+	},
+	{
+		"Name": "Harvest Ration",
+		"Cidery": "Blue Bee Cider",
+		"Score": 86,
+		"Grade": "B",
+		"State_Country": "Virginia",
+		"Style": {
+			"Dessert": "Fortified Cider/Pommeau"
+		},
+		"Mood": ["A Sophisticated Night In"],
+		"Feedback": "Blue Bee’s fortified cider has an opaque, but glossy, amber color. Wow, it has a really rich nose of dark cherries. The apple brandy aroma has mild spice notes and creates a tingling in the nostrils. This surprisingly does not have a really big flavor, it is not sharp or very rounded. It is slightly medicinal with a very mild bitter finish with a slightly syrupy mouthfeel. It doesn’t fill the palate, but has a nice little alcohol burn. It is hard to decipher any apple flavor in the middle phase, though there is a little tartness. However, it has a lovely aftertaste which is the only place the apples really come out. This definitely tastes more like a spirit than a cider, but if a stiffer drink is what you like, this is a good option.",
+		"Prodct_Description": "Prior to the Temperance Movement, it was commonplace for Virginians working the apple harvest to receive a daily ration of cider and brandy – the first for hydration and the second for aches and pains. HARVEST RATION reflects this tradition, creating a sweet apple port made from the juice of bittersweet apples and fortified with our apple brandy collaboration with Catoctin Creek Distilling. Because of the lengthy cask-aging of the brandy and then aging of the port, Harvest Ration is usually not available until about one year after the initial harvest of the fruit.",
+		"Date_Tried": 202101,
+		"ABV": 17.5,
+		"Comp_Review": [
+			null
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mYxBAZRdZuNZZmvxMxW4Ugz9R0pzetO6T90aAxHDpFycN3n2Nq4GlNlWUvnrHtZb-Hb0Q2vpzP1TM3gDPC_LJWHTM8_lX_RmvCBx2-VFA-e670-8HGQUUxVQeLOg-dI4JZgHM8nc97BgXyxVnSpaWliggTB4rdi15Iza01u5Dl4uEIwuH2FvDHwMeuHG0SqoQ?width=2592&height=3455&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mpKVVbxgNhSX4-CDCrPxLjcAahiv31YUXp-3gkz7dbg_nhl5KYLi1VUuLQ7MLCkCK_EC98A2_mjJTr3nsiWXvevKEu-cUMcbf-XmQ0fOWBHSW2LKJUGrYKpxQNm1-zj-ngSVZF1eeLvi68UaddSgxWgBcPhu46AXSS4qYGC3NXHev8TFH-2uhg5IRmpa0wJuP?width=164&height=155&cropmode=none",
+		"ID": 375
+	},
+	{
+		"Name": "ACE Guava Craft Cider",
+		"Cidery": "California Cider Company",
+		"Score": 90,
+		"Grade": "A-",
+		"State_Country": "California",
+		"Style": {
+			"Fruit": "Guava"
+		},
+		"Mood": ["Dreaming of Sand Between Your Toes", "Helpmate for the Hot African Sun"],
+		"Feedback": "This opaque Ace cider has a light peachy salmon color. The nose is lovely and all guava. Maybe a bit icy. Wow! It is pretty sharp and crisp on the tongue, not what I was expecting, but I like it. In the middle phase well. . . now. . . that’s guava! The flavor bursts out in this phase, really expanding the palate. This immediately took me back to an experience I had as a teenager spending time on a boat on the Rio Maraú in the Amazon Rainforest waking up everyone morning to fresh squeezed guava juice. While this is not quite as rich, and lacks the hammock on the deck and pink dolphins at sunrise, is still a treat! There is some tartness in the finish where you get a sense of apples, but this is mostly like a hard guava drink. It is pretty sharp in all three phases and still oh so smooth! You could totally chug several of these in the heat without batting an eye. I wish I had another. Well Done!",
+		"Prodct_Description": "Fresh Pink Guava juice blended with our semi-dry apple cider. Fruit forward with semi-dry undertones. Enjoy this taste of Brazil!",
+		"Date_Tried": 202102,
+		"ABV": 5,
+		"Comp_Review": [
+			113
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4m3T2wnVyp6jF88z6lq6QKx9VbQy-DghWPwk0hQFL3M4PsKUrPONkpP_h6EEVIpjylI_qDkM-d3n95HjuIfWpZxy9p5KVeT_8mdgMKwd5SXO7Qz82oIv5Bs69w1g4MC3KEKADUAjpE6S7z6NGdyjGKsR-6khRs0dajtFmodcrdB9RWtTavceNssM6s6GTO6pNs?width=2585&height=3444&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mGZKnSVBQ9T59JzGdnThwHa9ixucxEOwlEmfZogzKqdpFbJrCr8j3vjRF6CIbZ2d_a8_0q470zKhXo9LT3SUSz5abZGcRXAC6Axez8H9RZePeieCqXPV0TMfph3gc6iguNk2Jv37D-zMSCRLtuKfhvPjCSOP2KCZnPcmrFWORBVLmNgSpto69fcCSr4NuFQ_H?width=868&height=1272&cropmode=none",
+		"ID": 376
+	},
+	{
+		"Name": "Pink Guava",
+		"Cidery": "St. Vrain Cidery",
+		"Score": 80,
+		"Grade": "B-",
+		"State_Country": "Colorado",
+		"Style": {
+			"Fruit": "Guava"
+		},
+		"Mood": ["Dreaming of Sand Between Your Toes"],
+		"Feedback": "This bubbly straw cider primarily has a sugary tart apple smell with a strong undertone of guava. Hmm, okay. It is sharp, crisp and light from the first sip, but doesn’t pack much of a punch and just kinda loses it’s flavor in the middle. You do get a bit of bitter melon and some subtle guava in the middle phase with a tartness that builds to the finish. It is a bit too sharp for the body which is a smidge watery. The flavor is nice but not super bold and I get more melon than guava and a generic citric tartness at the end. A good cider, I’d take another, but it doesn’t grab one’s attention the way a guava cider could have.",
+		"Prodct_Description": "Pink Guava is fermented in our Dry Apple cider to create this tart, tropical refresher.",
+		"Date_Tried": 202102,
+		"ABV": 6.9,
+		"Comp_Review": [
+			113
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mIltedWL7i4fDBgUdZ1MphQFcf1Zrha67xRwSwit3p6shr2EtY4j6smJA1Hpbdlb-L3gAq4N09Hz1gFA8G1L5iTi03uRY2rfHBLQpU7taZqLU3yNz5EiaeFf99NW16OxZRn23a01osGUO7lbQIFy9vXWICkRBdo90uRuPYqdg-XjAxLZlEMeY9GJx2_U0CNAW?width=2485&height=3310&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mqZAztL8wHdL3THEgcVFi0jlFok3U6zaPAwtLQWzLQa89OH83Q2voHq6SNrgu9NHjiRr6V0NhDQf00NvXNWlTUE6ydqFlw3JynKJ_zUTluXQdU_Sbo6eka7xkXiNMAIEU-DK61CjFv_v7bAoYIX1vRgllnE05GqdRihZFnuSDwz-vK1SN620nnb5vJF3-3hzj?width=289&height=280&cropmode=none",
+		"ID": 377
+	},
+	{
+		"Name": "Harrison",
+		"Cidery": "Albemarle Ciderworks",
+		"Score": 83,
+		"Grade": "B",
+		"State_Country": "Virginia",
+		"Style": {
+			"Single Varietal": "Harrison"
+		},
+		"Mood": ["A Breezy Sunday"],
+		"Feedback": "Albemarle’s Harrison has a totally lovely dry and crisp nose that is fruity with a hint of lemon. (After sitting a bit, it developed a bit of a chemical smell) [Audible hmm] It is light and crisp on the tongue but with an interesting and tangy, almost sour, mid-note that lasts through to the finish. The finish is quite dry and though the body is fairly full there is a touch of wateriness in the mouthfeel. It is also very mildly phenolic. But if you leave it on your palate long enough it has some nice subtle apple notes that come out in a delayed aftertaste.",
+		"Prodct_Description": "The Harrison apple is arguably the best cider variety America has ever produced. In 1817, William Coxe called it \"the most celebrated of cider apples in New Jersey.\" Believed lost, it was rediscovered in the latter 20th century and its identity confirmed by Virginia pomologist Tom Burford. This varietal recalls the golden age of American cider. It is rich in color and flavor; a dry, robust beverage whose mild tannin offers a full-bodied mouthfeel and well-rounded finish.",
+		"Date_Tried": 202102,
+		"ABV": 8,
+		"Comp_Review": [
+			114
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4m66iTNMmlgi0eOc6VVUKYBNYoIZtg6VMImu-mXUUrPSLYSvuC6L4o2OumWWsjQUp72IyM-_zeZL4VGR-TKu1TGdL7oImXLYkbXMUv_eYHgjG2R4gleNyyl23ojaGTFH96blN-f9c0PCiCCbJNM9NorSJHPSNkLa_AMKzSfwti8KQtJz96sVrOBjb0gUGpbYya?width=517&height=561&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mkuGtky_DV7hIZpQuhdDfAN9n1cI8FJLDg0shPC8mNAZ46af1GQ3JUK2OSxKLSehJOyJOsRGvfpGuYZXSr6ZrnGJHpOmqgN4Mg-rH3sPuWOiK668ytioicplUu2giMaPKE9BVyRTs3WzdTizprNfS44pAA_Ali1idVPQ2YbwJNcwCuVOE5r8seSmTygM1gR-7?width=2681&height=3574&cropmode=none",
+		"ID": 378
+	},
+	{
+		"Name": "Harrison",
+		"Cidery": "Wise Bird Cider Co.",
+		"Score": 88,
+		"Grade": "B+",
+		"State_Country": "Kentucky",
+		"Style": {
+			"Single Varietal": "Harrison"
+		},
+		"Mood": ["A Sophisticated Night In", "I Need a Drink"],
+		"Feedback": "Wise Bird’s Harrison has a subtle but heavy nose without much sweetness and maybe an echo of cherries and stone fruits. I like this quite a bit. It is a dense and deep drink that is smooth with soft bubbles. It has just enough of an acidic bite at first to perk your palate up. Then some sweetness creeps in around the edges as it moves into that heavier middle phase with a sturdy mouthfeel and a dry finish. This drink has ideas of tartness but decides against it, and just mellows out a bit. Mmm, yeah, just tannic enough to be intriguing. There is also a sweet little goodnight kiss in the reprise. A subdued serious drink, but I really like it. This is fruity but relaxed and at 8% ABV you feel like you’re getting a robust drink.",
+		"Prodct_Description": "Long considered the most celebrated of American cider apples — and nearly lost to history — Harrison's dark color, earthy aroma, and round tannins create a lovely fruit-forward cider with exceptional mouth-feel.",
+		"Date_Tried": 202102,
+		"ABV": 8.1,
+		"Comp_Review": [
+			114
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mgBD3tvX5Chb3o-TVhYj4x8_DG8u2wjbJsntjgJhEH364so4LN8UIEz-usuWOJqJ3SK5tFCG9-Cnavb2meouCyhGv9xdi2b9YTxehQ2ivS6phQOeGnNvLyk1l4MZCO2AVm58THyPHoJkOT56v2HyC9clOAFMm7U10mjUip5_-cEizGzm-0DpEFU72JLPB0eQY?width=2711&height=3612&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mUgOsa0ly1wUOBRf-ykPLwkAujtw43gWzE2oECc3762xXa0YSADyjIoraz7fp9oB_9d3Mz1BshKtiH9m5XC9qD3zbHWLliBlUfvPTnyim7dxDAUU92NuMJM6n3kpwh2c-ChiC8_lEcWGuttxyrzcHWnPUBYj8N00rldwE3WCMPKyyWnZes6V92xHnzQlmZOaB?width=241&height=209&cropmode=none",
+		"ID": 379
+	},
+	{
+		"Name": "POGA",
+		"Cidery": "Hale & True Cider Co.",
+		"Score": 87.5,
+		"Grade": "B+",
+		"State_Country": "Pennsylvania",
+		"Style": {
+			"Fruit": "Passionfruit"
+		},
+		"Mood": ["Dreaming of Sand Between Your Toes"],
+		"Feedback": "Oh that’s a nice fresh breeze! Passionfruit dominates the nose of Hale and True’s POGA, but its mix with orange gives a nice citrus feel with a little guava smoothing out the edges. It is a fairly brilliant straw, bordering pale straw, color. Mmm, this is a very chill cider. It is not a big bold flavor; it won’t bowl you over like some tropical ciders. It still has the essence of a dry cider which allows for those tropical flavors to be highlighted in the finish. It has a soft citrusy bite on the tongue but is lighter in body than other tropical ciders. I get mostly passionfruit and orange flavors that really stick around on the tongue for a while, retaining the tongue tingles through to the finish. It did leave me wanting for a little more guava though. These are deceptively easy to drink. It is not a loud tropical cider, but it reminds me more of a calm and relaxing beach vacation with book in hand and just enough breeze to make the hammock sway slightly. A dry, mature, take on a tropical cider.",
+		"Prodct_Description": "POGA is a loving tribute to the Hawaiian juice drink POG, made with passion fruit, fresh squeezed orange, and guava.",
+		"Date_Tried": 202103,
+		"ABV": 6.9,
+		"Comp_Review": [
+			115
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mfBLh1f2YJSUI_2wtVumn9CffFHOWwzIBSlJ4jWgsTf87YRtBc_9mjyIbAU1q3nuIkF6vb6W78cEv8hKUqO0ig_i_i6bDRqkNyQZLvEH5OOeDXtxt0rglhEuACRTIoB5YMaAcm0YFKY4rdnPPnJAowindGSdfsx4FFc_p0GgolY0oFXwwpR9h0K0XzJr4aAyG?width=2871&height=3826&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mav24tGcjDaruN2VOMSS3fsn9wYqt2S4Rf98jfZg0edcF0RLdduDOCSAVrMBsGppBfrsbIa2r9OJ6sVTBQcYEHq8C3jyLXW5TVtquqR-ZiaeyhtiWVBxVzthzR3L2k0-T8lOP1PBqWD94-pV7QyB-dp8PnkvPHgDn6byefS2exl5k08H9thl_GlsRNI0IRrVf?width=200&height=200&cropmode=none",
+		"ID": 380
+	},
+	{
+		"Name": "Paloma",
+		"Cidery": "Stem Ciders",
+		"Score": 86,
+		"Grade": "B",
+		"State_Country": "Colorado",
+		"Style": {
+			"Fruit": "Lime"
+		},
+		"Mood": ["Something Unique, Something Interesting"],
+		"Feedback": "When smelling Stem’s Paloma, the grapefruit is most prominent in the nose, but there is a nice zing in the nostrils provided by the lime. Cloudy melon in color, the taste of this is totally unique. Certainly, I’ve never had another cider like this before. There isn’t much of a sensation on the initial draw, but it really begins to build in the middle phase with a bite from the citric acid that rises and builds alongside the grapefruit flavor which suddenly drops out at the last second to be surpassed by a whole lotta lime flavor bursting forth in the finish.  Whehw, that’s something else! For me it is almost too much lime. My tongue actually has a super subtle burning sensation minutes after tasting it. It is a very unique sensation and an interesting drink to try, but I can’t see drinking these all night. A nice creation from Stem, and an enjoyable experience, but I couldn’t do this one all the time.",
+		"Prodct_Description": "A fresh twist on the classic cocktail",
+		"Date_Tried": 202103,
+		"ABV": 5,
+		"Comp_Review": [
+			115
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mOiTOCi_m2w1qWcw3aCl73z5fnnz3qlhMMY0Dqwdn6TPhUEqs9JsJ2HUZQrm1_EIS5d0tfWHx8rCyV3jIkGbHtQQHYpHjWIVU781_7CHA61_6lNNai5PQpFNaWCwSzygnjgzLSiMVBYkga0SZSxxFzYDHNfH9t_7YTFoQIhWfOCbyVqS2dnXDQij76lwOdCcR?width=2840&height=3791&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mCAfCd0A75VtE3Ufc39V6E3XJ2oQ0nzOb1cCMELY1lHTtMcJsuiXHsdxB-QTsnjFILkxs4CesmBse889Auhyeej-Xd4VWnKDTqfiQJhDMRDl1WITuC0YWWNWnL1poMZDnJQy5MaxL6pxjKfBCOz-u5k5XGKn9YkTTGKoX4SHeYE3ppUJcun5oIwxV-dZTO8g6?width=341&height=148&cropmode=none",
+		"ID": 381
+	},
+	{
+		"Name": "Cidre Libre",
+		"Cidery": "Original Sin Hard Cider",
+		"Score": 82,
+		"Grade": "B-",
+		"State_Country": "New York",
+		"Style": {
+			"Light Cider": "null"
+		},
+		"Mood": ["Raw-Natural"],
+		"Feedback": "Original Sin’s light cider has some tang in the nose that is almost citrusy. It is crisp with some mild acidity. It has a nice apple essence and is fairly crisp on the tongue, almost fizzy, with a nice light body. It has a light-hearted farmhouse feel with the flavor of tangy apple skins in the finish. The tang from the acidity plays well with a tarter apple variety. It has no flaws or off-putting features, though when you stop drinking it, it loses its punch quick. It has a nice, fresh, naturally raw apple taste. If you want something that is natural and refreshing with a slight edge to it, but fewer carbs and calories, and you’re not going to feel cheated that it’s not 100% cider, but slightly watered down, then this is actually one of the best light ciders on the market.",
+		"Prodct_Description": " Original Sin Cidre Libre is an unfiltered cider made with freshly pressed New York apples. Cidre Libre contains just 100 calories and 2 grams of carbohydrates per 12oz can. The residual sweetness in this 100% natural cider comes directly from freshly pressed apples with no added sugar.",
+		"Date_Tried": 202103,
+		"ABV": 3.8,
+		"Comp_Review": [
+			116
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4maaNwpSv0h-L5vtoPg5cEm8DCSV0JinvGfbWWYq6FGqLsEMBW6VW6p1MLRgSbY4mFWzGtreqnO3U2-AFOwxVSLnSYgzszx5WBqmetTcqktGS8GUZ6uezqbr8qpMpGBWsJwz9TrN7kTPM1j95Nh6D7d-uPC5--k_MFGsf9nCYj0Kct1WMYxI0idCrdpNa_MbY5?width=3024&height=4032&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mjAIfjgfJOE-Y8PC06CnlNTjeU0T1A5M9FHM0SRuPDMUx3Ey8ZesiE1UUxwnK1zdLiwPM5cJHKuL_dcrZnusQZ9q0PMD40H0K-Uvx_PHKNimY4-xGQXU5oCZPfvCxLl4nW8LKaiFZYcZjOoAx7XVXpwNxuhH6SBxkyqEklZAcVabPtqTrTe58AMps44B3DvC1?width=202&height=300&cropmode=none",
+		"ID": 382
+	},
+	{
+		"Name": "Brut Super Dry Cider",
+		"Cidery": "Austin Eastciders",
+		"Score": 80,
+		"Grade": "B-",
+		"State_Country": "Texas",
+		"Style": {
+			"Light Cider": "null"
+		},
+		"Mood": [null],
+		"Feedback": "Okay if you’ve had Austin Eastciders Original Dry this will be easy to explain: it tastes like that, but you made the mistake of putting ice cubes in it and watered it down. In fact, it appears they just added water, and yet still added brown sugar instead of just letting it all ferment out. So, it has that signature Austin Eastciders taste, but the body is a bit thinner and it has a more watery mouthfeel. The first sip has a small amount of acidity with an ever-so-slightly, aggressive yeasty flavor, but not much of a bite. Then the flavor drops out in the middle phase like a dry usually does, but it is not super prominent—though you will get the sugar on the back end. It’s got a fair amount going on flavor wise but not a ton of apple. You’ll drink it. You’ll like it. You won’t love it. But you won’t feel as guilty either. This is not going to amaze anyone, but it is a smooth dry cider that goes down pretty easy.",
+		"Prodct_Description": "Inspired by dry champagne and with only 3 grams of sugar, Texas Brut is a lighter and drier cider that will help get your year started off right. Taste: Dry, tart apple, champagne with citrus notes",
+		"Date_Tried": 202103,
+		"ABV": 4.2,
+		"Comp_Review": [
+			116
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mMKu-IhSIVl6386bA3NA1OwBGLqAVvgEE-sGghlifbSIeXZDT3vt8wJTOURtShyS8bcS95MGb9CGODvQxbDiW6VUly5i6zwG_KaLC_qDaTmHO8Y18d7ScTlToVvZRObWudH1QiU6f4CiMTBShjJWY90fXGIlktrSALeWD3qdwmuQOg-g0yQCP1PiqzBQFom4x?width=2867&height=3822&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mGnqdR0HyupxBR2opGU4tWI-JpyqTcvf5DePAbfUf-VBh70eiYd0IPEFWGuwnH0x8jaS7YNkpuL3b8HwUgPLKHVWjKfgTh5TC8-s2kWKW_kJv14LODl7juP7aViBwZL3KzRSqnsirdk6JCF1IwRSNrVKsMZ3o4aMTf71QiwL7_wJi5VozylcHLOG0Ay1NEX4-?width=433&height=600&cropmode=none",
+		"ID": 383
+	},
+	{
+		"Name": "Arlo",
+		"Cidery": "Shacksbury Cider",
+		"Score": 92,
+		"Grade": "A-",
+		"State_Country": "Vermont",
+		"Style": {
+			"Sidra": "null"
+		},
+		"Mood": ["Tart n' Tasty", "Spring on the Back Patio"],
+		"Feedback": "Arlo is Shacksbury’s take on a sidra, and the cloudy pale-straw cider has an aroma of lightly crushed apple pulp made from slightly sweet apples. The smell is both deep and soft. Oooo it is so smooth. Oh man! That is sidra done right. There is some acidic crispness that is felt around the edges of your mouth and tongue, but it is drawn in effortlessly. It has a tart and mildly sour mid note that builds to a sour kiss in the finish which just a light tingle in the back of the throat. It reminds me of the dry crisp air of a Basque summer. It is calming and will have you rubbing your tongue across your lips. There may not be a better American-made sidra.",
+		"Prodct_Description": "Arlo is our porrón-worthy take on Basque style cider—super dry funky and fresh. This cider is a blend of our apples and apples from our longtime friends at Petritegi Sagardoa, in Spain. This complex blend is aged in a mix of neutral chestnut barrels and stainless and native yeast fermented. The resulting cider is downright refreshing.",
+		"Date_Tried": 202104,
+		"ABV": 6,
+		"Comp_Review": [
+			117
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mOeQF4paoxikjht6uoL0GK_X_kReQGqSS-8NnJEa2yvNJqF1jP4xFDwxGhVZX9WZNn6mlmCcWI6kCW7CYY7PtmXfMmafz1UzcwHxWqf9antceD6rv-NIPSFbOSTKOtRiQ6SdUleCe5DuJQzPQXtQY6pU68ku1CgUJ0ew7CowMR7hDhybGSFIapdnmguZPvFxZ?width=2692&height=3589&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mAuriyQNJX2ppELsVOgnD5MO16ZwWV4b9r-fzl1CDh45hes08gtzuVFRL19CAGSG3vnC5ljaW9wcVUFvwGBlmaVNV2MOLFYaVtSAsmitiG5viPOo464KiS6Y3WVu1TDL1MKRmuVWG5nsNFYI-GaIsJzLrKAP8vEGDqE3Yt6a8i8TMbNnRktozNblFnwiQJ9Jn?width=190&height=206&cropmode=none",
+		"ID": 384
+	},
+	{
+		"Name": "Hereford Gold",
+		"Cidery": "ANXO Cidery",
+		"Score": 90,
+		"Grade": "A-",
+		"State_Country": "Washington D.C.",
+		"Style": {
+			"Farmhouse and Scrumpy": "null"
+		},
+		"Mood": ["Raw-Natural", "A Slow Day in the Country"],
+		"Feedback": "ANXO’s Hereford Gold collab with Oliver’s has a gorgeous golden straw color and a bold and acidic nose. The drink itself has soft and fleshy qualities when drawn in and a nice medium-bodied mouthfeel that is lush. The acidic bite kicks in through the mid-phase and into the finish. Instead of a burn at the back of the throat, the sharpness stays concentrated in the middle of the palate and the top of the mouth. In that middle phase it has some solid earthiness and a slight minerality that gives it a lot of character. I much prefer this to their previous trans-Atlantic collaboration because it is not nearly as abrasive and allows the characteristics of the bittersweet apples to really shine—their depth is more on display. It definitely has a farmhouse wildness to it with a unique yeasty flavor, so it is not an easy drinking semi-sweet cider. But, if you like your cider with an edge, this ANXO is lush and complex without too potent of a bite. I don’t know what it costs to ship apples over from the UK to the US, but it is worth if from this consumer’s standpoint.",
+		"Prodct_Description": "Quintessential tannic English West Country cider fermented by Tom Oliver before blending at ANXO with GoldRush | Annual Release | Batches vary based on the English growing season",
+		"Date_Tried": 202104,
+		"ABV": 6.9,
+		"Comp_Review": [
+			117
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4m1k0ntGgjpUMG7a5kEC9JxYsLyOkPPeAUWNzt_e2nPIOt_XYiT4cu8LoqWdEjJNabl8AmGyIYsJ_7E7eLYj5v3OhffGxFcrMgz5_5JTYtpnGgsRyn-uSVZsQ1ybjArcFMSLQKiarjtVbMFS_Fj5lOezNZ16vHj8o52KMnheiIF8gELSXrCLI8YH53KPytxyYu?width=2917&height=3887&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mpL-cvwXS7jn1V2Rv8cr9MdwPi3WmhphDR1jc4SxABj8qRS-dmAxDvRfFh5UER_A9Oq7I82GLuK2aaYa5MJQVI6K7Jjfyet23LRsYyvCMfpvanlEGOzA3mKlWbD_8AvV3iI9SOJzCXey2O193Epf4NnAB7uOxV2TrgkBhVphu5Tfc7PqUpuYvTYIkqGAJqqfY?width=225&height=225&cropmode=none",
+		"ID": 385
+	},
+	{
+		"Name": "6130' Dry",
+		"Cidery": "Snow Capped Cider",
+		"Score": 89,
+		"Grade": "B+",
+		"State_Country": "Colorado",
+		"Style": {
+			"Standard": "Semi-Dry"
+		},
+		"Mood": ["Spring on the Back Patio"],
+		"Feedback": "This golden cider has a nose full of rich bittersweet apples with a hint of honey and an ever-so-subtle sourness. Oh! It has some pleasing stone fruit characteristics and an overall fruity essence that builds in the second phase and crescendos in the finish with a light punch of sweetness and a full and round mouthfeel. There is very little acidity, it is quite lush with mellow and fruity hints of vanilla. It has the bold flavor of your favorite semi-sweet, but with just enough character and depth that it reminds one of the best characteristics of a good dry cider. It straddles the line in such a way that I think both dry and sweet cider drinkers will find common ground here and will both love this cider.",
+		"Prodct_Description": "Five cherished heirloom varieties blended into dry complexity with hints of oak. Smooth, body and finish. Grown in our 6130’ elevation orchards.",
+		"Date_Tried": 202104,
+		"ABV": 6.9,
+		"Comp_Review": [
+			118
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mGC9dGFrZTiXMbbTxJ5Spv0SpypNAsVN0xIECUh70hsyO4xxVGM_lUNlGwO7IiOAjjor65kGHg0J3owNZcX5Z5_zySu3xo_JeszyQ1-GEr5vRtDPrLmoOEBwgiECGxdRvYDWulyRLlI4FCY1m0RjxQzz-eWEJTl1ADZ5Xtth2WGXoIu3H6yR70KwJjtJ7TwIf?width=2268&height=3024&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mrWc0ki1Q8hNh-MAmE54_lzziwPzc3qEdIOSkfcOkyMhGE-UUMWMVfb-KFLHEXFjFY_3VEItaGH3x7Z9jMw6HuGX4XcaXKFOufe_izDt_hAx9fYmFGUbAe35qsvEGr-tSsmwgzrsZ0-wAnpM7xkoRVCqreIRsbR5v1yZJC3wDgWsxC426x2msefeW6ffB_Pxr?width=480&height=640&cropmode=none",
+		"ID": 386
+	},
+	{
+		"Name": "Seedling: Colorado Plateau Cider",
+		"Cidery": "Fenceline Cider",
+		"Score": 88,
+		"Grade": "B+",
+		"State_Country": "Colorado",
+		"Style": {
+			"Standard": "Semi-Dry"
+		},
+		"Mood": ["Après-Ski by the Fire", "A Little Sport on the Tele"],
+		"Feedback": "This cider has a nice light and sweet apple aroma with cherries. It has a great body with a sturdy mouthfeel. There is also a slight edge to it and it leaves a nice deep-apple alcohol aftertaste. It is an incredibly smooth and well-balanced dry cider but with a heavier, more solid, pub-style feel. Don’t drink this too cold or you will miss out. This seems like the cider that should be drunk in a mountain town saloon with muddy sidewalks and an old pine log façade that has been weathered by many winters in the mountains. Boy I hope Fenceline is happy with this. They have a great cider on their hands.",
+		"Prodct_Description": "The classic American cider. Cool fall days slowly ferment a refreshing and approachable, off-dry craft cider with balanced apple notes. Fresh, crisp, light",
+		"Date_Tried": 202104,
+		"ABV": 6.5,
+		"Comp_Review": [
+			118
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mjtHrnBJouMBsLQE_ruM9UnfStImBTRUJ1J4v8Vy3GNKgJoB2IZX6T4s8yhUiO1ak2gltXR4QS4t9MY3hHoaUrLBBKxN-zC6sfzVGYcoL7xTVGnKywlkv2zXluBt7FlIhkibXGb4fHORyM4RhEW7RosZa5stP6AgHZP3oDilIgRdvwHv0QjcAYD7qCQPlS-LT?width=2268&height=3024&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mxQSZ8yzCA7a8PsFVxfmMEKhPF-oiLFhGQ4Ql6NNTBBbi3_Xb4kzILSyM7gcWfjuyYHGegrem1Q_WvhsYl6TUN_78lMoYYNh1JJ9ZQqKeY0skBaiTrIrXtkc3b8sEiGvIaTAj64NzYEQ8I60HzXQwRFRQzt4yG3Mx0l4vmARrNij5v6jQ52nIe0gdGSij0soJ?width=300&height=300&cropmode=none",
+		"ID": 387
+	},
+	{
+		"Name": "Raspberry Bramble",
+		"Cidery": "Grit City Ciderworks",
+		"Score": 87,
+		"Grade": "B",
+		"State_Country": "Washington",
+		"Style": {
+			"Fruit": "Raspberry"
+		},
+		"Mood": ["Tart n' Tasty"],
+		"Feedback": "This cider has an electric red salmon color. The nose smells like raspberry pastry filling and is pretty intense. It tastes like an all raspberry drink, like there are no or very little apples in there. It has a light body and is super crisp on the tongue and then mellows. There is a bit of sweetness at the end with a nice little raspberry kiss, but overall, it has dryish characteristics. There is then a growing tartness which makes an appearance after the false finish. This is an intense and dry raspberry cider. There is nothing soft about it, it’s pretty puckery!",
+		"Prodct_Description": "null",
+		"Date_Tried": 202104,
+		"ABV": 6.5,
+		"Comp_Review": [
+			null
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4miqq63nyXu53y23eFK_lyFITEY6rakEJprZp3XMMAbGwyDWZFhR-l_iIBw1DWqukEO_F6plPUTMaz267bZ5kDkIbA6dJCi0mEkh-tn-0LCXHDygyK3tXUCpToT5XYfaep0xEMJ6n6U54BPcqZNmYUiEEbKl85LPM9HGRBBS3jTkppILuJpO29OknWqQB1fx_R?width=300&height=300&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mwTqSsEMCjUyzzYsUPluex-CNQp6pW_j0uP2dOIFcQH925jnYVw5hBAnrLBnhCH6HQ4c-Juk0sAzN_ZAs_bnLJ3CBjkBCUjQ9VVE3jT7wlWL1G8uJWJFvr1V6ajbtoFK5KC_mkYHvTBEbK6epGBcLwTCqaE6UPQ47JM3NoUz2DlopdRaF-Xzb8Fiu3P9sYY6f?width=1500&height=1000&cropmode=none",
+		"ID": 388
+	},
+	{
+		"Name": "Guava Hibiscus",
+		"Cidery": "Incline Cider Company",
+		"Score": 86.5,
+		"Grade": "B",
+		"State_Country": "Washington",
+		"Style": {
+			"Botanicals/Spiced": "Herbed"
+		},
+		"Mood": ["Dreaming of Sand Between Your Toes"],
+		"Feedback": "Incline’s Guava Hibiscus has a pale translucent salmon color. This has a much tarter nose than I expected from a guava cider, but it still smells cold and crisp. The flavor is less bold than the nose, is sweet and floral, and has a soft and smooth mouthfeel. After a big middle-phase of flavor it settles in for a simple tart finish. It has a fruity acidity that perks up the palate. Somehow the tartness stems from the mix of soft guava and bright hibiscus which produces an almost citrusy grapefruit feel. It reminds me of a salty breeze with a bright blossoms blowing in the air. Smooth, soft, but potent.",
+		"Prodct_Description": "null",
+		"Date_Tried": 202104,
+		"ABV": 6.5,
+		"Comp_Review": [
+			null
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4miCPHvqYC3nX6MmctYsLCOJJvVsXKwCvv-gp_DQR9vOh5HtxrjSbMPkJ0GycdYRsgilYGiPppqO-89e-o5PWD20_vRULtZVfhb8ykNP6iQiXJ_4dn8ZvLJMNOTV5NR4BG-XYhEtumoE5bAO1T4T1ST_bbN16v5N34YndzHSXeLKs0C4Kjuj0BMRe7yzCUR7U8?width=2764&height=3688&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4miqq63nyXu53y23eFK_lyFITEY6rakEJprZp3XMMAbGwyDWZFhR-l_iIBw1DWqukEO_F6plPUTMaz267bZ5kDkIbA6dJCi0mEkh-tn-0LCXHDygyK3tXUCpToT5XYfaep0xEMJ6n6U54BPcqZNmYUiEEbKl85LPM9HGRBBS3jTkppILuJpO29OknWqQB1fx_R?width=300&height=300&cropmode=none",
+		"ID": 389
 	},
 	{
 		"Name": "Sagardo: Basque Style Cider",
@@ -7703,5 +8235,1076 @@
 		"PicURL": "https://bn1303files.storage.live.com/y4mC9bDpcXlbtEUI4dJy2X1fOoiWuR5K5uYeiruGc0jG_cUXZ5wbWK_yKyrAFEpFje0op42TYYfqOoL5UKKWb7mxeIVA_ZRgSj1O92vulblwg7Q1vDFPZUgraI7wL2grGEwIMG_ad6GAvSDcHQWO-mwmLYrmjcWK0q7DUWJj4w93kPht8DeF99xPYFaM1jMnr6-?width=2646&height=3528&cropmode=none",
 		"LogoURL": "https://bn1303files.storage.live.com/y4mXX4tOGDkVSeoZv03RSfPxQwoDFGcqdyVpeAtHsXdS_Onysn4JZbJ7ga9V4sDU6lcYWLSycM_9sryO4hik21kB4wsyPr63jg1tFirNNn-JsJwHsENPvLf9Eusk7AuNYX2YFqxbOvjRavWuz6DWabaGFTiDha3dJB42zgpv_SGKkT2nHwtmootODfkkDfsIZqQ?width=1772&height=1772&cropmode=none",
 		"ID": 392
+	},
+	{
+		"Name": "Poma Áurea",
+		"Cidery": "Trabanco",
+		"Score": 94,
+		"Grade": "A",
+		"State_Country": "Spain",
+		"Style": {
+			"Sidra": "null"
+		},
+		"Mood": ["Pop the Champagne/Celebratory", "A Sophisticated Night In", "A Breezy Sunday"],
+		"Feedback": "Wow! That nose is something else. It is as if they somehow took every aspect of an apple—flesh, core, seeds, stem—and simplified them into a single bright and bold smell. It is so fresh and crisp, I’m having a bit of a hard time getting over it. I don’t mean to get weird here, but if this were a bottled cologne fragrance, I’d wear it.  This has to be one of the cleanest, most versatile, ciders I’ve ever had. It may just be the cider talking, but this cider speaks to me. It is soft, elegant and lovely. It is so well balanced. It is just the right amount of dry and sweet, tartness and acidity, smoothness and crispness. There is even a spectacular after taste that just creeps up on you. It is an elevated experience from start to finish, from the classy label on the bottle, to the pour, the draw, the finish. I just want to share this with all my friends and say, “see this is what cider is capable of in all its simplistic excellence!” Refreshing, tart, fruity, dry and sweet. Apples at their best. I want to serve this at my next family get together. I’m in love with this cider.",
+		"Prodct_Description": "Poma Áurea is the first brut nature cider developed by Trabanco and under the Protected Designation of Origin (PDO) \"Cider from Asturias\". Poma Áurea is a totally natural cider, a brut nature in which both carbon dioxide and sugar are endogenous, i.e. the result of the fermentation process itself. Trabanco´s new brut nature is the result of a careful ion of the raw material. For its elaboration, only two traditional Asturian varieties are used, Regona and Raxao, which ferment at a low temperature for several months in traditional chestnut wood barrels. Once this first phase has been completed, a second, controlled, low-temperature fermentation takes place in a counter-pressure tank.The result: an elegant and harmonious cider brut nature, which shows all its expression as an ideal accompaniment to appetizers (cheeses, pâtés ...) and menus based on rice, seafood or fish.",
+		"Date_Tried": 202104,
+		"ABV": 6.5,
+		"Comp_Review": [
+			120
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mGFLow-lF4u__VEXHWnxmv1VtODh_QkQrPOlAIVbLlr6XNnw8tkMyTBUMa7NSUXE0hrpGo6RXlfHBGvXFCIQHFGWLWPLbfLaDZY5d8b--CKDOMbKS9Ek3l60a7Rir5Exk8xtXQG-X4av3Ua1Vm2cdhE06UxKIDePvYG4NFduRiapgNuflsjrrnXgljyy9x5RL?width=2829&height=3776&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mitbRn8bFJrs-pRk-LdeQbRoBy_7bcRa_YO36nVL3ltB1gxN_9WVQr_4wAxrxL-WNp_BR6NqUNkmCUKu1pinB7gQajx-690HXq5LRLqJfgLL-b4bvb3MOzdEJQZ8Lbw7tSXRM3uUVL1jCo_3KtNAVcHjmQ8oPj5Uuv2YF6UTyL3H7WAf_k0dtLRCkUcVSa9R2?width=400&height=400&cropmode=none",
+		"ID": 393
+	},
+	{
+		"Name": "Yarlington Mill",
+		"Cidery": "Bauman's Century Farm Cider",
+		"Score": 81.5,
+		"Grade": "B-",
+		"State_Country": "Oregon",
+		"Style": {
+			"Single Varietal": "Yarlington Mill"
+		},
+		"Mood": [null],
+		"Feedback": "Bauman’s Yarlington Mill has a beautiful two-toned hombre look with a burnished amber giving way to a golden yellow. The nose is quite crisp and lovely with oily characteristics. That’s pretty sturdy stuff, that. There is a modicum amount of bite followed by a long dry spell. This is pretty astringent, I felt my mouth was dryer after having the liquid in my mouth. It leaves a dry tannic film coating your tongue and has an almost soapy mouthfeel. You do get some tartness in the finish to round this drink out, and if you let it breath the flavors mellow a bit. Not a ton of character and, in my opinion, a classic case of needing a blend to add some personality or another dimension.",
+		"Prodct_Description": null,
+		"Date_Tried": 202104,
+		"ABV": 6.9,
+		"Comp_Review": [
+			121
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mr2H3WmPdBdHptJBD5HfgjIUQaqoexBxwZE5oYalcyvUeNvkK6elwa8iJfxyra-kX-_pc5rSUpCbbIFvyIiLWWCBGXx-pWoC85CB_yXTQOOmrppq1HhKuWaVLaNz9zo5zsnkJ0oKGIAS3ysar_flTRXKFsbvI5FNOXTDl3y8-RtcAYYPuPT4Zyr7COeJpOYZR?width=2684&height=3581&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mxy9iukfqPtIH7djKXtQC7wnp4a1BVWJ-rpW1MS0rCPZACxR_UrAhXAwNgF7kVx_zW3I6iYlNPGtjQZAX8LfyN3Y8oRTs03kDuHxF5j1m09B8CxP2kpp_Lresp_fY486wCGbzmEqkNB2BaYi_sSWFVcf_eL8gVvpTX0duOjLdUSHYBr4QpNtItGYlFnrKqSoJ?width=247&height=184&cropmode=none",
+		"ID": 394
+	},
+	{
+		"Name": "Yarlington Mill",
+		"Cidery": "Stone Circle Cider",
+		"Score": 78,
+		"Grade": "C+",
+		"State_Country": "Oregon",
+		"Style": {
+			"Single Varietal": "Yarlington Mill"
+		},
+		"Mood": [null],
+		"Feedback": "This golden amber cider is almost completely still. It has a slightly phenolic nose with fruity and rich sweetgrass aromas. This is a heavy dense cider that is bitter in a burdensome way. It reminds me of a stodgy old drink that some curmudgeonly geezer from the West Counties would be drinking as he prattled on about nothing, trying to find a little solace in his drink. It is tannic with some fruit punching through and hints of interesting life peeking out from around the edges. If you like heavy, dreary still ciders from the old world, then this might do. But this wont cheer you up after a rough day, unless you’re in an Eeyore mood and want to sit in the rain a bit longer, then this might be the accompaniment you’re looking for.",
+		"Prodct_Description": "A single variety cider made from Yarlington Mill apples. Discovered growing out of the water mill in the Somerset village of Yarlington, this apple has become a mainstay in English and American cider orchards. This variety offers enough acidity and tannins to create a wonderful flavor that stands all by itself. Medium-bodied, smooth, dry, and aromatic.",
+		"Date_Tried": 202104,
+		"ABV": 6.6,
+		"Comp_Review": [
+			121
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mM1jxfjyvtofwnfK61PFgjD8naZcFK35F-myF8SquOwzFmrH8iLg8pmULQrDrwX9zOwbOFPAu_E0uoSvKAMPruW6tRZsQpzv3a6-NQ5OVHSwhGuwbNYgQHes6SsxrFLe9eW_HEdbB_nXIGBU5V6ps39EQyI08xGAqkpVIdAVKczGpkIzXuSGMh3p8ElVejMm9?width=2673&height=3566&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mh-Uhh9PR4Z7CBwtiKnxZNXMQ7tUsERJzS0_6DFgF6BmWn1CFbaM3tooPvxtLswqxsps3QrvxlNe5rGqFrBgGJsPkqK5oaqJv6u8cRjr6KD40MDM6zujuI4LzskgxbPYkGQZc2BXb63PeqTHOvcOXZea_0hEjCcJEOUZFo2CVFnyLhAZwpQnekGLWBOncpTgQ?width=218&height=231&cropmode=none",
+		"ID": 395
+	},
+	{
+		"Name": "Pear",
+		"Cidery": "Downeast Cider",
+		"Score": 90,
+		"Grade": "A-",
+		"State_Country": "Massachusetts",
+		"Style": {
+			"Perry and Pear Cider": "null"
+		},
+		"Mood": ["Easy Drinking", "Summer Garden Party"],
+		"Feedback": "Downeast’s Pear is cloudy and has a heavy pastel yellow color. The nose is super fresh and crisp. It has a big pear aroma with a zing of sugar. Oh! Alcoholic beverages should not go down that smooth! It is light, soft and airy with just a brush of bubbles. This is clearly one of the most refreshing ciders I’ve ever had. It takes me back to hot summers playing with my cousin in my grandma’s yard and her coming out with two large cups of light and refreshing lemonade. We’d throw those back and chug the entire thing in one gulp and then keep playing. Now, my grandma would not approve of this alcoholic beverage, but on a hot humid day I am certain I could kill a glass of this in one go. It’s juicy, sweet and tart and I really can’t find anything wrong with it. If you don’t like a sweet and juicy pear, avoid this. (Do such people exist?) Otherwise, this is the perfect sweet remedy for a hot and humid southern summer. Like a liquid dessert pear.",
+		"Prodct_Description": "Bright pear flavor beginning to end. Juicy pears and fresh pressed apple cider were too good of a... Match",
+		"Date_Tried": 202104,
+		"ABV": 5.3,
+		"Comp_Review": [
+			122
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mR_U7HfLk0I0PHODgG3b8RIE3a7lj1oqNllD1ayI20nyDbSgC2U9bFHoUxiXWNI5X-tW7Lv9rzBL4LkmRLj-yxxEdTxOiq_2mR-l0AuKeKG8LY-8bVDj9KbHa4JNk0JDw1LaN31lqYUIsJv5AbTCWh8BDIgZ5AbE83czXO8fNApq4-7ZN_IsUmBAaGUzzTz90?width=2700&height=3601&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4m4VU-VYm6_HnF0vvWdpzjxYpB09ReObbwqt7nRgWsC8IZpTwQtJz_pcXdLfhbEKJFtCI0ZupG8SxsHUSoLzQCrT4zHfGRwc4q-C4OEJ2U_KXNgD_fhyTS6Pm265JgG_aJ4EJXUtVoJBM6Lpu0CTeivBrCBLIDxqinVdZH4VtglD0LPeRmFgXppsPUAGEQngUX?width=1024&height=1024&cropmode=none",
+		"ID": 396
+	},
+	{
+		"Name": "Pearzarro",
+		"Cidery": "Colorado Cider Company",
+		"Score": 90,
+		"Grade": "A-",
+		"State_Country": "Colorado",
+		"Style": {
+			"Perry and Pear Cider": "null"
+		},
+		"Mood": ["I Like Wine", "A Slow Day in the Country"],
+		"Feedback": "This is the clearest cider I’ve seen in a long time. The nose is subtle, yeasty and lovely. That’s a handsome drink! You smell the fermentation when drinking it in and it definitely has an acidic bite—think Farmhouse light. But then it mellows out into this lovely light pear note that just goes on and on. The body is incredibly light with a whimsical squishy mouthfeel. There is also enough tartness to smooth out the alcohol taste. There is quite a lot going on in the taste, but it blends together effortlessly. This really should be paired (no cheap puns here) with a good meal because it could enhance so many flavors. It is powerful and soft at the same time and to me it would be perfect for light seafood and white meats. Rustic wilderness meets soft pears and sophistication. I don’t love this can art, but love the perry inside. At moments Pearzarro almost tastes like something is a bit off, but in this case, it adds just enough character to give it a little funkiness. It is interesting and smooth at the same time.",
+		"Prodct_Description": "A twist on our delicious Pearsnickety this Perry uses all Colorado Bartlett Pears but we let the juice sit on the pumice (Crushed Pears) and go through a natural, wild and spontaneous fermentation. It has Spanish Sidra characteristics with a zingy nose, slightly acidic, and is followed by a creamy mouthfeel and a crisp pear finish. Quaffable and delicious! At 5.25%, this Perry is easy drinking and effervescent. Despite its wild nature, PearZarro is sure to please after a day of adventure or alongside a delicious meal. This is our first canned spontaneous ferment, we’re excited to bring you along for the ride!",
+		"Date_Tried": 202104,
+		"ABV": 5.25,
+		"Comp_Review": [
+			122
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mkBnxLdS6FCo3dGx0Ve7NQ4Mlr2Fj0_Dxk26BI-9Dh2N2l6JmJsqaERxUthCeizu08I1jl5Y7amNIZ-Z79iz0nz1HDUWxNyZT5FBApKE2hCE0AFC1tGTCJCI6lltUzFAyeuTGpTCTuEaa-WQbzWPMlQCRSOpZTNVfzTanVaYo4Qt0QXz3AMwAuuZX52GwJVvA?width=2787&height=3715&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mxX51ylmSTsjeYtFTvAZPCYJsm17UnQkF-XjWrylpT0izN1ZWWKsUQU3EWQGd1MGACix9_zHGi9gbyDQuqsySpI3eyq32ncBnqrBv901coyAq0yES6jjI6Rwl6KDz6N89l_hCel5PMi78aA02KdIYZQBTK_QNMrPtT2H-SRZInWtlI6fknFC4JgVVbHU73hHi?width=225&height=225&cropmode=none",
+		"ID": 397
+	},
+	{
+		"Name": "Valley of the Pear",
+		"Cidery": "Rev. Nat's Hard Cider",
+		"Score": 92,
+		"Grade": "A-",
+		"State_Country": "Oregon",
+		"Style": {
+			"Perry and Pear Cider": "null"
+		},
+		"Mood": ["Spring on the Back Patio", "Late-Night Sweet Tooth"],
+		"Feedback": "Rev. Nat’s Valley of the Pear cider has an attractive amber straw color, and the nose reminds me of an orange creamsicle and Dutch apple pie. In the nose there is lots of creamy vanilla, but not as much pear as I expected. Mmm. It’s hard to know where to start. Let’s go with smoothness though: it is almost buttery with its viscous creamy mouthfeel from the vanilla. Savory spices mellow what is otherwise a fairly sweet finish. There is a considerable amount of pear flavor in there and the balance of dessert and cider pears make it interesting and not too sweet. It is like each time you lick your lips you get a slightly different taste. I also detect citrus notes in this and what feels like tiny lime kick, though I can’t really explain it. Really, really well done. I knew there was a reason I have had to wait this long for a Rev. Nat’s perry, because he probably wanted it just right. It was worth the wait.",
+		"Prodct_Description": "When my friend Mahka told me about how the Vainakh of the Northern Caucasus worship pear trees, I had to create my own celebration. Oregon grows the best Bartlett pears in the world, so I’ve used that variety, blended with a pinch of rosemary plus a hint of vanilla and spices.",
+		"Date_Tried": 202104,
+		"ABV": 6.8,
+		"Comp_Review": [
+			122
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mNhDkk8i-1zh88vLAmxgjKrWhBrl8RdZCRvWDMbi3uxB2RnFFMNyJLl4Ivzs95erreEs69WFPToSwwgw1fqSAl9rCuwelRosu3LitxGJkyw7Q0sXPnxqHOnrnq_CCxlw2Y4NlxSzTJiS3GCJqgbepjLk5-PF-ZUuq92IXhMpWcYHdbz_m5VpO18s6oqHEbC5w?width=2714&height=3623&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4m65TEKmE0wTq7cFQNQz6VYGFEjAfYtK8jnfBoIf2Ko-oMzA-ViOu7mC5sE4m2k68eukx4UJGd3QeNxqDIRBuAmiV2-t6Ca4OOppj4q5S-ZBcp4sQhGWqBJAubNY5Nb0P1sXiUCpI08eo70sY9uE_dkPfbg37dLhNTfXluMnSi5-383_suxyYUl03WdLY4og6P?width=512&height=512&cropmode=none",
+		"ID": 398
+	},
+	{
+		"Name": "Fimbul",
+		"Cidery": "Art+Science Cider+Wine",
+		"Score": 64,
+		"Grade": "D",
+		"State_Country": "Oregon",
+		"Style": {
+			"Farmhouse and Scrumpy": "null"
+		},
+		"Mood": [null],
+		"Feedback": "Fimbul is an old Norse word meaning “mighty,” and the artwork on this smoked Icelandic cider with ravens and a ram’s skull creates a vision of some old pagan ceremony in Uppsala. Maybe it is the name, but it also reminds me of Travis Fimmel, the actor who played Ragnar Lothbrok on the History Channel’s epic Vikings series.  (Though actually Fimbul is named after someone else) This super fizzy bright golden cider from Art+Science came shooting out of the bottle, but it smells like the inside of a Viking’s helmet. I am no sure how something so bright and bubbly can smell so dank. It is kind of like outdated rubbery butter. Not completely awful, but quite unusual and not very inviting. Euwf. This may please Odin and be what they drink in Valhalla, but I don’t want to see it on my dining room table again. It is quite bitter with a heavy taste of burnt vegetables. Very harsh and acidic, but the acidity is uninteresting and pungent. I am not sure what they did to achieve that smokiness, but I don’t think I want to find out. If it were 793 and you had just been to battle and had ash, blood and sweat all over, this might be just what you’d want to find in your drinking horn; but for most of us living in the 21st century this is too strong, pungent and gritty of a cider for enjoyment. But then again, if an aggressive raw drink is your thing, good luck! PIO",
+		"Prodct_Description": "Traditional Icelandic smoked cider. Barrel fermented and aged for 12 months. In collaboration with Matt and Aurora from Fimbul.",
+		"Date_Tried": 202105,
+		"ABV": 7.8,
+		"Comp_Review": [
+			null
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mGKYN2ONkIseDB04eYmgpmQw43zBzHKqFiJsNC8rlNr7Od8leL340Xw2GJVtUdcRwQuGhzHQc5QjTenUV4UuUfSlVdlneJCuUBxVQq2dJ65h43ke91GcVlN85vtgmGR7oE1EALdW37DgsIwljT8WjUezSl7pmxviXmUXBCFjp7-wd1MYLIGajNundKwkeJqy8?width=2688&height=3581&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mKaMlZdkS0Uqoz3r5w8M2di761V7mrLSTJcaVzVhuh2WEi185UMxyB9-WQehBeEfKFiXnN5EMwNeMjbAVRGB5LQxdoO944p0sKROt9LIIT-LAYvLOPLMzWQ9na9LOfzCzhyblvU6k5Lzt1pfOYzWs7nE0StxGNqgo-_tXZFXefrVX4yE5cfFaZPBR4CbTm2Kg?width=1103&height=1449&cropmode=none",
+		"ID": 399
+	},
+	{
+		"Name": "Fallen Fruit: Imperial Pear with Cherries, Raspberries and Blueberries",
+		"Cidery": "The Old Mine Cidery",
+		"Score": 89,
+		"Grade": "B+",
+		"State_Country": "Colorado",
+		"Style": {
+			"Imperial": "null"
+		},
+		"Mood": ["Summer Garden Party", "Easy Drinking"],
+		"Feedback": "Imperial Pear with Cherries, Raspberries and Blueberries: For my 400th review I decided to go back to the Old Mine, as their Gold Rush (now Citra Mango) I reviewed for my 250th is still one of my favorite ciders ever. So Brylon and the boys at Old Mine have been tinkering away, as usual, and they have this special Fallen Fruit series where they only create 99 bottles of a particular creation and I was lucky enough to get my hands on one. Looking at this hazy dark salmon cider there seem to be a million microbubbles in the glass. It has a big fresh nose of tart raspberries and the more you let it sit, the richer the aroma becomes. Wow! That may be the lightest, crispest, imperial I’ve ever tasted. It does have a very springy, soda-like mouthfeel, but quickly smooths out to a very soft, easy to drink, beverage. This Fallen Fruit is very fruity, and likely overly sweet for some. However, the softness from the pears is present from the beginning while there is clear tartness from raspberries (and to a lesser degree the cherries) that burst through in the second phase and really last through the finish. The vanilla coats the outside of the palette, holding the fruitiness in the middle and provides a light creaminess throughout the experience. <br><br> I don’t know where they are hiding the alcohol. At nearly 12% this should feel like it has got an edge to it, or some heft, but you could drink glass after glass of this on a hot summer’s day as it is so soft, smooth and fruity. So be careful and don’t say the professor didn’t warn you, but if you like a fruity cider, the pear is the perfect vehicle to bring out all of these summer fruits. It’s the perfect, slightly sophisticated, slightly boisterous, guest to a summer garden party. Update: Shake this thing gently first. The heavier blueberry sediment sinks to the bottom and when I poured the remaining 175m, this turned several shades darker to a purplish Bloody Mary appearance and the blueberries became much more pronounced in the flavor.", 
+		"Prodct_Description": "It started off making an Imperial Pear Hard Cider with Cherries and Blueberries. As it fermented over the weekend there was an incident with an errant Cherry or Blueberry that clogged a line. That little clog created pressure from the fermentation and some time late Sunday night the pressure built up and blew the top off the fermenter. We still have remnants on the ceiling. We added some raspberries to make up the difference we lost. The result is an Imperial Pear Hard Cider with Cherries, Blueberries, and Raspberries aged on Bourbon Soaked Oak, Vanilla and Sat for 3 months.",
+		"Date_Tried": 202105,
+		"ABV": 11.8,
+		"Comp_Review": [
+			null
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mcez5Yc9CKfVpw4fSX8Wf4N1GMU-nQhuB7ONkjr3ZkV1GEodtjtkmeTfHaNbdUJWkb7uopJS6lxO3NXl4Ap5AsGZkwCqSub4wdy9CoQIW-vgztxXnt1ioTq0i-BvrcMhg4d6RwYTn16HegRIc5tcv8dkjYi0caH29LfeK5thbeGOgSS_GY9OLC39vPI7DA4t9?width=2742&height=3658&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mrlA9nznWP0h8-zWYYdmxfhOI5xVQXQNY2zDjJCnAVDZ-fywScWGLRAy8FXtegoYxnB0mrtyoVvouBueX25jbp7oObj1GwPXlpw02B7EcVqd5LlgmtLu80rOGQzxldbaEMBT2ep2Rxq32xV0riD-RROsbYSY5UGZFZkJDKw0uCfvwG4AglSyqMgxyxabE1guD?width=500&height=500&cropmode=none",
+		"ID": 400
+	},
+	{
+		"Name": "Bramble Bubbly",
+		"Cidery": "Sea Cider Farm and Ciderhouse",
+		"Score": 85,
+		"Grade": "B",
+		"State_Country": "Canada",
+		"Style": {
+			"Fruit": "Blackberry"
+		},
+		"Mood": ["Tart n' Tasty"],
+		"Feedback": "This cider looks like pinot noir in the glass with that deep color and just a few bubbles. The nose is deep with rich cherries and a hint of an earthy stemmy aroma. It is smooth with a heavy mouthfeel that rolls into the palate followed by the slightest sting from carbonation and acidity. Then your mouth is deluged with a deep blackberry flavor followed by a distinct alcohol taste in the second phase that carries through to the finish.  But the blackberry flavor is almost too much, and it is a tiny bit artificial in nature—creeping towards medicinal with the punch of alcohol, but pulling away just in time. There is almost a crisp fortified wine feel to it. It is definitely not a thirst quencher for a hot day. It looks like red wine. It has that heavy fruit flavor and clear alcohol taste like red wine. But it has just a few bubbles and enough acidity to remind you it is cider. So, if you want a rich berried cider for sipping, grab your favorite wine glass charm and pour a glass for you and a friend.",
+		"Prodct_Description": "The mighty blackberry is a tenacious invader of Vancouver Island orchards, but a touch of its sun-soaked sweetness added to apple cider makes for a sinfully delicious blushing semi-dry sparkling cider. Raise a glass of Sea Cider’s Bramble Bubbly, and celebrate Vancouver Island fruit at its best! Bramble Bubbly pairs well with salmon, summer salads, berries, outdoor barbecue, mild or sharp cheeses, cured meats, and poultry dishes.",
+		"Date_Tried": 202105,
+		"ABV": 9.9,
+		"Comp_Review": [
+			123
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4m1hQ_fNdVV-m91Y6ibVGJhpag8K4bwiy-7lB83GpNxgyrf-omQSmgVODi2EI0exxbiIPKR5gcnlGLnmZlJg8Yg0V4AvNg_rQCQcwqeBtSzwNnPG5DlWU8cY6EHDzb3QwiJDb3QF-GKVYi8wwdl7agfcu0CFR1U39hPjYOva_odSFoEMtshqHQOHB9iU98K_iD?width=2734&height=3646&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mD-iFpL20oTSpGvX2G0fe2RkWmn6_Yu9heQsf427Cfj-Vqi47cm9kVNHg6d_9IxanxlKaJ-xAEeJ8bS1U0XhiAGeQ3q7ytk5yws-8W7gC5Y_iMQZqIHV7BrbLiY3GKbc74sf8o7dt0WrAJb41yYrgTqcjjGqkYXh8K8PzaZu_m_Ho_hevvexLQGa73yu2B1uu?width=254&height=198&cropmode=none",
+		"ID": 401
+	},
+	{
+		"Name": "Mill Race Bramble",
+		"Cidery": "Blue Bee Cider",
+		"Score": 92,
+		"Grade": "A-",
+		"State_Country": "Virginia",
+		"Style": {
+			"Fruit": "Raspberry"
+		},
+		"Mood": ["I Like Wine"],
+		"Feedback": "Blue Bee’s Mill Race Bramble as a nice claret color with an orange hue. This has a super tart and fruity nose that is slightly acidic. It is one of those where it feels like you’ve had fresh cut fruit stuck up your nose. Hoeww, quite rich. It is quite earthy with a fair amount of bitterness up front in this light and bubbly cider. Raspberries come through in the finish with the slightest burn. There is a fair amount of tartness from start to finish and I think this drink could have been either heavier or fruitier to balance out the tartness, or if it was going to have the light body it would had been better if it were a little smoother. The flavor kind of disappears in the second phrase but not in an interestingly dry and complex way, but the flavor then comes back in as an airy tartness.",
+		"Prodct_Description": "A small network of mill races and canal works formed the backbone of Old Manchester’s early commercial life. Today the old waterways are teeming with urban wildlife and bramble berries. MILL RACE BRAMBLE infuses a cider primarily from heirloom Summer Rambo apples with bramble berries to accentuate the cider’s sharpness and fruit notes.",
+		"Date_Tried": 202105,
+		"ABV": 7,
+		"Comp_Review": [
+			123
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4m8gT07IJX_WpPHE9ZK0CBK0m-dOLpWjsdTm_m21FjwT7QCqRauItNbVR7LRtKJz_B21gTrPArp5Lw7nRHAP4azAkNqc45bp6sfaa4WKANHmhB9ePxyyL-ppey_dV4VOxv1E84tYq81zCZOeBDAwG05fo7ykwKHqdEQESCZFIjf_cK1RDCQwdT2badqOhvlry9?width=2848&height=3799&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mpKVVbxgNhSX4-CDCrPxLjcAahiv31YUXp-3gkz7dbg_nhl5KYLi1VUuLQ7MLCkCK_EC98A2_mjJTr3nsiWXvevKEu-cUMcbf-XmQ0fOWBHSW2LKJUGrYKpxQNm1-zj-ngSVZF1eeLvi68UaddSgxWgBcPhu46AXSS4qYGC3NXHev8TFH-2uhg5IRmpa0wJuP?width=164&height=155&cropmode=none",
+		"ID": 402
+	},
+	{
+		"Name": "Cherry Pie",
+		"Cidery": "Atlanta Hard Cider Company",
+		"Score": 91,
+		"Grade": "A-",
+		"State_Country": "Georgia",
+		"Style": {
+			"Fruit": "Cherry"
+		},
+		"Mood": ["Easy Drinking", "Summer Garden Party"],
+		"Feedback": "Atlanta Hard Cider’s Cherry Pie has a pretty claret color with and orange hue. This smells fantastic! It has bright and sweet cherry notes with a touch of sourness on the backside. Oh my, the taste is lovely. I have had a number of cherry ciders, but this one is rightly called “cherry pie” as it immediately brought me back to my mother’s pies with the sweet but ever-so-tart Montmorency cherries. I can see the family initials carved into the crust as it sits on the gingham tablecloth. Enough reminiscing, this is one of the lightest and most refreshing ciders I’ve had in a while—perfect for the summer sun. It starts off crisp and has a bright and sweet zing of cherries in the middle that curve tartwards in the finish with the cinnamon providing a slight texture to an otherwise silky smooth experience. Man, this thing is almost fluffy. Try it to find out what I am talking about. You could drink it all day.",
+		"Prodct_Description": "This cider is just as good as your grandma’s cherry pie! A perfectly-balanced seasonal blend of tart and sweet cherries; this full-bodied cider is bursting with ripe cherries and apples, then finishes with a slight hint of cinnamon sticks.",
+		"Date_Tried": 202105,
+		"ABV": 5.9,
+		"Comp_Review": [
+			124
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mM-aLbygu0rZQNdXVx7E4nvVyxOpqjqczhAbmjXJkN9x6c4gdd_Sqx5ttpAy_2Ild_tNKPIj6XWtMhMEncOyWDILzvypUPu3FkZjz55hVCjisRDyC8HCwD2UT1rPIATV-SnSoF002BHuXtr9XxQZBUOPj55_3n3he5hN2vIbr9uKMnUMggsCi03PtsL08DKLs?width=2635&height=3513&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mZ8kQADifUHZMNyloWPl-9f-x-5l_WQcVNqjJhvPglV-HUvhLvsn-8-BxPJXXVpAjGycoOypGz2aOgLpwWWon9tgxBuPzBeEXT4XaK7MuBF62suG79b0BPGmAXEYDmnmIDAphf21XDLjPQu_4M49U0-RZrQwqvsHOkN6EwxQa34kfSw-AB7HZF70KalzmFq9w?width=150&height=150&cropmode=none",
+		"ID": 403
+	},
+	{
+		"Name": "Cherry Pie",
+		"Cidery": "Rev. Nat's Hard Cider",
+		"Score": 89,
+		"Grade": "B+",
+		"State_Country": "Oregon",
+		"Style": {
+			"Fruit": "Cherry"
+		},
+		"Mood": ["Après-Ski by the Fire", "Something Unique, Something Interesting"],
+		"Feedback": "Rev. Nat’s amber brown Cherry Pie looks like a thick ale and smells like an English mincemeat pie with cinnamon and sultanas. Whoa. Heavy on the spices and quite tasty. There’s a lot going on here. To start it has a fairly smooth draw with faint, but distinct alcohol burn on the tongue. Then several things start moving at once, cinnamon savory spices start curling up the sides of the palate while you get a quick splash of sweet and sour cherries in the center of your tongue. The second phase is punctuated by a punch of raisin flavor that morphs into a hoppy flavor that serves as the bridge to the finish that is a reprise of tart cherries—and it is rich! This is fairly full bodied and heavy but it creates a unique savory and tart experience for a drink.",
+		"Prodct_Description": "Classic pie spices of cinnamon and nutmeg combined with Montmorency and Morello pie cherries make a tart, rich cider.",
+		"Date_Tried": 202105,
+		"ABV": 6.6,
+		"Comp_Review": [
+			124
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4m10DKFBsRoIM-Yy8vmP-chyspZK1dPhISpRjtxydvzbemE3wxEHqv3M_Xo_K2Bg4AC71mdsX3rjnxUxbICwbR2UZo7F91nUAf3nPsDv0X_RGv11g-BjCn50w06C2M27qNAfm-1KBR6A-ifF7d_ZjTRElnuHp5E9NdQ_QgmFV3vRNd2rocrgr9VTW-yYnDy3g5?width=2451&height=3268&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4m65TEKmE0wTq7cFQNQz6VYGFEjAfYtK8jnfBoIf2Ko-oMzA-ViOu7mC5sE4m2k68eukx4UJGd3QeNxqDIRBuAmiV2-t6Ca4OOppj4q5S-ZBcp4sQhGWqBJAubNY5Nb0P1sXiUCpI08eo70sY9uE_dkPfbg37dLhNTfXluMnSi5-383_suxyYUl03WdLY4og6P?width=512&height=512&cropmode=none",
+		"ID": 404
+	},
+	{
+		"Name": "Sunlit",
+		"Cidery": "101 Cider House",
+		"Score": 87.5,
+		"Grade": "B+",
+		"State_Country": "California",
+		"Style": {
+			"Fruit": "Grapefruit"
+		},
+		"Mood": ["Grab Me a Beer"],
+		"Feedback": "This hazy straw-colored cider smells pretty divine. Sour grapefruit, sweet hops, crisp and refreshing. Oh that’s nice. Has a zing to it, slight bitterness in the finish, but with a nice juicy reprise. It finishes relatively dry for an easy drinking fruit cider. In some ways it reminds me more of an IPA, like a Weldwerks Juicy Bits my friend once made me try. The pull is sharp but not abrasive and the mid phase is more mellow. It is like letting the water wash over your bare feet on the beach for the first time on a June day. You’re expecting something warmer, but it’s cold. And yet it invites you deeper into the water even though it is chilly. With this bright exotic can you are expecting something tropical, fruity and sweet. Even though you get a bit of that, there is this bite of bitterness from the peels and the citra hops that is arresting, but ultimately it invites you in deeper. I don’t know how to describe the probiotic, but as someone who takes one every day, it is similar to the sensation I get as it feels like it leaves a coat of film—imaginary or not. There is also a bit of a sting in the back of the throat like a light sidra. If you like it sour, this may be a great option for you.",
+		"Prodct_Description": "The only kind of lit we want to be is sunlit! A juicy combination of grapefruit peels and citra hops. This thirst quencher is the perfect accompaniment to your daytime adventures. Whether you're a Hazy IPA fan or a Natural Wine enthusiast, this is the kind of day drinking you want to be a part of!",
+		"Date_Tried": 202106,
+		"ABV": 6.9,
+		"Comp_Review": [
+			null
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mup3leKjaKx7g3a4WhkAJeODodXxgttOkXK6fyNVTuUIloG7w5OOG5MzCZfkQgVrj6DWOQE-jyn4Qwkb7dFkvUMxbOYDTb8o2XrUiu3IFAV_u0VByS5Ly5QHTqkwgqWyqSOqXiBPE1wevqu1Vd3VDtmeFbpEvTD1xHv5gn1CrZ-mjO3opVWOPDpjJBomRAHX5?width=2482&height=3310&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mXAs-sKTBJn9R6dEIuRe9UO4MEUTbC1ViSOwGOfJzoWG7CpvzRVips2JdL-8MqaduD2vi1n1PD8h84EDtoQxUYvER_PasmDHUXu2HKfdXuLxXp_Cx4YXbuNI3O_PFp0q8zC5F0iQDRCxyOncv7FEZFsFmIubYWGdRVb3jXVAHXNIPUa2CXzdmEwgNWHxcjr3G?width=507&height=928&cropmode=none",
+		"ID": 405
+	},
+	{
+		"Name": "Cherry Pear Vanilla Bourbon",
+		"Cidery": "The Old Mine Cidery",
+		"Score": 82,
+		"Grade": "B-",
+		"State_Country": "Colorado",
+		"Style": {
+			"Fruit": "Cherry"
+		},
+		"Mood": ["Something Unique, Something Interesting"],
+		"Feedback": "Old Mine’s cherry twist on their standby Vanilla Bourbon has a nice light red color with an orangish hue. There is a big rush of cherry in the nose as the vanilla really heightens the sweet cherry aroma. So, this is good but maybe just one click too much on the flavor dial. Just a bit too sweet, and just a few too many big personalities in this drink. I will say that you can distinctly taste each of the flavors, though the apple is the most subtle. The first phase has a big sweet cherry taste, but with the mouthfeel of a perry and the distinct pear sweetness in the aftertaste. The smoky and mildly woody bourbon flavor is clear as day in the finish, but the mix with cherry oddly gives the drink a bit of an artificial taste. The vanilla clearly gives it a pleasant creaminess and the mouthfeel is super soft. This light drink is totally crushable if you like it sweet. I’d have it again, but it is not my favorite creation by the folks at the Old Mine—who make some of my favorite ciders.",
+		"Prodct_Description": "Crisp Pear Hard Cider took a long nap with fresh cherries in Kentucky Bourbon oak ",
+		"Date_Tried": 202106,
+		"ABV": 6.8,
+		"Comp_Review": [
+			null
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4m59k262_6STPEJb-wEEX1Noup3V-PXSwoWrqlYqw_Q9Ig80NOhBU8a3rcwvHhyEhxzUJ8cwJqWLKVq1TDO4u2_SSx2pMj0uGMxSB9xdfq_7c1n2HwFvOn6IrSoMpYz_Giotps-B0wGXWDJoiE0yB9_0tkwXe3ZenPxpNK7aHgIG77eyHopjWFKvHn5hbSowkB?width=2596&height=3459&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mrlA9nznWP0h8-zWYYdmxfhOI5xVQXQNY2zDjJCnAVDZ-fywScWGLRAy8FXtegoYxnB0mrtyoVvouBueX25jbp7oObj1GwPXlpw02B7EcVqd5LlgmtLu80rOGQzxldbaEMBT2ep2Rxq32xV0riD-RROsbYSY5UGZFZkJDKw0uCfvwG4AglSyqMgxyxabE1guD?width=500&height=500&cropmode=none",
+		"ID": 406
+	},
+	{
+		"Name": "10th Anniversary Speciality Cider Release",
+		"Cidery": "2 Towns Ciderhouse",
+		"Score": 88.5,
+		"Grade": "B+",
+		"State_Country": "Oregon",
+		"Style": {
+			"Standard": "Semi-Sweet"
+		},
+		"Mood": ["Easy Drinking"],
+		"Feedback": "2 Towns special release has a nice nose that is quite inviting—light, crisp and sweet. Immediately, it is clear this is very drinkable. The draw is effortless, but plenty sharp to wake up your tongue. It has a super fruity finish. What I like about it is that it is your standard semi-sweet, but made with six cider apple varietals and not dessert apples. Five are common cider apples found in the cider world (I’ve never had an Orleans Reinette), but in this case they have retained that semi-sweet standard American feel while adding a more intriguing mouthfeel. So, yes, it is a good balance of sweet and tart, like all good American semi-sweets, but it is elevated just enough that it is worth paying an extra buck or two if you find this in your local bottle shop. I don’t know how long these will be on the shelf, but if a semi-sweet cider is your jam, grab this because it is probably better than that one you see on the shelf all the time.",
+		"Prodct_Description": "A decade of boldly crafted cider, and what a wild ride it's been. Never in our wildest dreams did we imagine coming as far as we have, and yet because of the incredible enthusiasm and support of our fans, here we are! It is in honor of you, our supporters, we release our 10th Anniversary cider, a paragon of our craft. Boldly crafted using a blend of rare, heirloom cider apples, this anniversary cider is the embodiment of our ethos as cider makers. Bringing the old and new worlds together, our cider is an ode to the craft we love and the supporters who have been with us on this journey.",
+		"Date_Tried": 202106,
+		"ABV": 5.7,
+		"Comp_Review": [
+			125
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4myRYRJWgYxOBLc4EvSER4ZNRXy0QMvOeP0XpwuaJJ34uvB10mFsTn8kOAHoQwB_U48Fjic7h5YNi3yQgzrOman_NbbASReArtbcHQpiZUj5dTbT2suvNqicrS0LqaB0Me7AVCKS318I0KpEqtfREjVTq2V13cWllsb6B-Uj7VlctkPSBgi7TOZDTJ8C-j4ZWV?width=2665&height=3555&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mV1tGbThNaD1No7OMjTQusH4iL_2sigvOuxd_Mj2pfJSon_sj__XOAFfOBybAKWNV7Ugb-ArAQGpgRKbz6DhtDZGX1aT3bNzu3kjmnV8E8cT1m1p7WTSHMkpSG8_YHSpAJv2xPcH48iJkEk2DwUVvUFvLrv14NCH-11RcMbbJpzuqB81tIBfwI7eD0-16uxUX?width=1024&height=1024&cropmode=none",
+		"ID": 407
+	},
+	{
+		"Name": "Amalgam Cider",
+		"Cidery": "Raging Cider and Mead Co.",
+		"Score": 89,
+		"Grade": "B+",
+		"State_Country": "California",
+		"Style": {
+			"Farmhouse and Scrumpy": "null"
+		},
+		"Mood": ["A Slow Day in the Country", "Raw-Natural"],
+		"Feedback": "This blend from Raging Cider has an incredibly rich nose that is heavy, slightly phenolic, and reminds me of a gold-smelling scented marker. <span class=\"feebackItalic\">rubs hands back and forth slowly</span> That’s a sophisticated drink! Deep and rich, this is a complex drink is potent but calm with refined edges. Serious but not too forward. It has a reprise and aftertaste that is incredible and grippingly different from the rest of the drink. While the first two phases are fairly heavy and still with a proper acidity, there is a lighter fruitier note at the end—like a ray of light bursting through the cloud cover. It is a robust farmhouse cider like you’d find in the West Country of England but with a lovely burst of bittersweet apple flavor. So, if an acidic, still and wildly fermented cider isn’t your thing, maybe pass. Otherwise, this is a great farmhouse cider that’s not too aggressive and has a clear, but complex, apple flavor that is pretty outstanding.",
+		"Prodct_Description": "A blend of five separate fermentations of heirloom & cider specific apple varieties from Julian, Ca to create a rich, complex, semi-sweet/off-dry cider balanced by light tannins, orchard funk, and acidity. Enjoy at cellar temp (55F)",
+		"Date_Tried": 202106,
+		"ABV": 7.8,
+		"Comp_Review": [
+			125
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4m7HUWFADEh9u33nSsT4Sq1u2XMM4qMzrybUrz_6snzVeXWlf-4mDfQc9ge4nA4p-EqJSclMYGHW96Zon9TvBpcqAl8OX8QHjLmWdtcR6JQryS92Zf3PXQoig6C5uj-j6hvb_MitW29aZXln3kdkhmdfIf44uNCr7c3yLzZ3UXsC1Ajzhpqw5JrgFAfoBp6g-T?width=2776&height=3700&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mPLs6mERo4CUF8Un8DvogqVAQ_wba-ACF_RebtXLBFWEg_TgAbOoDCNTFq28n43fl8V3qi-MM3VCA00Avy8ooyberNxz8ir3IiBQRXvvLMNEHyj1kyHnYcP3I1zwzh6BnugCrJ_JL-uhR3uhaswixwjerxrNU5LQxUfR4Gget31Fz5acDYhufFTugUQLvLNTk?width=1191&height=410&cropmode=none",
+		"ID": 408
+	},
+	{
+		"Name": "New England Blend",
+		"Cidery": "Stem Ciders",
+		"Score": 87,
+		"Grade": "B",
+		"State_Country": "Colorado",
+		"Style": {
+			"Whiskey-Like": "null"
+		},
+		"Mood": ["I Need a Drink"],
+		"Feedback": "This largely still pale amber cider from Stem has a pretty heavy aroma where raisins are front and center. Interesting. For such a heavy looking cider with a deep nose, it actually had a bit of a watery mouthfeel on my first take. The texture is a bit unique. It feels a touch woody, like it’s been sitting in whiskey barrels. There is a flat tone and an alcohol flavor that fill the palate from the second phase to the finish. It does leave you with a satisfying finish like harder spirits. A lot is happening in your mouth, but it is all very subtle, mildly tannic and just a skosh bitter. This is definitely best drunk slow and savored. It is quite astringent and only has whispers of sweet apples. Though the raisins were present in the nose, they are absent to my tongue. You gotta like it potent to enjoy this one. Those that like cider for cold refreshment, stay away. But if you like a refined serious drink, this is really good.",
+		"Prodct_Description": "Made with fresh pressed apples, brown sugar, and raisins",
+		"Date_Tried": 202106,
+		"ABV": 10.5,
+		"Comp_Review": [
+			125
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4m282VJ0Q1om2B8AIGfs7qGLkrR4plvQZ0OZc5uXUMTLQ0G1Z0B5SHf9gi_Igi9QS1yLWm7JmcBCHb7g6LpjPtr3yISwW09-gbJiIfD8YtnxKd7j709s3IgMqryaCqs_t3XxhKj2kCyElnpO9DfJNyXTqL6TFjwoC0Ly4oeIxT6Pnc2H9NoyXhZJM-LJwasc1s?width=2764&height=3688&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4m282VJ0Q1om2B8AIGfs7qGLkrR4plvQZ0OZc5uXUMTLQ0G1Z0B5SHf9gi_Igi9QS1yLWm7JmcBCHb7g6LpjPtr3yISwW09-gbJiIfD8YtnxKd7j709s3IgMqryaCqs_t3XxhKj2kCyElnpO9DfJNyXTqL6TFjwoC0Ly4oeIxT6Pnc2H9NoyXhZJM-LJwasc1s?width=2764&height=3688&cropmode=none",
+		"ID": 409
+	},
+	{
+		"Name": "Winesap",
+		"Cidery": "Stem Ciders",
+		"Score": 88.5,
+		"Grade": "B+",
+		"State_Country": "Colorado",
+		"Style": {
+			"Single Varietal": "Winesap"
+		},
+		"Mood": ["Spring on the Back Patio", "Barefoot in the Grass"],
+		"Feedback": "Stem’s Winesap single varietal smells golden, sweet, bright, and lovely with a rich apply aroma. Oohw, you can see why early Americans liked this apple for all their needs—including cider. While the nose was bright and sweet, the finish is quite dry. It remains approachable, however, as you could serve this to just about anybody. It is not very bubbly and has a lighter body which shows off the subtleties of the drink. It is not very acidic and has drying characteristics that turn the respectable tartness in the second phase into a fine, almost bitter, finish that is mildly tannic. It has just enough sweetness to liven the tongue and awaken it to those beautiful, subtle, complex and astringent notes in the finish. It you like it dry and light but with fruity characteristics that aren’t overpowering and mildly sophisticated this is outstanding.",
+		"Prodct_Description": "Made with fresh pressed Winesap apples",
+		"Date_Tried": 202106,
+		"ABV": 7.3,
+		"Comp_Review": [
+			null
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4m7ehDwJvfwHRuHZ0P3TRqvwtZM0EHSCHIhDKxsb1wcflQw3Ez4Khz_uzd-XAJtHOI5H8I2jAhU1NiVZ8nxxtqVCgrSZuuR2w6lwHPu1f2sr1NnAeLbxgqwxjtsBv9qHyoVFK93yhXaeriwGghusP-ZUKRw05aMy4hO5kYwMalDqDGxj3fLbnxxYYwmAWZQMry?width=2822&height=3757&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mFZ3GdWrTtak6fAQjQh0SuXLeGSY4ZWH6JZKbUhW-sABST8F07mrIetHATeC1g7p17TUzpqV4lgD3MH39q8NPuSynahKhrNttqio_XKQoFgc-DLVTXTlvWz_sIMo1MQXPZYWuEss__7lvqi86JEQxSfB3iI10h6t3x0lWrsGnXVegC3L5E0O6CsYMjugT2GRQ?width=420&height=300&cropmode=none",
+		"ID": 410
+	},
+	{
+		"Name": "Orchard Run",
+		"Cidery": "Colorado Cider Company",
+		"Score": 82,
+		"Grade": "B-",
+		"State_Country": "Colorado",
+		"Style": {
+			"Standard": "Semi-Dry"
+		},
+		"Mood": [null],
+		"Feedback": "Colorado Cider Company’s most recent orchard-blend release is lightly bubbly and deep gold. The mellow nose has deep and rich fruity notes. This drink has a very heavy feel. It is tart at moments, but it is an acidity that is most prominent. The acidity is not aggressive but instead it gives it kind of a dulling effect. There is a little bit of sweetness around the edges and a fair amount of bitterness that when added with the heavy mouthfeel gives this drink a more somber tone. There is a bit of an apple juice essence which may or may not be good depending on your own preferences. It just lacks a spark, interest, or intrigue. It’s a good full-bodied semi-dry cider, but didn’t live up to the previous year’s run.",
+		"Prodct_Description": "ORCHARD RUN was produced from the Harvest of 2019 which was a wet year with good Spring rains and abundant snowpack. Irrigation water ran until mid-September. Tannin from a variety of Bittersweet and Bittersharp apples give way to a generous mid pallet sour from Wickson Crab and finishes with an abundance of Winesap.",
+		"Date_Tried": 202106,
+		"ABV": 8.35,
+		"Comp_Review": [
+			null
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mJ2G8GQulqhzXpHNF9-XRXfMahUtbzRC2MU_oilY96a-S6H_9DIvaKMDPa80OS8pW-u2c-VdEvDA5XRN5BpVvJYMJtRWA612AJSbnQkecU88irC-j7iUnONPi-vO-skLCdvWU655g5k-BOcRpWvxRaGSEaDBRPvM2aLW3mEMTeAI73SqZB0p2MVBaCVLSOPiH?width=2791&height=3723&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mYmPKPFedh7vA-Kohjrg_mjDt8cWmdgq86s0clMkbqtzscKDz5LbHBrIWGBXabK5UulZS_Cp1rhbeEkE9Jj_LxmlBcbymRYBrRhNmHpsgjECuCdoNuUCVIHRyfpeD_9rKT2U0XmLVgvTfZkOEhnb67rLZ_fNVY5-sjCtOSIslmGj8EqJp5-rrqROtK5TkO9OW?width=220&height=229&cropmode=none",
+		"ID": 411
+	},
+	{
+		"Name": "Northern Spy (2017)",
+		"Cidery": "Raging Cider and Mead Co.",
+		"Score": 90,
+		"Grade": "A-",
+		"State_Country": "California",
+		"Style": {
+			"Single Varietal": "Northern Spy"
+		},
+		"Mood": ["A Sophisticated Night In"],
+		"Feedback": "Raging Cider’s Northern Spy looks pretty stout out of the bottle as its burnished pale amber color is opaque with virtually no bubbles. There are caramel, nuts and spice notes in the heavy and oaky nose of this drink. Oh my! Now that’s a serious drink. The pull is surprisingly smooth and the high amount of viscosity gives it a thicker, but pleasant mouthfeel. The flavor in the finish just sticks around like it wants to have a conversation with you and is not ready to go yet. Don’t let the words “semi-sweet” on the label fool you. Whatever the light-hearted nature of the Northern Spies that went into this drink, the bourbon barrel aging has turned it into a heavy and sophisticated drink that is, yet, quite smooth and caramelly. It has a bit of a burn in the back of the throat at the very end but remains superbly balanced, with just enough sweetness in the finish to keep it from becoming stodgy. The more you let this mellow the better it gets. It provides both a slight burn and an urge to lick your lips—a unique drink indeed. Its better suited for a pipe, smoking jacket and long conversation than volleyball on the beach. A heavy sophisticated cider that is just light enough to be enjoyable.",
+		"Prodct_Description": "Our Gold Medal winning cider. A single-varietal cider made with Northern Spy apples that were from an abandoned orchard in the Wynola district of Julian, San Diego County, California. This orchard has since been rehabilitated so this particular cider will never exist again once sold out. The apples were smaller than normal and produced a sweeter caramel flavor than normally found in this varietal. The cider was cold fermented on the native wild yeasts for a long period in a stainless tank to retain the caramel character then aged in bourbon barrels to accentuate and provide structure. It has residual sweetness with light balancing acids and tannins.",
+		"Date_Tried": 202106,
+		"ABV": 10,
+		"Comp_Review": [
+			null
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mHQBkRscW7yMdhehdVFzMXqemOgyinOSWtA9UN5WreLg4SwA77eCPOjPKxSBwCGm8lw1QxW8cR9nlaDgBpusVom6akK9NZ7CrhYxvCAd5zZuXgN3eh9at9iNv6ivxYJRz_lez4IrwfmGboEDe55JOAyUSUkaND9r6uLIu7bb4gbLsZFGXPmzRAnONEqpRRKbp?width=2696&height=3593&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4miyf0LbN4M7EpJQ-KP7ul4dz0cSDkemNm33IWy6OUYFU9f0D7QpBLXKQjnm7Z9MRr1PaYZBoV6O1iUuej9FhD6xYsnDpSEcE1pjdbYolBu0EdAEJfoZcDUB4ZGeVjnyRN1LlzZdpb-HLLuqBq6N_g-VVV6BfRbq86ub8GiVtvyFxQU3FRHY3inw6aUzs_vt1H?width=600&height=600&cropmode=none",
+		"ID": 412
+	},
+	{
+		"Name": "Blackberry",
+		"Cidery": "Downeast Cider",
+		"Score": 90,
+		"Grade": "A-",
+		"State_Country": "Massachusetts",
+		"Style": {
+			"Fruit": "Blackberry"
+		},
+		"Mood": ["Easy Drinking", "Summer Garden Party"],
+		"Feedback": "I’d call Downeast’s Blackberry a sunrise salmon color, it is clearly more orange than purple. It has a super berry nose with strawberry, blackberry and raspberry notes. The pull on this is absolutely brilliant—pillowy and soft with just a tad bit of acidity as it transitions to the middle note. A good, bright and acidic tart mid-section that rolls into a sweeter finish that doesn’t last long but there is a whisper of flavor with a pleasant after taste. This is sure to be a real crowd pleaser as it is perfectly balanced and lighthearted. It has a great marriage between the fruits with the apple juice giving it a really nice body and the blackberries produce a flavor that is not overpowering, just giving the drink some nice backing vocals. Job really well done. I could drink ten of these—but obviously shouldn’t.",
+		"Prodct_Description": "Unfiltered apple cider infused with blackberries. Before computers, apples and blackberries were fruits. Only fruits. It's better that way.",
+		"Date_Tried": 202106,
+		"ABV": 5.1,
+		"Comp_Review": [
+			126
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4m7I8agHUxAXVcEk5NJaS4zhautERLdu4KikHIIza5GJ4SS4tdDddA1tepmXsStKKULyNRFE1SubZk_1e9SCfFBV_po041EqKSz14PaG8jqmkhE-T-o5vFyNez8e6ITVokIP4OGzuKRokCMv4wFkUh38-kff-kYsBJfkLSSgl9wVwjMXdkGCwUjAWtAIGORHtY?width=2791&height=3723&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mPv6YYuUSsf5upj6crrNfsYWCP2DQuBE7zOnCXA09r2VNAO47XV5Plc2zBvsQNIugfZNrj-3X51TS6vQWOWK7IyYj3UyM-bK9s1cmqodmwjSoYElrCLgla0SG83WRQQIPFU__GuEJPGoHLmLtIVTppfXbOMGHIa3Mp7kDNzM_vDx5HVsywBQk_I6XuEHaSELA?width=225&height=225&cropmode=none",
+		"ID": 413
+	},
+	{
+		"Name": "Passion Pineapple Cider",
+		"Cidery": "Glacial Till Craft Cider",
+		"Score": 77,
+		"Grade": "C",
+		"State_Country": "Nebraska",
+		"Style": {
+			"Fruit": "Passionfruit"
+		},
+		"Mood": [null],
+		"Feedback": "Glacier Till’s tropical cider has a bright nose that is a little earthy with the two sweet fruits vying for supremacy. But it comes off a tad artificial. Wooooo that is pretty sugary sweet. There is nothing ‘semi’ about this. In fact, the sugary taste is overpowering any of the three fruit flavors. Passionfruit is a soft and delicate flavor and needs a more gentle supporting cast to shine. There is a hit of pineapple, but it is a quick sweet flash in the pan. That artificiality is still there in the flavor and though this is still smooth and not too fizzy, it is still too sweet for me to be able to enjoy. Got a sweet tooth? This might do the trick. Otherwise, Schilling’s Passport is a far better option if these two fruits are what you’re after.",
+		"Prodct_Description": "The perfect marriage of passion fruit and pineapple. This tropical cider is a great refresher for the summer heat or an escape from the long winter months.",
+		"Date_Tried": 202107,
+		"ABV": 5.5,
+		"Comp_Review": [
+			127
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mM2aUE-J86FOy7PXM-EHO6g6O5q0cyfvCWc-KCs2CbDmgukhRHLFnhlsMhk9YyOGDoWTw3ndnV55pNlJA2cEkTjS1pBEr4cPTwLVSpQ8sn6vPNH_qrND88BjYPtoKJSZYUbmw7I6hpYLXfmm73x8R68gEy-SOtvH5rBl1Xz8OcTGprSqwfDUbX128xKgJNNp-?width=2688&height=3585&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mmtE6pFgAcpWGN8j8tRbvpUWf6SElOD9Pb3lMrNXun-wEQ-EPa1eD5gNUKx-nNhZaoceEryVYnTruHadYb935FDkV7Ec33qsEtI3914Cd0abiRROuDQdav-bxuQAHZ88g45vkgiqXm8pSIH4RV3MaiC9OPqjTmjiYUImeguXPxDfqSrNiM5enyjzrvIUKn_H6?width=205&height=246&cropmode=none",
+		"ID": 414
+	},
+	{
+		"Name": "Rainbow Seeker Pineapple Hard Cider",
+		"Cidery": "Blacke's Hard Cider Co.",
+		"Score": 87,
+		"Grade": "B",
+		"State_Country": "Michigan",
+		"Style": {
+			"Fruit": "Pineapple"
+		},
+		"Mood": ["Dreaming of Sand Between Your Toes"],
+		"Feedback": "This Michigander cider has a sweet and mellow nose with vanilla notes. Okay, that’s nice! The pineapple is relatively tame at first but then the sweetness picks up in the middle. It has a somewhat viscous mouthfeel that’s almost jammy and will have you smacking your tongue. It is unique in that the acidic bite—relatively minor—comes at the end and not the beginning. I shuffled through the pantry to remind myself of the smell of sage and I still could find none of that in this drink. It does produce what my tongue tastes like a creamy vanilla flavor and reminds me of a Wild Cider Pineapple. It is not super fruity and more of a chill pineapple cider but with bold and mellow flavors.",
+		"Prodct_Description": "Let this pineapple paradise in a can take you on a tropical ride. This balanced semi-sweet hard cider is impactful in more ways than just quenching your thirst.",
+		"Date_Tried": 202107,
+		"ABV": 5.5,
+		"Comp_Review": [
+			127
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mrHnBJ299lw94_REb-Aw4CnQ4WFvQ_K_EOzTc4_ObYvJhKpy0g2RxRau-F9RnzTo5SIlSk2OloA6kjAoR2c5pINR7kkqda-pffpF53fZz2SxH_ZpY317_W-FRHF1bA5KnJDBqV2FuYjv7PzSLKztkiKDxUAMAPKCjkzB4iaoXgDvFKmkGsBqlKek7nQppIn7u?width=2589&height=3452&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mahfXg2Zr4YqcBoZluH9lJOPhnMYwriwEry4LVkeft0XI0V9S0yLlDBGvzs22h_mMbnawwOrsDpX-1RN5sVcTx-pyMrUW-wdh6la4uw9zvmQri1S_N8EwqkYcyCgtjiE9ncm28VrLYTdmLCBw6zUEOZ2rc3Q5zuce_KIfRriwCT8ZnoKFICecdiYwXJC-YCMz?width=269&height=187&cropmode=none",
+		"ID": 415
+	},
+	{
+		"Name": "Taj Mahalo",
+		"Cidery": "Pivot Brewing",
+		"Score": 88,
+		"Grade": "B+",
+		"State_Country": "Kentucky",
+		"Style": {
+			"Fruit": "Pineapple"
+		},
+		"Mood": ["Something Unique, Something Interesting", "Tart n' Tasty", "Can't Wait till Christmas"],
+		"Feedback": "Pivot’s Taj Mahalo smells like a baked pineapple pie (sidenote: why have I never had one of those?) I pick up a lot more cinnamon than chai in the nose. Oh, that’s interesting. Savory and tart at the same time. It has a light mouthfeel but big bold flavors. Its pretty sweet but not overboard and the rush of spice in the second phase keeps it in check. The finish is a unique experience for cider as you have a pretty tart bite that will have you sucking your tongue along with tingles from the savory spices running down your tongue. This fairly still cider is sweet, savory and intense. It is more for adventuresome surfers than casual sunbathers.",
+		"Prodct_Description": "Sweet cider made with pineapple and chai spices",
+		"Date_Tried": 202107,
+		"ABV": 5.5,
+		"Comp_Review": [
+			127
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4m73yJDOwD-g7sO8lCp5d8NHlM4PcQpHsBwAXeiGGzfrkH5orim8D5PGaPNiOnc1Mq407YUvDh715DbrgoCUevY82KzDovrALFJtUTk8bKCAGRCpAg-SS75nwei-eYPJujJw81vCuMJQifi0uCzCl93PqeztAwTdgazlHOJ2Rf5BO7u8WvjrY9ZUiMS0aK_rD-?width=2688&height=3583&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mH2Mn5zlIJTHMDfdYUbxdmYYh2K-mhNRUezhFzzAawUClL9UKxmAEdDp5XPJCpVNFNCYh1VskFJ2KvQbK_o2u2H36i6WUakh_CudKh4EAiHQ_ovc9wc-V1N90T-3jeL7nSUu_pXgPzpBESAYdH5bHbnuj1Qhv9NXY6s8Nqy_TKvTi9hMUnenhq5zEZD7mdcN2?width=225&height=225&cropmode=none",
+		"ID": 416
+	},
+	{
+		"Name": "Neglected Perry",
+		"Cidery": "Raging Cider and Mead Co.",
+		"Score": 85,
+		"Grade": "B",
+		"State_Country": "California",
+		"Style": {
+			"Perry and Pear Cider": "null"
+		},
+		"Mood": [null],
+		"Feedback": "This perry has a nice pale gold color. The nose is pretty pungent at first but if you aerate it, it calms down to a beautiful and rich buttery smell. This is a pretty potent perry and not for the sweet pear cider chuggers of the world. You get a healthy rush of acidity in the second phase which lingers and turns into a nice little burn in the back of the throat. It definitely has sidra-esque qualities, and I’d say the more you can let this breath the better. Though the acidity makes this a more robust drink, and it is quite sharp, there is still a softness detected in the first phase and some lighter, softer, fruit notes in the finish that peek out from under the acidity. It definitely delivers on being “not your normal perry” and I am bummed to say the other unique perry I had to pair it with spoilt pretty bad and it wasn’t right to put them head-to-head. But, if you like a rougher wild farmhouse cider but with a hint of delicacy afforded by the pears, this is the robust perry you are after.",
+		"Prodct_Description": "Off-dry perry from a single-source orchard we manage in Julian, Ca for the Kumeyaay Land Conservancy Council. It pours an amber gold & tastes of pear up front that gives way to bright acidity, hints of berries, then finishes with lingering apple notes & light tannins. Pear varieties: (60%) Lincoln pears, (40%) Fourteen different Wild pears",
+		"Date_Tried": 202107,
+		"ABV": 7.4,
+		"Comp_Review": [
+			null
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mN4wPFhtYwpZtCdIZLisHF6KqfgKp8_NUqqTMGXotnZSf93Mss8dIAAX8-e8zHNxNQ_nSLNHzbb9wjpNmFR-_hEXqmK7l8YVOl8LQXyh3iwM6a18tLfOZHcihyp62eSfyh-mj5ARLXEq3mPOx9v9YmrlLotMp6sT80vgmUFq7qKV63AXALvPjkdxMWglPO48g?width=2169&height=3356&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mgNd78hTSONxJm6zn_blI7zRc0HBngqfrzOnhuHPiJl1HDOaBGDKp1YmQ3qHaW80FIFCYP9qjo-HlRLmFowQ4T6L3vDhpY6Lia1IfVCNcPmVglp0Q8Kc1z2eXfw1cQXnkaqGy5TrcQrcxJnWuQqT_f-i-iovLEJDge18WduL9Vy3Rvj7M4Yen7WuAqtjcTCOT?width=225&height=225&cropmode=none",
+		"ID": 417
+	},
+	{
+		"Name": "Extra Dry",
+		"Cidery": "New Mexico Hard Cider",
+		"Score": 88.5,
+		"Grade": "B+",
+		"State_Country": "New Mexico",
+		"Style": {
+			"Farmhouse and Scrumpy": "null"
+		},
+		"Mood": ["Tart n' Tasty"],
+		"Feedback": "New Mexico’s Extra Dry has a lightly opaque yellow mango color and a really nice citrusy nose. It is bold but soft and fruity at the same time. Eooowh that’s really good. It is sharp, pretty acidic, with a deeply tart sour punch. It is almost like a slightly sweet sidra. It definitely has a little twang but no burn and is still pretty refreshing. The mouthfeel is slightly watery around the edges, but it is a good light-to-medium bodied cider with a great finish that just lingers with a bit of alcohol vapors and a tangy tartness. This seems like the ideal American-style farmhouse—dry, acidic, a bit funky, but a lighter mouthfeel that is refreshing with a bold flavor. It wouldn’t be difficult to drink this at all.",
+		"Prodct_Description": "null",
+		"Date_Tried": 202107,
+		"ABV": 7,
+		"Comp_Review": [
+			null
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4myIgMS2WdqP957rN1K7HR0XNknVpRkxVIdWdEcjMhRYKkvpwiFlyofZRMW8UE7xzBcK8cWPaiUFGgH4RdmEWtYofD8N8VCM-Gz9Brn74Si3fkknZBTYxK5B7TjnitSQ4MI2iz7aXUEfQxc5ZOoPyW37z__UpRCXeVWhfL1qZrYQZsUC5Gc4c03yJAkx2UVdPV?width=2398&height=3196&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mBweghrcmirl408ijNaM2f0x2qmxzL0_DeZB8Qm4bWhi5yuLSTeru3erwU3XVVbZYOT8tHc5Izeifl18WEol2An51pLVJoiFqOJ2YkoJdhEUiBzQKBXpQZnU7zp913sjr13Ew77K2ORNPAiTW8eZt16Uh4SoeF3DmZwPgQICSDrHGUguGKYE9GuyiinHrNVA0?width=225&height=225&cropmode=none",
+		"ID": 418
+	},
+	{
+		"Name": "Semi-Sweet",
+		"Cidery": "New Mexico Hard Cider",
+		"Score": 84,
+		"Grade": "B",
+		"State_Country": "New Mexico",
+		"Style": {
+			"Standard": "Semi-Sweet"
+		},
+		"Mood": ["Spring on the Back Patio"],
+		"Feedback": "This has a really nice pale gold color and an inviting nose that is light and fruity. This semi-sweet cider has just a little bit of sharpness on the tongue with the draw and then some alcohol fumes in the finish with its higher-than-average 7% ABV. It very fruity but with a slightly artificial taste. Has a big apple flavor, a little bit of tartness, and though it is sweet, it is not obnoxiously so.",
+		"Prodct_Description": "null",
+		"Date_Tried": 202107,
+		"ABV": 7,
+		"Comp_Review": [
+			null
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mi92vyRWOx7yRh7UNNUnHQHYb6jOgrrM1bFZgr0Sfu4jw1e71NoNNinRsEQ3-bjnwGWrXtOtmpeTT8iHF4uWCiNT18TjfuYYIHAq4jjSLvtAGr-n2wMvRHvxNYOllxXdkchZsW5yigH1n8acSDeTjtrqItk80zIYiBikHA6GK_tZ9A7JfJEN2fealt7zYsZVe?width=2299&height=3068&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mBweghrcmirl408ijNaM2f0x2qmxzL0_DeZB8Qm4bWhi5yuLSTeru3erwU3XVVbZYOT8tHc5Izeifl18WEol2An51pLVJoiFqOJ2YkoJdhEUiBzQKBXpQZnU7zp913sjr13Ew77K2ORNPAiTW8eZt16Uh4SoeF3DmZwPgQICSDrHGUguGKYE9GuyiinHrNVA0?width=225&height=225&cropmode=none",
+		"ID": 419
+	},
+	{
+		"Name": "Blood Orange",
+		"Cidery": "New Mexico Hard Cider",
+		"Score": 86,
+		"Grade": "B",
+		"State_Country": "New Mexico",
+		"Style": {
+			"Fruit": "Orange"
+		},
+		"Mood": ["Helpmate for the Hot African Sun"],
+		"Feedback": "New Mexico’s Blood Orange has a golden amber color with an orange tinge. It smells light and airy with a slightly fruity nose, but in general there is very little aroma. It is nice and crisp on the tongue, and very citrusy. Orange is the prominent flavor that really forms in the center of the palate. There is a pretty potent sweet note in the middle phase that builds to a very tart finish—to the point of bitterness. But it has enough sweetness to even it out. Really nicely done.",
+		"Prodct_Description": "null",
+		"Date_Tried": 202107,
+		"ABV": 7,
+		"Comp_Review": [
+			null
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mtld4hfybU1SFM6Qa8w6-fWzcvyyoyYXWedhnN8nrFMYa7u3TKDNbJl8obtEarT7JOeP8tcofEwvuP1Icdyx69-UeN3B5w7omyERWHt2zY6fqr0GDzpijm4ZL6IFhu2FISSdPgAySVUV4gSsH6WrosYc-iRAr15udhclT-14yDyv7GJXm3zyzpWB89CUeK6Hy?width=2326&height=3097&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mBweghrcmirl408ijNaM2f0x2qmxzL0_DeZB8Qm4bWhi5yuLSTeru3erwU3XVVbZYOT8tHc5Izeifl18WEol2An51pLVJoiFqOJ2YkoJdhEUiBzQKBXpQZnU7zp913sjr13Ew77K2ORNPAiTW8eZt16Uh4SoeF3DmZwPgQICSDrHGUguGKYE9GuyiinHrNVA0?width=225&height=225&cropmode=none",
+		"ID": 420
+	},
+	{
+		"Name": "Apricot",
+		"Cidery": "New Mexico Hard Cider",
+		"Score": 90,
+		"Grade": "A-",
+		"State_Country": "New Mexico",
+		"Style": {
+			"Fruit": "Apricot"
+		},
+		"Mood": ["Fizzy and Sweet"],
+		"Feedback": "This is one of New Mexico’s most sparkling ciders. The golden straw-colored cider has a bright, sweet and slightly citrusy nose. Oh jammy goodness! This reminds me of getting some fancy toast with high-end apricot jam at one of Santa Fe’s fancy bruncheries. Wow it is so refreshing! It has a light-to-medium body with a bright mouthfeel. It is sweet but with enough zip that it doesn’t punch you in the face with sweetness. Seems to have just the right balance. This is so good, people. It has that unique apricot flavor that pairs way better with apple cider than orange because it is softer and not so citrusy. I love this. I think I’ll have another.",
+		"Prodct_Description": "null",
+		"Date_Tried": 202107,
+		"ABV": 7,
+		"Comp_Review": [
+			null
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mi6PWbMY5go7D2lJXIl1W-x6VDuBxFut-2WRT9irWKfb_R-sx9jv-sr1wp6Dfp-3soEc9HCAjn0rcqTpMzqR8oMhEkISXBOZoVEmhekvuDwcfX2YJ0do3YpykPZwCQwBvym7FAYBhllLE8SD-0ZtHI390an7iyHcsCimOOKUZs3YgtkeJ56AN7SWZMYTjwkfW?width=2577&height=3436&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mBweghrcmirl408ijNaM2f0x2qmxzL0_DeZB8Qm4bWhi5yuLSTeru3erwU3XVVbZYOT8tHc5Izeifl18WEol2An51pLVJoiFqOJ2YkoJdhEUiBzQKBXpQZnU7zp913sjr13Ew77K2ORNPAiTW8eZt16Uh4SoeF3DmZwPgQICSDrHGUguGKYE9GuyiinHrNVA0?width=225&height=225&cropmode=none",
+		"ID": 421
+	},
+	{
+		"Name": "Sangria",
+		"Cidery": "New Mexico Hard Cider",
+		"Score": 88,
+		"Grade": "B+",
+		"State_Country": "New Mexico",
+		"Style": {
+			"Fruit": "Grape"
+		},
+		"Mood": [null],
+		"Feedback": "This has a deep and very sweet aroma of grape that reminds me of a grape otter pop. (If you don’t know, look it up) Drinking it, it has the essence of a light and fun fruit punch. Fruit can be found throughout all phases of this drink. The mouthfeel is pretty light. It is crisp and maybe a bit icy, and dryer in the second phase. You could serve this at any summer party with upmarket hors d’oeuvres and good friends. You could even serve this out of a fancy glass bowl with a ladle if you wanted. Go ahead, throw in a few strawberries for good measure. You will love this. Pinkies up. Or not.",
+		"Prodct_Description": "null",
+		"Date_Tried": 202107,
+		"ABV": 7,
+		"Comp_Review": [
+			null
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mN2yPzyCO-Y5zqj4na2D-kNERq965RTETG2W2IDZ_VBMKBInimpQkqdHQSyhcv-FSAVz_Y5hUT96dyH86DzEJRIS5qTsenlmo-lXwkVTecCTqdDGuVEiNdWIla77DRgEXokfowP5-1gvPEz34sJRk4HENdRuJzi4LPBPozPU9c6acm26Cin9dFDKUsDulORYA?width=2340&height=3123&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mBweghrcmirl408ijNaM2f0x2qmxzL0_DeZB8Qm4bWhi5yuLSTeru3erwU3XVVbZYOT8tHc5Izeifl18WEol2An51pLVJoiFqOJ2YkoJdhEUiBzQKBXpQZnU7zp913sjr13Ew77K2ORNPAiTW8eZt16Uh4SoeF3DmZwPgQICSDrHGUguGKYE9GuyiinHrNVA0?width=225&height=225&cropmode=none",
+		"ID": 422
+	},
+	{
+		"Name": "Mango Raspberry",
+		"Cidery": "Rekorderlig",
+		"Score": 63,
+		"Grade": "D",
+		"State_Country": "Sweden",
+		"Style": {
+			"Fruit": "Mango"
+		},
+		"Mood": ["null"],
+		"Feedback": "This Swedish cider has a bubble gum pink color and is super bubbly. It smells of clean, unused, disposable diapers. I am not trying to be mean, I’ve had this peculiar off-smell once before in a cider and I tried to figure out the chemical issue that causes it, but I still have more research to do. Oye! This is so sweat it seems to be manually forcing my saliva glands to open. I am drinking it before the “best before” date, but this doesn’t seem quite right. There is a slightly chemical taste in the finish—maybe from the artificial flavoring?—either way, that mixed with massive amounts of sugar makes this really zing. It makes my kid’s grape soda taste like and extra-dry brut. Nope, don’t recommend.",
+		"Prodct_Description": "Rekorderlig Mango-Raspberry Cider is a sweet tropical cider made from the purest Swedish spring water then packed with the juiciest raspberries and a burst of tropical mango, Best served over ice with a slice of lemon for incredible refreshment! Skal!",
+		"Date_Tried": 202108,
+		"ABV": 4.5,
+		"Comp_Review": [
+			128
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mb7oew-rFvojH2gMoHufh7_pu-di5r42KfuwfgU_-B3R890P-tpKjE50dm7yMLlkvcIGkfI8wxWXFKJslCrBSOOQJIjvH0NevjLXPhbUrZd43dp7Bwss0_HVHCmZOVrmbyuU-qeR8PCmUSYAgL_oLxnSud3mFX_VwYcSOBsX39Idny5e31MtDkNi8Qbjwu0jl?width=2841&height=3788&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mb7oew-rFvojH2gMoHufh7_pu-di5r42KfuwfgU_-B3R890P-tpKjE50dm7yMLlkvcIGkfI8wxWXFKJslCrBSOOQJIjvH0NevjLXPhbUrZd43dp7Bwss0_HVHCmZOVrmbyuU-qeR8PCmUSYAgL_oLxnSud3mFX_VwYcSOBsX39Idny5e31MtDkNi8Qbjwu0jl?width=2841&height=3788&cropmode=none",
+		"ID": 423
+	},
+	{
+		"Name": "Two to Mango",
+		"Cidery": "Pivot Brewing",
+		"Score": 87,
+		"Grade": "B",
+		"State_Country": "Kentucky",
+		"Style": {
+			"Fruit": "Mango"
+		},
+		"Mood": ["Helpmate for the Hot African Sun"],
+		"Feedback": "Pivot’s Two to Mango has a nice, sweet pear and mango nose and a deep gold color. If you really take it in it has a quite deep rich and buttery aroma. Oh, why, hello! It starts off like a regular cider and then you get this bump of mango in the finish. The draw is very smooth, and it is fairly flat with a soft mouthfeel. It was not very acidic in the first phase, but then you get this bite that rises and crescendos into the mango flavor, followed by this interesting changing of the guards from a more malic acid to a more citric acid—maybe a chem prof can tell me what is happening on my tongue—but the end result is quite pleasant. A soft, jammy, gum like flavor lingers in the finish. It is more of an artificial mango flavor than a fresh mango juice, but it is a really good soft fruit cider that’s a hint tropical and perfect for summer.",
+		"Prodct_Description": "Apple cider, pear concentrate, and natural flavors.",
+		"Date_Tried": 202108,
+		"ABV": 5.5,
+		"Comp_Review": [
+			128
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mHzeS6_VYjgsbKxXe15QJzI2VJFQk8ezcOQhDTteLMV4KGGnF9FQwkReSJwBDNU5VT0LTra3rbMmpOuPyau9tUDTE-KW2p2nEpyHbtYuft0c3MfJM4R3uh34mw9RTken92q46VGwQ4-fykF_4E9IJoP3Lsig3ks5z7xarTlJiLm1CTkkXXg31oJx4xdNBMWv5?width=2818&height=3761&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mH2Mn5zlIJTHMDfdYUbxdmYYh2K-mhNRUezhFzzAawUClL9UKxmAEdDp5XPJCpVNFNCYh1VskFJ2KvQbK_o2u2H36i6WUakh_CudKh4EAiHQ_ovc9wc-V1N90T-3jeL7nSUu_pXgPzpBESAYdH5bHbnuj1Qhv9NXY6s8Nqy_TKvTi9hMUnenhq5zEZD7mdcN2?width=225&height=225&cropmode=none",
+		"ID": 424
+	},
+	{
+		"Name": "Hibiscus Saison",
+		"Cidery": "Common Cider Company",
+		"Score": 79,
+		"Grade": "C+",
+		"State_Country": "California",
+		"Style": {
+			"Botanical/Spiced": "Herbed"
+		},
+		"Mood": ["Tart n' Tasty"],
+		"Feedback": "This red Hibiscus Saison has a nice orange hue. The nose is still, deep and rich with hibiscus flowers and summer fruits. The Hibiscus Saison is a pleasing tart and fruity cider that does not have a ton of body. There is not much apple flavor in this cider either, though you get some malic acid notes just before the finish. It lacks much pop or a ton of character, but is inoffensive and pleasant. Defiantly could use more spark. It is a bit sugary and comes across like a mellow soda/seltzer drink—though not nearly as sweet. Would I get this if it was the only cider on the menu? Sure. It’s pleasant and floral for a spring day—but it is hard to see myself ever craving one of these.",
+		"Prodct_Description": "Get ready to talk and laugh and be human for a change. Let this artfully brewed, effervescent hard apple cider with witty hints of Hibiscus be your starting point. Brings out the uncommon best in any food. Brings out the magic in any gathering",
+		"Date_Tried": 202109,
+		"ABV": 5.8,
+		"Comp_Review": [
+			129
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mwn7Ct97vGPovJA_rb60cRGLe5hyasfdVTYTgtUnxSvgDqDkAwIeFbWUOci4su0u-d-IYgVeE9LKtAl_8CFjnJwL0Xp4gbJ6mYpTQGEwT3QzwYcwdbl8HsTCmTO3UJzqLB3jZRoQpiZHCHwhtSNmaKRW-MwYbj9j7XsveQq0BvVOmYG0s2t3mdun89huT9Lxb?width=2600&height=3471&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mqYJoqjPb_IW_MwLkSvno6hN_vlBP97aDg8ijjCoKE23Vvx70ZSZUvAd3eAaDhjgjgMIvWXDGibp2o_DS_kvKz8796WMIamwThRH05SpM74qyF4eByZOLfFC7OlxlVHje7q0dtIFd-WTgyMGVKS6_mDCIe61IWfJNfU8_ULHe6Ed7xxp_rKXHsxYOHUlIZOWb?width=225&height=225&cropmode=none",
+		"ID": 425
+	},
+	{
+		"Name": "Jamaica",
+		"Cidery": "Golden State Cider",
+		"Score": 87,
+		"Grade": "B",
+		"State_Country": "California",
+		"Style": {
+			"Botanical/Spiced": "Herbed"
+		},
+		"Mood": ["Spring on the Back Patio"],
+		"Feedback": "Golden State’s Jamaica has a bright strawberry color and a prominent bite of acidity in the nose. It starts out sharp with a dry and light acidic feel, but it slowly softens as the drink develops with some gentle and jammy fruit notes at the end. There is even enough tartness in the finish to make you want to suck your tongue a little. It has a pleasant and simple sweetness that is lightly floral. The champagne yeast gives it a light and dry mouthfeel with a small bubble rush in the second phase, but it is not highly carbonated. It’s light, crisp and refreshing.",
+		"Prodct_Description": "Jamaica Natural hibiscus flowers provide tropical fragrant aromas added to this 100% fresh-pressed apple hard cider.",
+		"Date_Tried": 202109,
+		"ABV": 5.8,
+		"Comp_Review": [
+			129
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4m1dBIXFbYLemPr0sojPLnTUTnxLBHhFF3wzjsjhxp8fkwQGacjs2vU7ukSxwMrlKp16QCG8SwhuI5nl_6S_g-gbskwecW5co5XTyvXVu50DgJ09Y89wU3rfysqMgTk_NJDYlOPV_08p1Jw9SYw0jqOGIby6VGwoKTMe7Sl5spwmM1noF-kMBqwAsG5z29D6Nr?width=2585&height=3444&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4m8J8DXrj82jV2so6mkwZm-kbMKgFIPOYJAjb8FMBr8TJ9WhfEocKXhPkC50apC9WkmbGCDyb4qiIoRYd0mjJxFNvMjBmbEzrHN_7Ro5NDPZN_3lJRkKg2XEWuME-WMULTglpPUbOKqfTvdLCFNOLuhysJZQohf9re4a4kWFURiR6IiiATYABQ6_UerN0hQzwp?width=400&height=377&cropmode=none",
+		"ID": 426
+	},
+	{
+		"Name": "Local Legend",
+		"Cidery": "Schilling Hard Cider",
+		"Score": 88,
+		"Grade": "B+",
+		"State_Country": "Washington",
+		"Style": {
+			"Standard": "Semi-Sweet"
+		},
+		"Mood": ["Easy Drinking"],
+		"Feedback": "Schilling’s standard semi-sweet cider has a nice pale amber color. It smells like a sugary motts apple juice, but it doesn’t taste like it, well not completely. I think that for most Americans this is what they expect when trying cider. A slightly sweet apple drink with a kick. And in this sense, the Local Legend is like many other semi-sweets on the market. However, I think this one does have a couple of features that would push it towards the head of the pack. For starters it packs a nice one-two punch and goes from a nice acidic zing in the draw (due to its bittersharp apples) to an incredibly smooth and soft mouthfeel in the second phase. In some ways it is a bit two-faced like the sasquatch on the can. Maybe a bit surprising from a distance, but calm, chill and mellow up close. This also has just enough depth at the end to be interesting. If you don’t like semi-sweets, it is not going to be for you as the sugar is there. But if you want something that is smooth, easy to drink, and has a little bit of character, this is a great standard semi-sweet option and guaranteed to keep the good times rolling. Schilling is a go-to for easy drinking options and though this doesn’t compete with some of their other creations, it is a great option if you’re in the market for a semi-sweet American cider.",
+		"Prodct_Description": "Light. Crisp. Heritage.",
+		"Date_Tried": 202109,
+		"ABV": 5.2,
+		"Comp_Review": [
+			null
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mzeiLmGe1AfkoW6z4yTUVYqc4eYyaOgBH-5bpP3NM2IeAtDp17q9kAK3cHsNjw00WT4frBcu4XHe9HORsEF7_gXY8_nxY3PFty-SI7xAFZnplsr5N0EWKb1Bjf-aUOTXWOp_T0PkFZMCZ7v9a-xSd2hxaQgyrI7e_UBawtgIJ8YZiMMRs3d4re9gmCVFw39u9?width=2669&height=3562&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mbp14_U08NssfxeNLiVCNzy6BN36t6T1AS-pt02ZWtghh7tY0jf5QPGif0zihUdEfS9caLhC7ytA02nh90ExsMoq_2RPjajimF1O4n0swAQ_BxS_JVOIpf82MrpRHx7nXe9A7M5CLKZfLSl86elObz25jLQsjlWLF_idO5IwkCm6BpauJt2RijMf9RMAI0tOO?width=645&height=645&cropmode=none",
+		"ID": 427
+	},
+	{
+		"Name": "Brighter Times Cider",
+		"Cidery": "Original Sin Hard Cider",
+		"Score": 92,
+		"Grade": "A-",
+		"State_Country": "New York",
+		"Style": {
+			"Fruit": "Passionfruit"
+		},
+		"Mood": ["Easy Drinking", "Dreaming of Sand Between Your Toes"],
+		"Feedback": "Every now and then beverage makers seem to be working from a place within the social psyche. At a moment when many are experiencing darker times, Original Sin pulls out an ode to what I think is likely the greatest and most carefree juice concoction every created—POG—to maybe lift our spirits. The timing of the release may have just been coincidental, but it feels prescient. The color is a bright yellow straw that is a bit hazy. The nose has a punch of citric acid with a hint of stemmy earthiness. Orange is most prominent, but I detected some guava as well. Ah yeah, that’s alright! Yeah, I love this! The mouthfeel is spot on—crisp but soft—and the balance is perfect—tangy, tart, and tropical. They seem to have hit this just right as it is bright, but also has these almost creamy fruit notes. The zippiness of the champagne yeast pairs so nicely with the rounder more mellow flavors of the passionfruit and guava. If a bright tropical cider isn’t your thing, fine, but if so, this is what a cider-based POG should taste like. Certainly, I will be grabbing another.",
+		"Prodct_Description": "A cider made with freshly pressed New York apples and POG juice (passion fruit - orange - guava). POG juice was first created in Hawaii in the 1970’s and has developed a loyal and enthusiastic following. POG is often served on airline flights to Hawaii and is sometimes referred as “The Official Drink of Hawaii.”",
+		"Date_Tried": 202109,
+		"ABV": 6,
+		"Comp_Review": [
+			null
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mAfdQSIBG1r2FdZlZJEdg3t0M6wp2jZU52_3LkoPN4S5Xr537h00YNbQh_cpn-KG_k2QrWS9o9RA-vpM6FG32x-vSnPkbUBv-noN4A9C0S-Aw-jpwiSCOzHvaxXXTRPDY3zoswDZrlZDBMA1U1o6S-PVxPx3xjNrr--sPHnarIvxfl7i-Nyyldt0X9TC7D6jT?width=2669&height=3559&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mEUCNhVTp0TLX-vpZ17K9AFjPwL25KrP9iwd56KcG_j0uz6Myqs0QmeBOSrBTdLWPoRLClE-ylZdrXpJ-P1zwrHcMb12ekkhRSKeGXa4FHbQV5eSC5C40Myg1k4_Ulrdg1xb80W_vEUf0JZqTCvq3B0hM0duvVwI6gSos50Bp2tn2B_viKzQbjwlyN8ZhCa28?width=264&height=210&cropmode=none",
+		"ID": 428
+	},
+	{
+		"Name": "Sparkling Cider-Dry",
+		"Cidery": "Eden Speciality Ciders",
+		"Score": 87,
+		"Grade": "B",
+		"State_Country": "Vermont",
+		"Style": {
+			"Farmhouse and Scrumpy": "null"
+		},
+		"Mood": ["A Sophisticated Night In"],
+		"Feedback": "Eden’s bottle conditioned dry cider has a deep gold appearance and a really rich aroma of bittersharp apples. The nose leads to expectations of a bold cider, but the flavor doesn’t deliver as it is fairly mild with a muted tone, that is almost bitter. That being said it is really great and is a quality dry cider that is slightly tannic. The neutral or muted experience in the middle phase allows for a more prominent taste of alcohol, at least more so than others with the same ABV. It also has an interesting acidity to it that is borderline sour. It is not fruity or sweet at all and has the mildest of burns at the end. This is a nice mellow cider, ideal for sipping, that isn’t too potent and has an interesting finish. Really good.",
+		"Prodct_Description": "Bottle-conditioned, naturally sparkling cider fermented in French oak puncheons. Made from a blend of traditional and heirloom apple varieties grown within 200 miles of our cidery.",
+		"Date_Tried": 202109,
+		"ABV": 8.5,
+		"Comp_Review": [
+			130
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4meieH8m-yzVEfxEgyzgkHJRnB1IEMNKq2c9rL6hF90Ab9S1Y_jofRJPuGZ8q63EWMWzci79Z1mVaMu-aHYEXUmtg-bzaKU0qFywBAn2Sfg2Om1Nz3P6ohFdh-ycvJ_53TEoeSV9MD4XlAgE2jMxQqD5fMQSS9OAkAGr5wJgYfU6bPcSuo69fHW-mpL7c2a0Bi?width=2753&height=3673&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mma0CCuealbPxhrZuN4H1wX9DMn87I8WV9XsjSckwlIsR73Z1Q-KbJgj5e3KJAjZ2ztVjJshwHxhLpbfJ3X5q6CNvP4kZRXESkhn6w3CsF1fQSOqaOLKzWtIrnzBISiUCO2R_3unzT2ebhMG1ABQ-CVrEqGyXMfKwB1xpoQalid4gGy3YqHkTgovn2NErufvg?width=2400&height=2400&cropmode=none",
+		"ID": 429
+	},
+	{
+		"Name": "Méthode Ancestrale: Ela Family Farms Cuveé",
+		"Cidery": "Haykin Family Cider",
+		"Score": 93.5,
+		"Grade": "A",
+		"State_Country": "Colorado",
+		"Style": {
+			"Champagne-Like": "null"
+		},
+		"Mood": ["Pop the Champagne/Celebratory", "A Breezy Sunday"],
+		"Feedback": "This Haykin Family Cider has a mild aroma, but it is light, airy, aromatic and refreshing. This is pretty magical. It has that lovely palate of soft fruits and a creamy mouthfeel with a fantastic light banana flavor—not sure which apple varietal provides it. This Méthode Ancestrale has enough sweetness to kiss your tongue and perk up your tastebuds, but it remains primarily dry. The finish is like a slow waltz to take you through your evening: soft and nuanced with minerality and reprises of tart apples. It is perfect for lighter meals or maybe fine dinner parties on the sun-kissed verandah of a large white house. This is special. It is so soft but filled with lush and lovely flavors without going overboard on flavor. So good and ever-so-slightly tropical. It is super bubbly but 90% of the bubbles mellow out quickly. This one truly sparkles.",
+		"Prodct_Description": "A blend from Ela Family Farms, a fourth generation fruit grower including Cox’s Orange Pippin, Ashmead’s Kernal, Jonathan, Golden Delicious and others. This sparkling cider boasts the character of pear, banana, cardamom, lime, and substantial minerality. Methode Ancestrale is the world’s oldest method for sparkling production. The process is a deliberate and complex fermentation in which nothing is used but the apple. The fruit produces the sparkle, the aroma, and the flavor on its own. This bottle was aged 15 months sur less and disgorged by hand.",
+		"Date_Tried": 202109,
+		"ABV": 7.9,
+		"Comp_Review": [
+			130
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mZldIvuQywEfiA2VAlxxzx0KJeo2AeVTSnceTfI1z93d1z_hmowbdilfU6tOsbmb6zDIlYuhcd4u938sEbOfCYJLFHmBvpg5apMfyVIo24wqyLmZPUBCpRvHOSbJsKSA99K_Kvrz3gq6Saau8_uhOT59ChGaqAuBxy6CiuikVjmMZFPuiAxv4bCD-kurNEDCE?width=2448&height=3261&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mBE2xPFN9-0b7ppzc1nJcgH6C8e2bzYA-ITJJH7HT9_E6uDIZQE4GIgDTTh1zZRm10NtF0gNN_3Alc7E46r2TBBOsZGLIakZxE6oQeegDLySyswW_k4W_hSQ2zi-mcQBv4ChaZnbELJHjTcA6Vj6BYgj4eQycsg8ZwVPuPg5_p3nQhy26hRYVSyKKULITSCp5?width=400&height=400&cropmode=none",
+		"ID": 430
+	},
+	{
+		"Name": "Strawberry",
+		"Cidery": "Angry Orchard",
+		"Score": 78,
+		"Grade": "C+",
+		"State_Country": "New York",
+		"Style": {
+			"Fruit": "Strawberry"
+		},
+		"Mood": [null],
+		"Feedback": "Angry Orchard’s Strawberry cider has a strawberry blond color. The nose smells a little artificial and over the top but there are some clear cider notes as well. Yeah. Okay. Fine. The mouthfeel on this is pretty smooth. Is this drinkable? Yes. Do I like it? Not exactly. Maybe this stems from my childhood as I always felt strawberry soda was on the bottom of the flavored-soda hierarchy. (Orange was king, right?) It starts off well, like a nice semi-sweet cider, and then in the second phase and finish that artificial strawberry flavor really builds. It appears they used real strawberries and maybe this is just wat strawberry juice tastes like fermented, but maybe that is also why they don’t see many people selling strawberry juice? Maybe there is a market for this—does strawberry seltzer sell? I don’t know. This is smooth and fruity but not something I’d buy again.",
+		"Prodct_Description": "Angry Orchard Strawberry Hard Cider has the crisp, fresh apple flavor you expect from Angry Orchard, combined with the ripe, vibrant flavors from strawberries. Angry Orchard Strawberry is balanced, slightly sweet, juicy and has a refreshing finish!",
+		"Date_Tried": 202109,
+		"ABV": 5,
+		"Comp_Review": [
+			131
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mAW3fj2_IgFnkgsfaPBra3y0J66AcdYyJUqDc6fU9f9ynOSr5XSFGBLPFgASbOUQ4Hr1Z5oHgqhsOP0mW-sgjBTd8RCyFMVYsRN1M2dTE_8egAm531w1tVm6MSVKSuZO2pvaxG9gVdTXFCC6hTyiPCIimj6wkL4hlrAArLfkq_3EWsp0DNxux_j7ohS2BykTq?width=2822&height=3761&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mAW3fj2_IgFnkgsfaPBra3y0J66AcdYyJUqDc6fU9f9ynOSr5XSFGBLPFgASbOUQ4Hr1Z5oHgqhsOP0mW-sgjBTd8RCyFMVYsRN1M2dTE_8egAm531w1tVm6MSVKSuZO2pvaxG9gVdTXFCC6hTyiPCIimj6wkL4hlrAArLfkq_3EWsp0DNxux_j7ohS2BykTq?width=2822&height=3761&cropmode=none",
+		"ID": 431
+	},
+	{
+		"Name": "Gingham Hard Cider with Strawberry and Kiwi",
+		"Cidery": "Pivot Brewing",
+		"Score": 78,
+		"Grade": "C+",
+		"State_Country": "Kentucky",
+		"Style": {
+			"Fruit": "Strawberry"
+		},
+		"Mood": ["null"],
+		"Feedback": "Pivot’s Gingham cider is a salmon and rose color. The aroma is rich with the unique tart smell of kiwis and a lightness from the pears and strawberries. Whoa! That’s got a big flavor. Almost too much. Well for some of you it will be too big a flavor and too sweet. Though it has got plenty of tartness and the right mix of flavors to be balanced, it will be too much like strawberry soda for a lot of drinkers. It has the pear and kiwi to soften the edges, but it has an artificial vibe for sure and is super sweet. For some of you this may be your jam, otherwise, look out!",
+		"Prodct_Description": "Sweet cider with strawberry and kiwi, with a new version of \"Freedom from Want\"",
+		"Date_Tried": 202109,
+		"ABV": 5.6,
+		"Comp_Review": [
+			131
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mhuSmwQIrJJvQ0ZuyOuaxlXMGw-XOXF9Kl7suVsmrQxnrNCEueLNnxHxNfMGdz42XhFyZHQ1NS9yt23vyR_6uKGbe0E-6bO0qwdknXy_f54ggJeeqY3J7qqrRrI8dw0aM5uMx7HNkYNGUOCuIah2bXGH0h_FXCtMhiyjMLi5PYbyY_zcYZcDD1iotUxS472xI?width=2616&height=3597&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mH2Mn5zlIJTHMDfdYUbxdmYYh2K-mhNRUezhFzzAawUClL9UKxmAEdDp5XPJCpVNFNCYh1VskFJ2KvQbK_o2u2H36i6WUakh_CudKh4EAiHQ_ovc9wc-V1N90T-3jeL7nSUu_pXgPzpBESAYdH5bHbnuj1Qhv9NXY6s8Nqy_TKvTi9hMUnenhq5zEZD7mdcN2?width=225&height=225&cropmode=none",
+		"ID": 432
+	},
+	{
+		"Name": "Goldberry",
+		"Cidery": "Hale & True Cider Co.",
+		"Score": 80,
+		"Grade": "B-",
+		"State_Country": "Pennsylvania",
+		"Style": {
+			"Fruit": "Strawberry"
+		},
+		"Mood": ["null"],
+		"Feedback": "Hale and True’s Goldberry has a really sharp nose of citric acid, I’m guessing that comes from the lemons. I have had this drink a few times and something in the nose of this one smells a bit off. The taste is how I remembered though—dry with a subtle strawberry taste and the lemon just perks it up a bit—especially in the finish when it really rises in the back of the throat. This is fundamentally dry apple cider with some subtle and mellow fruit tones. There is just a bit of bitterness from super sour lemons, but this flavor is pretty quiet and not too in your face. A very dry cider that still has you licking your lips just a tad at the end.",
+		"Prodct_Description": "“The River Daughter,” fermented with strawberry and finished with lemon, bright and fruity, off-dry",
+		"Date_Tried": 202109,
+		"ABV": 6.5,
+		"Comp_Review": [
+			131
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mBndxoo7bp5sJLZYQAys_PLf6eqMSQWKbup7LTpVQyODes5yDrOZX5ej1Qw1pXEaNHZ13b5KT8YI_9G2UrOWQHQ1LHuiVJsJxbD65Bew7PgYun5Mb_6ezGvmytAlRtNVOhD__pUAX0wJ_Gv9DT0EVINrDW4cOo9Z8nQ7FDnOi_iTG7NWkdgS1k2WHjan7L5m6?width=2783&height=3711&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mav24tGcjDaruN2VOMSS3fsn9wYqt2S4Rf98jfZg0edcF0RLdduDOCSAVrMBsGppBfrsbIa2r9OJ6sVTBQcYEHq8C3jyLXW5TVtquqR-ZiaeyhtiWVBxVzthzR3L2k0-T8lOP1PBqWD94-pV7QyB-dp8PnkvPHgDn6byefS2exl5k08H9thl_GlsRNI0IRrVf?width=200&height=200&cropmode=none",
+		"ID": 433
+	},
+	{
+		"Name": "Kentucky Sunrise",
+		"Cidery": "Pivot Brewing",
+		"Score": 89,
+		"Grade": "B+",
+		"State_Country": "Kentucky",
+		"Style": {
+			"Fruit": "Cherry"
+		},
+		"Mood": ["Summer Garden Party", "Let's Do Brunch"],
+		"Feedback": "Pivot’s Kentucky Sunrise has an orangish-amber glow and a great and bold nose of sweet cherries with sweet and floral notes as well. Oh, that’s nice! Soft and fruity. There is a hit of cherries in the middle phase which gets more tart as it finishes, leaving you with a pretty good tongue curl. The pull is nice with only a very subtle acidic pop, but it is still quite juicy with a luscious mouthfeel. It is medium-bodied but with a softness from the pears. It is definitely sweet, but balances out nicely. I admit, I have never had a traditional Kentucky sunrise with bourbon, so I don’t know how this compares, but it does have a cocktail/fruit punch quality to it and I definitely could see this fruity concoction pairing well with brunch. I certainly wouldn’t mind a few of these Kentucky Sunrises from Pivot on a hot Southern summer day. A sweet treat!",
+		"Prodct_Description": "Tart apple cider made with montmorency cherries and pear.",
+		"Date_Tried": 202110,
+		"ABV": 5.5,
+		"Comp_Review": [
+			null
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4m4-MtYcH7ArI0MOZzXwr_HkrzqMRkV7tvST6d9N0UL6AROSgzGDjU2xonxHNnHIOCeXjC6XGXNJsqiOjJ1xZa_deMGJ9M1LmefKT7_msx5XOtW2IHKTogKW4WQHK7HHrXLBsctJPdT8wLt6MFzt8HMDr4MBx1E2nsr-KA9rFsuUPCNWGHMFZMiuzZ_RvaStzF?width=2772&height=3696&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mH2Mn5zlIJTHMDfdYUbxdmYYh2K-mhNRUezhFzzAawUClL9UKxmAEdDp5XPJCpVNFNCYh1VskFJ2KvQbK_o2u2H36i6WUakh_CudKh4EAiHQ_ovc9wc-V1N90T-3jeL7nSUu_pXgPzpBESAYdH5bHbnuj1Qhv9NXY6s8Nqy_TKvTi9hMUnenhq5zEZD7mdcN2?width=225&height=225&cropmode=none",
+		"ID": 434
+	},
+	{
+		"Name": "Barrel Aged Hard Cider",
+		"Cidery": "Union Hill Cider Co",
+		"Score": 88,
+		"Grade": "B+",
+		"State_Country": "Washington",
+		"Style": {
+			"Whiskey-Like": ""
+		},
+		"Mood": ["Campfire in the Woods", "Tart n' Tasty"],
+		"Feedback": "Union Hill’s Barrel Aged cider smells fantastic! Smokey and sweet with clear oaky notes, but lots of fruitiness coming through too. It has a nice golden straw color that is very sprightly on the tongue. The carbonation gives it a light and bubbly feel. This is not a dour barrel-aged cider, but pretty refreshing and drinkable. The mid phase is a bit bitter with an alcohol flavor. The finish has more fruit in it and there is a slight reprise with a small amount of acidity and sourness. The Pink Ladies really pop and the two tannic varietals grab just enough of your attention to make sure this is not a single-note sweet cider. The combination of sweet apples, crab apples and oakiness give it both depth and drinkability which makes this a great middle-of-the-road barrel aged cider when it comes to intensity and it will surely will tick a lot of boxes for some cider drinkers. Using wine barrels instead of whiskey barrels works great because it still has the essence of a whiskey-like cider but is far less potent. Hardy but slightly tart and definitely tasty. This is a great cider!",
+		"Prodct_Description": "Porter's Perfection, Cipps Pink and Snowdrift Crab aged in American oak red wine barrels for a minimum of 8 months.",
+		"Date_Tried": 202110,
+		"ABV": 7.4,
+		"Comp_Review": [
+			132
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mm3ZIUOn8SCfEetDqCknTGZW6EsqJnXtJTbAj_6G_M29BAUhOQHG133jTBofsL0wiG9mYk2oaamfQcofVI10WhcwTi4qYwyEAcJHwiUoUSAsoiMx0DfLOQQ7CQBeshGSFGKju27GBjfVax8NkqAQEhLHjHOVTlUe7FohhNaAnZpNoluZUaV6h6LRLMcaJgUEK?width=3024&height=4032&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mxPsuyvnSiiudTZwYWMd-FbiKrvILkQYzvV7_arsDXWIm9Jn00dB13O8gJivMLIm95oBRssH8Q35MYg_BX2Ek28VpJG-99DQeCGzBn26AwI_cbYNfbM3mtybQXLRvGG-Gd1JpZ0f8DE9-JlbV8YEHPpnu8nKZYgS9qwuhlBhSss2SOUzzBuGDnmZf6sP8oI2l?width=1064&height=1063&cropmode=none",
+		"ID": 435
+	},
+	{
+		"Name": "Lo-Ball",
+		"Cidery": "Shacksbury Cider",
+		"Score": 87,
+		"Grade": "B",
+		"State_Country": "Vermont",
+		"Style": {
+			"Fruit": "Lemon"
+		},
+		"Mood": ["Tart n' Tasty"],
+		"Feedback": "Shacksbury’s Lo-Ball has a big burst of citrus in the nose that reminds me of the orange markers I used to sniff as a kid. (I know, I know, that explains a lot) There is very little whiskey aroma and maybe a tinge of something sour smelling, but in a good way. Whew! Getting a lot of lemon, I mean a lot! This has a lighter body and a nice mouthfeel and I get why people like these. Wooo-wee though, you’ll probably be sucking your tongue after this one. It goes down like a smooth soft cider at first but that citrus builds and builds to a tart and super tangy finish. This is very good, but a bit too tangy for me. I wonder why the small can though? It is very smooth and goes down easy, but that heavy citrus flavor makes this difficult to chug. It is more like a zippy little pick me up, maybe like some kind of light and lemony whiskey sour.",
+		"Prodct_Description": "A citrusy, whisky-y, bubbly highball style cider.",
+		"Date_Tried": 202110,
+		"ABV": 4.8,
+		"Comp_Review": [
+			132
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mWSal3iEQ5pd3NU-kg8kOOmaLANf017hKDHKSdIGsHznwLLatHb7eNp6TbDYAm-BIiZeJEMZAmPkCaC64QC_pltMuk9mEE8HOaGObo7DrfND91YsdM9J6_9l9hygM7n4D4IFfIyxQSsKggOWbT7PV1Rfdy9R0g0tpfad--EKhfyBMDgOC-elYISi3DPrPwAmN?width=2268&height=3024&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mRrIL89NEXG4OFCPjD6Q8IUS3b7Wrc-p0ZtgSZdH3l3pX4N_InekiWdP7ftKZ4mbC8aIw_n-UjmWmHm9VtcEATRYfjIpdJGGYlGrsIj4gL7yUxocaIAZ-QeDOTYiqtjEdE9nwL6E32QdZiU_oxRxk9sTwtGZvjERbFg2c6xlzJonpykkvaiCATNg_cs4htXFR?width=750&height=750&cropmode=none",
+		"ID": 436
+	},
+	{
+		"Name": "Mutualism",
+		"Cidery": "Art+Science Cider+Winee",
+		"Score": 82,
+		"Grade": "B-",
+		"State_Country": "Oregon",
+		"Style": {
+			"Perry and Pear Cider": "null"
+		},
+		"Mood": ["Raw-Aggressive", "Something Unique, Something Interesting"],
+		"Feedback": "Art+Science’s Mutualism has a unique and lovely nose with a sweet and springy bouquet of floral notes, white grape, honeysuckle and a lemony melon aroma. This cider that is a co-fermentation with ¾ Bosc pears and ¼ sauvignon blanc grapes has a good bit of funk. It starts out with some prominent acidity that is clearly sour and just before it turns to the acidic burn it gets pulled back by the grapes which also kept it from being too sweet. Moreover, this creates a more mellow wine-like finish. The first phase fills the palate with bubbles as well as a woodsy/smokey essence from the barrel-aging. Though it’s a bit raw, those citrusy notes also shine through in the finish. This is a big bold perry all around. It has strong acidity and roughness and yet is grippingly tart and smoothed out by the grapes. Wine drinkers beware, this has some acidic smokey funkiness you’re not aware of, but farmhouse cider drinkers will be familiar with.",
+		"Prodct_Description": "Grape-pear wine. 25% grapes and 75% pears, co-fermented and barrel aged for 10 months. Mutualistic relationships are essential to social well being.",
+		"Date_Tried": 202110,
+		"ABV": 8.25,
+		"Comp_Review": [
+			133
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mcwh6wWKCrXNLtk3UjgrpPqjUiwkT62NPAYOVASV9i4mCMMvcnTh8aWy2NiMdXlRfNR36Z9xS_v_-5r-_B6SyM7N0QV9nFDjlW5zLOlygqoA8yafoa_NYqG3Ra04vLe5Zo4c5o45bFusJPUlAE0UOS3FKb9uf41IoTxQRyJDIut78I73GyDLhPchCVE9uFZMz?width=2581&height=3444&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mhyg3gNLPIILyhwmlO8RIxa39Q9U8DlX_bgab33z2yxchgqJBYfSPrfZQsacKKxCTaF_LEeHrWTIJOP83VxtFD7kYLF_N1_HOxxoR62Hpsj-s0s91EZR4lxKJ_AQxOJjXeM9sYbJnlJbrH5KgAyfNB96nX-f4_flo-R8cUEjby_1l31GwUMgQiIgxp4NpGjXJ?width=237&height=212&cropmode=none",
+		"ID": 437
+	},
+	{
+		"Name": "Winter Pear",
+		"Cidery": "Snow Capped Cider",
+		"Score": 92.5,
+		"Grade": "A",
+		"State_Country": "Colorado",
+		"Style": {
+			"Perry and Pear Cider": ""
+		},
+		"Mood": ["A Breezy Sunday", "Barefoot in the Grass"],
+		"Feedback": "Snow Capped’s Winter Pear smells quite nice with rich pears and an acidic icy edge, but sweet notes in the center. Oh, it’s quaffable! It is perfectly balanced with what feels like mature pears that are not overly sweet, crisp, or young, but which have depth and warmth and a fruity softness to them. Winter Pear first livens the tongue with refreshing acidity which, somewhat uniquely, lingers through the mid-phase. This compliments the mature pears and creamy vanilla mouthfeel in the mid, which is followed by a sweeter finish that will have you sucking your tongue. There is also a lovely little reprise with a last lollipop lick of sweetness after the finish. That middle acidic presence almost transmits subtle spice notes that are incredible. This definitely has more depth than your standard American cider/perry yet remains extremely drinkable. This is where the experience, patience, and craftmanship of orchard-minded cider makers shine through. It is in the small subtleties and close attention to detail which allow for a thoroughly enjoyable drink. It would also be perfect for pairing with either creamy and buttery dishes or dry and light proteins. My only wish was for a larger bottle. It hits all the right notes and is simply hard to put down.",
+		"Prodct_Description": "At the end of our harvest season, we hand pick our 70 year old trees. Winter pears require 3-6 weeks in cold storage to adequately ripen. Then juicing and slow, cold fermentation. The blend is returned to cold storage for aging. The long journey ends with a bold carbonation, lifting woodsey notes of vanilla spice and soft pear sweetness to a crisp, sparkling finish.",
+		"Date_Tried": 202110,
+		"ABV": 6.3,
+		"Comp_Review": [
+			133
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mS4vateJ1P3-FUzucwnR9uBGQ-M_x6liuhtqRPMcvpz5ocTVJ6qVlpXC0K8BGniSwgcHqb6u6WCrqABxhpBTMP-Qhf0IPpMCsrH3Wqu8pQApWnejBGH9GouKNEnD1qoHQyoz1brvuZVwEQh0hI8JZ-9XTmlJkmopuNix8zVPbMOLSrnSyNmlLXNnR_it6lgw2?width=2826&height=3769&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mzyhLL9hPvmfZgvCacJ2YLSlEvXpIVT1r8Hm6CEOc1OU3DtWwV8234z6KEWYmzYxVwmxdS8cDZG-hqaisFn3Ee5PSIGT8IczRhrdNFlPMokS7sMikknFOLcFpf9so7q_xG-RaqkiowoKxAzSau3BUS8uSJEV-S5Hs-cdG3z5Jke-WOItku6ItaIDr6R5Pf1Nb?width=593&height=600&cropmode=none",
+		"ID": 438
+	},
+	{
+		"Name": "Dabinett Reserve (2020)",
+		"Cidery": "Snow Capped Cider",
+		"Score": 91,
+		"Grade": "A-",
+		"State_Country": "Colorado",
+		"Style": {
+			"Single Varietal": "Dabinett"
+		},
+		"Mood": ["Easy Drinking", "Spring on the Back Patio"],
+		"Feedback": "The nose on Snow Capped’s single varietal is fruity, a little bready, and on the heavy side. This is a lovely rich cider with personality that is oozing with charm. The draw is smooth, but with enough sharpness to enliven the tongue. It then flows into the incredible middle passage that is a journey full of depth, warmth and light. It is fruity and a touch sweet, but really well balanced. The body is medium-to-full, but not too heavy in the slightest. It is light, yet has some tannic richness. The sweetness is followed by a subtle tartness. You will want to suck your tongue to get every last flavor out of your mouth. Then the bittersweet finish just lingers forever, like a good memory you don’t want to fade. This is an ideal semi-dry crowd pleaser that I could drink all night. Fruit forward with just enough sweetness, but also enough complexity that it is not your standard single-note kind of American cider. It reminds me of a good Pays d’ Augue bouché. Well done!",
+		"Prodct_Description": "This revered bittersweet apple was first discovered in Somerset England during the 1800’s. Our high elevation orchards increase UV exposure creating intense flavor profiles. We combine this with a slow fermentation. Our Dabinett single varietal is processed unfiltered. Further maturation is developed in the bottle evoking a deep golden hue and beckoning butterscotch aroma. This complex flavor development leads to fruity sweetness, and rich buttery floral notes. Hinting woody vanilla then building tingling warmth and tannins on the tongue for a slightly dry bittersweet finish. 100% Dabinett apples grown in our Colorado Orchards. Serve slightly chilled.",
+		"Date_Tried": 202112,
+		"ABV": 8.2,
+		"Comp_Review": [
+			134
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mv755xrTl0py7gqwQXvsF326lL2y5VofAckaH2aSR7XzBbcxGKRr-WoKQ7P1l-4RTKvZLodAH34UeGS5Sgz1m6WI3C9oKVbbhOl48fDkmZhMykyUl5-W4R69GvL6D3qhswdsGax9qCsYRoxvvM4wOLKQnCNcg4d_RajlI-mTY1Bm-TSioM7hCXvgaCIgCwFsj?width=2478&height=3440&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mzyhLL9hPvmfZgvCacJ2YLSlEvXpIVT1r8Hm6CEOc1OU3DtWwV8234z6KEWYmzYxVwmxdS8cDZG-hqaisFn3Ee5PSIGT8IczRhrdNFlPMokS7sMikknFOLcFpf9so7q_xG-RaqkiowoKxAzSau3BUS8uSJEV-S5Hs-cdG3z5Jke-WOItku6ItaIDr6R5Pf1Nb?width=593&height=600&cropmode=none",
+		"ID": 439
+	},
+	{
+		"Name": "Dabinett",
+		"Cidery": "Haykin Family Cider",
+		"Score": 89,
+		"Grade": "B+",
+		"State_Country": "Colorado",
+		"Style": {
+			"Single Varietal": "Dabinett"
+		},
+		"Mood": ["A Breezy Sunday"],
+		"Feedback": "Whovo! Haykin’s Dabinett has a beautiful rich nose that is fruity and buttery with a tinge of acidity. It is unique in that the sharpness doesn’t seem to kick in until the second phase which is followed by a finish which has beautiful drying characteristics. Those tannins take it to a delightful, better place without being too heavy or abrasive. They just add lovely complexity and depth to the drink—though they may cause you to rub your rough tasting tongue over your lips. I don’t know that I can sense all the flavors the description suggested it would evoke, but the dry and tannic essence of this cider does force one to yield and take notice that it is an outstanding dry cider with enough sweetness and tartness fruit to enliven it. But the dry tannic finish takes the show without being heavy, overly complex or acidic. Think light and dry with a coy character.",
+		"Prodct_Description": "A famous English apple used exclusively for cider making, not for fresh eating. Dabinett is bolder than most with big tannins, evoking dark chocolate, English breakfast tea, plums, burnt caramel and baked apple character. It is rich, thick and golden. Apples grown at CiderView Orchard, Washington. This cider is semi-dry.",
+		"Date_Tried": 202112,
+		"ABV": 7.9,
+		"Comp_Review": [
+			134
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4maU_BVZ_fH3GPqO7qd0xL7YR6oS7s1xyl7WB6jAIOfUPTCtJA9z9uLc9C_gGGxDrrJDaOtFf-EOAbR33T9SihwD5bbnpM-ppQGgEk4fTmhK7J9a5m8gECGL-fpe06nc3VY814ogd9_GgUolQkqryIkIuHlczZfO4cm52w6Ky4GXo5H9Vs8Up0MPI1tTwNx2XG?width=2707&height=3612&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mBE2xPFN9-0b7ppzc1nJcgH6C8e2bzYA-ITJJH7HT9_E6uDIZQE4GIgDTTh1zZRm10NtF0gNN_3Alc7E46r2TBBOsZGLIakZxE6oQeegDLySyswW_k4W_hSQ2zi-mcQBv4ChaZnbELJHjTcA6Vj6BYgj4eQycsg8ZwVPuPg5_p3nQhy26hRYVSyKKULITSCp5?width=400&height=400&cropmode=none",
+		"ID": 440
+	},
+	{
+		"Name": "Cranberry",
+		"Cidery": "Downeast Cider",
+		"Score": 87,
+		"Grade": "B",
+		"State_Country": "Massachusetts",
+		"Style": {
+			"Fruit": "Cranberry"
+		},
+		"Mood": ["Tart n' Tasty"],
+		"Feedback": "Downeast’s Cranberry has a subtle sweet nose and actually smells quite similar to their Pear cider. It is really sharp on the tongue but later softens out. The second phase is full of tartness that really builds along with a cranberry flavor that is not noticeable at the beginning but eventually becomes pretty intense and will have you sucking your tongue for sure! There is not doubt it has a fleshy fruity taste, not uncommon to other unfiltered Downeast Ciders. The mouthfeel is supple. The fruit comes and goes pretty quick leaving you with a long tart finish with plenty of acidic sharpness. It is really good, but for me it would only be for a special occasion or if I were in a tart mood, but probably not an everyday drinker.",
+		"Prodct_Description": "Cranberry sauce at Thanksgiving, a staple. Is fresh or canned better? Up for debate. Cranberry cider? Not up for debate.",
+		"Date_Tried": 202112,
+		"ABV": 5,
+		"Comp_Review": [
+			135
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4my6jcvBLRHncBdeYpNcVxQILXZuQEVB4d_1BJwrOW7emhpB6zGCK46smu1RMJysK1-hidOQ6mLVn2EhI3rG6h2k2zlsOdkf5SUQB_Mwlwc38DvInNCpkfO66IjTvsKpbIwmjsbL9DCvMc1dPbcmwjwkSx2l8Hh-RQBraEed4kuHQW_NAhrP6EFUeyDOjCIDSg?width=2684&height=3578&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mwp72j-se2KD23HcbbfN6qW_0IwEhGDmltRpqXNOrcAtVwyG8xfnptjJtqyyTRBGLqV2YzEQZ-mw8XbZHACFOz0QdmpoYxprnlvBEg4tImMDGxMC2ghh3Qb7JEcDkH2Ib1ayCki4PvCwYLwyBTk3KCb5N_admo-RgH5ihRny6jWMI7d7MODA2y9UvghVFgFnd?width=190&height=265&cropmode=none",
+		"ID": 441
+	},
+	{
+		"Name": "Cranberry Cider",
+		"Cidery": "Austin Eastciders",
+		"Score": 78,
+		"Grade": "C+",
+		"State_Country": "Texas",
+		"Style": {
+			"Fruit": "Cranberry"
+		},
+		"Mood": [null],
+		"Feedback": "That’s a pretty healthy acidic nose! Not particularly pleasant. Whoa this is really tart and surprisingly dry(ish). It has a pretty thin mouthfeel, but it definitely leaves tart notes on your tongue. A little fruit flavor pops out in the second phase, but it does not stick around for very long. There is also bit of an alcohol taste even though it is only 5% ABV, and a not a very noticeable finish. It is fine, but I am not really feeling this. It may be my least favorite Austin Eastcider, which I typically enjoy. Again, not bad, but I’m not going back for seconds this Thanksgiving.",
+		"Prodct_Description": "Just in time for the fall, our new Limited Release Cranberry Cider will help ring in that much needed cooler weather. This cider uses a blend of bittersweet apples and real cranberry juice for a tart yet light and refreshing beverage. Enjoy on its own or as a base for a holiday punch.",
+		"Date_Tried": 202112,
+		"ABV": 5,
+		"Comp_Review": [
+			135
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4mO6lFo7X8K-WpY_o5oFJLIvAQznaLooca0hYHJSLeuukAULNOjPPv0xMeYzgCVI0cFxsXNcVXStk38vYkM8N5wEhV-AwusUV4kuE3Drz8ae2h3O4Iq18KS1Utvb-sDGoGQVAV6OPzHm--st_L_nH5CjL15oa2zXdiei4BrfhT6XCA4FVAsJOKNM6jJ8j2jV9T?width=2669&height=3559&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mBzR_xQ6DX6G0a5tHvXHX6NJuIPVA14gM_BVPeDa4O5God5KneYlG23KonC5-WJoZMK2khLr4VF4OeDMRVLT2wbrIjpUknJrlB_FuuBX4UzvpvJCBAevpgKgefHphrlwief7mggxcA1BwF1QzqZu1ZE3jZnMxbPKjxfae4K9D_vr-RyIBS8wi3LBV6V3HmjBe?width=163&height=310&cropmode=none",
+		"ID": 442
+	},
+	{
+		"Name": "Crandlebar Hard Cider",
+		"Cidery": "The Old Mine Cidery",
+		"Score": 91,
+		"Grade": "A-",
+		"State_Country": "Colorado",
+		"Style": {
+			"Fruit": "Cranberry"
+		},
+		"Mood": ["Late-Night Sweet Tooth"],
+		"Feedback": "Old Mine’s Crandlebar has a deep fruity and cherry nose with a satisfying whiff of pie crust—gorgeous! It says it is infused with grandma’s cranberry sauce, but it tastes more like Granma’s cherry pie to me. It has a super smooth pull, but it is still crisp on the tongue with a big bright cherry and cranberry flavor with clear savory spices. Sugary and sweet but really good. It packs a sweet punch and then hits you with some tart notes in the finish, but doesn’t linger too long. Great medium mouthfeel that goes down too easy. If you have a sweet tooth this could go down in a hurry. Certainly, the spices just amplify the flavors in the finish. I see this as a perfect sidekick to a neighbor’s Christmas party as it would pair great with finger foods. No matter how awkward it gets you could drink these all night and still be jolly.",
+		"Prodct_Description": "Handlebar Hard Cider infused with Grandma's Cranberry Sauce!",
+		"Date_Tried": 202112,
+		"ABV": 7,
+		"Comp_Review": [
+			135
+		],
+		"PicURL": "https://bn1303files.storage.live.com/y4m9QZgk7MkjjEQHLPjfx-72wP81Ti5ek9J9MDtQscl-WMH77uUYv3uGrTNQ6_84q1ln5HCjvY0izETzt73KVDKP2dNpezcjMk6nFz-sjhT9rQOySmRsofYT44tZQaQL6Tgo2Vi8OclvMe1CD7YAzyJIItfs3fANuAWkhGC6tkuUPIC5kO9JIiRvIcb9SkRMunE?width=2734&height=3646&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4mrlA9nznWP0h8-zWYYdmxfhOI5xVQXQNY2zDjJCnAVDZ-fywScWGLRAy8FXtegoYxnB0mrtyoVvouBueX25jbp7oObj1GwPXlpw02B7EcVqd5LlgmtLu80rOGQzxldbaEMBT2ep2Rxq32xV0riD-RROsbYSY5UGZFZkJDKw0uCfvwG4AglSyqMgxyxabE1guD?width=500&height=500&cropmode=none",
+		"ID": 443
 	}
 ]

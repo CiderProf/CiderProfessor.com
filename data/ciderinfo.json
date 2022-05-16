@@ -7739,7 +7739,7 @@
 		"Grade": "A-",
 		"State_Country": "Colorado",
 		"Style": {
-			"Rosé": "null"
+			"Rosé": null
 		},
 		"Mood": ["A Sophisticated Night In", "I Like Wine"],
 		"Feedback": "Snow Capped’s special edition Molly’s Rockies Rosé has a deep aroma, rounded acidity with fruits at the edges with apples and berries. You get some winey whiffs as well, especially when you pour it. Oh man, that is smooth and wine drinkers are gonna love this. Just a tiny bit of crispness without much acidity or carbonation. One has to be careful because the wine skins of a heavy Malbec could easily overwhelm the more delicate and sweet taste of some apples. But Snow Capped has got the right blend of flavors, and the overall balance is lighter than one may expect. It’s still a little heavy and serious but leaves a nice coating on your mouth with a very mellow sweetness. There is a light and fruity grape-like alcoholic zing in the middle phase that adds character that is subtle and not in your face. There is tartness in the finish with some bitterness from apples and a coyly tannic feel. A serious and sophisticated rosé.",
@@ -7760,7 +7760,7 @@
 		"Grade": "B",
 		"State_Country": "Washington",
 		"Style": {
-			"Rosé": "null"
+			"Rosé": null
 		},
 		"Mood": ["Spring on the Back Patio"],
 		"Feedback": "Schilling’s rosé option is a coppery salmon color. To me, this smells like the Excelsior Giraffe character picked up flowers for his lady, as there is a similar strong bittersweet apple aroma but with enough rose and hibiscus to make it a bit daintier—though this is still pretty potent smelling. Even though it doesn’t look bubbly in the glass you get a pretty fizzy rush at the beginning that is also quite dry. The acidity and astringency grab your attention straight away. Let it linger and the tartness in the finish will also grab your attention. It is bright, crisp and bold which you’d expect from Schilling, but it comes across as much dryer than some of their offerings. There is not much of a floral flavor except a hint in the aftertaste. This is a a very good, crisp, dry cider that’s fun, casual and refreshing—perfect for a holiday.",
@@ -7844,7 +7844,7 @@
 		"Grade": "A-",
 		"State_Country": "Colorado",
 		"Style": {
-			"Imperial": "null"
+			"Imperial": null
 		},
 		"Mood": ["A Sophisticated Night In"],
 		"Feedback": "First off, I have to say that I think these black and silver cans are poppin! Well done C Squared. In the glass the drink itself has just a couple of bubbles clinging to the side of the glass. It has a magnificent nose of bittersweet apples with hints of cherry and a subtle oakiness from the barrel ageing. The finish on this is legit! There is this lingering aftertaste that comes up softly from the back of the throat to create a creamy caramel reprise. The mouthfeel is very smooth, but it has a very heavy body. It draws in super easy, but the depth of flavors makes you slow down a bit. The middle phase will fill the space of your palate with a mild oakiness and just enough sweetness to kind of suck your tongue. It definitely reminds me of some good ciders I’ve tried from the Northwest France and the English West Counties and in some ways feels like a cross of those two traditions—soft and subtle yet strong and complex. The finish has such great kick of alcohol and a punch of apple flavor and yet still incredibly well balanced. If you like light and sweet its maybe not your drink, nor is it the best for pairing with food, but if you want a serious drink for a session, this is as good as an apple gets in liquid form for such occasions, unless you bump up to a distilled or fortified cider.",
@@ -7938,8 +7938,8 @@
 		"Comp_Review": [
 			114
 		],
-		"PicURL": "https://bn1303files.storage.live.com/y4m66iTNMmlgi0eOc6VVUKYBNYoIZtg6VMImu-mXUUrPSLYSvuC6L4o2OumWWsjQUp72IyM-_zeZL4VGR-TKu1TGdL7oImXLYkbXMUv_eYHgjG2R4gleNyyl23ojaGTFH96blN-f9c0PCiCCbJNM9NorSJHPSNkLa_AMKzSfwti8KQtJz96sVrOBjb0gUGpbYya?width=517&height=561&cropmode=none",
-		"LogoURL": "https://bn1303files.storage.live.com/y4mkuGtky_DV7hIZpQuhdDfAN9n1cI8FJLDg0shPC8mNAZ46af1GQ3JUK2OSxKLSehJOyJOsRGvfpGuYZXSr6ZrnGJHpOmqgN4Mg-rH3sPuWOiK668ytioicplUu2giMaPKE9BVyRTs3WzdTizprNfS44pAA_Ali1idVPQ2YbwJNcwCuVOE5r8seSmTygM1gR-7?width=2681&height=3574&cropmode=none",
+		"PicURL": "https://bn1303files.storage.live.com/y4mkuGtky_DV7hIZpQuhdDfAN9n1cI8FJLDg0shPC8mNAZ46af1GQ3JUK2OSxKLSehJOyJOsRGvfpGuYZXSr6ZrnGJHpOmqgN4Mg-rH3sPuWOiK668ytioicplUu2giMaPKE9BVyRTs3WzdTizprNfS44pAA_Ali1idVPQ2YbwJNcwCuVOE5r8seSmTygM1gR-7?width=2681&height=3574&cropmode=none",
+		"LogoURL": "https://bn1303files.storage.live.com/y4m66iTNMmlgi0eOc6VVUKYBNYoIZtg6VMImu-mXUUrPSLYSvuC6L4o2OumWWsjQUp72IyM-_zeZL4VGR-TKu1TGdL7oImXLYkbXMUv_eYHgjG2R4gleNyyl23ojaGTFH96blN-f9c0PCiCCbJNM9NorSJHPSNkLa_AMKzSfwti8KQtJz96sVrOBjb0gUGpbYya?width=517&height=561&cropmode=none",
 		"ID": 378
 	},
 	{
@@ -8012,7 +8012,7 @@
 		"Grade": "B-",
 		"State_Country": "New York",
 		"Style": {
-			"Light Cider": "null"
+			"Light Cider": null
 		},
 		"Mood": ["Raw-Natural"],
 		"Feedback": "Original Sin’s light cider has some tang in the nose that is almost citrusy. It is crisp with some mild acidity. It has a nice apple essence and is fairly crisp on the tongue, almost fizzy, with a nice light body. It has a light-hearted farmhouse feel with the flavor of tangy apple skins in the finish. The tang from the acidity plays well with a tarter apple variety. It has no flaws or off-putting features, though when you stop drinking it, it loses its punch quick. It has a nice, fresh, naturally raw apple taste. If you want something that is natural and refreshing with a slight edge to it, but fewer carbs and calories, and you’re not going to feel cheated that it’s not 100% cider, but slightly watered down, then this is actually one of the best light ciders on the market.",
@@ -8033,7 +8033,7 @@
 		"Grade": "B-",
 		"State_Country": "Texas",
 		"Style": {
-			"Light Cider": "null"
+			"Light Cider": null
 		},
 		"Mood": [null],
 		"Feedback": "Okay if you’ve had Austin Eastciders Original Dry this will be easy to explain: it tastes like that, but you made the mistake of putting ice cubes in it and watered it down. In fact, it appears they just added water, and yet still added brown sugar instead of just letting it all ferment out. So, it has that signature Austin Eastciders taste, but the body is a bit thinner and it has a more watery mouthfeel. The first sip has a small amount of acidity with an ever-so-slightly, aggressive yeasty flavor, but not much of a bite. Then the flavor drops out in the middle phase like a dry usually does, but it is not super prominent—though you will get the sugar on the back end. It’s got a fair amount going on flavor wise but not a ton of apple. You’ll drink it. You’ll like it. You won’t love it. But you won’t feel as guilty either. This is not going to amaze anyone, but it is a smooth dry cider that goes down pretty easy.",
@@ -8054,7 +8054,7 @@
 		"Grade": "A-",
 		"State_Country": "Vermont",
 		"Style": {
-			"Sidra": "null"
+			"Sidra": null
 		},
 		"Mood": ["Tart n' Tasty", "Spring on the Back Patio"],
 		"Feedback": "Arlo is Shacksbury’s take on a sidra, and the cloudy pale-straw cider has an aroma of lightly crushed apple pulp made from slightly sweet apples. The smell is both deep and soft. Oooo it is so smooth. Oh man! That is sidra done right. There is some acidic crispness that is felt around the edges of your mouth and tongue, but it is drawn in effortlessly. It has a tart and mildly sour mid note that builds to a sour kiss in the finish which just a light tingle in the back of the throat. It reminds me of the dry crisp air of a Basque summer. It is calming and will have you rubbing your tongue across your lips. There may not be a better American-made sidra.",
@@ -8075,7 +8075,7 @@
 		"Grade": "A-",
 		"State_Country": "Washington D.C.",
 		"Style": {
-			"Farmhouse and Scrumpy": "null"
+			"Farmhouse and Scrumpy": null
 		},
 		"Mood": ["Raw-Natural", "A Slow Day in the Country"],
 		"Feedback": "ANXO’s Hereford Gold collab with Oliver’s has a gorgeous golden straw color and a bold and acidic nose. The drink itself has soft and fleshy qualities when drawn in and a nice medium-bodied mouthfeel that is lush. The acidic bite kicks in through the mid-phase and into the finish. Instead of a burn at the back of the throat, the sharpness stays concentrated in the middle of the palate and the top of the mouth. In that middle phase it has some solid earthiness and a slight minerality that gives it a lot of character. I much prefer this to their previous trans-Atlantic collaboration because it is not nearly as abrasive and allows the characteristics of the bittersweet apples to really shine—their depth is more on display. It definitely has a farmhouse wildness to it with a unique yeasty flavor, so it is not an easy drinking semi-sweet cider. But, if you like your cider with an edge, this ANXO is lush and complex without too potent of a bite. I don’t know what it costs to ship apples over from the UK to the US, but it is worth if from this consumer’s standpoint.",
@@ -8148,7 +8148,7 @@
 		"Comp_Review": [
 			null
 		],
-		"PicURL": "https://bn1303files.storage.live.com/y4miqq63nyXu53y23eFK_lyFITEY6rakEJprZp3XMMAbGwyDWZFhR-l_iIBw1DWqukEO_F6plPUTMaz267bZ5kDkIbA6dJCi0mEkh-tn-0LCXHDygyK3tXUCpToT5XYfaep0xEMJ6n6U54BPcqZNmYUiEEbKl85LPM9HGRBBS3jTkppILuJpO29OknWqQB1fx_R?width=300&height=300&cropmode=none",
+		"PicURL": "https://bnz05pap002files.storage.live.com/y4mV8mBVYanjyC4O-K7GC7BURUPwWT5TRANLEUqyIC4FScuoeyx177VxHt1yMgRc3zXbfu5KCa62b97O1ADG05x2_o5HbCv10Nf-Vj7x1skLgU1lKJSKaluHwmiIB6D7C0R7ePl3hxEqOqglHoJ-f7r4wbFnPOVbuRHPj71Ml85dgweVT0LW8jx-c0PAuatKtal?width=2791&height=3723&cropmode=none",
 		"LogoURL": "https://bn1303files.storage.live.com/y4mwTqSsEMCjUyzzYsUPluex-CNQp6pW_j0uP2dOIFcQH925jnYVw5hBAnrLBnhCH6HQ4c-Juk0sAzN_ZAs_bnLJ3CBjkBCUjQ9VVE3jT7wlWL1G8uJWJFvr1V6ajbtoFK5KC_mkYHvTBEbK6epGBcLwTCqaE6UPQ47JM3NoUz2DlopdRaF-Xzb8Fiu3P9sYY6f?width=1500&height=1000&cropmode=none",
 		"ID": 388
 	},
@@ -8243,7 +8243,7 @@
 		"Grade": "A",
 		"State_Country": "Spain",
 		"Style": {
-			"Sidra": "null"
+			"Sidra": null
 		},
 		"Mood": ["Pop the Champagne/Celebratory", "A Sophisticated Night In", "A Breezy Sunday"],
 		"Feedback": "Wow! That nose is something else. It is as if they somehow took every aspect of an apple—flesh, core, seeds, stem—and simplified them into a single bright and bold smell. It is so fresh and crisp, I’m having a bit of a hard time getting over it. I don’t mean to get weird here, but if this were a bottled cologne fragrance, I’d wear it.  This has to be one of the cleanest, most versatile, ciders I’ve ever had. It may just be the cider talking, but this cider speaks to me. It is soft, elegant and lovely. It is so well balanced. It is just the right amount of dry and sweet, tartness and acidity, smoothness and crispness. There is even a spectacular after taste that just creeps up on you. It is an elevated experience from start to finish, from the classy label on the bottle, to the pour, the draw, the finish. I just want to share this with all my friends and say, “see this is what cider is capable of in all its simplistic excellence!” Refreshing, tart, fruity, dry and sweet. Apples at their best. I want to serve this at my next family get together. I’m in love with this cider.",
@@ -8327,7 +8327,7 @@
 		"Grade": "A-",
 		"State_Country": "Colorado",
 		"Style": {
-			"Perry and Pear Cider": "null"
+			"Perry and Pear Cider": null
 		},
 		"Mood": ["I Like Wine", "A Slow Day in the Country"],
 		"Feedback": "This is the clearest cider I’ve seen in a long time. The nose is subtle, yeasty and lovely. That’s a handsome drink! You smell the fermentation when drinking it in and it definitely has an acidic bite—think Farmhouse light. But then it mellows out into this lovely light pear note that just goes on and on. The body is incredibly light with a whimsical squishy mouthfeel. There is also enough tartness to smooth out the alcohol taste. There is quite a lot going on in the taste, but it blends together effortlessly. This really should be paired (no cheap puns here) with a good meal because it could enhance so many flavors. It is powerful and soft at the same time and to me it would be perfect for light seafood and white meats. Rustic wilderness meets soft pears and sophistication. I don’t love this can art, but love the perry inside. At moments Pearzarro almost tastes like something is a bit off, but in this case, it adds just enough character to give it a little funkiness. It is interesting and smooth at the same time.",
@@ -8369,7 +8369,7 @@
 		"Grade": "D",
 		"State_Country": "Oregon",
 		"Style": {
-			"Farmhouse and Scrumpy": "null"
+			"Farmhouse and Scrumpy": null
 		},
 		"Mood": [null],
 		"Feedback": "Fimbul is an old Norse word meaning “mighty,” and the artwork on this smoked Icelandic cider with ravens and a ram’s skull creates a vision of some old pagan ceremony in Uppsala. Maybe it is the name, but it also reminds me of Travis Fimmel, the actor who played Ragnar Lothbrok on the History Channel’s epic Vikings series.  (Though actually Fimbul is named after someone else) This super fizzy bright golden cider from Art+Science came shooting out of the bottle, but it smells like the inside of a Viking’s helmet. I am no sure how something so bright and bubbly can smell so dank. It is kind of like outdated rubbery butter. Not completely awful, but quite unusual and not very inviting. Euwf. This may please Odin and be what they drink in Valhalla, but I don’t want to see it on my dining room table again. It is quite bitter with a heavy taste of burnt vegetables. Very harsh and acidic, but the acidity is uninteresting and pungent. I am not sure what they did to achieve that smokiness, but I don’t think I want to find out. If it were 793 and you had just been to battle and had ash, blood and sweat all over, this might be just what you’d want to find in your drinking horn; but for most of us living in the 21st century this is too strong, pungent and gritty of a cider for enjoyment. But then again, if an aggressive raw drink is your thing, good luck! PIO",
@@ -8390,7 +8390,7 @@
 		"Grade": "B+",
 		"State_Country": "Colorado",
 		"Style": {
-			"Imperial": "null"
+			"Imperial": null
 		},
 		"Mood": ["Summer Garden Party", "Easy Drinking"],
 		"Feedback": "Imperial Pear with Cherries, Raspberries and Blueberries: For my 400th review I decided to go back to the Old Mine, as their Gold Rush (now Citra Mango) I reviewed for my 250th is still one of my favorite ciders ever. So Brylon and the boys at Old Mine have been tinkering away, as usual, and they have this special Fallen Fruit series where they only create 99 bottles of a particular creation and I was lucky enough to get my hands on one. Looking at this hazy dark salmon cider there seem to be a million microbubbles in the glass. It has a big fresh nose of tart raspberries and the more you let it sit, the richer the aroma becomes. Wow! That may be the lightest, crispest, imperial I’ve ever tasted. It does have a very springy, soda-like mouthfeel, but quickly smooths out to a very soft, easy to drink, beverage. This Fallen Fruit is very fruity, and likely overly sweet for some. However, the softness from the pears is present from the beginning while there is clear tartness from raspberries (and to a lesser degree the cherries) that burst through in the second phase and really last through the finish. The vanilla coats the outside of the palette, holding the fruitiness in the middle and provides a light creaminess throughout the experience. <br><br> I don’t know where they are hiding the alcohol. At nearly 12% this should feel like it has got an edge to it, or some heft, but you could drink glass after glass of this on a hot summer’s day as it is so soft, smooth and fruity. So be careful and don’t say the professor didn’t warn you, but if you like a fruity cider, the pear is the perfect vehicle to bring out all of these summer fruits. It’s the perfect, slightly sophisticated, slightly boisterous, guest to a summer garden party. Update: Shake this thing gently first. The heavier blueberry sediment sinks to the bottom and when I poured the remaining 175m, this turned several shades darker to a purplish Bloody Mary appearance and the blueberries became much more pronounced in the flavor.", 
@@ -8558,7 +8558,7 @@
 		"Grade": "B+",
 		"State_Country": "California",
 		"Style": {
-			"Farmhouse and Scrumpy": "null"
+			"Farmhouse and Scrumpy": null
 		},
 		"Mood": ["A Slow Day in the Country", "Raw-Natural"],
 		"Feedback": "This blend from Raging Cider has an incredibly rich nose that is heavy, slightly phenolic, and reminds me of a gold-smelling scented marker. <span class=\"feebackItalic\">rubs hands back and forth slowly</span> That’s a sophisticated drink! Deep and rich, this is a complex drink is potent but calm with refined edges. Serious but not too forward. It has a reprise and aftertaste that is incredible and grippingly different from the rest of the drink. While the first two phases are fairly heavy and still with a proper acidity, there is a lighter fruitier note at the end—like a ray of light bursting through the cloud cover. It is a robust farmhouse cider like you’d find in the West Country of England but with a lovely burst of bittersweet apple flavor. So, if an acidic, still and wildly fermented cider isn’t your thing, maybe pass. Otherwise, this is a great farmhouse cider that’s not too aggressive and has a clear, but complex, apple flavor that is pretty outstanding.",
@@ -8590,7 +8590,7 @@
 			125
 		],
 		"PicURL": "https://bn1303files.storage.live.com/y4m282VJ0Q1om2B8AIGfs7qGLkrR4plvQZ0OZc5uXUMTLQ0G1Z0B5SHf9gi_Igi9QS1yLWm7JmcBCHb7g6LpjPtr3yISwW09-gbJiIfD8YtnxKd7j709s3IgMqryaCqs_t3XxhKj2kCyElnpO9DfJNyXTqL6TFjwoC0Ly4oeIxT6Pnc2H9NoyXhZJM-LJwasc1s?width=2764&height=3688&cropmode=none",
-		"LogoURL": "https://bn1303files.storage.live.com/y4m282VJ0Q1om2B8AIGfs7qGLkrR4plvQZ0OZc5uXUMTLQ0G1Z0B5SHf9gi_Igi9QS1yLWm7JmcBCHb7g6LpjPtr3yISwW09-gbJiIfD8YtnxKd7j709s3IgMqryaCqs_t3XxhKj2kCyElnpO9DfJNyXTqL6TFjwoC0Ly4oeIxT6Pnc2H9NoyXhZJM-LJwasc1s?width=2764&height=3688&cropmode=none",
+		"LogoURL": "https://bn1301files.storage.live.com/y4mFZ3GdWrTtak6fAQjQh0SuXLeGSY4ZWH6JZKbUhW-sABST8F07mrIetHATeC1g7p17TUzpqV4lgD3MH39q8NPuSynahKhrNttqio_XKQoFgc-DLVTXTlvWz_sIMo1MQXPZYWuEss__7lvqi86JEQxSfB3iI10h6t3x0lWrsGnXVegC3L5E0O6CsYMjugT2GRQ?width=420&height=300&cropmode=none",
 		"ID": 409
 	},
 	{
@@ -8747,7 +8747,7 @@
 		"Grade": "B",
 		"State_Country": "California",
 		"Style": {
-			"Perry and Pear Cider": "null"
+			"Perry and Pear Cider": null
 		},
 		"Mood": [null],
 		"Feedback": "This perry has a nice pale gold color. The nose is pretty pungent at first but if you aerate it, it calms down to a beautiful and rich buttery smell. This is a pretty potent perry and not for the sweet pear cider chuggers of the world. You get a healthy rush of acidity in the second phase which lingers and turns into a nice little burn in the back of the throat. It definitely has sidra-esque qualities, and I’d say the more you can let this breath the better. Though the acidity makes this a more robust drink, and it is quite sharp, there is still a softness detected in the first phase and some lighter, softer, fruit notes in the finish that peek out from under the acidity. It definitely delivers on being “not your normal perry” and I am bummed to say the other unique perry I had to pair it with spoilt pretty bad and it wasn’t right to put them head-to-head. But, if you like a rougher wild farmhouse cider but with a hint of delicacy afforded by the pears, this is the robust perry you are after.",
@@ -8768,7 +8768,7 @@
 		"Grade": "B+",
 		"State_Country": "New Mexico",
 		"Style": {
-			"Farmhouse and Scrumpy": "null"
+			"Farmhouse and Scrumpy": null
 		},
 		"Mood": ["Tart n' Tasty"],
 		"Feedback": "New Mexico’s Extra Dry has a lightly opaque yellow mango color and a really nice citrusy nose. It is bold but soft and fruity at the same time. Eooowh that’s really good. It is sharp, pretty acidic, with a deeply tart sour punch. It is almost like a slightly sweet sidra. It definitely has a little twang but no burn and is still pretty refreshing. The mouthfeel is slightly watery around the edges, but it is a good light-to-medium bodied cider with a great finish that just lingers with a bit of alcohol vapors and a tangy tartness. This seems like the ideal American-style farmhouse—dry, acidic, a bit funky, but a lighter mouthfeel that is refreshing with a bold flavor. It wouldn’t be difficult to drink this at all.",
@@ -8875,7 +8875,7 @@
 		"Style": {
 			"Fruit": "Mango"
 		},
-		"Mood": ["null"],
+		"Mood": [null],
 		"Feedback": "This Swedish cider has a bubble gum pink color and is super bubbly. It smells of clean, unused, disposable diapers. I am not trying to be mean, I’ve had this peculiar off-smell once before in a cider and I tried to figure out the chemical issue that causes it, but I still have more research to do. Oye! This is so sweat it seems to be manually forcing my saliva glands to open. I am drinking it before the “best before” date, but this doesn’t seem quite right. There is a slightly chemical taste in the finish—maybe from the artificial flavoring?—either way, that mixed with massive amounts of sugar makes this really zing. It makes my kid’s grape soda taste like and extra-dry brut. Nope, don’t recommend.",
 		"Prodct_Description": "Rekorderlig Mango-Raspberry Cider is a sweet tropical cider made from the purest Swedish spring water then packed with the juiciest raspberries and a burst of tropical mango, Best served over ice with a slice of lemon for incredible refreshment! Skal!",
 		"Date_Tried": 202108,
@@ -8884,7 +8884,7 @@
 			128
 		],
 		"PicURL": "https://bn1303files.storage.live.com/y4mb7oew-rFvojH2gMoHufh7_pu-di5r42KfuwfgU_-B3R890P-tpKjE50dm7yMLlkvcIGkfI8wxWXFKJslCrBSOOQJIjvH0NevjLXPhbUrZd43dp7Bwss0_HVHCmZOVrmbyuU-qeR8PCmUSYAgL_oLxnSud3mFX_VwYcSOBsX39Idny5e31MtDkNi8Qbjwu0jl?width=2841&height=3788&cropmode=none",
-		"LogoURL": "https://bn1303files.storage.live.com/y4mb7oew-rFvojH2gMoHufh7_pu-di5r42KfuwfgU_-B3R890P-tpKjE50dm7yMLlkvcIGkfI8wxWXFKJslCrBSOOQJIjvH0NevjLXPhbUrZd43dp7Bwss0_HVHCmZOVrmbyuU-qeR8PCmUSYAgL_oLxnSud3mFX_VwYcSOBsX39Idny5e31MtDkNi8Qbjwu0jl?width=2841&height=3788&cropmode=none",
+		"LogoURL": "https://bn1305files.storage.live.com/y4mfsxjO25tsy7P7eoP1xjeapj9AIEAmSAQQpe95B3jJVDaEtKYWb1-DjptQzcigG9odpFvACQcxh59jzKFdVzkR7MeYW1hdlHUiAOsnw8DJM6yzxvqaL3E7m_L3VT778v62SPND3660rIfqVS7_IjvIz-PV2sQOjIL8QlknLUgdGdqgZV2_4Hs3Sdqufs7LaR7?width=225&height=225&cropmode=none",
 		"ID": 423
 	},
 	{
@@ -8999,7 +8999,7 @@
 		"Grade": "B",
 		"State_Country": "Vermont",
 		"Style": {
-			"Farmhouse and Scrumpy": "null"
+			"Farmhouse and Scrumpy": null
 		},
 		"Mood": ["A Sophisticated Night In"],
 		"Feedback": "Eden’s bottle conditioned dry cider has a deep gold appearance and a really rich aroma of bittersharp apples. The nose leads to expectations of a bold cider, but the flavor doesn’t deliver as it is fairly mild with a muted tone, that is almost bitter. That being said it is really great and is a quality dry cider that is slightly tannic. The neutral or muted experience in the middle phase allows for a more prominent taste of alcohol, at least more so than others with the same ABV. It also has an interesting acidity to it that is borderline sour. It is not fruity or sweet at all and has the mildest of burns at the end. This is a nice mellow cider, ideal for sipping, that isn’t too potent and has an interesting finish. Really good.",
@@ -9020,7 +9020,7 @@
 		"Grade": "A",
 		"State_Country": "Colorado",
 		"Style": {
-			"Champagne-Like": "null"
+			"Champagne-Like": null
 		},
 		"Mood": ["Pop the Champagne/Celebratory", "A Breezy Sunday"],
 		"Feedback": "This Haykin Family Cider has a mild aroma, but it is light, airy, aromatic and refreshing. This is pretty magical. It has that lovely palate of soft fruits and a creamy mouthfeel with a fantastic light banana flavor—not sure which apple varietal provides it. This Méthode Ancestrale has enough sweetness to kiss your tongue and perk up your tastebuds, but it remains primarily dry. The finish is like a slow waltz to take you through your evening: soft and nuanced with minerality and reprises of tart apples. It is perfect for lighter meals or maybe fine dinner parties on the sun-kissed verandah of a large white house. This is special. It is so soft but filled with lush and lovely flavors without going overboard on flavor. So good and ever-so-slightly tropical. It is super bubbly but 90% of the bubbles mellow out quickly. This one truly sparkles.",
@@ -9052,7 +9052,7 @@
 			131
 		],
 		"PicURL": "https://bn1303files.storage.live.com/y4mAW3fj2_IgFnkgsfaPBra3y0J66AcdYyJUqDc6fU9f9ynOSr5XSFGBLPFgASbOUQ4Hr1Z5oHgqhsOP0mW-sgjBTd8RCyFMVYsRN1M2dTE_8egAm531w1tVm6MSVKSuZO2pvaxG9gVdTXFCC6hTyiPCIimj6wkL4hlrAArLfkq_3EWsp0DNxux_j7ohS2BykTq?width=2822&height=3761&cropmode=none",
-		"LogoURL": "https://bn1303files.storage.live.com/y4mAW3fj2_IgFnkgsfaPBra3y0J66AcdYyJUqDc6fU9f9ynOSr5XSFGBLPFgASbOUQ4Hr1Z5oHgqhsOP0mW-sgjBTd8RCyFMVYsRN1M2dTE_8egAm531w1tVm6MSVKSuZO2pvaxG9gVdTXFCC6hTyiPCIimj6wkL4hlrAArLfkq_3EWsp0DNxux_j7ohS2BykTq?width=2822&height=3761&cropmode=none",
+		"LogoURL": "https://bnz07pap001files.storage.live.com/y4mU23XAowEZlpZ8SDPlZD2K_lfknwwhHQgamv8WmcNtjwZ1jfNbhLK8F23_TFsKPaAIpkqWGnME2VxszPmtFcG4KJpo-PrU892H6ZzBB8hxWrKHTXlZ5zyzh-p7ahskjm1tBBL0kazDNDV2iKfoFiuFUuvQL0Vfd482n3kXLxVPwaGFXt6ToZ3ddvQzu5iL7L8?width=241&height=209&cropmode=none",
 		"ID": 431
 	},
 	{
@@ -9064,7 +9064,7 @@
 		"Style": {
 			"Fruit": "Strawberry"
 		},
-		"Mood": ["null"],
+		"Mood": [null],
 		"Feedback": "Pivot’s Gingham cider is a salmon and rose color. The aroma is rich with the unique tart smell of kiwis and a lightness from the pears and strawberries. Whoa! That’s got a big flavor. Almost too much. Well for some of you it will be too big a flavor and too sweet. Though it has got plenty of tartness and the right mix of flavors to be balanced, it will be too much like strawberry soda for a lot of drinkers. It has the pear and kiwi to soften the edges, but it has an artificial vibe for sure and is super sweet. For some of you this may be your jam, otherwise, look out!",
 		"Prodct_Description": "Sweet cider with strawberry and kiwi, with a new version of \"Freedom from Want\"",
 		"Date_Tried": 202109,
@@ -9085,7 +9085,7 @@
 		"Style": {
 			"Fruit": "Strawberry"
 		},
-		"Mood": ["null"],
+		"Mood": [null],
 		"Feedback": "Hale and True’s Goldberry has a really sharp nose of citric acid, I’m guessing that comes from the lemons. I have had this drink a few times and something in the nose of this one smells a bit off. The taste is how I remembered though—dry with a subtle strawberry taste and the lemon just perks it up a bit—especially in the finish when it really rises in the back of the throat. This is fundamentally dry apple cider with some subtle and mellow fruit tones. There is just a bit of bitterness from super sour lemons, but this flavor is pretty quiet and not too in your face. A very dry cider that still has you licking your lips just a tad at the end.",
 		"Prodct_Description": "“The River Daughter,” fermented with strawberry and finished with lemon, bright and fruity, off-dry",
 		"Date_Tried": 202109,
@@ -9167,7 +9167,7 @@
 		"Grade": "B-",
 		"State_Country": "Oregon",
 		"Style": {
-			"Perry and Pear Cider": "null"
+			"Perry and Pear Cider": null
 		},
 		"Mood": ["Raw-Aggressive", "Something Unique, Something Interesting"],
 		"Feedback": "Art+Science’s Mutualism has a unique and lovely nose with a sweet and springy bouquet of floral notes, white grape, honeysuckle and a lemony melon aroma. This cider that is a co-fermentation with ¾ Bosc pears and ¼ sauvignon blanc grapes has a good bit of funk. It starts out with some prominent acidity that is clearly sour and just before it turns to the acidic burn it gets pulled back by the grapes which also kept it from being too sweet. Moreover, this creates a more mellow wine-like finish. The first phase fills the palate with bubbles as well as a woodsy/smokey essence from the barrel-aging. Though it’s a bit raw, those citrusy notes also shine through in the finish. This is a big bold perry all around. It has strong acidity and roughness and yet is grippingly tart and smoothed out by the grapes. Wine drinkers beware, this has some acidic smokey funkiness you’re not aware of, but farmhouse cider drinkers will be familiar with.",
